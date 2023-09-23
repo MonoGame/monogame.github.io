@@ -1,0 +1,21 @@
+name: Documentation Issue
+labels: ["documentation"]
+description: Submit an issue found in the MonoGame documentation or request additional documentation.
+body:
+- type: input
+  id: doc-link
+  validations:
+    required: false
+  attributes:
+    label: Link to Document
+    placeholder: https://github.com/MonoGame/monogame.github.io/blob/main/articles/index.md
+    description: |
+      Please provide a link to the document that contains the issue.
+      This should be a link to the document on the website or the document in this repo.
+- type: textarea
+  id: description
+  validations:
+    required: true
+  attributes:
+    label: Description
+    description: Provide a description of the issue.
