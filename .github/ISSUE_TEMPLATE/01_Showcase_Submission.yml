@@ -26,7 +26,7 @@ body:
       - Tool
 - type: input
   id: name
-  validation:
+  validations:
     required: true
   attributes:
     label: Name
@@ -34,7 +34,7 @@ body:
     description: What is the name of your game/tool/library?
 - type: input
   id: url
-  validation:
+  validations:
     required: true
   attributes:
     label: Url
@@ -42,7 +42,7 @@ body:
     description: Please enter the URL you wouuld like users to be redirected to when they click your entry.
 - type: textarea
   id: image
-  validation:
+  validations:
     required: true
   attributes:
     label: Image
