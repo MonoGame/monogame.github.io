@@ -1,9 +1,6 @@
 name: Showcase Submission
 labels: ["showcase"]
-description: | 
-  If you have a shipped game using MonoGame on desktops, mobile, or consoles, you can use this submission to add your game to the MonoGame showcase
-
-  If you have a library or development tool that supports MonoGame, you can submit that too.
+description: If you have a shipped game, tool, or library using MonoGame on desktops, mobile, or consoles, you can use this submission to add your game to the MonoGame showcase.
 body:
 - type: checkboxes
   id: prerequisites
