@@ -35,8 +35,8 @@
     ],
     "output": "_site",
     "globalMetadata": {
-      "_appLogoPath": "images/mg-logo.svg",
-      "_appFaviconPath": "images/favicon-192x192.png",
+      "_appLogoPath": "images/monogame.svg",
+      "_appFaviconPath": "images/favicon.png",
       "_disableBreadcrumb": "true",
       "_appFooter": "<p align='center'>Copyright © 2009-2023 MonoGame Team.</p>"
     },

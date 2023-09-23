@@ -54,7 +54,7 @@ The MonoGame Content Builder (MGCB) pipeline supports many different file types 
 
 ### Images
 
-![Image Properties](images/MGCB-ImageProperties.png)
+![Image Properties](images/mgcb_image_properties.png)
 
 Images come in a variety of formats such as png or jpg, most of which are natively supported by the MonoGame content pipeline.
 
@@ -72,7 +72,7 @@ Additionally, the following options are configurable per image asset when import
 
 ### Audio
 
-![Image Properties](images/MGCB-AudioProperties.png)
+![Image Properties](images/mgcb_audio_properties.png)
 
 MonoGame supports several audio formats to cope with a wide variety of audio needs, from Wav files for effects to MP3's for songs/background music. The type of audio you use will depend on the audio needs for your project.
 
@@ -85,7 +85,7 @@ Audio can be configured to use either the **Sound Effect** processor which impor
 
 ### Models
 
-![Image Properties](images/MGCB-ModelProperties.png)
+![Image Properties](images/mgcb_model_properties.png)
 
 | Property                   | Description                                                                                                                                             |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -106,7 +106,7 @@ Audio can be configured to use either the **Sound Effect** processor which impor
 
 ### [Fonts](adding_ttf_fonts.md)
 
-![Font Properties](images/MGCB-Fontproperties.png)
+![Font Properties](images/mgcb_font_properties.png)
 
 MonoGame uses a **Font descriptor** file to describe the type of font to import, the font in question needs to be installed in the machines Font library for it to enable the project to build, else this will result in a Font importer error.
 
@@ -121,7 +121,7 @@ See the [TrueType fonts](adding_ttf_fonts.md) section for more detail on working
 
 ### [Effects](custom_effects.md)
 
-![Effect Properties](images/MGCB-EffectProperties.png)
+![Effect Properties](images/mgcb_effect_properties.png)
 
 Effects in MonoGame are shaders that have been built with a supported shader language (HLSL / GLSL) which will then be pre-processed into a common shader language / effect used by MonoGame.
 
@@ -134,7 +134,7 @@ See the [Effects](custom_effects.md) section for more detail on the built-in eff
 
 ### Video
 
-![Image Properties](images/MGCB-VideoProperties.png)
+![Image Properties](images/mgcb_video_properties.png)
 
 MonoGame uses a custom video player which converts video files into a format that can be used and rendered by MonoGame using a series of VideoTextures.
 
@@ -142,7 +142,7 @@ There are no configurable properties for the Video Player currently.
 
 ### Text (e.g. XML)
 
-![Image Properties](images/MGCB-TextProperties.png)
+![Image Properties](images/mgcb_text_properties.png)
 
 One of the most powerful processors in MonoGame is the text processor, ideally used for XML files used to manage Game Class content in text files rather than writing it all in code.
 
@@ -176,7 +176,7 @@ Once you have built your content, you have a few different ways to add it to you
 
 The simplest method is to set up your game project from one of the templates that come with the SDK. When you create a new project, it will include a Content.mgcb file with its Build Action set to **MonoGameContentReference** and a reference to `MonoGame.Content.Builder.Task` which processes *MonoGameContentReference* items.
 
-![MonoGame Content Reference](images/MGCB-ContentReference.png)
+![MonoGame Content Reference](images/mgcb_content_reference.png)
 
 > This build action is defined in the .targets file [here](https://github.com/MonoGame/MonoGame/blob/develop/Tools/MonoGame.Content.Builder.Task/MonoGame.Content.Builder.Task.targets).
 
