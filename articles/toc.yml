@@ -1,0 +1,66 @@
+- name: Introduction
+  href: index.md
+- name: What's New
+  href: whats_new.md
+- name: Getting Started
+  items:
+  - name: Introduction
+    href: getting_started/index.md
+  - name: 1. Setting up your development environment
+    items:
+    - name: Windows
+      href: getting_started/1_setting_up_your_development_environment_windows.md
+    - name: macOS / Linux
+      href: getting_started/1_setting_up_your_development_environment_unix.md
+  - name: 2. Creating a new project
+    items:
+    - name: Visual Studio 2022
+      href: getting_started/2_creating_a_new_project_vs.md
+    - name: .NET CLI (Rider or Visual Studio Code)
+      href: getting_started/2_creating_a_new_project_netcore.md
+  - name: 3. Understanding the Code
+    href: getting_started/3_understanding_the_code.md
+  - name: 4. Adding Content
+    href: getting_started/4_adding_content.md
+  - name: 5. Adding Basic Code
+    href: getting_started/5_adding_basic_code.md
+- name: Tools
+  items:
+  - name: Introduction
+    href: tools/index.md
+  - name: MGCB
+    href: tools/mgcb.md
+  - name: MGCB Editor
+    href: tools/mgcb_editor.md
+  - name: MGFXC
+    href: tools/mgfxc.md
+- name: Content Pipeline
+  items:
+  - name: Introduction
+    href: content_pipeline/index.md
+  - name: Why use the Content Pipeline
+    href: content_pipeline/why_content_pipeline.md
+  - name: Using MGCB Editor
+    href: content_pipeline/using_mgcb_editor.md
+  - name: Custom Effects
+    href: content_pipeline/custom_effects.md
+  - name: TrueType fonts
+    href: content_pipeline/adding_ttf_fonts.md
+  - name: Localization
+    href: content_pipeline/localization.md
+- name: Supported platforms
+  href: platforms.md
+- name: Migrating from 3.7
+  href: migrate_37.md
+- name: Migrating from 3.8.0
+  href: migrate_38.md
+- name: Migrating from XNA
+  href: migrate_xna.md
+- name: Packaging
+  href: packaging_games.md
+- name: Samples and Demos
+  href: samples.md
+- name: Community Tutorials
+  href: tutorials.md
+- name: Help and Support
+  href: help_and_support.md

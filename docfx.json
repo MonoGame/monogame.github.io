@@ -1,0 +1,57 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": ".",
+          "files": [
+            "external/MonoGame/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj",
+            "external/MonoGame/MonoGame.Framework.Content.Pipeline/MonoGame.Framework.Content.Pipeline.csproj"
+          ]
+        }
+      ],
+      "dest": "api",
+      "includePrivateMembers": false,
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "noRestore": false,
+      "namespaceLayout": "flattened",
+      "memberLayout": "samePage",
+      "EnumSortOrder": "alphabetic"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [ "**/*.{md,yml}" ],
+        "exclude": [ "_site/**", "obj/**", "external/**" ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [ "**/images/**", "codesnippet/**" ],
+        "exclude": [ "_site/**", "obj/**", "external/**" ]
+      }
+    ],
+    "output": "_site",
+    "globalMetadata": {
+      "_appLogoPath": "images/mg-logo.svg",
+      "_appFaviconPath": "images/favicon-192x192.png",
+      "_disableBreadcrumb": "true",
+      "_appFooter": "<p align='center'>Copyright © 2009-2023 MonoGame Team.</p>"
+    },
+    "fileMetadata": {
+      "_layout": {
+        "*.md": "landing"
+      }
+    },
+    "template": [
+      "default",
+      "modern",
+      "templates/monogame"
+    ],
+    "postProcessors": [],
+    "keepFileLink": false,
+    "disableGitFeatures": false
+  }
+}
