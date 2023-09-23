@@ -1,3 +1,6 @@
+---
+title: MonoGame
+---
 
 One framework for creating powerful cross-platform games.
 

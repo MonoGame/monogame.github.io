@@ -4,7 +4,7 @@ There is a wealth of [community created content, blogs and tutorials](tutorials.
 
 If you want to find an answer to a more specific problem, you can ask it on our [GitHub Discussions](https://github.com/MonoGame/MonoGame/discussions) page.
 
-You can also chat to other MonoGame users via [Discord](https://discord.gg/xCehJFD).
+You can also chat to other MonoGame users via [Discord](https://discord.com/invite/monogame).
 
 ## Bugs and feature requests
 
