@@ -1,0 +1,49 @@
+name: Showcase Submission
+labels: ["showcase"]
+description: If you have a shipped game, tool, or library using MonoGame on desktops, mobile, or consoles, you can use this submission to add your game to the MonoGame showcase.
+body:
+- type: checkboxes
+  id: prerequisites
+  attributes:
+    label: Prerequisites
+    options:
+      - label: This game/tool/library is my own work
+        required: true
+      - label: This game/tool/library has shipped and is available for users.
+        required: true
+- type: dropdown
+  id: type
+  validations:
+    required: true
+  attributes:
+    label: Type
+    options:
+      - Game
+      - Library
+      - Tool
+- type: input
+  id: name
+  validations:
+    required: true
+  attributes:
+    label: Name
+    placeholder: My Game/Tool/Library
+    description: What is the name of your game/tool/library?
+- type: input
+  id: url
+  validations:
+    required: true
+  attributes:
+    label: Url
+    placeholder: https://example.com
+    description: Please enter the URL you wouuld like users to be redirected to when they click your entry.
+- type: textarea
+  id: image
+  validations:
+    required: true
+  attributes:
+    label: Image
+    description: |
+      Please supply a 1920x1080 resolution image of your game here.
+      You can drag-and-drop it from a directory into this textbox or copy and paste the image here.
+      If the file type is not supported, you can zip it then upload that instead.
