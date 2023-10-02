@@ -1,13 +1,13 @@
-- name: Home
-  href: index.md
+# - name: Home
+#   href: index.md
 - name: Articles
   href: articles/
 - name: Api Documentation
   href: api/
   homepage: api/index.md
-- name: Community
-  href: community.md
-- name: Showcase
-  href: showcase.md
-- name: About
-  href: about.md
+# - name: Community
+#   href: community.md
+# - name: Showcase
+#   href: showcase.md
+# - name: About
+#   href: about.md
