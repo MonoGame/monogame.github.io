@@ -22,6 +22,11 @@ article h2
 	max-width: 1152px;
 }
 
+.content-center
+{
+  text-align: center;
+}
+
 main
 {
 	margin-top: 1rem;
@@ -33,11 +38,25 @@ main
 	border-style: hidden;
 }
 
-.mg_pad20
+.showcase-feature
 {
-	padding: 20px !important;
+  float:left;
+  width: 25%;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #212529;
 }
 
+.showcase-feature img
+{
+  width: 100%;
+}
+
+.showcase-feature h4 
+{
+  margin-top: 0.9em;
+}
 
 #big-image-header
 {
@@ -47,7 +66,7 @@ main
 
   position: relative;
   height: 512px;
-  margin-bottom: -256px;
+  margin-bottom: -364px;
   z-index: -100;
   transform: scale(2.1);
 
@@ -128,4 +147,10 @@ footer.border-top
 
 
 
-
+@media screen and (max-width: 768px)
+{
+  .showcase-feature
+  {
+    width:100%;
+  }
+}
