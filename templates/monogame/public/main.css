@@ -45,7 +45,7 @@ main
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #212529;
+  background-color: var(--bs-body-bg);
 }
 
 .showcase-feature img
