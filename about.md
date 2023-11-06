@@ -6,7 +6,7 @@ title: About
 
 ## History
 
-In 2009 José Antonio Leal de Farias, an active member of the XNA community, started an open source project called XNA Touch with the goal of porting simple 2D XNA games to mobile devices. He started from Bill Reiss’s SilverSprite and some bits of Mono.XNA and in December 2009 the first release which only supported iPhone was posted on Codeplex.
+In 2009 José Antonio Leal de Farias, an active member of the XNA community, started an open source project called XNA Touch with the goal of porting simple 2D XNA games to mobile devices. He started from Bill Reiss’s SilverSprite and some bits of Mono.XNA and in December 2009 the first release which only supported iPhone was [posted on Codeplex](https://web.archive.org/web/20140225023450/https://monogame.codeplex.com/releases/view/36738).
 
 Over 2010 several iPhone games appeared on the Apple App Store which used XNA Touch.
 
@@ -21,9 +21,31 @@ In early 2014 stewardship of the MonoGame project was handed off to [Tom Spilman
 ## Contacts
 
 Feel free to contact us with business, press, and administrative inquires below. Support requests should always go to the [community site](https://github.com/MonoGame/MonoGame/discussions) or the [development issue tracker](https://github.com/MonoGame/MonoGame/issues).
-
-Business: [biz@monogame.net](mailto:biz@monogame.net)
- 
-Press: [press@monogame.net](mailto:press@monogame.net)
- 
-Administrator: [admin@monogame.net](mailto:admin@monogame.net)
+<br/>
+<br/>
+<br/>
+<br/>
+<center>
+<table class="mg_borderless">
+<tr>
+<td>
+<center>
+<h4>Business</h4>
+<a href="mailto:biz@monogame.net">biz@monogame.net</a>
+</center>
+</td>
+<td>
+<center>
+<h4>Press</h4>
+<a href="mailto:press@monogame.net">press@monogame.net</a>
+</center>
+</td>
+<td>
+<center>
+<h4>Administrator</h4>
+<a href="mailto:admin@monogame.net">admin@monogame.net</a>
+</center>
+</td>
+</tr>
+</table>
+</center>
