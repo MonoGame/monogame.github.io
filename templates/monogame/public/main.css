@@ -1,4 +1,21 @@
 
+[data-bs-theme="light"]
+{
+  --mg-logo: url('/images/monogame_title_light.svg');
+}
+
+[data-bs-theme="dark"]
+{
+  --mg-logo: url('/images/monogame_title_dark.svg');
+}
+
+#logo
+{
+	height: 36px;
+	content: var(--mg-logo);
+}
+
+
 button, a 
 {
   color: #e73e00;
@@ -139,13 +156,6 @@ footer.border-top
 	border-width: 0px;
 	border-style: hidden;
 }
-
-#logo
-{
-	height: 36px;
-}
-
-
 
 @media screen and (max-width: 768px)
 {
