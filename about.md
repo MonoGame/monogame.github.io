@@ -2,21 +2,136 @@
 title: About
 ---
 
-**MonoGame** is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow XNA developers on Xbox 360, Windows & Windows Phone to port their games to the iOS, Android, Mac OS X, Linux and Windows 8/10, as well as PlayStation Vita, Xbox One and PlayStation 4.
+**MonoGame** is an open-source implementation of the Microsoft XNA Framework that supports all gaming platforms.
 
 ## History
-
-In 2009 José Antonio Leal de Farias, an active member of the XNA community, started an open source project called XNA Touch with the goal of porting simple 2D XNA games to mobile devices. He started from Bill Reiss’s SilverSprite and some bits of Mono.XNA and in December 2009 the first release which only supported iPhone was [posted on Codeplex](https://web.archive.org/web/20140225023450/https://monogame.codeplex.com/releases/view/36738).
-
-Over 2010 several iPhone games appeared on the Apple App Store which used XNA Touch.
-
-In March 2011 the project was renamed MonoGame and was moved to GitHub. That same year support for Android, Mac, Linux, and OpenGL on Windows appeared. Dominique Louis who joined the project in 2009 took over as the full time project lead.
-
-Early 2012 saw the addition of the DirectX 11 backend and support for Windows 8 providing the first and currently only way to port XNA games to the Windows Store. This subsequently spawned support for Windows Phone 8 and a new Windows desktop platform. This same year MonoGame team was invited to speak at Microsoft’s //Build 2012 event.
-
-Microsoft Studios published several titles using MonoGame in 2013 on Windows 8 and Windows Phone 8. 2013 also saw the announcement of the first MonoGame titles coming to PlayStation 4 including [TowerFall Ascension](http://www.towerfall-game.com), [Transistor](http://supergiantgames.com/index.php/transistor/), and [Mercenary Kings](http://mercenarykings.com/).
-
-In early 2014 stewardship of the MonoGame project was handed off to [Tom Spilman](https://github.com/tomspilman) and [Steve Williams](http://community.monogame.net/users/KonajuGames/activity) who currently lead the project.
+<div id="timeline">
+	<section class="year">
+		<h3>2004</h3>
+		<section>
+			<h4>March 24th</h4>
+			<ul>
+			<li>The XNA toolset is first announced at the 2004 Game Developers Conference in San Jose, California.</li>
+			</ul>
+		</section>     
+	</section>
+	<section class="year">
+		<h3>2006</h3>
+		<section>
+			<h4>March 14th</h4>
+			<ul>
+			<li>The first "Community Technology Preview" of XNA Build released.</li>
+			</ul>
+		</section>
+		<section>
+			<h4>August 30th</h4>
+			<ul>
+			<li>XNA Game Studio Express is released.</li>
+			</ul>
+		</section>
+	</section>
+	<section class="year">
+		<h3>2007</h3>
+		<section>
+			<h4>Febuary 11th</h4>
+			<ul>
+			<li><a href="https://code.google.com/archive/p/monoxna/">Mono.XNA</a> development begins.</li>
+			</ul>
+		</section>
+		<section>
+			<h4>December 13th</h4>
+			<ul>
+			<li>XNA Game Studio 2.0 is released.</li>
+			</ul>
+		</section>
+	</section>
+	<section class="year">
+		<h3>2008</h3>
+		<section>
+			<h4>October 30th</h4>
+			<ul>
+			<li>XNA Game Studio 3.0 is released.</li>
+			</ul>
+		</section>
+	</section>
+	<section class="year">
+		<h3>2009</h3>
+		<section>
+			<h4>March</h4>
+			<ul>
+			<li>Bill Reiss's <a href="https://web.archive.org/web/20090317075046/http://silversprite.codeplex.com:80/">SilverSprite</a> is released.</li>
+			</ul>
+		</section>
+		<section>
+			<h4>December 2nd</h4>
+			<ul>
+			<li><a href="https://web.archive.org/web/20140225023450/https://monogame.codeplex.com/releases/view/36738">XNA Touch</a> (with bits of SilverSprite and Mono.XNA) is released by José Antonio Leal de Farias.</li>
+			</ul>
+		</section>
+	</section>
+	<section class="year">
+		<h3>2010</h3>
+		<section>
+			<ul>
+			<li>Several iPhone games appeared on the Apple App Store using XNA Touch.</li>
+			</ul>
+		</section>
+		<section>
+			<h4>September 16th</h4>
+			<ul>
+			<li>XNA Game Studio 4.0 is released.</li>
+			</ul>
+		</section>
+	</section>
+	<section class="year">
+		<h3>2011</h3>
+		<section>
+			<ul>
+			<li>XNA Touch is renamed MonoGame and is moved to GitHub.</li>
+			<li>Support is added for Android, Mac, Linux, and OpenGL on Windows.</li>
+			<li>Dominique Louis takes over as the full time project lead.</li>
+			</ul>
+		</section>
+		<section>
+			<h4>October 6th</h4>
+			<ul>
+			<li>XNA Game Studio 4.0 Refresh is released.</li>
+			</ul>
+		</section>
+	</section>
+	<section class="year">
+		<h3>2012</h3>
+		<section>
+			<ul>
+			<li>Support is added for DirectX 11, Windows 8, and Windows Phone 8.</li>
+			</ul>
+		</section>
+		<section>
+			<h4>October 30th</h4>
+			<ul>
+			<li>The MonoGame team was invited to speak at Microsoft’s //Build 2012 event.</li>
+			</ul>
+		</section>
+	</section>
+	<section class="year">
+		<h3>2013</h3>
+		<section>
+			<ul>
+			<li>Microsoft XNA development ends.</li>
+			<li>Microsoft Studios published several titles using MonoGame on Windows 8 and Windows Phone 8.</li>
+			</ul>
+		</section>
+	</section>
+	<section class="year">
+		<h3>2014</h3>
+		<section>
+			<ul>
+			<li>First MonoGame titles released on PlayStation 4 including <a href="http://www.towerfall-game.com">TowerFall Ascension</a>, <a href="http://supergiantgames.com/index.php/transistor/">Transistor</a>, and <a href="http://mercenarykings.com/">Mercenary Kings</a>.</li>
+			<li><a href="https://github.com/tomspilman">Tom Spilman</a> and <a href="http://community.monogame.net/users/KonajuGames/activity">Steve Williams</a> take stewardship of the project.</li>
+			</ul>
+		</section>
+	</section>
+</div>
 
 ## Contacts
 
