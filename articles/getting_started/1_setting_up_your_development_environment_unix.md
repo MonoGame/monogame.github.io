@@ -1,3 +1,8 @@
+---
+_title: Setting up your development environment for macOS and Linux
+_description: A step-by-step guide for setting up your development environment on macOS and Linux.
+---
+
 # Setting up your development environment for macOS and Linux
 
 This section provides a step-by-step guide for setting up your development environment on macOS and Linux.

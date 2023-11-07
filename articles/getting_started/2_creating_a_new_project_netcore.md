@@ -1,3 +1,8 @@
+---
+_title: Creating a new project
+_description: A step-by-step guide for creating a new project using JetBrains Rider or Visual Studio Code.
+---
+
 # .NET CLI (JetBrains Rider or Visual Studio Code)
 
 This guide will walk you through building a starter game with MonoGame using only the command line/terminal on your operating system and a lightweight coding tool of your choice (such as [Visual Studio Code](https://code.visualstudio.com/) or [JetBrains Rider](https://www.jetbrains.com/rider/)).

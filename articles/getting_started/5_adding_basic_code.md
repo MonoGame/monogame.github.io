@@ -1,3 +1,8 @@
+---
+_title: Adding Basic Code
+_description: Learn how to add basic logic to your game.
+---
+
 # Adding Basic Code
 
 This tutorial will go over adding basic logic to your game, continuing from where [Adding Content](4_adding_content.md) left off.

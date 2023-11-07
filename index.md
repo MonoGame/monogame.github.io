@@ -1,5 +1,5 @@
 ---
-title: MonoGame
+_title: MonoGame
 ---
 <div id="big-image-header" />
 <div id="big-image-slogan">

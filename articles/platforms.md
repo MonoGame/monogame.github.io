@@ -1,3 +1,9 @@
+---
+_title: Supported Platforms
+_description: Platforms that MonoGame supports building games for.
+---
+
+
 # Supported Platforms
 
 MonoGame supports building games for the following **systems**:

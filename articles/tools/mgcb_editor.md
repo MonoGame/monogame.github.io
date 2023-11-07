@@ -1,3 +1,8 @@
+---
+_title: MGCB Editor
+_description: Learn about the MonoGame Content Builder (MGCB) Editor, the front-end GUI editor for MonoGame content builder projects.
+---
+
 # MGCB Editor
 
 MonoGame Content Builder (MGCB) Editor is the front-end GUI editor for MonoGame content builder projects.

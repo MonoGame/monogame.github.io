@@ -1,3 +1,8 @@
+---
+_title: Custom Effects
+_description: Learn how to create and use custom effects for rendering in MonoGame.
+---
+
 # Custom Effects
 
 A core element of Microsoft XNA is the effect system which is used for all rendering.
