@@ -16,6 +16,10 @@
 }
 
 
+.navbar-nav {
+    --bs-nav-link-hover-color: #e73c00;
+}
+
 button, a 
 {
   color: #e73e00;
