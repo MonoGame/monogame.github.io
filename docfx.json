@@ -29,16 +29,16 @@
     ],
     "resource": [
       {
-        "files": [ "**/images/**", "codesnippet/**" ],
+        "files": [ "**/images/**", "codesnippet/**", "scripts/*.js" ],
         "exclude": [ "_site/**", "obj/**", "external/**" ]
       }
     ],
     "output": "_site",
     "globalMetadata": {
-      "_appLogoPath": "images/monogame.svg",
+      "_appLogoPath": "images/monogametitle.svg",
       "_appFaviconPath": "images/favicon.png",
       "_disableBreadcrumb": "true",
-      "_appFooter": "<p align='center'>Copyright © 2009-2023 MonoGame Team.</p>"
+      "_appFooter": "<p align='center'>Copyright © 2009-2023 MonoGame Foundation, Inc.</p>"
     },
     "fileMetadata": {
       "_layout": {

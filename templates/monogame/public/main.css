@@ -1,5 +1,156 @@
 
-button,
-a {
+button, a 
+{
   color: #e73e00;
+}
+
+
+article h1 
+{
+  font-size: 40px;
+}
+
+article h2
+{
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
+}
+
+.container-xxl 
+{
+	width: 95%;
+	max-width: 1152px;
+}
+
+.content-center
+{
+  text-align: center;
+}
+
+main
+{
+	margin-top: 1rem;
+}
+
+.mg_borderless table,td
+{
+	border-width: 0px;
+	border-style: hidden;
+}
+
+.showcase-feature
+{
+  float:left;
+  width: 25%;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--bs-body-bg);
+}
+
+.showcase-feature img
+{
+  width: 100%;
+}
+
+.showcase-feature h4 
+{
+  margin-top: 0.9em;
+}
+
+#big-image-header
+{
+  background-image: url('/images/showcase-header/fez-screenshot.png');
+  background-position: center;
+  background-origin: center;
+
+  position: relative;
+  height: 512px;
+  margin-bottom: -364px;
+  z-index: -100;
+  transform: scale(2.1);
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#big-image-slogan h1
+{
+    text-align: center;
+	color: white;
+	font-size: 3.2em;
+	margin-bottom: 20px;
+	text-shadow: 3px 3px 6px rgba(0,0,0,1);
+	width: 100%;
+}
+
+#big-image-quick-start
+{
+  margin: auto;
+  margin-top: 30px;
+  width: 30%;
+}
+
+#big-image-quick-start a
+{
+  background: #E73C00;
+  color:white;
+  padding:12px 20px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  line-height: 45px;
+}
+
+#fork-button:after{
+  content: " ";
+  padding:10px 15px;
+  display:inline;
+  background: url('/images/gitty.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 20px;
+}
+
+#big-image-title 
+{
+	float: right;
+}
+
+#big-image-title a a:hover 
+{
+	background-color: transparent;
+}
+
+#built-with-monogame, #built-with-monogame:hover 
+{
+    color:white;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: transparent;
+	text-shadow: 2px 2px 6px rgba(0,0,0,1);
+}
+
+footer.border-top
+{
+	border-width: 0px;
+	border-style: hidden;
+}
+
+#logo
+{
+	height: 36px;
+}
+
+
+
+@media screen and (max-width: 768px)
+{
+  .showcase-feature
+  {
+    width:100%;
+  }
 }

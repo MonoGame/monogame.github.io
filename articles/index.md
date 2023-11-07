@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Documentation
 ---
 
 Welcome to the MonoGame documentation hub!
