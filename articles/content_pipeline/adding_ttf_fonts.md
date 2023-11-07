@@ -1,3 +1,8 @@
+---
+_title: Adding TTF Fonts
+_description: Learn how to use TrueType fonts in MonoGame.
+---
+
 # TrueType fonts
 
 MonoGame supports more than one method of using fonts, the following is an explanation of how to use TrueType fonts.

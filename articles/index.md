@@ -1,5 +1,6 @@
 ---
-title: Documentation
+_title: Documentation
+_description: Welcome to the MonoGame documentation hub!
 ---
 
 Welcome to the MonoGame documentation hub!

@@ -1,3 +1,8 @@
+---
+_title: Localization
+_description: Learn how to add localization to your game to support multiple regions.
+---
+
 # Localization
 
 Localization is an important part of any game. While it can be possible to design a game that is region independent, it is quite hard. At some point you will need to produce localized text and graphics.

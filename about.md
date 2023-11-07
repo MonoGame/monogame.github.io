@@ -1,5 +1,6 @@
 ---
-title: About
+_title: About
+_description: About MonoGame.
 ---
 
 **MonoGame** is an open-source implementation of the Microsoft XNA Framework that supports all gaming platforms.

@@ -1,3 +1,8 @@
+---
+_title: Samples & Demos
+_description: Recommended samples and demos for learning how to use MonoGame.
+---
+
 # Samples & Demos
 
 The samples and demos below are recommended for learning how to use MonoGame.

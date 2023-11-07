@@ -1,3 +1,8 @@
+---
+_title: Setting up your development environment for Windows
+_description: A step-by-step guide for setting up your development environment on Windows.
+---
+
 # Setting up your development environment for Windows
 
 This section provides a step-by-step guide for setting up your development environment on Windows.

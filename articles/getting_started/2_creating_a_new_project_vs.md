@@ -1,3 +1,8 @@
+---
+_title: Creating a new project
+_description: A step-by-step guide for creating a new project using Visual Studio
+---
+
 # Creating a Project with Visual Studio 2022
 
 This guide will walk you through building a starter game with MonoGame using Windows and Visual Studio 2022. 

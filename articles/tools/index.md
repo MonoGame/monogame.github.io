@@ -1,3 +1,8 @@
+---
+_title: Tools
+_description: Distributed tools to help mange and build content for your game.
+---
+
 # Tools
 
 MonoGame distributes tooling to help manage and build content for your game.
