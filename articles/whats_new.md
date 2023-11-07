@@ -1,3 +1,8 @@
+---
+_title: What's New
+_description: What's new with the release of MonoGame 3.8.1
+---
+
 # What's New
 
 The MonoGame 3.8.1 release marks some big changes since 3.8.0 in how we build and distribute.

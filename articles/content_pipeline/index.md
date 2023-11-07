@@ -1,3 +1,8 @@
+---
+_title: Adding Content
+_description: Learn how to add content to your game using the Content Pipeline.
+---
+
 # Adding Content
 
 A big part of your game is your content.  This includes standard files like textures, sound effects, music, videos, and custom effects as well as custom content like level and enemy files.

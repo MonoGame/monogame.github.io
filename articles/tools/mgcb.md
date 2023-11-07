@@ -1,3 +1,8 @@
+---
+_title: MonoGame Content Builder (MGCB)
+_description: Learn about the MonoGame Content Builder (MGCB), the command line tool for building XNB content on Windows, Mac, and Linux desktop.
+---
+
 # MonoGame Content Builder (MGCB)
 
 The MonoGame Content Builder is a command line tool for building XNB content on Windows, Mac, and Linux desktop systems.

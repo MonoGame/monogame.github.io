@@ -1,3 +1,8 @@
+---
+_title: Why use the Content Pipeline
+_description: Why would you use the Content Pipeline when MonoGame also supports loading assets natively, like .png, .mp3, .wav? Well, it all boils down to a couple of words, performance and efficiency.
+---
+
 # Why use the Content Pipeline
 
 The MonoGame team continues to put a lot of effort into a cross-platform content pipeline, but why would you use the Content Pipeline when MonoGame also supports loading assets natively, like .png, .mp3, .wav? Well, it all boils down to a couple of words, performance and efficiency.

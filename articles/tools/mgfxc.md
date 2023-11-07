@@ -1,3 +1,8 @@
+---
+_title: MonoGame Effects Compiler (MGFXC)
+_description: Learn about the MonoGame Effects Compiler (MGFXC), the tool used to compile shaders for usage in MonoGame.
+---
+
 # MonoGame Effects Compiler (MGFXC)
 
 The MGFXC tool is used to compile [DirectX Effect files](https://docs.microsoft.com/en-us/windows/win32/direct3d9/writing-an-effect) (shaders) for usage with MonoGame. It will compile shaders into mgfxo files ready to be consumed by the ```Effect``` class.

@@ -1,3 +1,8 @@
+---
+_title: Help and Support
+_description: Where to get help and support when using MonoGame.
+---
+
 # Help and Support
 
 There is a wealth of [community created content, blogs and tutorials](tutorials.md) available.

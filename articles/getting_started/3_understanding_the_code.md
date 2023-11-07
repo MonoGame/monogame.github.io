@@ -1,3 +1,8 @@
+---
+_title: Understanding the Code
+_description: A look at the code that is generated after creating a new project.
+---
+
 # Understanding the Code
 
 This tutorial will go over the code that is generated when you start a blank project.

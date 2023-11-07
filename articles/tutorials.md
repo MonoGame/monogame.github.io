@@ -1,3 +1,9 @@
+---
+_title: Tutorials
+_description: Tutorials provided by MonoGame community members.
+---
+
+
 # Tutorials
 
 Check out the awesome work of the larger MonoGame community with their own tutorials, blogs and videos.

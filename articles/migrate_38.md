@@ -1,3 +1,8 @@
+---
+_title: Migrating from 3.8.0
+_description: A guide on migrating a MonoGame v3.8.0 project to the current version of MonoGame.
+---
+
 # Migrating from 3.8.0
 
 Migrating from 3.8.0 should be straightforward for most platforms.

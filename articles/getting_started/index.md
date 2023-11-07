@@ -1,3 +1,8 @@
+---
+_title: Getting Started
+_description: Get started creating games with MonoGame.
+---
+
 # Getting Started
 
 This section walks you through the basics of MonoGame, and helps you to create your first game.
