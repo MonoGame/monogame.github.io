@@ -43,6 +43,16 @@ article h2
 	max-width: 1152px;
 }
 
+.wrap_container
+{
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .content-center
 {
   text-align: center;
