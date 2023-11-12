@@ -180,14 +180,6 @@ footer.border-top
 	border-style: hidden;
 }
 
-@media screen and (max-width: 768px)
-{
-  .showcase-feature
-  {
-    width:100%;
-  }
-}
-
 #timeline {
   position: relative;
   display: table;
@@ -286,4 +278,49 @@ footer.border-top
 #timeline section.year section ul li span.price {
   color: mediumturquoise;
   font-weight: 500;
+}
+
+.block-features
+{
+  display: grid;
+}
+
+.block-feature
+{
+  float:left;
+  width: 30%;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.block-feature h3
+{
+  font-size: 1.4em;
+  margin-top: 1.2em;
+  margin-bottom: 0em;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.block-feature h4 
+{
+  font-size: 1.0em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 768px)
+{
+  .showcase-feature
+  {
+    width:100%;
+  }
+
+  .block-feature
+  {
+    width:100%;
+  }
 }
