@@ -5,7 +5,7 @@
   homepage: api/index.md
 - name: Community
   href: https://community.monogame.net/
-# - name: Showcase
-#  href: showcase.md
+- name: Showcase
+  href: showcase.md
 - name: About
   href: about.md

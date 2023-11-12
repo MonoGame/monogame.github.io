@@ -43,6 +43,16 @@ article h2
 	max-width: 1152px;
 }
 
+.wrap-container
+{
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .content-center
 {
   text-align: center;
@@ -77,6 +87,15 @@ main
 .showcase-feature h4 
 {
   margin-top: 0.9em;
+}
+
+.showcase-link-image
+{
+  width:333px;
+  height:187px;
+  margin:7px;
+  overflow:hidden;
+  background-size:cover;
 }
 
 #big-image-header
