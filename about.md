@@ -283,7 +283,9 @@ Explore how **MonoGame** has grown and shaped game development over time.
 
 ## Contacts
 
-Feel free to contact us with business, press, and administrative inquires below. Support requests should always go to the [community site](https://github.com/MonoGame/MonoGame/discussions) or the [development issue tracker](https://github.com/MonoGame/MonoGame/issues).
+Feel free to contact us with business, press, and administrative inquires below.
+
+Support requests should always go to the [community site](https://community.monogame.net/) or the [development issue tracker](https://github.com/MonoGame/MonoGame/issues).
 <br/>
 <br/>
 
