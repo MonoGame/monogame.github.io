@@ -1,8 +1,8 @@
 # monogame.github.io
 
-This repository contains the documenation and the website for MonoGame Framework.
+This repository contains the documenation and the website for MonoGame.
 
-## Buolding from source
+## Building from source
 
 First up restore the dotnet tooling, this restores the `docfx` cli tool needed to build the website.
 ```sh
