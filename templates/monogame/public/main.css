@@ -1,3 +1,6 @@
+:root {
+  --mg-color-orange: #E73C00;
+}
 
 [data-bs-theme="light"]
 {
@@ -17,12 +20,12 @@
 
 
 .navbar-nav {
-    --bs-nav-link-hover-color: #e73c00;
+    --bs-nav-link-hover-color: var(--mg-color-orange);
 }
 
 button, a 
 {
-  color: #e73c00;
+  color: var(--mg-color-orange);
 }
 
 
@@ -135,7 +138,7 @@ main
 
 #big-image-quick-start a
 {
-  background: #E73C00;
+  background: var(--mg-color-orange);
   color:white;
   padding:12px 20px 10px;
   text-decoration: none;
