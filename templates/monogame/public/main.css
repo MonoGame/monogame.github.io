@@ -18,9 +18,87 @@
 	content: var(--mg-logo);
 }
 
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  overflow: hidden;
+  z-index: 1;
+  min-height: 800px;
+}
+
+#hero-background-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: var(--bs-body-bg);
+  will-change: transform;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.hero-button-container a {
+  line-height: 1.5;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  border-radius: 5px;
+  background-color: var(--mg-color-orange);
+  color: #fff;
+  flex-grow: 1;
+  flex-shrink: 0;
+  font-size: 1.5rem;
+}
+
+.hero-credits {
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slogan {
+  text-align: center;
+	color: white;
+	font-size: 3.2em;
+	margin-bottom: 20px;
+	text-shadow: 3px 3px 6px rgba(0,0,0,1);
+	width: 100%;
+}
+
 
 .navbar-nav {
     --bs-nav-link-hover-color: var(--mg-color-orange);
+}
+
+.btn-monogame {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--mg-color-orange);
+  --bs-border-color: var(--mg-color-orange);
 }
 
 button, a 
@@ -99,82 +177,6 @@ main
   margin:7px;
   overflow:hidden;
   background-size:cover;
-}
-
-#big-image-header
-{
-  background-image: url('/images/showcase-header/fez-screenshot.png');
-  background-position: center;
-  background-origin: center;
-
-  position: relative;
-  height: 512px;
-  margin-bottom: -364px;
-  z-index: -100;
-  transform: scale(2.1);
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#big-image-slogan h1
-{
-    text-align: center;
-	color: white;
-	font-size: 3.2em;
-	margin-bottom: 20px;
-	text-shadow: 3px 3px 6px rgba(0,0,0,1);
-	width: 100%;
-}
-
-#big-image-quick-start
-{
-  margin: auto;
-  margin-top: 30px;
-  width: 30%;
-}
-
-#big-image-quick-start a
-{
-  background: var(--mg-color-orange);
-  color:white;
-  padding:12px 20px 10px;
-  text-decoration: none;
-  font-size: 16px;
-  text-transform: uppercase;
-  white-space: nowrap;
-  line-height: 45px;
-}
-
-#fork-button:after{
-  content: " ";
-  padding:10px 15px;
-  display:inline;
-  background: url('/images/gitty.png');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 20px;
-}
-
-#big-image-title 
-{
-	float: right;
-}
-
-#big-image-title a a:hover 
-{
-	background-color: transparent;
-}
-
-#built-with-monogame, #built-with-monogame:hover 
-{
-    color:white;
-	font-weight: bold;
-	text-decoration: none;
-	background-color: transparent;
-	text-shadow: 2px 2px 6px rgba(0,0,0,1);
 }
 
 footer.border-top
@@ -325,6 +327,10 @@ footer.border-top
 
 @media screen and (max-width: 768px)
 {
+  .hero-button-container {
+    flex-direction: column;
+  }
+
   .showcase-feature
   {
     width:100%;
