@@ -1,5 +1,5 @@
 ---
-title: API Documentation
+_title: Reference
 ---
 
 Welcome to the **MonoGame** reference documentation!
