@@ -14,31 +14,37 @@ The current board members are:
 <div class="container-xxl content-center">
 <section>
 	<div class="block-feature">
+		<a class="noclick"><img src="https://avatars.githubusercontent.com/dellis1972" /></a>
 		<h3>Dean Ellis</h3>
 		<h4>President</h4>
 		<a href="https://github.com/dellis1972">GitHub Profile</a>
 	</div>
 	<div class="block-feature">
+		<a class="noclick"><img src="https://avatars.githubusercontent.com/harry-cpp" /></a>
 		<h3>Marko Jeremic</h3>
 		<h4>Board Chairman</h4>
 		<a href="https://github.com/harry-cpp">GitHub Profile</a>
 	</div>
 	<div class="block-feature">
+		<a class="noclick"><img src="https://avatars.githubusercontent.com/CartBlanche" /></a>
 		<h3>Dominique Louis</h3>
 		<h4>Treasurer</h4>
 		<a href="https://github.com/CartBlanche">GitHub Profile</a>
 	</div>
 	<div class="block-feature">
+		<a class="noclick"><img src="https://avatars.githubusercontent.com/SimonDarksideJ" /></a>
 		<h3>Simon Jackson</h3>
 		<h4>Corporate Secretary</h4>
 		<a href="https://github.com/SimonDarksideJ">GitHub Profile</a>
 	</div>
 	<div class="block-feature">
+		<a class="noclick"><img src="https://avatars.githubusercontent.com/TomSpilman" /></a>
 		<h3>Tom Spilman</h3>
 		<h4>Banking Matters</h4>
 		<a href="https://github.com/TomSpilman">GitHub Profile</a>
 	</div>
 	<div class="block-feature">
+		<a class="noclick"><img src="https://avatars.githubusercontent.com/mrhelmut" /></a>
 		<h3>Thomas Altenburger</h3>
 		<h4>Board Member</h4>
 		<a href="https://github.com/mrhelmut">GitHub Profile</a>
