@@ -93,11 +93,11 @@ function random_banner()
 
 function show_banner(title)
 {
-    var headerImage = document.getElementById("big-image-header");
+    var headerImage = document.getElementById("hero-background-image");
     headerImage.style.backgroundImage = "url('" + BannerPath + title.screenshot + "')";
     set_pixel_art(headerImage, title.pixelart);
 
-	var logoImage = document.getElementById("big-image-logo");
+	var logoImage = document.getElementById("credits-logo");
     logoImage.src = BannerPath + title.logo;
     logoImage.parentElement.href = title.url;
 }
