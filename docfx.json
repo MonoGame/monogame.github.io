@@ -41,8 +41,8 @@
       "_appFooter": "<p align='center'>Copyright © 2009-2023 MonoGame Foundation, Inc.</p>",
       "_hostname": "monogame.github.io",
       "_openGraphImage": "images/horizontallogo.png",
-      "_description": "One framework for creating powerful cross-platform games",
-      "_appTitle": "MonoGame Framework"
+      "_description": "One framework for creating powerful cross-platform games.",
+      "_appTitle": "MonoGame"
     },
     "fileMetadata": {
       "_layout": {
