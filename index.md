@@ -3,28 +3,26 @@ _appTitle:
 _title: MonoGame
 _overrideDocFx: true
 ---
-<div id="big-image-header" />
-<div id="big-image-slogan">
-	<h1>One framework for creating<br/>powerful cross-platform games</h1>
-</div>
-<br/>
-<div id="big-image-quick-start">
-	<a href="/articles/index.html">Get started</a>
-	<a id="fork-button" href="https://github.com/mono/MonoGame">Fork us</a>
-</div>
-<br/>
-<div id="big-image-title">
-	<a id="built-with-monogame" href=""><img id="big-image-logo" src=""/></a><br/>
-	<a id="built-with-monogame" href="https://twitter.com/search?q=BuiltWithMonoGame">#BuiltWithMonoGame</a>
-</div>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<section class="hero">
+	<div id="hero-background-image" />
+	<div class="hero-content">
+		<p class="slogan">
+			One framework for creating<br/>
+			powerful cross-platform games
+		<div class="hero-button-container">
+			<a href="/articles/getting_started/index.md">
+				Getting Started <i class="bi bi-arrow-right"></i>
+			</a>
+			<a href="https://github.com/mono/monogame">
+				Fork Us <i class="bi bi-github"></i>
+			</a>
+		</div>
+	</div>
+	<div class="hero-credits">
+		<a href=""><img id="credits-logo" src=""></a><br/>
+		<a id="credits-built-with" href="https://twitter.com/search?q=BuiltWithMonoGame">#BuiltWithMonoGame</a>
+	</div>
+</section>
 
 <section class="features-showcase">
 <div class="container-xxl content-center">
