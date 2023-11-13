@@ -206,6 +206,7 @@ footer.border-top
   margin: 0;
   font-size: 1em;
   font-weight: 400;
+  pointer-events: none;
 }
 #timeline h3:after {
   content: "";
@@ -243,6 +244,7 @@ footer.border-top
   margin: 0;
   padding: 0 0 0 89px;
   color: #C5C5C5;
+  pointer-events: none;
 }
 @media (min-width: 62em) {
   #timeline section.year section h4 {
