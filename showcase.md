@@ -30,8 +30,8 @@ _description: A list of big hits to small gem titles created using MonoGame.
 		<a href="?XboxOne" >XboxOne</a>&nbsp;&nbsp;
 		<a href="?PSVita" >PSVita</a>&nbsp;&nbsp;
 		<a href="?Library" >Library</a>&nbsp;&nbsp;
-	</div>
-</br>
+</div>
+<br />
 
 <div class="wrap-container">
 	<div id="sor4" class="showcase-link-image" style="background-image:url('/images/showcase-header/sor4-screenshot.jpg')">
