@@ -82,6 +82,4 @@ function show_banner(title)
     logoImage.parentElement.href = title.url;
 }
 
-var BannerPath = "/images/showcase-header/";
-
 init_banner();
