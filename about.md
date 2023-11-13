@@ -198,7 +198,7 @@ Explore how **MonoGame** has grown and shaped game development over time.
 		<h3>2014</h3>
 		<section>
 			<ul>
-			<li>First MonoGame titles released on PlayStation 4 including <a href="http://www.towerfall-game.com">TowerFall Ascension</a>, <a href="http://supergiantgames.com/index.php/transistor/">Transistor</a>, and <a href="http://mercenarykings.com/">Mercenary Kings</a>.</li>
+			<li>First MonoGame titles released on PlayStation 4 including <a href="http://www.towerfall-game.com">TowerFall Ascension</a>, <a href="https://www.supergiantgames.com/games/transistor">Transistor</a>, and <a href="http://mercenarykings.com/">Mercenary Kings</a>.</li>
 			<li><a href="https://github.com/tomspilman">Tom Spilman</a> and <a href="http://community.monogame.net/users/KonajuGames/activity">Steve Williams</a> take stewardship of the project.</li>
 			</ul>
 		</section>
