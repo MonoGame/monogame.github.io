@@ -34,8 +34,7 @@ function init_filter() {
     var data = window.top.location.search;
     if(data != null && data !="")
     {        
-        var elements = document.getElementsByClassName('showcase-link-image');
-        // Hide all first if a filter was selected
+        var elements = document.getElementsByClassName('showcase-link-image');        
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.display = 'none';
         }
@@ -49,9 +48,6 @@ function init_filter() {
                 }                
             }
         }
-
-    } else {
-        console.log("No data");
     }
 }
 
