@@ -291,7 +291,7 @@ footer.border-top
 {
   float:left;
   width: 30%;
-  text-align: center;
+  text-align: left;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -299,7 +299,7 @@ footer.border-top
 .block-feature h3
 {
   font-size: 1.4em;
-  margin-top: 1.2em;
+  margin-top: 0.5em;
   margin-bottom: 0em;
   white-space: nowrap;
   pointer-events: none;
@@ -312,6 +312,12 @@ footer.border-top
   margin-bottom: 0em;
   white-space: nowrap;
   pointer-events: none;
+}
+
+.block-feature img 
+{
+  margin-top: 1.4em;
+  width: 75%;
 }
 
 @media screen and (max-width: 768px)
