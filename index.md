@@ -1,6 +1,7 @@
 ---
 _appTitle:
 _title: MonoGame
+_overrideDocFx: true
 ---
 <div id="big-image-header" />
 <div id="big-image-slogan">
