@@ -16,6 +16,17 @@ function add_to_screen(game, container) {
     gameDiv.className = 'showcase-link-image';
     gameDiv.style.backgroundImage = "url('" + BannerPath + game.screenshot + "')";
 
+    if (game.pixelart == true)
+	{        
+        gameDiv.style["image-rendering"] = "pixelated";
+		gameDiv.style["-ms-interpolation-mode"] = "nearest-neighbor";
+    } 
+    else 
+    {
+        gameDiv.style["image-rendering"] = "auto";
+		gameDiv.style["-ms-interpolation-mode"] = "bicubic";
+    }
+
     var link = document.createElement('a');
     link.href = game.url;
 
