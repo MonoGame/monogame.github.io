@@ -1,4 +1,5 @@
 ---
+_appTitle:
 _title: MonoGame
 ---
 <div id="big-image-header" />
