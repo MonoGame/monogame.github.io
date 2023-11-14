@@ -75,7 +75,7 @@ _overrideDocFx: true
           <div class="col d-flex flex-column gap-2">
             <h4 class="fw-semibold mb-0 text-body-emphasis">Documentation</h4>
             <p class="text-body-secondary">
-				Quality documentation is an important part of MonoGame. You can help improve it by updating the API documentation, writing tutorials, or submitted updates to existing documentation.
+				Quality documentation is an important part of MonoGame. You can help improve it by updating the API documentation, writing tutorials, or by submitting updates to existing documentation.
 			</p>
 			<a class="btn btn-lg btn-monogame w-100 mt-auto" type="button" href="https://github.com/MonoGame/MonoGame/blob/develop/CONTRIBUTING.md">
 				Learn More
