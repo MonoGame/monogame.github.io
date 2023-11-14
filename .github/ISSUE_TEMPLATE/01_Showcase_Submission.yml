@@ -54,7 +54,9 @@ body:
   attributes:
     label: Logo
     description: |
-      Please supply a high resolution version of the logo.
+      Please supply a high resolution version of the logo. These are typically between 340x140 and 125x75 in size.
+      It is also helpful if they have a drop shadow under them to help with visibility on the site.
+      Please see the home and showcase pages for examples of how the screenshots and logos are used together.
       You can drag-and-drop it from a directory into this textbox or copy and paste the image here.
       If the file type is not supported, you can zip it then upload that instead.
 - type: checkboxes
