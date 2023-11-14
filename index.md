@@ -25,42 +25,35 @@ _overrideDocFx: true
 </section>
 
 <section class="container-xxl my-5">
-	<div class="row">
-		<div class="col-12 col-md-4 d-flex align-items-stretch">
-			<div class="card w-100 mb-2 border-none bg-dark text-light">
-				<img class="border-bottom" src="/images/features/managed-code.png">
-				<div class="card-body d-flex flex-column">
-					<h3>Managed Code</h3>
-					<p>
-						 By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code. 
+	<div class="row align-items-md-center g-5 py-5">
+		<div class="col">
+			<div class="row g-4">
+				<div class="col d-flex flex-column gap-2 align-items-center">
+					<img src="/images/features/managed-code.png" style="width: 250px; height: auto;" loading="lazy">
+					<h3 class="fw-semibold mb-0 text-body-emphasis">Managed Code</h3>
+					<p class="text-body-secondary">
+						 By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code.
 					</p>
 				</div>
-			</div>
-		</div>
-		<div class="col-12 col-md-4 d-flex align-items-stretch">
-			<div class="card w-100 mb-2 border-none bg-dark text-light">
-				<img class="border-bottom"  src="/images/features/cross-platform.png">
-				<div class="card-body d-flex flex-column">
-					<h3>Cross-Platform</h3>
-					<p>
+				<div class="col d-flex flex-column gap-2 align-items-center">
+					<img src="/images/features/cross-platform.png" style="width: 250px; height: auto;" loading="lazy">
+					<h3 class="fw-semibold mb-0 text-body-emphasis">Cross-Platform</h3>
+					<p class="text-body-secondary">
 						 MonoGame currently supports Windows, MacOS, Linux, iOS/iPadOS, Android, PlayStation 4, PlayStation 5, Xbox One, and Nintendo Switch.
 					</p>
 				</div>
-			</div>
-		</div>
-		<div class="col-12 col-md-4 d-flex align-items-stretch">
-			<div class="card w-100 mb-2 border-none bg-dark text-light">
-				<img class="border-bottom"  src="/images/features/open-source.png">
-				<div class="card-body d-flex flex-column">
-					<h3>Open-Source</h3>
-					<p>
+				<div class="col d-flex flex-column gap-2 align-items-center">
+					<img src="/images/features/open-source.png" style="width: 250px; height: auto;" loading="lazy">
+					<h3 class="fw-semibold mb-0 text-body-emphasis">Open-Source</h3>
+					<p class="text-body-secondary">
 						 All the code is available to you ensuring you'll have the ability to make changes when you need to or even port to whole new platforms.
 					</p>
-				</div>
+				</div>								
 			</div>
-		</div>				
+		</div>
 	</div>
 </section>
+
 
 <section class="container-xxl my-5">
 	<h2>Get Involved</h2>
