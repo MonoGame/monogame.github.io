@@ -62,7 +62,7 @@ body:
   attributes:
     label: Tags / Platforms
     description: |
-      Please select the appropriate tags, and supported platforms for your submission.
+      Please select the appropriate tags and supported platforms for your submission.
       For the platforms please select the platforms where MonoGame was used or is supported.
     options:
       - label: Desktop        
