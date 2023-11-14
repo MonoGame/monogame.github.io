@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 3rem;
   overflow: hidden;
   z-index: 1;
   min-height: 800px;
@@ -99,6 +99,10 @@
   --bs-btn-color: #fff;
   --bs-btn-bg: var(--mg-color-orange);
   --bs-border-color: var(--mg-color-orange);
+}
+
+.border-monogame {
+  border-color: var(--mg-color-orange);
 }
 
 button, a 

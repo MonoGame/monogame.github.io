@@ -3,7 +3,7 @@ _appTitle:
 _title: MonoGame
 _overrideDocFx: true
 ---
-<section class="hero">
+<section class="hero mb-5" >
 	<div id="hero-background-image" />
 	<div class="hero-content">
 		<p class="slogan">
@@ -24,31 +24,42 @@ _overrideDocFx: true
 	</div>
 </section>
 
-<section class="features-showcase">
-<div class="container-xxl content-center">
-<section>
-<div class="showcase-feature">
-	<!--<img src="https://www.monogame.net/wp-content/themes/monogame/images/feature.png" alt="feature showcase">-->
-	<h4>Managed Code</h4>
-	<p>By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code.</p>
-</div>
-<div class="showcase-feature">
-	<!--<img src="https://www.monogame.net/wp-content/themes/monogame/images/feature.png" alt="feature showcase">-->
-	<h4>Cross-Platform</h4>
-	<p>MonoGame currently supports Windows, MacOS, Linux, iOS/iPadOS, Android, PlayStation 4, PlayStation 5, Xbox One, and Nintendo Switch.</p>
-</div>
-<div class="showcase-feature">
-	<!--<img src="https://www.monogame.net/wp-content/themes/monogame/images/feature.png" alt="feature showcase">-->
-	<h4>Open-Source</h4>
-	<p>All the code is available to you ensuring you'll have the ability to make changes when you need to or even port to whole new platforms.</p>
-</div>
-<div class="showcase-feature">
-	<!--<img src="https://www.monogame.net/wp-content/themes/monogame/images/feature.png" alt="feature showcase">-->
-	<h4>Community</h4>
-	<p>With 1000s of shipped games we have built up a vibrant community of developers which use MonoGame for both fun and profit.</p>
-</div>
-</section>
-</div>
+<section class="container-xxl py-3">
+	<div class="row">
+		<div class="col-12 col-md-4 d-flex align-items-stretch">
+			<div class="card w-100 mb-2 border-none bg-dark text-light">
+				<img class="border-bottom" src="/images/features/managed-code.png">
+				<div class="card-body d-flex flex-column">
+					<h3>Managed Code</h3>
+					<p>
+						 By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code. 
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 d-flex align-items-stretch">
+			<div class="card w-100 mb-2 border-none bg-dark text-light">
+				<img class="border-bottom"  src="/images/features/cross-platform.png">
+				<div class="card-body d-flex flex-column">
+					<h3>Cross-Platform</h3>
+					<p>
+						 MonoGame currently supports Windows, MacOS, Linux, iOS/iPadOS, Android, PlayStation 4, PlayStation 5, Xbox One, and Nintendo Switch.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 d-flex align-items-stretch">
+			<div class="card w-100 mb-2 border-none bg-dark text-light">
+				<img class="border-bottom"  src="/images/features/open-source.png">
+				<div class="card-body d-flex flex-column">
+					<h3>Open-Source</h3>
+					<p>
+						 All the code is available to you ensuring you'll have the ability to make changes when you need to or even port to whole new platforms.
+					</p>
+				</div>
+			</div>
+		</div>				
+	</div>
 </section>
 
 <script src="/scripts/game-banners.js"/>
