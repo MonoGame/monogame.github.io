@@ -52,5 +52,6 @@ _title: MonoGame
 </div>
 </section>
 
-<script src="/scripts/game-banners.js"/>
+<script src="/scripts/game-data.js"></script>
+<script src="/scripts/game-banners.js"></script>
 
