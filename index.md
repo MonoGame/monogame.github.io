@@ -103,5 +103,18 @@ _overrideDocFx: true
     </div>
 </section>
 
-<script src="/scripts/game-banners.js"/>
+<section class="container-xxl">
+	<div class="row" id="latest-news">
+		<h2 class="mb-5">Latest News</h2>
+	</div>
+</section>
+
+<section class="container-xxl">
+	<div class="row" id="latest-community">
+		<h2 class="mb-5">Latest Community Posts</h2>
+	</div>
+</section>
+
+<script type="text/javascript" src="/scripts/latest-posts.js"></script>
+<script type="text/javascript" src="/scripts/game-banners.js"></script>
 
