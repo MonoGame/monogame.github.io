@@ -446,6 +446,50 @@ var games = [
             "Linux",
             "Windows"
         ]
+    },
+    {
+        "name": "tinylife",
+        "title": "Tiny Life",
+        "logo": "tiny-life-logo.png",
+        "screenshot": "tiny-life-screenshot.png",
+        "url": "https://tinylifegame.com",
+        "pixelart": true,
+        "tags": [
+            "Windows",
+            "2D",
+            "Desktop"
+        ]
+    },
+    {
+        "name": "barotrauma",
+        "title": "Barotrauma",
+        "logo": "barotrauma-logo.png",
+        "screenshot": "barotrauma-screenshot.png",
+        "url": "https://barotraumagame.com",
+        "pixelart": false,
+        "tags": [
+            "Windows",
+            "2D",
+            "Desktop",
+            "Featured"
+        ]
+    },
+    {
+        "name": "staysafe",
+        "title": "Stay Safe",
+        "logo": "stay-safe-logo.png",
+        "screenshot": "stay-safe-screenshot.png",
+        "url": "https://staysafe.yellowcakegames.com/",
+        "pixelart": false,
+        "tags": [
+            "Windows",
+            "Linux",
+            "NintendoSwitch",
+			"2D",
+            "Desktop",
+            "Console",
+            "Featured"
+        ]
     }
 ];
 
