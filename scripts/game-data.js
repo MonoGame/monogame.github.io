@@ -473,6 +473,23 @@ var games = [
             "Desktop",
             "Featured"
         ]
+    },
+    {
+        "name": "staysafe",
+        "title": "Stay Safe",
+        "logo": "stay-safe-logo.png",
+        "screenshot": "stay-safe-screenshot.png",
+        "url": "https://staysafe.yellowcakegames.com/",
+        "pixelart": false,
+        "tags": [
+            "Windows",
+            "Linux",
+            "NintendoSwitch",
+			"2D",
+            "Desktop",
+            "Console",
+            "Featured"
+        ]
     }
 ];
 
