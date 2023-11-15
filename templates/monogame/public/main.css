@@ -7,10 +7,20 @@
   --mg-logo: url('/images/monogame_title_light.svg');
 }
 
+[data-bs-theme="light"] img[src*="dark"] {
+  display: none;
+}
+
+
 [data-bs-theme="dark"]
 {
   --mg-logo: url('/images/monogame_title_dark.svg');
 }
+
+[data-bs-theme="dark"] img[src*="light"] {
+  display: none;
+}
+
 
 #logo
 {

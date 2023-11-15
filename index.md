@@ -36,14 +36,16 @@ _overrideDocFx: true
 					</p>
 				</div>
 				<div class="col d-flex flex-column gap-2 align-items-center">
-					<img src="/images/features/cross-platform.png" style="width: 250px; height: auto;" loading="lazy">
+					<img src="/images/features/cross-platform-dark-theme.png" style="width: 250px; height: auto;" loading="lazy">
+					<img src="/images/features/cross-platform-light-theme.png" style="width: 250px; height: auto;" loading="lazy">
 					<h3 class="fw-semibold mb-0 text-body-emphasis">Cross-Platform</h3>
 					<p class="text-body-secondary">
 						 MonoGame currently supports Windows, MacOS, Linux, iOS/iPadOS, Android, PlayStation 4, PlayStation 5, Xbox One, and Nintendo Switch.
 					</p>
 				</div>
 				<div class="col d-flex flex-column gap-2 align-items-center">
-					<img src="/images/features/open-source.png" style="width: 250px; height: auto;" loading="lazy">
+					<img src="/images/features/github-mark-dark-theme.png" style="width: 250px; height: auto;" loading="lazy">
+					<img src="/images/features/github-mark-light-theme.png" style="width: 250px; height: auto;" loading="lazy">
 					<h3 class="fw-semibold mb-0 text-body-emphasis">Open-Source</h3>
 					<p class="text-body-secondary">
 						 All the code is available to you ensuring you'll have the ability to make changes when you need to or even port to whole new platforms.
