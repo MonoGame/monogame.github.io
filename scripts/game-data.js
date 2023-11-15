@@ -446,6 +446,33 @@ var games = [
             "Linux",
             "Windows"
         ]
+    },
+    {
+        "name": "tinylife",
+        "title": "Tiny Life",
+        "logo": "tiny-life-logo.png",
+        "screenshot": "tiny-life-screenshot.png",
+        "url": "https://tinylifegame.com",
+        "pixelart": true,
+        "tags": [
+            "Windows",
+            "2D",
+            "Desktop"
+        ]
+    },
+    {
+        "name": "barotrauma",
+        "title": "Barotrauma",
+        "logo": "barotrauma-logo.png",
+        "screenshot": "barotrauma-screenshot.png",
+        "url": "https://barotraumagame.com",
+        "pixelart": false,
+        "tags": [
+            "Windows",
+            "2D",
+            "Desktop",
+            "Featured"
+        ]
     }
 ];
 
