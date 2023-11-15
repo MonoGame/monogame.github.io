@@ -20,7 +20,7 @@ async function get_latest_news() {
         for (let i = 0; i < json.topic_list.topics.length; i++) {
             let news = json.topic_list.topics[i];
             let latestNewsWrapper = document.createElement('div');
-            latestNewsWrapper.className = 'col-md-6 mb-3';
+            latestNewsWrapper.className = 'col-12 mb-3';
             latestNewsWrapper.appendChild(create_post_block(news));
             latestNewsContainer.appendChild(latestNewsWrapper);
         }
@@ -40,7 +40,7 @@ async function get_latest_community() {
 
         //  Only show most recent 6 posts
         let count = 0;
-        for (let i = 0; i < json.topic_list.topics.length && count < 6; i++) {
+        for (let i = 0; i < json.topic_list.topics.length && count < 5; i++) {
             let post = json.topic_list.topics[i];
 
             //  if the category_id of hte post is 27, that means it's a 
@@ -48,7 +48,7 @@ async function get_latest_community() {
             if (post.category_id === 27) { continue; }
             count++;
             let latestCommunityWrapper = document.createElement('div');
-            latestCommunityWrapper.className = 'col-md-6 mb-3';
+            latestCommunityWrapper.className = 'col-12 mb-3 pe-4';
             latestCommunityWrapper.appendChild(create_post_block(post));
             latestCommunity.appendChild(latestCommunityWrapper);
         }
@@ -69,32 +69,30 @@ async function get_latest_community() {
 function get_last_update(today, other) {
     if (today.getFullYear() !== other.getFullYear()) {
         let numYears = today.getFullYear() - other.getFullYear();
-        let unit = numYears === 1 ? 'year' : 'years'
-        return `${numYears} ${unit} ago`;
+        let unit = numYears === 1 ? 'yr' : 'yrs'
+        return `${numYears}${unit} ago`;
     }
 
     if (today.getMonth() !== other.getMonth()) {
         let numMonths = today.getMonth() - other.getMonth();
-        let unit = numMonths === 1 ? 'month' : 'months'
-        return `${numMonths} ${unit} ago`;
+        return `${numMonths}m ago`;
     }
 
     if (today.getDate() !== other.getDate()) {
         let numDays = today.getDate() - other.getDate();
-        let unit = numDays === 1 ? 'day' : 'days'
-        return `${numDays} ${unit} ago`;
+        return `${numDays}d  ago`;
     }
 
     if (today.getHours() !== other.getHours()) {
         let numHours = today.getHours() - other.getHours();
-        let unit = numHours === 1 ? 'hour' : 'hours';
-        return `${numHours} ${unit} ago`;
+        let unit = numHours === 1 ? 'hr' : 'hrs';
+        return `${numHours}${unit} ago`;
     }
 
 
     if (today.getMinutes() !== other.getMinutes()) {
         let numMinutes = today.getMinutes() - other.getMinutes();
-        let unit = numMinutes === 1 ? 'minute' : 'minutes';
+        let unit = numMinutes === 1 ? 'min' : 'mins';
         return `${numMinutes} ${unit} ago`;
     }
 
@@ -115,31 +113,25 @@ function create_post_block(post) {
     //  reply_count only counts if the user hit reply directly to the post
     //  posts_count is the total number of posts in the topic, including the original
     //  post, so we -1 to get an accurate reply count
-    let replyCount = post.posts_count - 1;
-    let viewCount = post.views;
-    let likeCount = post.like_count;
+    let replyCount = Intl.NumberFormat('en-US', {notation: 'compact', maximumFractionDigits: 1}).format(post.posts_count - 1);
+    let viewCount = Intl.NumberFormat('en-US', {notation: 'compact', maximumFractionDigits: 1}).format(post.views);
+    let likeCount = Intl.NumberFormat('en-US', {notation: 'compact', maximumFractionDigits: 1}).format(post.like_count);
 
     let postRoot = document.createElement('div');
-    postRoot.className = 'row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-100 position-relative';
+    postRoot.className = 'overflow-hidden mb-4 h-100 position-relative';
 
 
     let postWrapper = document.createElement('div');
-    postWrapper.className = 'col p-4 d-flex flex-column position-static';
+    postWrapper.className = 'col d-flex flex-column';
     postRoot.appendChild(postWrapper);
 
     let postTitleLink = document.createElement('a');
     postTitleLink.setAttribute('href', `https://community.monogame.net/t/${post.slug}`);
     postTitleLink.appendChild(document.createTextNode(post.title));
-    let postTitle = document.createElement('h4');
-    postTitle.className = 'mb-0';
+    let postTitle = document.createElement('h5');
+    postTitle.className = '';
     postTitle.appendChild(postTitleLink);
     postWrapper.appendChild(postTitle);
-
-
-    let postLastUpdated = document.createElement('div');
-    postLastUpdated.className = 'mb-1 text-body-secondary';
-    // featuredNewsLastUpdate.appendChild(document.createTextNode(get_last_update(today, postDate)));
-    postWrapper.appendChild(postLastUpdated);
 
     let postExcerpt = document.createElement('p');
     postExcerpt.className = 'card-text mb-auto';
@@ -149,7 +141,7 @@ function create_post_block(post) {
     postWrapper.appendChild(postExcerpt);
 
     let postFooter = document.createElement('div');
-    postFooter.className = 'text-body-secondary d-flex flex-row justify-content-between';
+    postFooter.className = 'text-body-secondary d-flex flex-row justify-content-between post-statistics';
     let lastUpdateBlock = document.createElement('div');
     lastUpdateBlock.innerHTML = `<i class="bi bi-calendar"></i> ${lastUpdate}`;
     let replyCountBlock = document.createElement('div');

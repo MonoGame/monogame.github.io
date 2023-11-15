@@ -106,14 +106,13 @@ _overrideDocFx: true
 </section>
 
 <section class="container-xxl my-4">
-	<div class="row" id="latest-news">
-		<h2>Latest News</h2>
-	</div>
-</section>
-
-<section class="container-xxl my-4">
-	<div class="row" id="latest-community">
-		<h2>Latest Community Posts</h2>
+	<div class="row">
+		<div class="col-12 col-md-6 d-flex flex-column justify-space-between" id="latest-news">
+			<h2>Latest News</h2>
+		</div>
+		<div class="col-12 col-md-6 d-flex flex-column justify-space-between" id="latest-community">
+			<h2>Latest Community Posts</h2>
+		</div>
 	</div>
 </section>
 

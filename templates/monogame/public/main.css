@@ -100,6 +100,9 @@
 	width: 100%;
 }
 
+.post-statistics {
+  padding-right: 25%;
+}
 
 .navbar-nav {
     --bs-nav-link-hover-color: var(--mg-color-orange);
@@ -343,6 +346,10 @@ footer.border-top
 {
   .hero-button-container {
     flex-direction: column;
+  }
+
+  .post-statistics {
+    padding-right: 0;
   }
 
   .showcase-feature
