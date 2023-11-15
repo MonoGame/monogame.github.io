@@ -456,6 +456,8 @@ var games = [
         "pixelart": true,
         "tags": [
             "Windows",
+            "Linux",
+            "Mac",
             "2D",
             "Desktop"
         ]
