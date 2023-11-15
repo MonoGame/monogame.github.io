@@ -24,7 +24,7 @@ _overrideDocFx: true
 	</div>
 </section>
 
-<section class="container-xxl my-5">
+<section class="container-xxl my-4">
 	<div class="row align-items-md-center g-5 py-5">
 		<div class="col">
 			<div class="row g-4">
@@ -55,7 +55,7 @@ _overrideDocFx: true
 </section>
 
 
-<section class="container-xxl my-5">
+<section class="container-xxl my-4">
 	<h2>Get Involved</h2>
 	<p class="lead">
 		With 1000s of shipped games we have built up a vibrant community of developers which use MonoGame for both fun and profit.
@@ -103,13 +103,13 @@ _overrideDocFx: true
     </div>
 </section>
 
-<section class="container-xxl">
+<section class="container-xxl my-4">
 	<div class="row" id="latest-news">
 		<h2 class="mb-5">Latest News</h2>
 	</div>
 </section>
 
-<section class="container-xxl">
+<section class="container-xxl my-4">
 	<div class="row" id="latest-community">
 		<h2 class="mb-5">Latest Community Posts</h2>
 	</div>
