@@ -105,13 +105,13 @@ _overrideDocFx: true
 
 <section class="container-xxl my-4">
 	<div class="row" id="latest-news">
-		<h2 class="mb-5">Latest News</h2>
+		<h2>Latest News</h2>
 	</div>
 </section>
 
 <section class="container-xxl my-4">
 	<div class="row" id="latest-community">
-		<h2 class="mb-5">Latest Community Posts</h2>
+		<h2>Latest Community Posts</h2>
 	</div>
 </section>
 
