@@ -47,3 +47,40 @@ body:
       Please supply a 1920x1080 resolution image of your game here.
       You can drag-and-drop it from a directory into this textbox or copy and paste the image here.
       If the file type is not supported, you can zip it then upload that instead.
+- type: textarea
+  id: logo
+  validations:
+    required: true
+  attributes:
+    label: Logo
+    description: |
+      Please supply a high resolution version of the logo. These are typically between 340x140 and 125x75 in size.
+      It is also helpful if they have a drop shadow under them to help with visibility on the site.
+      Please see the home and showcase pages for examples of how the screenshots and logos are used together.
+      You can drag-and-drop it from a directory into this textbox or copy and paste the image here.
+      If the file type is not supported, you can zip it then upload that instead.
+- type: checkboxes
+  id: tags
+  attributes:
+    label: Tags / Platforms
+    description: |
+      Please select the appropriate tags and supported platforms for your submission.
+      For the platforms please select the platforms where MonoGame was used or is supported.
+    options:
+      - label: Desktop        
+      - label: Mobile
+      - label: Console
+      - label: 2D
+      - label: 3D
+      - label: Windows
+      - label: Mac
+      - label: Linux
+      - label: iOS
+      - label: Android
+      - label: WindowsPhone
+      - label: NintendoSwitch
+      - label: PlayStation4
+      - label: PlayStation5
+      - label: Xbox
+      - label: PSVita
+      - label: Library

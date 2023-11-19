@@ -18,7 +18,7 @@ We now support [.NET 6](https://docs.microsoft.com/en-us/dotnet/core/introductio
 
 MonoGame 3.8.1 now comes with an optional Visual Studio extension which will install all the MonoGame project templates and will allow for quick access to the [MGCB Editor](./tools/mgcb_editor.md).
 
-This extension is avaible for Visual Studio 2022, and Visual Studio 2022 for Mac.
+This extension is available for Visual Studio 2022, and Visual Studio 2022 for Mac.
 
 ## Visual Studio 2019 and prior are no longer supported
 
