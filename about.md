@@ -58,6 +58,7 @@ The current board members are:
 You can read the foundation [bylaws](foundation/index.md) or review the meeting minutes below to keep track of our progress.
 
 - [October 24th, 2023](foundation/meeting-2023-10-24.md)
+- [November 15th, 2023](foundation/meeting-2023-11-15.md)
 
 
 ## History
