@@ -102,6 +102,6 @@ function show_banner(title)
     logoImage.parentElement.href = title.url;
 }
 
-var BannerPath = "/images/showcase-header/";
+var BannerPath = "/images/home-page/showcase-header/";
 
 init_banner();

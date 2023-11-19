@@ -84,7 +84,7 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="{{_appLogoUrl}}{{^_appLogoUrl}}{{_rel}}index.html{{/_appLogoUrl}}">
-            <img id="logo" class="svg" src="{{_rel}}{{{_appLogoPath}}}{{^_appLogoPath}}logo.svg{{/_appLogoPath}}" alt="{{_appName}}" >
+            <img id="logo" class="svg" alt="{{_appName}}" >
             {{_appName}}
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -162,13 +162,53 @@
     <div class="container-xxl search-results" id="search-results"></div>
     {{/_enableSearch}}
 
-    <footer class="border-top">
-      <div class="container-xxl">
-        <div class="flex-fill">
-          {{{_appFooter}}}{{^_appFooter}}<span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>{{/_appFooter}}
+    <div class="container-xxl">
+      <footer class="border-top my-5 pt-5">
+        <div class="row justify-content-between">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>MonoGame</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="/articles/index.html" class="footer-link p-0 text-body-secondary">Documentation</a></li>
+              <li class="nav-item mb-2"><a href="/api/index.html" class="footer-link p-0 text-body-secondary">API Reference</a></li>
+              <li class="nav-item mb-2"><a href="/showcase.html" class="footer-link p-0 text-body-secondary">Showcase</a></li>
+              <li class="nav-item mb-2"><a href="/about.html" class="footer-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Get Involved</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://github.com/MonoGame/MonoGame" class="footer-link p-0 text-body-secondary">Source Code</a></li>
+              <li class="nav-item mb-2"><a href="https://github.com/MonoGame/monogame.github.io/blob/main/CONTRIBUTING.md" class="footer-link p-0 text-body-secondary">Update Documentation</a></li>
+              <li class="nav-item mb-2"><a href="https://github.com/MonoGame/MonoGame/issues/new/choose" class="footer-link p-0 text-body-secondary">Report Issues</a></li>
+              <li class="nav-item mb-2"><a href="https://www.patreon.com/MonoGame" class="footer-link p-0 text-body-secondary">Patreon</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Community</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="https://community.monogame.net" class="footer-link p-0 text-body-secondary">Forums</a></li>
+                <li class="nav-item mb-2"><a href="https://discord.gg/monogame" class="footer-link p-0 text-body-secondary">Discord</a></li>
+                <li class="nav-item mb-2"><a href="https://twitter.com/MonoGameTeam" class="footer-link p-0 text-body-secondary">Twitter</a></li>
+                <li class="nav-item mb-2"><a href="https://www.youtube.com/MonoGame" class="footer-link p-0 text-body-secondary">YouTube</a></li>
+                <li class="nav-item mb-2"><a href="https://www.reddit.com/r/monogame/" class="footer-link p-0 text-body-secondary">Reddit</a></li>
+                <li class="nav-item mb-2"><a href="https://www.facebook.com/monogamecommunity" class="footer-link p-0 text-body-secondary">Facebook</a></li>
+              </ul>
+          </div>
         </div>
-      </div>
-    </footer>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
+          {{{_appFooter}}}
+          <ul class="list-unstyled d-flex gap-3">
+            <li class="ms-3"><a class="link-body-emphasis" href="https://github.com/MonoGame/MonoGame"><i class="bi bi-github"></i></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.patreon.com/MonoGame"><i class="bi bi-p-circle-fill"></i></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://discord.gg/monogame"><i class="bi bi-discord"></i></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://twitter.com/MonoGameTeam"><i class="bi bi-twitter"></i></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.youtube.com/MonoGame"><i class="bi bi-youtube"></i></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.reddit.com/r/monogame/"><i class="bi bi-reddit"></i></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/monogamecommunity"><i class="bi bi-facebook"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   </body>
   {{/redirect_url}}
 </html>
