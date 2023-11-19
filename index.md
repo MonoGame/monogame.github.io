@@ -83,10 +83,10 @@ _overrideDocFx: true
 					<div class="col-12 col-md-4">
 						<h5>Console <i class="color-monogame fs-4">*</i</h5>			
 						<ul class="list-unstyled">
-							<li class="mb-3 lead"><i class="bi bi-check-lg color-monogame pe-1"></i> Playstation 4</li>
-							<li class="mb-3 lead"><i class="bi bi-check-lg color-monogame pe-1"></i> Playstation 5</li>
-							<li class="mb-3 lead"><i class="bi bi-check-lg color-monogame pe-1"></i> Xbox One</li>
-							<li class="mb-3 lead"><i class="bi bi-check-lg color-monogame pe-1"></i> Nintendo Switch</li>
+							<li class="mb-3 lead"><i class="bi bi-check-lg color-monogame pe-2"></i> Playstation 4</li>
+							<li class="mb-3 lead"><i class="bi bi-check-lg color-monogame pe-2"></i> Playstation 5</li>
+							<li class="mb-3 lead"><i class="bi bi-check-lg color-monogame pe-2"></i> Xbox One</li>
+							<li class="mb-3 lead text-nowrap"><i class="bi bi-check-lg color-monogame pe-2"></i> Nintendo Switch</li>
 						</ul>
 					</div>								
 				</div>
