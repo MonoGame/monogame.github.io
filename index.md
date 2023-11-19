@@ -128,7 +128,7 @@ _overrideDocFx: true
     <div class="row align-items-md-center g-5 py-5">
       <div class="col">
         <div class="row g-4">
-          <div class="col-12 col-md-4 d-flex flex-column gap-2">
+          <div class="col-12 col-md-4 d-flex flex-column gap-2 mb-5">
 			<img src="/images/home-page/code.png" class="mb-3" style="width: 250px; height: auto;" loading="lazy">
             <h4 class="fw-semibold mb-0 text-body-emphasis">Code</h4>
             <p class="text-body-secondary">
@@ -138,7 +138,7 @@ _overrideDocFx: true
 				Contributing Guidelines
 			</a>
           </div>
-          <div class="col-12 col-md-4 d-flex flex-column gap-2">
+          <div class="col-12 col-md-4 d-flex flex-column gap-2 mb-5">
 			<img src="/images/home-page/documentation.png" class="mb-3" style="width: 250px; height: auto;" loading="lazy">
             <h4 class="fw-semibold mb-0 text-body-emphasis">Documentation</h4>
             <p class="text-body-secondary">
@@ -148,7 +148,7 @@ _overrideDocFx: true
 				Documentation Guidelines
 			</a>
           </div>
-          <div class="col-12 col-md-4 d-flex flex-column gap-2">
+          <div class="col-12 col-md-4 d-flex flex-column gap-2 mb-5">
 			<img src="/images/home-page/report-issue.png" class="mb-3" style="width: 250px; height: auto;" loading="lazy">
             <h4 class="fw-semibold mb-0 text-body-emphasis">Report Issues</h4>
             <p class="text-body-secondary">
