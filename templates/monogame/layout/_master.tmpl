@@ -198,8 +198,10 @@
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
           <div>
             {{_appFooter}} <br/>
-            Site design by <a href="https://github.com/AristurtleDev">Christopher Whitley (AristurlteDev)</a> with feedback from community members<br/>
+            {{#_overrideDocFx}}
+            Home page designed with ❤ by <a href="https://github.com/AristurtleDev">Christopher Whitley (AristurlteDev)</a> with feedback from community members<br/>
             Code, Documentation, and Report Issues icons created by community member TankStory
+            {{/_overrideDocFx}}
           </div>
           <ul class="list-unstyled d-flex gap-3">
             <li class="ms-3"><a class="link-body-emphasis" href="https://github.com/MonoGame/MonoGame"><i class="bi bi-github"></i></a></li>
