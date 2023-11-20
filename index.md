@@ -38,7 +38,7 @@ _overrideDocFx: true
 		   </ul>
 		</div>
 		<div class="col-12 col-md-6 d-flex flex-row justify-content-center">
-			<img src="/images/home-page/managed-code.png" class="featurette-image" loading="lazy">
+			<img src="/images/home-page/managed-code.png" style="width: 100%; height: auto; margin-bottom: 1rem;" loading="lazy">
 		</div>
 	</div>
 </section>
@@ -114,7 +114,7 @@ _overrideDocFx: true
 		   </ul>
 		</div>
 		<div class="col-12 col-md-6 d-flex flex-row justify-content-center">
-			<img id="github-logo" class="featurette-image object-fit-contain" loading="lazy">
+			<img id="github-logo" class="object-fit-contain" style="max-width: 250px; height: auto; margin-bottom: 1rem;" loading="lazy">
 		</div>		
 	</div>
 </section>
