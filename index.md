@@ -120,7 +120,7 @@ _overrideDocFx: true
 </section>
 
 
-<section class="container-xxl my-4">
+<section id="getting-involved" class="container-xxl my-4">
 	<h2>Get Involved</h2>
 	<p class="lead">
 		With 1000s of shipped games we have built up a vibrant community of developers which use MonoGame for both fun and profit.
@@ -129,7 +129,7 @@ _overrideDocFx: true
       <div class="col">
         <div class="row g-4">
           <div class="col-12 col-md-4 d-flex flex-column gap-2 mb-5">
-			<img src="/images/home-page/code.svg" class="mb-3" style="width: 250px; height: auto;" loading="lazy">
+			<img src="/images/home-page/code.svg" class="mb-3" loading="lazy">
             <h4 class="fw-semibold mb-0 text-body-emphasis">Code</h4>
             <p class="text-body-secondary">
 				MonoGame is open source and anyone can contribute by fixing bugs or working with maintainers to implement new features.
@@ -139,7 +139,7 @@ _overrideDocFx: true
 			</a>
           </div>
           <div class="col-12 col-md-4 d-flex flex-column gap-2 mb-5">
-			<img src="/images/home-page/documentation.svg" class="mb-3" style="width: 250px; height: auto;" loading="lazy">
+			<img src="/images/home-page/documentation.svg" class="mb-3" loading="lazy">
             <h4 class="fw-semibold mb-0 text-body-emphasis">Documentation</h4>
             <p class="text-body-secondary">
 				Quality documentation is an important part of MonoGame. You can help improve it by updating the API documentation, writing tutorials, or by submitting updates to existing documentation.
@@ -149,7 +149,7 @@ _overrideDocFx: true
 			</a>
           </div>
           <div class="col-12 col-md-4 d-flex flex-column gap-2 mb-5">
-			<img src="/images/home-page/report-issue.svg" class="mb-3" style="width: 250px; height: auto;" loading="lazy">
+			<img src="/images/home-page/report-issue.svg" class="mb-3" loading="lazy">
             <h4 class="fw-semibold mb-0 text-body-emphasis">Report Issues</h4>
             <p class="text-body-secondary">
 				If you find any bugs or issues, don't forget to report them to the Issues page on GitHub so maintainers and other contributors can track and resolve the issues. 
