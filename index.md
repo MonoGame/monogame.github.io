@@ -47,7 +47,7 @@ _overrideDocFx: true
 
 <section class="container-xxl my-5">
 	<div class="row">
-		<div class="col-12 col-md-6">
+		<div class="col-12 col-md-6 mb-5">
 			<div class="d-flex flex-row flex-wrap gap-5">
 				<img id="windows-logo" class="cross-platform-logo" loading="lazy">
 				<img id="apple-logo" class="cross-platform-logo" loading="lazy">
