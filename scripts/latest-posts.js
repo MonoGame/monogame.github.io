@@ -11,7 +11,7 @@ async function initialize_community_feeds() {
  * it into the #latest-community element on the page
  */
 async function get_latest_news() {
-    let response = await fetch('https://community.monogame.net/latest-news');
+    let response = await fetch('https://community.monogame.net/latest.json?category=news&order=created');
     let json = await response.json();
 
     if (json.topic_list.topics != undefined) {
@@ -32,7 +32,7 @@ async function get_latest_news() {
  * it into the #latest-community element on the page
  */
 async function get_latest_community() {
-    let response = await fetch('https://community.monogame.net/latest-community');
+    let response = await fetch('https://community.monogame.net/latest.json?order=created');
     let json = await response.json();
 
     if (json.topic_list.topics != undefined) {
