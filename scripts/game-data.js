@@ -492,6 +492,22 @@ var games = [
             "Console",
             "Featured"
         ]
+    },
+    {
+        "name": "palmride",
+        "title": "PalmRide",
+        "logo": "palmride-logo.png",
+        "screenshot": "palmride-screenshot.png",
+        "url": "https://www.palmride.online/",
+        "pixelart": true,
+        "tags": [
+            "Windows",
+            "Linux",
+			"2D",
+			"3D",
+            "Desktop",
+            "Featured"
+        ]
     }
 ];
 
