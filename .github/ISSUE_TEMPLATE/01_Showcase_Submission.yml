@@ -44,7 +44,7 @@ body:
   attributes:
     label: Image
     description: |
-      Please supply a 1920x1080 resolution image of your game here.
+      Please supply a 1920x1080 resolution gameplay screenshot.
       You can drag-and-drop it from a directory into this textbox or copy and paste the image here.
       If the file type is not supported, you can zip it then upload that instead.
 - type: textarea
@@ -54,8 +54,8 @@ body:
   attributes:
     label: Logo
     description: |
-      Please supply a high resolution version of the logo. These are typically between 340x140 and 125x75 in size.
-      It is also helpful if they have a drop shadow under them to help with visibility on the site.
+      Please supply a high resolution version of the logo on transparency. These are typically between 340x140 and 125x75 in size.
+      We add a drop shadow to the logo in CSS automatically, so no need to include one in the logo.
       Please see the home and showcase pages for examples of how the screenshots and logos are used together.
       You can drag-and-drop it from a directory into this textbox or copy and paste the image here.
       If the file type is not supported, you can zip it then upload that instead.
@@ -81,6 +81,7 @@ body:
       - label: NintendoSwitch
       - label: PlayStation4
       - label: PlayStation5
-      - label: Xbox
+      - label: Xbox One
+      - label: Xbox Series X/S
       - label: PSVita
       - label: Library
