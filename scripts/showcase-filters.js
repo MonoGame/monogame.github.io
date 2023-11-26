@@ -31,7 +31,8 @@ function add_to_screen(game, container) {
     link.href = game.url;
 
     var logoDiv = document.createElement('div');
-    logoDiv.style = "width:100%;height:100%;background:url('" + BannerPath + game.logo + "') center center no-repeat";
+    logoDiv.className = 'showcase-link-logo';
+    logoDiv.style = "background:url('" + BannerPath + game.logo + "') center center no-repeat";
     logoDiv.title = game.title;
 
     link.appendChild(logoDiv);
