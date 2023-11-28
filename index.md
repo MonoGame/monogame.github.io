@@ -192,7 +192,6 @@ _overrideDocFx: true
 </section>
 
 <script src="/scripts/game-data.js"></script>
-<script src="/scripts/game-banners.js"></script>
 <script type="text/javascript" src="/scripts/latest-posts.js"></script>
 <script type="text/javascript" src="/scripts/game-banners.js"></script>
 
