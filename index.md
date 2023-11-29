@@ -3,13 +3,13 @@ _appTitle:
 _title: MonoGame
 _overrideDocFx: true
 ---
-<section class="hero" >
-	<div id="hero-background-image" />
-	<div class="hero-content">
+  <section id="featuredCarousel" class="carousel slide carousel-fade mb-6" data-bs-ride="carousel" style="height: 800px;">
+	<div class="carousel-content">
 		<p class="slogan">
 			One framework for creating<br/>
 			powerful cross-platform games
-		<div class="hero-button-container">
+		</p>
+		<div class="carousel-button-container">
 			<a type="button" class="btn btn-lrg btn-monogame" href="/articles/getting_started/index.html">
 				Getting Started <i class="bi bi-arrow-right"></i>
 			</a>
@@ -18,10 +18,18 @@ _overrideDocFx: true
 			</a>
 		</div>
 	</div>
-	<div class="hero-credits">
-		<a href=""><img id="credits-logo" src=""></a><br/>
-		<a id="credits-built-with" href="https://twitter.com/search?q=BuiltWithMonoGame">#BuiltWithMonoGame</a>
+    <div id="carousel-item-container" class="carousel-inner h-100" />
+    <button class="carousel-control-prev" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+	<div class="carousel-credits">
 	</div>
+  </section>
 </section>
 
 <section class="container-xxl my-5">
@@ -192,6 +200,6 @@ _overrideDocFx: true
 </section>
 
 <script src="/scripts/game-data.js"></script>
+<script type="text/javascript" src="/scripts/carousel.js"></script>
 <script type="text/javascript" src="/scripts/latest-posts.js"></script>
-<script type="text/javascript" src="/scripts/game-banners.js"></script>
 
