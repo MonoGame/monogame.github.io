@@ -3,6 +3,8 @@ function init_filter() {
     var container = document.getElementById('gamesList');
     var filterTag = data ? remove_questionmark(data) : null;
 
+    shuffle_array(games);
+
     for (var i = 0; i < games.length; i++) {
         if (!filterTag || games[i].tags.includes(filterTag)) {
             add_to_screen(games[i], container);
@@ -38,6 +40,13 @@ function add_to_screen(game, container) {
     link.appendChild(logoDiv);
     gameDiv.appendChild(link);
     container.appendChild(gameDiv);
+}
+
+function shuffle_array(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 }
 
 function remove_questionmark(str) {
