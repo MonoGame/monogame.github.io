@@ -117,19 +117,30 @@
   z-index: -1;
 }
 
-.hero-content {
+.carousel-content {
+  position: absolute;
+  margin: auto;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 800px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  pointer-events: none;
 }
 
-.hero-button-container {
+.carousel-button-container {
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
+  pointer-events: all;
 }
 
-.hero-button-container a {
+.carousel-button-container a {
   line-height: 1.5;
   padding: .5rem 1rem;
   text-align: center;
@@ -143,13 +154,39 @@
   font-size: 1.5rem;
 }
 
-.hero-credits {
-  position: absolute;
-  bottom: 15px;
-  right: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1 !important;
+}
+
+.carousel-control-icon {
+  will-change: transform;
+  transition: transform 250ms ease-in-out;
+}
+
+.carousel-control-next-icon:hover {
+  transform: translateX(10px);
+}
+
+.carousel-control-prev-icon:hover {
+  transform: translateX(-10px);
+}
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-image: none !important; /* remove bootstrap style */
+  filter: none !important;
+  height: 4rem;
+  width: 4rem;
+}
+
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml,<svg class="bi bi-chevron-right" width="16" height="16" fill="currentColor" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" fill="%23fff" fill-rule="evenodd" stroke="%23fff" stroke-width=".2"/></svg>');
+}
+
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml,<svg class="bi bi-chevron-right" width="16" height="16" fill="currentColor" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m11.345 14.363a0.5 0.5 0 0 1-0.708 0l-6-6a0.5 0.5 0 0 1 0-0.708l6-6a0.50063 0.50063 0 0 1 0.708 0.708l-5.647 5.646 5.647 5.646a0.5 0.5 0 0 1 0 0.708z" fill="%23fff" fill-rule="evenodd" stroke="%23fff" stroke-width=".2"/></svg>');
 }
 
 .slogan {
