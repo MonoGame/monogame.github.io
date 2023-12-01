@@ -10,5 +10,6 @@ exports.preTransform = function (model) {
         model._title = model._path.replace(/^.*[\\/]/, '')      //  Remove path
                                   .replace(/\.[^/.]+$/, '');    //  Remove extension
     }
+    model.api = true;
     return model;
 }

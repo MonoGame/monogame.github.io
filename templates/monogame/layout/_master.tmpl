@@ -108,7 +108,7 @@
       {{!body}}
     {{/_overrideDocFx}}
     {{^_overrideDocFx}}
-      <main class="container-xxl">
+      <main class="{{^api}}container-xxl{{/api}}{{#api}}container-fluid{{/api}}">
         <div class="toc-offcanvas">
           <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
             <div class="offcanvas-header">
