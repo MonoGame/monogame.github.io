@@ -59,7 +59,7 @@ You can read the foundation [bylaws](foundation/index.md) or review the meeting 
 
 - [October 24th, 2023](foundation/meeting-2023-10-24.md)
 - [November 15th, 2023](foundation/meeting-2023-11-15.md)
-
+- [November 22nd - 29th, 2023](foundation/meeting-2023-11-22.md)
 
 ## History
 Explore how **MonoGame** has grown and shaped game development over time.
