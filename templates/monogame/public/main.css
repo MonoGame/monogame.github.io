@@ -159,11 +159,26 @@
   opacity: 1 !important;
 }
 
+.carousel-control-icon {
+  will-change: transform;
+  transition: transform 250ms ease-in-out;
+}
+
+.carousel-control-next-icon:hover {
+  transform: translateX(10px);
+}
+
+.carousel-control-prev-icon:hover {
+  transform: translateX(-10px);
+}
+
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
+  background-image: none !important; /* remove bootstrap style */
   filter: none !important;
-  height: 50px;
-  width: 50px;
+  height: 4rem;
+  width: 4rem;
 }
 
 .carousel-control-next-icon {

@@ -20,12 +20,12 @@ _overrideDocFx: true
 	</div>
     <div id="carousel-item-container" class="carousel-inner h-100" />
     <button class="carousel-control-prev" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+			<img class="d-none d-md-block carousel-control-icon carousel-control-prev-icon" src="/images/home-page/chevron-left.svg">
+      		<span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+		<img class="d-none d-md-block carousel-control-icon carousel-control-next-icon" src="/images/home-page/chevron-right.svg">
+      	<span class="visually-hidden">Next</span>
     </button>
 	<div class="carousel-credits">
 	</div>
