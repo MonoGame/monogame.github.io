@@ -61,8 +61,8 @@
         carouselItem.style.backgroundPosition = 'center';
         carouselItem.style.backgroundImage = `url("${BannerPath}${game.screenshot}")`;
         carouselItem.style.backgroundSize = 'cover';
-        carouselItem.style.imageRendering = game.pixelArt ? 'pixelated' : 'auto';
-        carouselItem.style['-ms-interpolation-mode'] = game.pixelArt ? 'nearest-neighbor' : 'bicubic';
+        carouselItem.style.imageRendering = game.pixelart ? 'pixelated' : 'auto';
+        carouselItem.style['-ms-interpolation-mode'] = game.pixelart ? 'nearest-neighbor' : 'bicubic';
         carouselItem.appendChild(createCreditsElement(game));
         return carouselItem;
     }
