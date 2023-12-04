@@ -508,6 +508,25 @@ var games = [
             "Desktop",
             "Featured"
         ]
+    },
+    {
+        "name": "vlad-circus",
+        "title": "Vlad Circus: Descend into Madness",
+        "logo": "vlad-circus-logo.png",
+        "screenshot": "vlad-circus-screenshot.png",
+        "url": "https://www.indiesruption.com/games/vlad-circus",
+        "pixelart": true,
+        "tags": [
+            "Windows",
+			"2D",
+            "Desktop",
+            "Console",
+            "NintendoSwitch",
+            "PlayStation4",
+            "PlayStation5",
+            "XboxOne",
+            "Featured"
+        ]
     }
 ];
 
