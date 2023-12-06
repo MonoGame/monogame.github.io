@@ -3,6 +3,8 @@ function init_filter() {
     var container = document.getElementById('gamesList');
     var filterTag = data ? remove_questionmark(data) : null;
 
+    shuffle_array(games, get_current_hour());
+
     for (var i = 0; i < games.length; i++) {
         if (!filterTag || games[i].tags.includes(filterTag)) {
             add_to_screen(games[i], container);
@@ -40,6 +42,14 @@ function add_to_screen(game, container) {
     container.appendChild(gameDiv);
 }
 
+function shuffle_array(array, seed) {
+    var random = seed_random(seed);
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 function remove_questionmark(str) {
     var pattern = /\?/;
     var result = pattern.exec(str);
@@ -48,6 +58,22 @@ function remove_questionmark(str) {
     } else {
         return str;
     }
+}
+
+function seed_random(seed) {
+    var m = 0x80000000,
+    a = 1103515245,
+    c = 12345;
+    seed = seed & (m - 1);
+    return function() {
+        seed = (a * seed + c) % m;
+        return seed / (m - 1);
+    };
+}
+
+function get_current_hour() {
+    var d = new Date();
+    return d.getHours();
 }
 
 init_filter();
