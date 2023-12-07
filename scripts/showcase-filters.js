@@ -3,7 +3,7 @@ function init_filter() {
     var container = document.getElementById('gamesList');
     var filterTag = data ? remove_questionmark(data) : null;
 
-    shuffle_array(games, get_current_hour());
+    shuffle_array(games, get_hour_seed());
 
     for (var i = 0; i < games.length; i++) {
         if (!filterTag || games[i].tags.includes(filterTag)) {
@@ -71,9 +71,9 @@ function seed_random(seed) {
     };
 }
 
-function get_current_hour() {
-    var d = new Date();
-    return d.getHours();
+function get_hour_seed() {
+    var date = new Date();    
+    return date.getFullYear() + date.getMonth() + date.getDate() + date.getHours();
 }
 
 init_filter();
