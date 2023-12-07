@@ -72,8 +72,8 @@ function seed_random(seed) {
 }
 
 function get_hour_seed() {
-    var date = new Date();    
-    return date.getFullYear() + date.getMonth() + date.getDate() + date.getHours();
+    var d = new Date();    
+    return d.getFullYear() + d.getMonth() + d.getDate() + d.getHours();
 }
 
 init_filter();
