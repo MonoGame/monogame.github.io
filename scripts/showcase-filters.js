@@ -72,7 +72,7 @@ function seed_random(seed) {
 }
 
 function get_hour_seed() {
-    var d = new Date();    
+    var d = new Date();
     return d.getFullYear() + d.getMonth() + d.getDate() + d.getHours();
 }
 
