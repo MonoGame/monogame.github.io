@@ -1,5 +1,6 @@
 ---
 _title: Reference
+api: true
 ---
 
 Welcome to the **MonoGame** reference documentation!
