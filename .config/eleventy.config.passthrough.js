@@ -6,6 +6,7 @@ module.exports = function (config) {
     config.addPassthroughCopy('content/articles/**/*.{png, jpg, jpeg}');
     config.addPassthroughCopy('content/blog/**/*.{png, jpg, jpeg}');
     config.addPassthroughCopy({ "content/public/images": "/images" });
+    config.addPassthroughCopy({ "content/static/**/*": "/"});
     config.addPassthroughCopy({ "content/public/js/**/*.js": "/js" });
     config.addPassthroughCopy({
         "node_modules/bootstrap-icons/font/fonts": "/fonts"
