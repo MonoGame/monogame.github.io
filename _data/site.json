@@ -5,7 +5,7 @@
     "meta": {
         "title": "MonoGame",
         "description": "One framework for creating powerful cross-platform games",
-        "image": "/image.png",
+        "image": "/images/social_embed_image.png",
         "themeColor": "#E73C00",
         "opengraph": {
             "type": "website"
