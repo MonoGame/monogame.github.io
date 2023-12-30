@@ -26,18 +26,18 @@ title: MonoGame
                         data-bs-interval="10000"
                         style="background-image: url('/images/showcase-header/{{ game.screenshot }}');
                                 image-rendering: {{ 'pixelated' if game.pixelart else 'auto' }};">
-                        <div class="d-flex flex-row justify-content-end mb-2 me-2">
+                        <div class="d-flex flex-row justify-content-center justify-content-md-end mb-2 me-2">
                             <div class="d-flex flex-column align-items-center">
                                 <a href="{{ game.url }}" title="{{ game.title }}">
-                                    <img src="/images/showcase-header/{{ game.logo }}" 
+                                    <img src="/images/showcase-header/{{ game.logo }}"
                                         alt="{{ game.title }} logo"
                                         class="carousel-item-logo"/>
                                 </a>
-                                <a href="https://twitter.com/search?q=BuiltWithMonoGame" 
+                                <a href="https://twitter.com/search?q=BuiltWithMonoGame"
                                 title="Built With MonoGame"
                                 class="built-with-monogame">
                                     #BuiltWithMonoGame
-                                </a>                            
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -108,16 +108,16 @@ title: MonoGame
                                 <li class="mb-3 lead"><i class="bi bi-check-lg mg-color-orange pe-2"></i> iOS</li>
                                 <li class="mb-3 lead"><i class="bi bi-check-lg mg-color-orange pe-2"></i> iPadOS</li>
                             </ul>
-                        </div>	
+                        </div>
                         <div class="col-12 col-md-4">
-                            <h5>Console <i class="mg-color-orange fs-4">*</i></h5>			
+                            <h5>Console <i class="mg-color-orange fs-4">*</i></h5>
                             <ul class="list-unstyled">
                                 <li class="mb-3 lead"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Playstation 4</li>
                                 <li class="mb-3 lead"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Playstation 5</li>
                                 <li class="mb-3 lead"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Xbox One</li>
                                 <li class="mb-3 lead text-nowrap"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Nintendo Switch</li>
                             </ul>
-                        </div>								
+                        </div>
                     </div>
                 </p>
             </div>
@@ -152,8 +152,8 @@ title: MonoGame
                         </p>
                         <a href="https://github.com/monogame/monogame" class="btn mg-button mt-auto">See Source Code</a>
                     </div>
-                </div>          
-            </div>          
+                </div>
+            </div>
             <div class="col-12 col-md-4">
                 <div class="card h-100 border-0">
                     <div class="card-image-top w-50 align-self-center">
@@ -170,7 +170,7 @@ title: MonoGame
                         </p>
                         <a href="https://github.com/MonoGame/MonoGame/blob/develop/LICENSE.txt" class="btn mg-button mt-auto">See LICENSE</a>
                     </div>
-                </div>          
+                </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="card h-100 border-0">
@@ -180,30 +180,30 @@ title: MonoGame
                     <div class="card-body d-flex flex-column">
                         <h2 class="card-title text-uppercase">Contribute</h5>
                         <p class="card-text">
-                            As a free and open-source project, the MonoGame Framework is 
+                            As a free and open-source project, the MonoGame Framework is
                             is maintained by the MonoGame Foundation and developed along side
                             contributions made by the community.
                         </p>
                         <a href="https://github.com/MonoGame/MonoGame/blob/develop/CONTRIBUTING.md" class="btn mg-button mt-auto">How To Contribute</a>
                     </div>
-                </div>          
+                </div>
             </div>
         </div>
-    </section> 
+    </section>
 
     <section class="container-xxl mb-5">
         <div class="row">
             <h3 class="fw-semibold mb-4 text-body-emphasis">MonoGame Is Free</h3>
             <p class="lead">
-                MonoGame is, and will always remain, free to use. There is no subscription model, 
-                royalty payments, licensing, or runtime fees associated with using MonoGame. 
+                MonoGame is, and will always remain, free to use. There is no subscription model,
+                royalty payments, licensing, or runtime fees associated with using MonoGame.
             </p>
             <p class="lead">
-                The MonoGame Foundation is a non-profit foundation that relies on community donations 
+                The MonoGame Foundation is a non-profit foundation that relies on community donations
                 to fund projects and goals. Consider supporting MonoGame through a one-time or monthly donation
             </p>
         </div>
-    </section>       
+    </section>
 {% endblock %}
 
 {% block scripts %}
