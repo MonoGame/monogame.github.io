@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="title" content="{{ title if title else site.meta.title }} | {{ site.name }}"/>
 <meta name="description" content="{{ description if description else site.meta.description }}"/>
+<meta name="theme-color" content="{{ site.meta.themeColor }}" />
 
 {# HTMl Meta Tags #}
 <title>{{ title if title else site.meta.title }} | {{site.name }}</title>
@@ -11,7 +12,7 @@
 <meta name="og:type" content="{{ type if type else site.meta.opengraph.type }}"/>
 <meta name="og:title" content="{{ title if title else site.meta.title }} | {{ site.name }}"/>
 <meta name="og:description" content="{{ description if description else site.meta.description }}"/>
-<meta name="og:image" content="{{ site.hostname}}{{ image if image else site.meta.image }}"/> 
+<meta name="og:image" content="{{ site.hostname}}{{ image if image else site.meta.image }}"/>
 
 {# Twitter Card Meta Tags #}
 <meta name="twitter:card" content="{{card if card else site.meta.twitter.card }}"/>
@@ -19,10 +20,10 @@
 <meta property="twitter:url" content="{{ site.hostname }}{{ page.url }}"/>
 <meta name="twitter:title" content="{{ title if title else site.meta.title }} | {{ site.name }}"/>
 <meta name="twitter:description" content="{{ description if description else site.meta.description }}"/>
-<meta name="twitter:image" content="{{ site.hostname}}{{ image if image else site.meta.image }}"/> 
+<meta name="twitter:image" content="{{ site.hostname}}{{ image if image else site.meta.image }}"/>
 
 {# Favicon #}
-<link rel="icon" href="{{ site.hostname }}{{ favicon if favicon else site.favicon }}"/> 
+<link rel="icon" href="{{ site.hostname }}{{ favicon if favicon else site.favicon }}"/>
 
 {# Styles #}
 <link rel="stylesheet" href="/bundle.css"/>
