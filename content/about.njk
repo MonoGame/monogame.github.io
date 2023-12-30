@@ -39,7 +39,7 @@ title: About
         <h1 id="history" class="fw-bold text-uppercase"><a href="#history">History</a></h1>
         <p class="lead">
             Explore how <span class="fw-bold">MonoGame</span> has grown and shaped game development over time.
-        </p>  
+        </p>
         <div class="timeline">
             {% for year in timeline %}
                 <div class="row">
@@ -52,7 +52,7 @@ title: About
                         <div class="timeline-event-bar">
                             <i class="bi bi-circle-fill"></i>
                             <span class="timeline-bar"></span>
-                        </div>                        
+                        </div>
                     </div>
                     <div class="col timeline-events mb-5">
                         {% for event in year.events %}
@@ -61,7 +61,7 @@ title: About
                                     <div class="col">
                                         <h6 class="timeline-event-date">{{ event.date }}</h6>
                                         <p> {{ event.description | safe }}</p>
-                                    </div>   
+                                    </div>
                                 </div>
                             </div>
                         {% endfor %}
@@ -79,21 +79,21 @@ title: About
             <a href="https://github.com/MonoGame/MonoGame/issues">development issue tracker</a>.
         </p>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 mb-5">
                 <h5 id="business" class="fw-bold text-uppercase"><a href="#business">Business</a></h5>
                 <a href="mailto:biz@monogame.net">biz@monogame.net</a>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 mb-5">
                 <h5 id="press" class="fw-bold text-uppercase"><a href="#press">Press</a></h5>
                 <a href="mailto:press@monogame.net">press@monogame.net</a>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 mb-5">
                 <h5 id="administrator" class="fw-bold text-uppercase"><a href="#administrator">Administrator</a></h5>
                 <a href="mailto:admin@monogame.net">admin@monogame.net</a>
             </div>
-                                    
+
         </div>
-    </section>    
+    </section>
 {% endblock %}
 
 {% block scripts %}
