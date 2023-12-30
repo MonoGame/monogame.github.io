@@ -1,6 +1,7 @@
 {
   "metadata": [
     {
+      "outputFormat": "markdown",
       "src": [
         {
           "src": ".",
@@ -10,7 +11,7 @@
           ]
         }
       ],
-      "dest": "api",
+      "dest": "./content/api",
       "includePrivateMembers": false,
       "disableGitFeatures": false,
       "disableDefaultFilter": false,
@@ -19,43 +20,5 @@
       "memberLayout": "samePage",
       "EnumSortOrder": "alphabetic"
     }
-  ],
-  "build": {
-    "content": [
-      {
-        "files": [ "**/*.{md,yml}" ],
-        "exclude": [ "_site/**", "obj/**", "external/**" ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [ "**/images/**", "codesnippet/**", "scripts/*.js" ],
-        "exclude": [ "_site/**", "obj/**", "external/**" ]
-      }
-    ],
-    "output": "_site",
-    "globalMetadata": {
-      "_appLogoPath": "images/monogame_title_dark.svg",
-      "_appFaviconPath": "images/favicon.png",
-      "_disableBreadcrumb": "true",
-      "_appFooter": "Copyright © 2009-2023 MonoGame Foundation, Inc.",
-      "_hostname": "monogame.github.io",
-      "_openGraphImage": "images/horizontallogo.png",
-      "_description": "One framework for creating powerful cross-platform games.",
-      "_appTitle": "MonoGame"
-    },
-    "fileMetadata": {
-      "_layout": {
-        "*.md": "landing"
-      }
-    },
-    "template": [
-      "default",
-      "modern",
-      "templates/monogame"
-    ],
-    "postProcessors": [],
-    "keepFileLink": false,
-    "disableGitFeatures": false
-  }
+  ]
 }

@@ -1,0 +1,100 @@
+---
+title: About
+---
+{% extends "layouts/base.layout.njk" %}
+
+{% block content %}
+    <section class="container-xxl my-5">
+        <h1 id="foundation" class="fw-bold text-uppercase"><a href="#foundation">Foundation</a></h1>
+        <p class="lead">
+            The <span class="fw-bold">MonoGame Foundation</span> was established in September of 2023
+            to direct the future of the project.  You can read the The current board members are:
+        </p>
+        <div class="row">
+            {% for member in foundation %}
+                <div class="col-lg-4">
+                    <div class="card mb-3">
+                        <div class="card-body mg-box-shadow">
+                            <span class="float-start m-2 me-4">
+                                <img src="https://avatars.githubusercontent.com/{{ member.github }}"
+                                    class="rounded-circle img-thumbnail" style="height: 100px;">
+                            </span>
+                            <div>
+                                <h4 class="mt-1 mb-1">{{ member.name }}</h4>
+                                <p class="font-13">{{ member.title }}</p>
+                                <a target="_blank" href="https://github.com/{{ member.github }}">GitHub Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <p class="lead">
+            You can read the foundation <a href="/foundation/">bylaws</a> or review the <a href="/blog/foundation">meeting minutes </a>
+            to keep track of our progress.
+        </p>
+    </section>
+
+    <section class="container-xxl my-5">
+        <h1 id="history" class="fw-bold text-uppercase"><a href="#history">History</a></h1>
+        <p class="lead">
+            Explore how <span class="fw-bold">MonoGame</span> has grown and shaped game development over time.
+        </p>  
+        <div class="timeline">
+            {% for year in timeline %}
+                <div class="row">
+                    <div class="col-auto">
+                        <div class="timeline-year">
+                            {{ year.year }}
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="timeline-event-bar">
+                            <i class="bi bi-circle-fill"></i>
+                            <span class="timeline-bar"></span>
+                        </div>                        
+                    </div>
+                    <div class="col timeline-events mb-5">
+                        {% for event in year.events %}
+                            <div class="timeline-event">
+                                <div class="row g-3">
+                                    <div class="col">
+                                        <h6 class="timeline-event-date">{{ event.date }}</h6>
+                                        <p> {{ event.description | safe }}</p>
+                                    </div>   
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="container-xxl my-5">
+        <h1 id="contact-us" class="fw-bold text-uppercase"><a href="#contact-us">Contact Us</a></h1>
+        <p class="lead mb-5">
+            Feel free to contact us with business, press, and/or administrative inquiries below. <br/>
+            Support requests should always go to the <a href="https://community.monogame.net/">community site</a> or the
+            <a href="https://github.com/MonoGame/MonoGame/issues">development issue tracker</a>.
+        </p>
+        <div class="row">
+            <div class="col-lg-4">
+                <h5 id="business" class="fw-bold text-uppercase"><a href="#business">Business</a></h5>
+                <a href="mailto:biz@monogame.net">biz@monogame.net</a>
+            </div>
+            <div class="col-lg-4">
+                <h5 id="press" class="fw-bold text-uppercase"><a href="#press">Press</a></h5>
+                <a href="mailto:press@monogame.net">press@monogame.net</a>
+            </div>
+            <div class="col-lg-4">
+                <h5 id="administrator" class="fw-bold text-uppercase"><a href="#administrator">Administrator</a></h5>
+                <a href="mailto:admin@monogame.net">admin@monogame.net</a>
+            </div>
+                                    
+        </div>
+    </section>    
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}

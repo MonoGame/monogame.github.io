@@ -1,0 +1,76 @@
+---
+title: Donate
+---
+{% extends "layouts/base.layout.njk" %}
+
+{% block content %}
+    <section class="container-xxl my-5">
+        <h1 id="support" class="fw-bold text-uppercase"><a href="#support">Support MonoGame</a></h1>
+        <p class="lead">
+            The MonoGame Foundation is a non-profit foundation that relies on community donations to fund projects and 
+            goals. Consider supporting MonoGame through a one-time or monthly donation 
+        </p>
+        <a class="btn mg-patreon-button rounded w-100" href="https://www.patreon.com/bePatron?u=3142012">
+            {% include 'svgs/logos/patreon.svg'%}
+            Become a member!
+        </a> 
+        <div class="row my-5">
+            <div class="col-lg-6 text-center mb-5 h-100">
+                <div class="mg-card mg-box-shadow h-100">
+                    <div class="mg-card-body text-center">
+                        <h2 class="fw-bold text-uppercase">Total Patrons</h2>
+                        <h3 id="total-patrons"></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center h-100">
+                <div class="mg-card mg-box-shadow h-100">
+                    <div class="mg-card-body text-center">
+                        <h2 class="fw-bold text-uppercase">Per Month</h2>
+                        <h3 id="per-month"></h3>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+    </section>
+
+    <section class="container-xxl my-5">
+        <h1 id="sponsors" class="fw-bold text-uppercase"><a href="#sponsors">MonoGame Is Sponsored By</a></h1>
+        <div class="row">
+            {% for sponsor in sponsors %}
+                <div class="col-lg-6 mb-5">
+                    <a class="hide-external-icon" href="{{sponsor.url}}" title="{{sponsor.name}}">
+                        <img src="/images/donate/Re-Logic_Logo_with_BG.jpg" style="width: 100%; height: auto;" alt="{{sponsor.name}}"/>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="container-xxl my-5">
+        <h1 id="donations" class="fw-bold text-uppercase"><a href="#donations">Donations</a></h1>
+        <p class="lead">
+            The following is a list of individuals and studios that have generously donated to help run the project.
+        </p>
+        <div class="row">
+            {% for donor in donations | sort(true, false, 'amount') %}
+                <div class="col-lg-3 mb-5">
+                    <div class="mg-card mg-box-shadow h-100">
+                        <div class="mg-card-body text-center">
+                            {% if donor.url %}<a href="{{donor.url}}">{% endif %}
+                            <strong>{{donor.name}}</strong>
+                            {% if donor.url %}</a>{% endif %}
+                            <br />
+                            {{ (donor.amount / 100).toLocaleString('en-US', {style: 'currency', currency: 'USD'}) }}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}
+
+{% block scripts %}
+    <script async type="text/javascript" src="/js/patreon.js"></script>
+{% endblock %}

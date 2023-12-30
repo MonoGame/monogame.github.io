@@ -1,0 +1,35 @@
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="title" content="{{ title if title else site.meta.title }} | {{ site.name }}"/>
+<meta name="description" content="{{ description if description else site.meta.description }}"/>
+
+{# HTMl Meta Tags #}
+<title>{{ title if title else site.meta.title }} | {{site.name }}</title>
+
+{# Facebook Meta Tags #}
+<meta name="og:url" content="{{ site.hostname}}{{ page.url }}"/>
+<meta name="og:type" content="{{ type if type else site.meta.opengraph.type }}"/>
+<meta name="og:title" content="{{ title if title else site.meta.title }} | {{ site.name }}"/>
+<meta name="og:description" content="{{ description if description else site.meta.description }}"/>
+<meta name="og:image" content="{{ site.hostname}}{{ image if image else site.meta.image }}"/> 
+
+{# Twitter Card Meta Tags #}
+<meta name="twitter:card" content="{{card if card else site.meta.twitter.card }}"/>
+<meta property="twitter:domain" content="{{site.hostname}}"/>
+<meta property="twitter:url" content="{{ site.hostname }}{{ page.url }}"/>
+<meta name="twitter:title" content="{{ title if title else site.meta.title }} | {{ site.name }}"/>
+<meta name="twitter:description" content="{{ description if description else site.meta.description }}"/>
+<meta name="twitter:image" content="{{ site.hostname}}{{ image if image else site.meta.image }}"/> 
+
+{# Favicon #}
+<link rel="icon" href="{{ site.hostname }}{{ favicon if favicon else site.favicon }}"/> 
+
+{# Styles #}
+<link rel="stylesheet" href="/bundle.css"/>
+
+{# Google Fonts #}
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"/>
+<script type="text/javascript" src="/js/themeSwitcher.js"></script>
