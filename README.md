@@ -1,6 +1,6 @@
 # monogame.github.io
 
-This repository contains the documenation and the website for MonoGame.
+This repository contains the documentation and the website for MonoGame.
 
 ## Building from source
 
