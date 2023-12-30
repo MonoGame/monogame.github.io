@@ -382,6 +382,8 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
   flex-direction: row;
   gap: 1.5rem;
   pointer-events: all;
+  flex-wrap: wrap;
+  padding-inline: 1rem;
 }
 
 .carousel-button-container a {
