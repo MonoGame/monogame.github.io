@@ -1,7 +1,7 @@
 /******************************************************************************
 *** Section: Properties
 *** Defines the CSS properties used throughout the styling of this site.
-*** 
+***
 *** :root contains standardized properties for colors, sizes, etc
 *** [data-bs-theme=*] contains the specific color styling for the theme.
 ******************************************************************************/
@@ -10,7 +10,7 @@
     --mg-orange-light-rgb: 212, 93, 53;
     --mg-orange-dark: rgba(var(--mg-orange-dark-rgb), 1);
     --mg-orange-light: rgba(var(--mg-orange-light-rgb), 1);
-    --navbar-height: 62px;  
+    --navbar-height: 62px;
 }
 
 [data-bs-theme="light"] {
@@ -460,7 +460,7 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
 .slogan {
   text-align: center;
   color: white;
-  font-size: 3.2em;
+  font-size: clamp(.5rem, 3vw + 1rem, 3.2em);
   margin-bottom: 20px;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
   width: 100%;
@@ -489,7 +489,7 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
 .timeline-event-bar {
   position: relative;
   height: 100%;
-  
+
 }
 
 .timeline-bar {
@@ -533,7 +533,7 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
   margin-bottom: 1rem;;
 }
 
-.content-body h2, 
+.content-body h2,
 .content-body h3 {
   margin-top: 3rem;
   margin-bottom: 1rem;
