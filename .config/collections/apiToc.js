@@ -51,7 +51,10 @@ function apiToc(api) {
         sortElements(json);
         return json;
     } catch (err) {
-        console.error(err);
+        console.warn("'/content/api/toc.yml' is missing. API documentation will not be generated");
+        console.warn("If you wanted to include API documentation in your local build run the following command");
+        console.warn("npm run docfx");
+        console.warn("Note: including API documentation in local builds may increase build times");
         return [];
     }
 }
