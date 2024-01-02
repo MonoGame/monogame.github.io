@@ -48,20 +48,16 @@ title: Donate
     <section class="container-xxl my-5">
         <h1 id="donations" class="fw-bold text-uppercase"><a href="#donations">Donations</a></h1>
         <p class="lead">
-            The following is a list of individuals and studios that have generously donated to help run the project.
+            The following is a preserved list of individuals and studios that generiously donated in the past to help run the project.
         </p>
         <div class="row">
             {% for donor in donations | sort(true, false, 'amount') %}
-                <div class="col-lg-3 mb-5">
-                    <div class="mg-card mg-box-shadow h-100">
-                        <div class="mg-card-body text-center">
-                            {% if donor.url %}<a href="{{donor.url}}">{% endif %}
-                            <strong>{{donor.name}}</strong>
-                            {% if donor.url %}</a>{% endif %}
-                            <br />
-                            {{ (donor.amount / 100).toLocaleString('en-US', {style: 'currency', currency: 'USD'}) }}
-                        </div>
-                    </div>
+                <div class="col-lg-3 mb-3 text-center">
+                    {% if donor.url %}<a href="{{donor.url}}">{% endif %}
+                        <strong>{{donor.name}}</strong>
+                    {% if donor.url %}</a>{% endif %}
+                    <br />
+                    {{ (donor.amount / 100).toLocaleString('en-US', {style: 'currency', currency: 'USD'}) }}
                 </div>
             {% endfor %}
         </div>
