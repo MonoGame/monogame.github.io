@@ -134,30 +134,12 @@ hidetoc: true
         <div class="row">
             <div class="col-lg-4">
                 <h2 id="foundation" class="text-uppercase"><a href="#foundation">MonoGame Foundation</a></h2>
-                <p>
-                    <strong>Dean Ellis</strong><br/>
-                    President
-                </p>
-                <p>
-                    <strong>Marko Jeremic</strong><br/>
-                    Board Chairman
-                </p>
-                <p>
-                    <strong>Dominique Louis</strong><br/>
-                    Treasurer
-                </p>
-                <p>
-                    <strong>Simon Jackson</strong><br/>
-                    Corporate Secretary
-                </p>
-                <p>
-                    <strong>Tom Spilman</strong><br/>
-                    Banking Matters
-                </p>
-                <p>
-                    <strong>Thomas Altenburger</strong><br/>
-                    Board Member
-                </p>
+                {% for member in foundation %}
+                    <p>
+                        <strong>{{ member.name }}</strong></br>
+                        {{ member.title }}
+                    </p>
+                {% endfor %}
             </div>
             <div class="col-lg-4">
                 <h2 id="social" class="text-uppercase"><a href="#social">Socials</a></h2>
