@@ -615,6 +615,33 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
 
 
 /*******************************************************************************
+*** Section: Patreon Stats
+*** Styles for the patreon stats shown on the /donate/ page
+*******************************************************************************/
+.patreon-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: end;
+}
+
+.patreon-stats .patreon-stat {
+    text-align: end;
+    display: flex;
+    align-self: end;
+    gap: 15px;
+    justify-content: end;
+    font-size: 2.5rem;
+    border-bottom: 7px solid var(--mg-orange-primary);
+    width: fit-content;
+    font-variant-numeric: tabular-nums;
+}
+
+.patreon-stat p {
+    font-variant-numeric: normal;
+}
+
+/*******************************************************************************
 *** Section: Blog Posts
 *** Style classes for individual blog post pages
 *******************************************************************************/

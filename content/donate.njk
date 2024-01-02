@@ -5,34 +5,31 @@ title: Donate
 
 {% block content %}
     <section class="container-xxl my-5">
-        <h1 id="support" class="fw-bold text-uppercase"><a href="#support">Support MonoGame</a></h1>
-        <p class="lead">
-            The MonoGame Foundation is a non-profit foundation that relies on community donations to fund projects and 
-            goals. Consider supporting MonoGame through a one-time or monthly donation 
-        </p>
-        <a class="btn mg-patreon-button rounded w-100" href="https://www.patreon.com/bePatron?u=3142012">
-            {% include 'svgs/logos/patreon.svg'%}
-            Become a member!
-        </a> 
-        <div class="row my-5">
-            <div class="col-lg-6 text-center mb-5 h-100">
-                <div class="mg-card mg-box-shadow h-100">
-                    <div class="mg-card-body text-center">
-                        <h2 class="fw-bold text-uppercase">Total Patrons</h2>
-                        <h3 id="total-patrons"></h3>
+        <div class="container-fluid py-5">
+            <h1 id="support-monogame" class="fw-bold text-uppercase"><a href="#support-monogame">Support MonoGame</a></h1>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p class="fs-4">
+                        The MonoGame Foundation is a non-profit foundation that relies on community donations to fund projects and
+                        goals. Consider supporting MonoGame through a one-time or monthly donation
+                    </p>
+                    <button class="btn mg-patreon-button btn-lg" type="button" href="https://www.patreon.com/bePatron?u=3142012">
+                        {% include 'svgs/logos/patreon.svg'%}
+                        Become a member!
+                    </button>
+                </div>
+                <div class="col-lg-4 patreon-stats">
+                    <div class="patreon-stat monthly">
+                        <span id="per-month"></span>
+                        <p>monthly</p>
+                    </div>
+                    <div class="patreon-stat patreon">
+                        <span id="total-patrons"></span>
+                        <p>patrons</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 text-center h-100">
-                <div class="mg-card mg-box-shadow h-100">
-                    <div class="mg-card-body text-center">
-                        <h2 class="fw-bold text-uppercase">Per Month</h2>
-                        <h3 id="per-month"></h3>
-                    </div>
-                </div>
-            </div>            
         </div>
-
     </section>
 
     <section class="container-xxl my-5">
