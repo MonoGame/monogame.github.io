@@ -620,6 +620,7 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
     flex-direction: column;
     gap: 20px;
     text-align: end;
+    justify-content: center;
 }
 
 .patreon-stats .patreon-stat {
