@@ -13,4 +13,12 @@
     .content-body {
         padding: 3.125rem;
       }
+
+    /*******************************************************************************
+    *** Section: Patreon Stats
+    *** Styles for the patreon stats shown on the /donate/ page
+    *******************************************************************************/
+    .patreon-stats .patreon-stat {
+        align-self: end;
+    }
 }
