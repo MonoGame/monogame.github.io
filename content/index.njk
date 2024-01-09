@@ -75,8 +75,8 @@ title: MonoGame
 
     <section class="container-xxl mb-3">
         <div class="row">
-            <div class="col-12 col-md-6 mb-5">
-                <div class="d-flex flex-row flex-wrap gap-5 cross-platform-logos">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
+                <div class=" cross-platform-logos">
                     {% include 'svgs/logos/windows.svg' %}
                     {% include 'svgs/logos/apple.svg' %}
                     {% include 'svgs/logos/linux.svg' %}
@@ -131,60 +131,59 @@ title: MonoGame
     <section class="container-xxl mb-3">
         <div class="row">
             <h3 class="fw-semibold mb-4 text-body-emphasis">Open-Source</h3>
-        <p>
-            All source code is available to you, ensuring
-            you have the ability to make changes when you need to or even port to
-            whole new platforms.  MonoGame is owned and developed by the MonoGame
-            Foundation.
-        </p>
-            <div class="col-12 col-md-4">
-                <div class="card h-100 border-0">
-                    <div class="card-image-top w-50 align-self-center">
-                        {% include 'svgs/logos/github.svg' %}
-                    </div>
-                    <div class="card-body d-flex flex-column">
-                        <h2 class="card-title">Source Code</h5>
-                        <p class="card-text">
-                            The MonoGame Framework is completely free and open-source.  All source code is
-                            available to you.  You can view the source code on GitHub, clone it and/or create
-                            a fork.
-                        </p>
-                        <a href="https://github.com/monogame/monogame" class="btn mg-button mt-auto">See Source Code</a>
-                    </div>
+            <p>
+                All source code is available to you, ensuring
+                you have the ability to make changes when you need to or even port to
+                whole new platforms.  MonoGame is owned and developed by the MonoGame
+                Foundation.
+            </p>
+            <div class="col-12 col-lg-4 mb-5">
+                <div class="mg-card mg-box-shadow h-100">
+                    <a target="_self"
+                    href="https://github.com/monogame/monogame"
+                    class="mg-no-link hide-external-icon">
+                        <div class="mg-card-body d-flex flex-column h-100">
+                            <div class="mg-card-title"><i class="bi bi-github"></i> Source Code</div>
+                            <p>
+                                The MonoGame Framework is completely free and open-source.  All source code is
+                                available to you.  You can view the source code on GitHub, clone it and/or create
+                                a fork.
+                            </p>
+                            <p class="mt-auto">Click to view source Code</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
-                <div class="card h-100 border-0">
-                    <div class="card-image-top w-50 align-self-center">
-                        {% include 'svgs/scales.svg' %}
-                    </div>
-                    <div class="card-body d-flex flex-column">
-                        <h2 class="card-title">License</h5>
-                        <p class="card-text">
-                            The MonoGame project is licensed under the <a href="https://opensource.org/licenses/MS-PL">Microsoft Public License</a>
-                            except for a few portions of the code.
-                        </p>
-                        <p class="card-text">
-                            See the LICENSE text in in the repository for more details.
-                        </p>
-                        <a href="https://github.com/MonoGame/MonoGame/blob/develop/LICENSE.txt" class="btn mg-button mt-auto">See LICENSE</a>
-                    </div>
+            <div class="col-12 col-lg-4 mb-5">
+                <div class="mg-card mg-box-shadow h-100">
+                    <a target="_self"
+                        href="https://github.com/MonoGame/MonoGame/blob/develop/LICENSE.txt"
+                        class="mg-no-link hide-external-icon">
+                        <div class="mg-card-body d-flex flex-column h-100">
+                            <div class="mg-card-title"><i class="bi bi-body-text"></i> License</div>
+                            <p class="card-text">
+                                The MonoGame project is licensed under the Microsoft Public License
+                                except for a few portions of the code.
+                            </p>
+                            <p class="mt-auto">Click to view license</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
-                <div class="card h-100 border-0">
-                    <div class="card-image-top w-50 align-self-center">
-                        {% include 'svgs/logos/git.svg' %}
-                    </div>
-                    <div class="card-body d-flex flex-column">
-                        <h2 class="card-title">Contribute</h5>
-                        <p class="card-text">
-                            As a free and open-source project, the MonoGame Framework is
-                            is maintained by the MonoGame Foundation and developed along side
-                            contributions made by the community.
-                        </p>
-                        <a href="https://github.com/MonoGame/MonoGame/blob/develop/CONTRIBUTING.md" class="btn mg-button mt-auto">How To Contribute</a>
-                    </div>
+            <div class="col-12 col-lg-4 mb-5">
+                <div class="mg-card mg-box-shadow h-100">
+                    <a target="_self"
+                        href="https://github.com/MonoGame/MonoGame/blob/develop/CONTRIBUTING.md"
+                        class="mg-no-link hide-external-icon">
+                        <div class="mg-card-body d-flex flex-column h-100">
+                            <div class="mg-card-title"><i class="bi bi-git"></i> Contribute</div>
+                            <p>
+                                As a free and open-source project, the MonoGame Framework is is maintained by the MonoGame
+                                Foundation and developed along side contributions made by the community.
+                            </p>
+                            <p class="mt-auto">Click to learn how to contribute</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
