@@ -13,7 +13,7 @@ permalink: blog/{{ (category | slugify) if category !== "all" }}/
 
 {% block content %}
     <section class="container-xxl my-5">
-        <h1 class="fw-bold text-uppercase">MonoGame Blog</h1>
+        <h1 class="fw-bold">MonoGame Blog</h1>
     </section>
     {{ create_category_filter(collections.blogTags, "/blog/", page.url) }}
 
@@ -23,8 +23,8 @@ permalink: blog/{{ (category | slugify) if category !== "all" }}/
                 {% if category in post.data.tags or category === "all" %}
                     <a class="mg-no-link" href="{{ post.url }}">
                         <div class="mg-card mg-box-shadow h-100 d-flex flex-column">
-                            <div class="mg-card-thumbnail" 
-                                 style="background-image: url('{{ post.data.image }}');" 
+                            <div class="mg-card-thumbnail"
+                                 style="background-image: url('{{ post.data.image }}');"
                                  href="{{ post.url }}"></div>
                             <div class="mg-card-body">
                                 <small>

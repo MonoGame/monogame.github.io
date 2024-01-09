@@ -11,12 +11,12 @@ permalink: showcase/{{ (category | slugify) if category !== "all" }}/
 
 {% block content %}
     <section class="container-xxl my-5">
-        <h1 class="fw-bold text-uppercase">MonoGame Showcase</h1>
-        <p class="lead">
+        <h1 class="fw-bold">MonoGame Showcase</h1>
+        <p>
             There have been 1000s of games, libraries, and tools made using MonoGame over the years.
             We have gathered a taste of those titles here from the big hits to the small hidden gems.
         </p>
-        <p class="lead">
+        <p>
             If you are a developer and would like us to add your game, library, or tool to this list,
             please submit a GitHub Issue using the <a href="https://github.com/MonoGame/monogame.github.io/issues/new?assignees=&labels=showcase&projects=&template=01_Showcase_Submission.yml">Showcase Submission template</a>
         </p>
@@ -30,7 +30,7 @@ permalink: showcase/{{ (category | slugify) if category !== "all" }}/
                 {% if category in game.tags or category === "all" %}
                     <a class="mg-no-link hide-external-icon showcase-item" href="{{ game.url }}" title="{{ game.title }}">
                         <div class="mg-card mg-box-shadow d-flex flex-column">
-                            <div class="mg-card-thumbnail" 
+                            <div class="mg-card-thumbnail"
                                  style="background-image: url('/images/showcase-header/{{ game.screenshot }}');
                                         image-rendering: {{ "pixelated" if game.pixelart else "auto"}}">
                             </div>

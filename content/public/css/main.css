@@ -218,17 +218,14 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
 }
 
 .mg-patreon-button {
-  --bs-btn-padding-x: 0.5rem;
-  --bs-btn-padding-y: 1rem;
   --bs-btn-bg: #F1465A;
   --bs-btn-hover-bg: #F25265;
-  --bs-btn-font-size: 2rem;
   --bs-btn-color: #fff;
   --bs-btn-hover-color: #fff;
 }
 
 .mg-patreon-button svg {
-  width: 2rem;
+  width: 1rem;
 }
 
 .mg-item-grid {
@@ -631,7 +628,7 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
     align-self: end;
     gap: 15px;
     justify-content: end;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     border-bottom: 7px solid var(--mg-orange-primary);
     width: fit-content;
     font-variant-numeric: tabular-nums;
