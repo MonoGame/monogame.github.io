@@ -1,0 +1,23 @@
+{# Creates a section containing tags from the given categories that can be #}
+{# used to click to filter the items on a page based on those categories #}
+{% macro create_category_filter(categories, basePath, currentPath) %}
+    <section class="container-xxl my-5">
+        <h3 class="fw-bold">Categories</h3>
+        <p>Select a category below to filter the results</p>
+        <div class="d-flex flex-row flex-wrap gap-3 mb-1">
+            {% for category in categories %}
+                <a href="{{ basePath }}{{ (category | slugify) if category !== "all" }}"
+                   type="button"
+                   class="btn
+                          mg-outline-button
+                          d-flex
+                          justify-content-center
+                          text-capitalize
+                          fw-bold
+                          {{ " active" if (category === "all" and currentPath === basePath) or category in currentPath }}">
+                    {{ category }}
+                </a>
+            {% endfor %}
+        </div>
+    </section>
+{% endmacro %}

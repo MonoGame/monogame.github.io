@@ -1,0 +1,757 @@
+/******************************************************************************
+*** Section: Properties
+*** Defines the CSS properties used throughout the styling of this site.
+***
+*** :root contains standardized properties for colors, sizes, etc
+*** [data-bs-theme=*] contains the specific color styling for the theme.
+******************************************************************************/
+:root {
+    --mg-orange-dark-rgb: 231, 60, 0;
+    --mg-orange-light-rgb: 212, 93, 53;
+    --mg-orange-dark: rgba(var(--mg-orange-dark-rgb), 1);
+    --mg-orange-light: rgba(var(--mg-orange-light-rgb), 1);
+    --navbar-height: 62px;
+}
+
+[data-bs-theme="light"] {
+    --mg-orange-primary: var(--mg-orange-dark);
+    --mg-orange-secondary: var(--mg-orange-light);
+    --mg-logo: url('/images/logo_light.svg');
+
+    --bs-link-color-rgb: var(--mg-orange-dark-rgb);
+    --bs-link-hover-color-rgb: var(--mg-orange-light-rgb);
+}
+
+[data-bs-theme="dark"] {
+    --mg-orange-primary: var(--mg-orange-light);
+    --mg-orange-secondary: var(--mg-orange-dark);
+    --mg-logo: url('/images/logo_dark.svg');
+
+    --bs-link-color-rgb: var(--mg-orange-light-rgb);
+    --bs-link-hover-color-rgb: var(--mg-orange-dark-rgb);
+}
+
+/*******************************************************************************
+*** Section: General
+*** General styling across HTMLspecific elements
+*******************************************************************************/
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Disable text-decoration for any header that contains a nested <a> tag */
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  text-decoration: none;
+}
+
+/* any <a> tags that link to an url that is external to this site places a */
+/* symbol after the link to indicate that it is an external link */
+a[href^='http']:not([href*='localhost']):not(.btn)::after,
+a[href^='https']:not([href*='localhost']):not(.btn)::after,
+a[href^='http']:not([href*='monogame.net']):not(.btn)::after,
+a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
+  font-family: bootstrap-icons;
+  content: "\f1c5";
+  font-size: .6rem;
+  margin: 0 .2em;
+  display: inline-block;
+}
+
+/*  Used to explicitly hide the external link icon created by the above style */
+/* This is used for block content like the showcase image blocks that do not */
+/* need the extra icon present after the block */
+.hide-external-icon::after {
+  display: none !important;
+}
+
+/*******************************************************************************
+*** Section: Bootstrap Overrides
+*** Contains various overrides to the built-in bootstrap classes and properties
+*** at the class selector level
+*******************************************************************************/
+
+/*  Use MonoGame orange as the hover and active color for navbars */
+.navbar {
+  --bs-navbar-hover-color: var(--mg-orange-secondary);
+  --bs-navbar-active-color: var(--mg-orange-primary);
+}
+
+.nav {
+  --bs-nav-link-color: var(--bs-body-color);
+  --bs-nav-link-hover-color: var(--mg-orange-primary);
+}
+
+/*  Bootstrap doesn't provide an .active class for .nav by default so we have */
+/*  to create it ourselves.... */
+.nav .active {
+  color: var(--mg-orange-primary)
+}
+
+/*******************************************************************************
+*** Section: MonoGame Utility Classes
+*** Utility classes used throughout the site that provide some MonoGame specific
+*** styling.
+*** Classes begin with '.mg-'
+*******************************************************************************/
+.mg-color-orange {
+  color: var(--mg-orange-primary);
+}
+
+.mg-logo {
+  content: var(--mg-logo);
+}
+
+/* <iframe> wrapper to make them responsive with 100% with and auto height */
+.mg-responsive-iframe {
+  position: relative;
+  padding-bottom: 56.5%;
+  max-width: 100%;
+  height: auto;
+}
+
+.mg-responsive-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mg-box-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mg-box-shadow:hover,
+.mg-box-shadow:focus {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mg-card {
+  border: 1px solid;
+  border-color: var(--bs-body-color);
+  border-radius: .5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.mg-card-thumbnail {
+  aspect-ratio: 16/9;
+  filter: brightness(80%);
+  border-radius: 7px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--bs-body);
+  -webkit-transition: filter 0.1s ease-in-out, transform 0.25s ease-in-out;
+  -moz-transition: filter 0.1s ease-in-out, transform 0.25s ease-in-out;
+  -ms-transition: filter 0.1s ease-in-out, transform 0.25s ease-in-out;
+  -o-transition: filter 0.1s ease-in-out, transform 0.25s ease-in-out;
+  transition: filter 0.1s ease-in-out, transform 0.25s ease-in-out;
+
+}
+
+
+
+.mg-card-thumbnail-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: drop-shadow(6px 6px 6px #000C);
+}
+
+.mg-card:hover .mg-card-thumbnail,
+.mg-card:focus .mg-card-thumbnail {
+  filter: brightness(100%);
+  transform: scale(1.1);
+}
+
+@media (prefers-reduced-motion) {
+    .mg-card:hover .mg-card-thumbnail,
+    .mg-card:focus .mg-card-thumbnail {
+        transform: none;
+    }
+}
+
+.mg-card-body {
+  padding-inline: 2rem;
+  padding-block: 1rem;
+}
+
+.mg-card-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.mg-card-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-style: italic;
+}
+
+.mg-no-link {
+  text-decoration: none;
+  color: var(--bs-body-color);
+}
+
+.mg-button {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--mg-orange-primary);
+  --bs-btn-hover-bg: var(--mg-orange-secondary);
+  --bs-border-color: var(--mg-orange-primary);
+  --bs-btn-hover-color: #fff;
+}
+
+.mg-outline-button {
+  --bs-btn-color: var(--mg-orange-primary);
+  --bs-btn-border-color: var(--mg-orange-primary);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--mg-orange-primary);
+  --bs-btn-hover-border-color: var(--mg-orange-primary);
+  --bs-btn-focus-shadow-rgb: 13,202,240;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--mg-orange-primary);
+  --bs-btn-active-border-color: var(--mg-orange-primary);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: var(--mg-orange-primary);
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: var(--mg-orange-primary);
+  --bs-gradient: none;
+}
+
+.mg-patreon-button {
+  --bs-btn-bg: #F1465A;
+  --bs-btn-hover-bg: #F25265;
+  --bs-btn-color: #fff;
+  --bs-btn-hover-color: #fff;
+}
+
+.mg-patreon-button svg {
+  width: 1rem;
+}
+
+.mg-item-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+
+/*******************************************************************************
+*** Section: Table of Contents
+*** Style class for the table of contents that appears on the left hand side of
+*** documentation pages.
+*******************************************************************************/
+.toc {
+  position: sticky;
+  top: calc(var(--navbar-height) + 1.6rem);
+  display: block;
+  font-size: 14px;
+  max-height: calc(100vh - var(--navbar-height) - 1.6rem);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.toc .nav-link {
+  position: relative;
+  width: 100%;
+  padding-left: 2rem;
+}
+
+.toc .nav-link:hover,
+.toc .nav-link:focus {
+  background-color: rgba(var(--bs-secondary-bg-rgb), 0.5);
+}
+
+.toc .nav-link[aria-expanded]::before {
+  position: absolute;
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+  width: 1em;
+  line-height: 1em;
+  left: 0px;
+  top: 50%;
+  font-size: 1.2rem;
+  margin-top: -0.5em;
+  color: #999999;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+[data-bs-theme='dark'] .toc .nav-link[aria-expanded]::before {
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%28255,255,255,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+}
+
+.toc .nav-link[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+}
+
+.toc form.filter {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.toc form.filter > i.bi {
+  position: absolute;
+  left: .6rem;
+  opacity: .5;
+}
+
+.toc form.filter > input {
+  padding-left: 2rem;
+}
+
+
+/*******************************************************************************
+*** Section: Affix
+*** Style classes for the affix that appears on the right hand side of
+*** documentation pages.
+*******************************************************************************/
+.affix {
+  position: sticky;
+  top: calc(var(--navbar-height) + 1.6rem);
+  display: block;
+  max-height: calc(100vh - var(--navbar-height) - 1.6rem);
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+.affix ul,
+.affix ol {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.affix a {
+  color: var(--bs-body-color);
+  text-decoration: none;
+}
+
+.affix ol > li {
+  margin-top: 0.5rem;
+}
+
+.affix > nav > ol > li > ol {
+  margin-bottom: 1.5rem;
+}
+
+.affix > nav > ol > li > ol a {
+  color: var(--bs-secondary-color);
+}
+
+.affix h5 {
+  border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);
+  font-size: 14px;
+  font-weight: 300;
+  padding: 1em 0 0.5em;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+/*******************************************************************************
+*** Section: Home page
+*** Style classes specific to the / home page
+*******************************************************************************/
+.carousel {
+  height: calc(100vh - var(--navbar-height));
+}
+
+.carousel-content {
+  position: absolute;
+  margin: auto;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.carousel-button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  pointer-events: all;
+  flex-wrap: wrap;
+  padding-inline: 1rem;
+}
+
+.carousel-button-container a {
+  line-height: 1.5;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  border-radius: 5px;
+  background-color: var(--mg-orange-primary);
+  color: #fff;
+  flex-grow: 1;
+  flex-shrink: 0;
+  font-size: 1.5rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1 !important;
+}
+
+.carousel-control-icon {
+  will-change: transform;
+  transition: transform 250ms ease-in-out;
+}
+
+.carousel-control-next-icon:hover {
+  transform: translateX(10px);
+}
+
+.carousel-control-prev-icon:hover {
+  transform: translateX(-10px);
+}
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-image: none !important;
+  /* remove bootstrap style */
+  filter: none !important;
+  height: 4rem;
+  width: 4rem;
+}
+
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml,<svg class="bi bi-chevron-right" width="16" height="16" fill="currentColor" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" fill="%23fff" fill-rule="evenodd" stroke="%23fff" stroke-width=".2"/></svg>');
+}
+
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml,<svg class="bi bi-chevron-right" width="16" height="16" fill="currentColor" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m11.345 14.363a0.5 0.5 0 0 1-0.708 0l-6-6a0.5 0.5 0 0 1 0-0.708l6-6a0.50063 0.50063 0 0 1 0.708 0.708l-5.647 5.646 5.647 5.646a0.5 0.5 0 0 1 0 0.708z" fill="%23fff" fill-rule="evenodd" stroke="%23fff" stroke-width=".2"/></svg>');
+}
+
+.carousel-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: end;
+  filter: brightness(80%);
+}
+
+.carousel-item-logo {
+  filter: drop-shadow(6px 6px 6px #000C);
+}
+
+.built-with-monogame {
+  color:#fff;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent;
+  text-shadow: 2px 2px 6px rgba(33, 37, 41, 1);
+}
+
+.slogan {
+  text-align: center;
+  color: white;
+  font-size: clamp(.5rem, 3vw + 1rem, 3.2em);
+  margin-bottom: 20px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+  width: 100%;
+}
+
+.cross-platform-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 20px
+}
+
+.cross-platform-logos svg {
+  width: 50px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/*******************************************************************************
+*** Section: /about/ Page
+*** Style classes specific to the /about/ page
+*******************************************************************************/
+.timeline-year {
+  color: var(--mg-orange-primary);
+  width: 40px;
+}
+
+.timeline-event-date {
+  margin-bottom: 0;
+  color: var(--bs-secondary-color);
+
+}
+.timeline-event-bar {
+  position: relative;
+  height: 100%;
+
+}
+
+.timeline-bar {
+  position: absolute;
+  height: 100%;
+  top: 20px;
+  left: calc(.5rem - 1px);
+  border: 1px dashed var(--bs-body-color);
+}
+
+/*******************************************************************************
+*** Section: Presskit Page
+*** Style classes specific to the /presskit page
+*******************************************************************************/
+/* Logos ont eh presskit page are full sized, but need to be scaled down */
+.presskit .logo img {
+  width: auto;
+  height: 128px;
+}
+
+/*******************************************************************************
+*** Section: Content Body
+*** .content-body wraps both article and api documentation to provide consistent
+*** styling for common elements
+*******************************************************************************/
+.content-body {
+  padding: 3.125rem;
+  padding-top: 0px;
+}
+
+/*  Ensure that the scroll margin takes into account the height of the navbar */
+.content-body [id] {
+  scroll-margin-top: var(--navbar-height);
+}
+
+.content-body p {
+  margin-bottom: .5rem;
+}
+
+.content-body pre {
+  margin-bottom: 1rem;;
+}
+
+.content-body h2,
+.content-body h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.content-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*******************************************************************************
+*** Section: Api Documentation
+*** Api documentation is generated as markdown through docfx.  The following
+*** classes style the page so it is visually similar to what a full build of
+*** docfx would have been
+*******************************************************************************/
+.api-content-body h2 + h3 {
+  margin-top: 1rem;
+}
+
+.api-content-body p:first-of-type:not(.normal) {
+  font-size: 14px;
+  color: var(--bs-secondary-color);
+  margin: 2rem 0 1rem;
+  line-height: 1.5rem;
+}
+
+.api-content-body h4[id^='inheritance'],
+.api-content-body h4[id^='derived'],
+.api-content-body h4[id^='implements'],
+.api-content-body h4[id^='inherited-members'],
+.api-content-body h4[id^='parameters'],
+.api-content-body h4[id^='field-value'],
+.api-content-body h4[id^='returns'],
+.api-content-body h4[id^='exceptions'],
+.api-content-body h4[id^='remarks'],
+.api-content-body h4[id^='property'] {
+  color: var(--bs-body-color);
+  margin-top: 1.6rem;
+  font-weight: 300;
+}
+
+.api-content-body h4[id^='inheritance'] a,
+.api-content-body h4[id^='derived'] a,
+.api-content-body h4[id^='implements'] a,
+.api-content-body h4[id^='inherited-members'] a,
+.api-content-body h4[id^='parameters'] a,
+.api-content-body h4[id^='field-value'] a,
+.api-content-body h4[id^='returns'] a,
+.api-content-body h4[id^='exceptions'] a,
+.api-content-body h4[id^='remarks'] a,
+.api-content-body h4[id^='property'] a {
+  color: var(--bs-body-color);
+}
+
+.api-content-body h4[id^='inheritance'],
+.api-content-body h4[id^='implements'],
+.api-content-body h4[id^='derived'],
+.api-content-body h4[id^='inherited-members'] {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.api-content-body h4[id^='field-value'] + p {
+  margin-bottom: 3rem;
+}
+
+.header-anchor {
+  color: var(--bs-body-color);
+}
+
+.header-anchor:hover,
+.header-anchor:focus {
+  color: var(--mg-orange-secondary);
+}
+
+
+/*******************************************************************************
+*** Section: Patreon Stats
+*** Styles for the patreon stats shown on the /donate/ page
+*******************************************************************************/
+.patreon-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: end;
+    justify-content: center;
+}
+
+.patreon-stats .patreon-stat {
+    text-align: end;
+    display: flex;
+    align-self: start;
+    gap: 15px;
+    justify-content: end;
+    font-size: 1.5rem;
+    border-bottom: 7px solid var(--mg-orange-primary);
+    width: fit-content;
+    font-variant-numeric: tabular-nums;
+}
+
+.patreon-stat p {
+    font-variant-numeric: normal;
+}
+
+/*******************************************************************************
+*** Section: Blog Posts
+*** Style classes for individual blog post pages
+*******************************************************************************/
+.blog-post {
+  width: 70%;
+  margin: auto;
+}
+
+.blog-post h1,
+.blog-post h2,
+.blog-post h3,
+.blog-post h4 {
+  font-weight: 800;
+  margin-block: 32px;
+}
+
+.blog-post li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.blog-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px -3px #00000078;
+}
+
+.blog-title {
+  margin-top: 64px;
+}
+
+.blog-meta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+}
+
+.blog-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+  text-transform: capitalize;
+}
+
+.blog-body {
+  line-height: 1.5;
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto
+}
+
+/*******************************************************************************
+*** Section: Admonitions
+*** Provides styling for admonition blocks within documentation articles
+*******************************************************************************/
+.admonition-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-block: .5rem !important;
+}
+
+.admonition-title::before {
+  font-family: bootstrap-icons;
+  position: relative;
+  margin-right: .5em;
+  top: .2em;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.alert-light .admonition-title::before,
+.alert-info .admonition-title::before {
+  content: '\f431';
+}
+
+.alert-success .admonition-title::before {
+  content: '\f46b';
+}
+
+.alert-warning .admonition-title::before {
+  content: '\f33b';
+}
+
+.alert-danger .admonition-title::before {
+  content: '\f7f6'
+}

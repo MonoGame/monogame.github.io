@@ -1,0 +1,66 @@
+- name: Introduction
+  href:
+- name: What's New
+  href: whats_new
+- name: Getting Started
+  items:
+  - name: Introduction
+    href: getting_started
+  - name: 1. Setting up your development environment
+    items:
+    - name: Windows
+      href: getting_started/1_setting_up_your_development_environment_windows
+    - name: macOS / Linux
+      href: getting_started/1_setting_up_your_development_environment_unix
+  - name: 2. Creating a new project
+    items:
+    - name: Visual Studio 2022
+      href: getting_started/2_creating_a_new_project_vs
+    - name: ".NET CLI (Rider or Visual Studio Code)"
+      href: getting_started/2_creating_a_new_project_netcore
+  - name: 3. Understanding the Code
+    href: getting_started/3_understanding_the_code
+  - name: 4. Adding Content
+    href: getting_started/4_adding_content
+  - name: 5. Adding Basic Code
+    href: getting_started/5_adding_basic_code
+- name: Tools
+  items:
+  - name: Introduction
+    href: tools
+  - name: MGCB
+    href: tools/mgcb
+  - name: MGCB Editor
+    href: tools/mgcb_editor
+  - name: MGFXC
+    href: tools/mgfxc
+- name: Content Pipeline
+  items:
+  - name: Introduction
+    href: content_pipeline
+  - name: Why use the Content Pipeline
+    href: content_pipeline/why_content_pipeline
+  - name: Using MGCB Editor
+    href: content_pipeline/using_mgcb_editor
+  - name: Custom Effects
+    href: content_pipeline/custom_effects
+  - name: TrueType fonts
+    href: content_pipeline/adding_ttf_fonts
+  - name: Localization
+    href: content_pipeline/localization
+- name: Supported platforms
+  href: platforms
+- name: Migrating from 3.7
+  href: migrate_37
+- name: Migrating from 3.8.0
+  href: migrate_38
+- name: Migrating from XNA
+  href: migrate_xna
+- name: Packaging
+  href: packaging_games
+- name: Samples and Demos
+  href: samples
+- name: Community Tutorials
+  href: tutorials
+- name: Help and Support
+  href: help_and_support

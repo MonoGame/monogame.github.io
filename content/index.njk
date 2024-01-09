@@ -1,0 +1,209 @@
+---
+title: MonoGame
+---
+{% extends "layouts/base.layout.njk" %}
+
+{% block content %}
+    <section id="featuredCarousel" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+        <div class="carousel-content">
+            <p class="slogan">
+                One framework for creating<br/>
+                powerful cross-platform games
+            </p>
+            <div class="carousel-button-container">
+                <a type="button" class="btn btn-lrg mg-button" href="/articles/getting_started/index.html">
+                    Getting Started <i class="bi bi-arrow-right"></i>
+                </a>
+                <a type="button" class="btn btn-lrg mg-button" href="https://github.com/MonoGame/MonoGame">
+                    Fork Us <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+        <div id="carousel-item-container" class="carousel-inner h-100">
+            {% for game in games %}
+                {% if game.tags.includes("Featured") %}
+                    <div class="carousel-item h-100"
+                        data-bs-interval="10000"
+                        style="background-image: url('/images/showcase-header/{{ game.screenshot }}');
+                                image-rendering: {{ 'pixelated' if game.pixelart else 'auto' }};">
+                        <div class="d-flex flex-row justify-content-center justify-content-md-end mb-2 me-2">
+                            <div class="d-flex flex-column align-items-center">
+                                <a href="{{ game.url }}" title="{{ game.title }}">
+                                    <img src="/images/showcase-header/{{ game.logo }}"
+                                        alt="{{ game.title }} logo"
+                                        class="carousel-item-logo"/>
+                                </a>
+                                <a href="https://twitter.com/search?q=BuiltWithMonoGame"
+                                title="Built With MonoGame"
+                                class="built-with-monogame">
+                                    #BuiltWithMonoGame
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <button class="carousel-control-prev pe-none" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
+                <img class="d-none d-md-block carousel-control-icon carousel-control-prev-icon pe-auto" src="/images/home-page/chevron-left.svg">
+                <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next pe-none" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
+            <img class="d-none d-md-block carousel-control-icon carousel-control-next-icon pe-auto" src="/images/home-page/chevron-right.svg">
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+
+    <section class="container-xxl mb-3">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h3 class="fw-semibold mb-4 text-body-emphasis">Managed Code</h3>
+                <p>
+                    By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code using your editor of choice.
+            </p>
+            <ul class="list-unstyled">
+                <li class="mb-3"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Visual Studio (recommended)</li>
+                <li class="mb-3"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Visual Studio Code</li>
+                <li class="mb-3"><i class="bi bi-check-lg mg-color-orange pe-2"></i> JetBrains Rider</li>
+            </ul>
+            </div>
+            <div class="col-12 col-md-6 d-flex flex-row justify-content-center">
+                <img src="/images/home-page/managed-code.png" style="width: 100%; height: auto; margin-bottom: 1rem;" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-xxl mb-3">
+        <div class="row">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
+                <div class=" cross-platform-logos">
+                    {% include 'svgs/logos/windows.svg' %}
+                    {% include 'svgs/logos/apple.svg' %}
+                    {% include 'svgs/logos/linux.svg' %}
+                    {% include 'svgs/logos/android.svg' %}
+                    {% include 'svgs/logos/ios.svg' %}
+                    {% include 'svgs/logos/playstation.svg' %}
+                    {% include 'svgs/logos/xbox_one.svg' %}
+                    {% include 'svgs/logos/nintendo_switch.svg' %}
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <h3 class="fw-semibold mb-4 text-body-emphasis">Cross-Platform</h3>
+                <p>
+                    Build your game for multiple platforms.  MonoGame currently supports:
+                    <div class="row">
+                        <div class="col-6 col-md-4">
+                            <h5>Desktop</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Windows</li>
+                                <li class="mb-3"><i class="bi bi-check-lg mg-color-orange pe-2"></i> MacOS</li>
+                                <li class="mb-3"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Linux</li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <h5>Mobile</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Android</li>
+                                <li class="mb-3"><i class="bi bi-check-lg mg-color-orange pe-2"></i> iOS</li>
+                                <li class="mb-3"><i class="bi bi-check-lg mg-color-orange pe-2"></i> iPadOS</li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <h5>Console <i class="mg-color-orange fs-4">*</i></h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Playstation 4</li>
+                                <li class="mb-3"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Playstation 5</li>
+                                <li class="mb-3"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Xbox One</li>
+                                <li class="mb-3 text-nowrap"><i class="bi bi-check-lg mg-color-orange pe-2"></i> Nintendo Switch</li>
+                            </ul>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="text-secondary">
+                <i class="mg-color-orange fs-4">*</i> Console exporting requires access to the SDK for that console.  After completing the sign up processes for the console, your representative will be able to walk you through the steps of gaining accesses to the tools for exporting MonoGame to that console.
+            </p>
+        </div>
+    </section>
+
+    <section class="container-xxl mb-3">
+        <div class="row">
+            <h3 class="fw-semibold mb-4 text-body-emphasis">Open-Source</h3>
+            <p>
+                All source code is available to you, ensuring
+                you have the ability to make changes when you need to or even port to
+                whole new platforms.  MonoGame is owned and developed by the MonoGame
+                Foundation.
+            </p>
+            <div class="col-12 col-lg-4 mb-5">
+                <div class="mg-card mg-box-shadow h-100">
+                    <a target="_self"
+                    href="https://github.com/monogame/monogame"
+                    class="mg-no-link hide-external-icon">
+                        <div class="mg-card-body d-flex flex-column h-100">
+                            <div class="mg-card-title"><i class="bi bi-github"></i> Source Code</div>
+                            <p>
+                                The MonoGame Framework is completely free and open-source.  All source code is
+                                available to you.  You can view the source code on GitHub, clone it and/or create
+                                a fork.
+                            </p>
+                            <p class="mt-auto">Click to view source Code</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-5">
+                <div class="mg-card mg-box-shadow h-100">
+                    <a target="_self"
+                        href="https://github.com/MonoGame/MonoGame/blob/develop/LICENSE.txt"
+                        class="mg-no-link hide-external-icon">
+                        <div class="mg-card-body d-flex flex-column h-100">
+                            <div class="mg-card-title"><i class="bi bi-body-text"></i> License</div>
+                            <p class="card-text">
+                                The MonoGame project is licensed under the Microsoft Public License
+                                except for a few portions of the code.
+                            </p>
+                            <p class="mt-auto">Click to view license</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-5">
+                <div class="mg-card mg-box-shadow h-100">
+                    <a target="_self"
+                        href="https://github.com/MonoGame/MonoGame/blob/develop/CONTRIBUTING.md"
+                        class="mg-no-link hide-external-icon">
+                        <div class="mg-card-body d-flex flex-column h-100">
+                            <div class="mg-card-title"><i class="bi bi-git"></i> Contribute</div>
+                            <p>
+                                As a free and open-source project, the MonoGame Framework is is maintained by the MonoGame
+                                Foundation and developed along side contributions made by the community.
+                            </p>
+                            <p class="mt-auto">Click to learn how to contribute</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-xxl mb-3">
+        <div class="row">
+            <h3 class="fw-semibold mb-4 text-body-emphasis">MonoGame Is Free</h3>
+            <p>
+                MonoGame is, and will always remain, free to use. There is no subscription model,
+                royalty payments, licensing, or runtime fees associated with using MonoGame.
+            </p>
+            <p>
+                The MonoGame Foundation is a non-profit foundation that relies on community donations
+                to fund projects and goals. Consider supporting MonoGame through a one-time or monthly donation
+            </p>
+        </div>
+    </section>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript" src="/js/carousel.js"></script>
+{% endblock %}

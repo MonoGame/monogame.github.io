@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include 'partials/_head.njk' %}
+        {% block headend %}{% endblock %}
+    </head>
+    <body>
+        {% include 'partials/_topnav.njk'%}
+        {% block content %}{% endblock %}
+        {% include 'partials/_footer.njk' %}
+        <script type="text/javascript" src="/js/bundle.js"></script>
+        {% block scripts %}{% endblock %}
+    </body>
+</html>

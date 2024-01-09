@@ -1,17 +1,35 @@
 # monogame.github.io
 
-This repository contains the documenation and the website for MonoGame.
+This repository contains the documentation and the website for MonoGame.
 
-## Building from source
+## Building Form Source
+The MonoGame website is built using the .NET tool [DocFX](https://dotnet.github.io/docfx/) to generate the API reference documentation and the static site generator [11ty](https://www.11ty.dev/) to generate the full website.  This means you will need the following prerequisites to build locally from source
 
-First up restore the dotnet tooling, this restores the `docfx` cli tool needed to build the website.
+1. .NET SDK version 6.0 or higher installed ([download](https://dotnet.microsoft.com/en-us/download))
+2. Node.js and NPM installed ([download](https://nodejs.org/en))
+
+With your environment setup properly, the following explains how to build from source
+
+1. Clone this repository
+
 ```sh
-dotnet tool restore
+git clone https://github.com/MonoGame/monogame.github.io.git
 ```
 
-Next to build the website, simply invoke the restored docfx tool from the CLI:
+2. Install npm dependencies
+
+```sh
+npm install
 ```
-dotnet docfx docfx.json --serve
+
+3. Optional Steps
+   1. If you want to generate the API Reference documentation locally, you will need to ensure that the MonoGame submodule has been initialized by running `git submodule update --init --recursive`
+   2. Next execute the command `npm run docfx` to generate the API Reference markdown pages.  They will be placed in the **/content/api** directory
+
+4. Run a local build and serve it with hot reloading
+
+```sh
+npm run dev
 ```
 
 ## LICENSE

@@ -1,0 +1,24 @@
+@media only screen and (min-width: 992px) {
+    .mg-item-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /***************************************************************************
+    *** Content Header section of documentation article and api pages
+    ***************************************************************************/
+    .content-header {
+        margin-bottom: 0;
+        padding: 30px 3.125rem;
+    }
+
+    .content-body {
+        padding: 3.125rem;
+      }
+
+    /*******************************************************************************
+    *** Section: Patreon Stats
+    *** Styles for the patreon stats shown on the /donate/ page
+    *******************************************************************************/
+    .patreon-stats .patreon-stat {
+        align-self: end;
+    }
+}
