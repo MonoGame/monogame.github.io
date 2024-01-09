@@ -137,6 +137,7 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
   border-color: var(--bs-body-color);
   border-radius: .5rem;
   position: relative;
+  overflow: hidden;
 }
 
 .mg-card-thumbnail {
@@ -147,8 +148,15 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--bs-body);
-  transition: filter 0.1s ease-in-out;
+  -webkit-transition: filter 0.1s ease-in-out, transform 0.25s ease-in-out;
+  -moz-transition: filter 0.1s ease-in-out, transform 0.25s ease-in-out;
+  -ms-transition: filter 0.1s ease-in-out, transform 0.25s ease-in-out;
+  -o-transition: filter 0.1s ease-in-out, transform 0.25s ease-in-out;
+  transition: filter 0.1s ease-in-out, transform 0.25s ease-in-out;
+
 }
+
+
 
 .mg-card-thumbnail-overlay {
   position: absolute;
@@ -167,6 +175,14 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
 .mg-card:hover .mg-card-thumbnail,
 .mg-card:focus .mg-card-thumbnail {
   filter: brightness(100%);
+  transform: scale(1.1);
+}
+
+@media (prefers-reduced-motion) {
+    .mg-card:hover .mg-card-thumbnail,
+    .mg-card:focus .mg-card-thumbnail {
+        transform: none;
+    }
 }
 
 .mg-card-body {
