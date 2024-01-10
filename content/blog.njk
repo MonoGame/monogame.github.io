@@ -1,0 +1,45 @@
+---
+title: Blog
+eleventyExcludeFromCollections: true
+pagination:
+    data: collections.blogTags
+    size: 1
+    alias: category
+permalink: blog/{{ (category | slugify) if category !== "all" }}/
+---
+{% extends 'layouts/base.layout.njk' %}
+{% from 'macros/create_category_filter.njk' import create_category_filter %}
+
+
+{% block content %}
+    <section class="container-xxl my-3">
+        <h1 id="monogame-blog" class="fw-bold"><a href="#monogame-blog">MonoGame Blog</a></h1>
+    </section>
+    {{ create_category_filter(collections.blogTags, "/blog/", page.url) }}
+
+    <section class="container-xxl mb-3">
+        <div class="mg-item-grid">
+            {% for post in collections.blogPosts | reverse %}
+                {% if category in post.data.tags or category === "all" %}
+                    <a class="mg-no-link" href="{{ post.url }}">
+                        <div class="mg-card mg-box-shadow h-100 d-flex flex-column">
+                            <div class="mg-card-thumbnail"
+                                 style="background-image: url('{{ post.data.image }}');"
+                                 href="{{ post.url }}"></div>
+                            <div class="mg-card-body">
+                                <small>
+                                    {{ post.data.author }} -- {{ post.date | readableDate }}
+                                </small>
+                                <div class="mg-card-title">{{ post.data.title }}</div>
+                                <div class="mg-card-excerpt mb-3" title="{{ post.data.excerpt }}">
+                                    <p>{{ post.data.excerpt }}</p>
+                                </div>
+                                Click to read more...
+                            </div>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}

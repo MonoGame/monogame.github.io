@@ -1,0 +1,28 @@
+{% extends 'layouts/base.layout.njk' %}
+
+{% block content %}
+    <main class="container pt-5">
+        <article class="blog-post">
+            <img class="blog-cover" src="{{ image }}"/>
+            <div class="blog-info">
+                <h1 class="blog-title">{{ title }}</h1>
+                <div class="blog-meta">
+                    <span class="blog-author">By: {{ author }}</span>
+                    <span class="blog-date">{{ page.date | readableDate }}</span>
+                </div>
+                <div class="blog-tags">
+                    {% for tag in tags %}
+                        {% if tag !== "blog" %}
+                            <a href="/blog/{{ tag }}" type="button" class="btn mg-outline-button category">
+                                {{ tag }}
+                            </a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="blog-body">
+                {{ content | safe }}
+            </div>
+        </article>
+    </main>
+{% endblock %}

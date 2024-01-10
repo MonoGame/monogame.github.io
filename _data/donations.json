@@ -1,0 +1,505 @@
+[
+    {
+        "name": "Leandro Saraiva Maia",
+        "amount": 1000
+    },
+    {
+        "name": "David Wood",
+        "amount": 15000
+    },
+    {
+        "name": "Alimede Games",
+        "amount": 1000,
+        "url": "https://www.alimede.games/"
+    },
+    {
+        "name": "Mehrdad Soodmand-Saravi",
+        "amount": 3000
+    },
+    {
+        "name": "Devin McCurdy",
+        "amount": 500
+    },
+    {
+        "name": "Matteo Nicolotti",
+        "amount": 1000
+    },
+    {
+        "name": "于 华辉",
+        "amount": 500
+    },
+    {
+        "name": "Marcel van Drunen",
+        "amount": 2500
+    },
+    {
+        "name": "SungTae Kwon",
+        "amount": 5000
+    },
+    {
+        "name": "Andrew Brehm",
+        "amount": 1000
+    },
+    {
+        "name": "Pumpkin Games",
+        "amount": 10000,
+        "url": "http://www.pumpkin-games.net/"
+    },
+    {
+        "name": "Sebastian Krośkiewicz",
+        "amount": 2000
+    },
+    {
+        "name": "Cory Borrow",
+        "amount": 1000
+    },
+    {
+        "name": "Edgar Cocco",
+        "amount": 500
+    },
+    {
+        "name": "Fowzi Shakkour",
+        "amount": 1500
+    },
+    {
+        "name": "Jack White",
+        "amount": 1500
+    },
+    {
+        "name": "Marvin Siemsen",
+        "amount": 1500
+    },
+    {
+        "name": "Rajasekaran Senthil Kumaran",
+        "amount": 2500
+    },
+    {
+        "name": "Tyler Young",
+        "amount": 10000
+    },
+    {
+        "name": "Kelly MacKenzie",
+        "amount": 2500
+    },
+    {
+        "name": "Landon Podbielski",
+        "amount": 1000000,
+        "url": "http://www.superjoebob.com/"
+    },
+    {
+        "name": "Maximo Rafael Rodriguez Collada",
+        "amount": 1000
+    },
+    {
+        "name": "Ska Studios",
+        "amount": 200000,
+        "url": "https://ska-studios.com/"
+    },
+    {
+        "name": "Thomas Hughes",
+        "amount": 2000
+    },
+    {
+        "name": "FireGun.net",
+        "amount": 5000,
+        "url": "http://www.firegun.net/"
+    },
+    {
+        "name": "Julian Aßmann",
+        "amount": 1000
+    },
+    {
+        "name": "Хамитов Урал",
+        "amount": 1000,
+        "url": "https://twitter.com/ukhamitov"
+    },
+    {
+        "name": "Broken Monkey Softworks",
+        "amount": 1000
+    },
+    {
+        "name": "Sören Hoffstedt",
+        "amount": 500
+    },
+    {
+        "name": "Marcel van Drunen",
+        "amount": 1000
+    },
+    {
+        "name": "William Gilliam",
+        "amount": 15000
+    },
+    {
+        "name": "Alien Scribble Interactive",
+        "amount": 2000
+    },
+    {
+        "name": "Francois Laubscher",
+        "amount": 1500
+    },
+    {
+        "name": "DigitalRune GmbH",
+        "amount": 100000,
+        "url": "http://www.digitalrune.com/"
+    },
+    {
+        "name": "Kartal Turgut",
+        "amount": 1000
+    },
+    {
+        "name": "Casper Voigt",
+        "amount": 2000
+    },
+    {
+        "name": "Eugene Marcotte",
+        "amount": 5000
+    },
+    {
+        "name": "Matthew Leibowitz",
+        "amount": 10000
+    },
+    {
+        "name": "Paul Cunningham",
+        "amount": 5000
+    },
+    {
+        "name": "Abd El-Rahman Ahmed",
+        "amount": 100
+    },
+    {
+        "name": "Хамитов Урал",
+        "amount": 500
+    },
+    {
+        "name": "Tribute Games Inc.",
+        "amount": 200000,
+        "url": "http://www.tributegames.com/"
+    },
+    {
+        "name": "Paul Bouillon",
+        "amount": 2000
+    },
+    {
+        "name": "Harald Spreng",
+        "amount": 1000
+    },
+    {
+        "name": "Khaled Kokah",
+        "amount": 5000
+    },
+    {
+        "name": "Gwon Seong-gwang",
+        "amount": 10000
+    },
+    {
+        "name": "Heydeck Games",
+        "amount": 5000,
+        "url": "http://www.heydeckgames.com/"
+    },
+    {
+        "name": "Yannick Comte",
+        "amount": 2000
+    },
+    {
+        "name": "Permyakov Georgiy",
+        "amount": 2500
+    },
+    {
+        "name": "Ernest Odom",
+        "amount": 501
+    },
+    {
+        "name": "Alex McNurlan",
+        "amount": 2000
+    },
+    {
+        "name": "DigitalRune GmbH",
+        "amount": 50000
+    },
+    {
+        "name": "Wouter de Vries",
+        "amount": 1000
+    },
+    {
+        "name": "Semih Masat",
+        "amount": 250
+    },
+    {
+        "name": "David Prey",
+        "amount": 1000
+    },
+    {
+        "name": "Lucas Fonseca",
+        "amount": 600
+    },
+    {
+        "name": "Michael Roach",
+        "amount": 2000
+    },
+    {
+        "name": "Thiago Berti Thomaz",
+        "amount": 250
+    },
+    {
+        "name": "Igor Lioutrin",
+        "amount": 5000
+    },
+    {
+        "name": "Alessandro Mercier",
+        "amount": 500
+    },
+    {
+        "name": "Mutant Bear Games",
+        "amount": 20000
+    },
+    {
+        "name": "Smudged Cat Games Ltd",
+        "amount": 50000
+    },
+    {
+        "name": "Silvio Fiorito",
+        "amount": 20000
+    },
+    {
+        "name": "Polytron Corporation",
+        "amount": 50000,
+        "url": "http://polytroncorporation.com/"
+    },
+    {
+        "name": "Mike Andrews",
+        "amount": 100
+    },
+    {
+        "name": "Adam Spragg Games",
+        "amount": 5000
+    },
+    {
+        "name": "Yusuke Tsutsumi",
+        "amount": 5000
+    },
+    {
+        "name": "Toni Petrina",
+        "amount": 3500
+    },
+    {
+        "name": "Michael Ryan",
+        "amount": 2000
+    },
+    {
+        "name": "Rick Smith",
+        "amount": 40000
+    },
+    {
+        "name": "LeoneL Jerez",
+        "amount": 1000
+    },
+    {
+        "name": "Software 7 GmbH",
+        "amount": 5000,
+        "url": "http://www.software7.com/"
+    },
+    {
+        "name": "Владимир Яровенко",
+        "amount": 500
+    },
+    {
+        "name": "Andrew Boehner",
+        "amount": 500
+    },
+    {
+        "name": "Dan DeBilt",
+        "amount": 5000
+    },
+    {
+        "name": "Goldfish Software",
+        "amount": 15000,
+        "url": "http://www.software7.com/"
+    },
+    {
+        "name": "Aqua Bird Consulting",
+        "amount": 5000
+    },
+    {
+        "name": "Hitcents.com, Inc.",
+        "amount": 110000,
+        "url": "http://www.drawastickman.com/"
+    },
+    {
+        "name": "Joe Brown",
+        "amount": 2000
+    },
+    {
+        "name": "Markus Oljemark",
+        "amount": 1000
+    },
+    {
+        "name": "Peter Verswyvelen",
+        "amount": 5000
+    },
+    {
+        "name": "John Sonmez",
+        "amount": 2000
+    },
+    {
+        "name": "Whalesong Games LLC",
+        "amount": 100000,
+        "url": "http://www.whalesonggames.com/"
+    },
+    {
+        "name": "Oliver Slott",
+        "amount": 500
+    },
+    {
+        "name": "Billy Greer",
+        "amount": 1000
+    },
+    {
+        "name": "Anderson Creative Enterprises Inc.",
+        "amount": 50000
+    },
+    {
+        "name": "Logan Schuster",
+        "amount": 2500
+    },
+    {
+        "name": "Dario Lipari",
+        "amount": 1000
+    },
+    {
+        "name": "Erkki Nokso-Koivisto",
+        "amount": 2500
+    },
+    {
+        "name": "Carl Lonjin",
+        "amount": 2500
+    },
+    {
+        "name": "Johan Karlsson",
+        "amount": 1000
+    },
+    {
+        "name": "Thomas Hagnhofer",
+        "amount": 2000
+    },
+    {
+        "name": "Alexandru Ion Marinescu",
+        "amount": 1000
+    },
+    {
+        "name": "Richard Cronin",
+        "amount": 15000,
+        "url": "http://www.richardcronin.com/"
+    },
+    {
+        "name": "Roboblob",
+        "amount": 1000,
+        "url": "http://blog.roboblob.com/"
+    },
+    {
+        "name": "Chris Corciega",
+        "amount": 2500
+    },
+    {
+        "name": "Gareth Williams",
+        "amount": 5000
+    },
+    {
+        "name": "Dirk Nordhusen @ DiNoGames",
+        "amount": 5000,
+        "url": "http://www.dino-games.de/"
+    },
+    {
+        "name": "Aleksejs Belezjaks",
+        "amount": 1024
+    },
+    {
+        "name": "Zsolt Jandzsó",
+        "amount": 100
+    },
+    {
+        "name": "Luca Mauri",
+        "amount": 2500
+    },
+    {
+        "name": "Michael Russell",
+        "amount": 10500,
+        "url": "http://www.romsteady.net/"
+    },
+    {
+        "name": "Daniel Gradin",
+        "amount": 1000
+    },
+    {
+        "name": "Alexander Pedersen",
+        "amount": 2500
+    },
+    {
+        "name": "Mircea Chitu",
+        "amount": 2500
+    },
+    {
+        "name": "Darren Reid",
+        "amount": 2500
+    },
+    {
+        "name": "Julian Winter",
+        "amount": 1000
+    },
+    {
+        "name": "Highbrow Games",
+        "amount": 3000,
+        "url": "http://www.highbrowgames.com/"
+    },
+    {
+        "name": "Jonas Holland",
+        "amount": 1000
+    },
+    {
+        "name": "Andrea Angella",
+        "amount": 500
+    },
+    {
+        "name": "Discord Games",
+        "amount": 3000,
+        "url": "http://discordgames.com/"
+    },
+    {
+        "name": "Yulian Kuncheff",
+        "amount": 2000
+    },
+    {
+        "name": "Jared Barboza",
+        "amount": 10000
+    },
+    {
+        "name": "Callum Evans",
+        "amount": 500
+    },
+    {
+        "name": "Flying Development Studio LLC",
+        "amount": 25000,
+        "url": "http://flyingdevstudio.blogspot.co.uk/"
+    },
+    {
+        "name": "Nigel Ferrissey",
+        "amount": 3000
+    },
+    {
+        "name": "Gabe Reiser",
+        "amount": 2000,
+        "url": "http://gabereiser.com/"
+    },
+    {
+        "name": "Adam Dawes",
+        "amount": 2000,
+        "url": "http://adamdawes.com/"
+    },
+    {
+        "name": "Christian Siebmanns",
+        "amount": 1000
+    },
+    {
+        "name": "William Reiss",
+        "amount": 5000
+    }
+]

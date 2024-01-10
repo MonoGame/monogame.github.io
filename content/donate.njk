@@ -1,0 +1,69 @@
+---
+title: Donate
+---
+{% extends "layouts/base.layout.njk" %}
+
+{% block content %}
+    <section class="container-xxl my-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <h1 id="support-monogame" class="fw-bold"><a href="#support-monogame">Support MonoGame</a></h1>
+                    <p>
+                        The MonoGame Foundation is a non-profit foundation that relies on community donations to fund projects and
+                        goals. Consider supporting MonoGame through a one-time or monthly donation
+                    </p>
+                    <button class="btn mg-patreon-button" type="button" href="https://www.patreon.com/bePatron?u=3142012">
+                        {% include 'svgs/logos/patreon.svg'%}
+                        Become a member!
+                    </button>
+                </div>
+                <div class="col-lg-6 patreon-stats">
+                    <div class="patreon-stat monthly">
+                        <span id="per-month"></span>
+                        <p>monthly</p>
+                    </div>
+                    <div class="patreon-stat patreon">
+                        <span id="total-patrons"></span>
+                        <p>patrons</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-xxl mb-5">
+        <h1 id="sponsors" class="fw-bold"><a href="#sponsors">MonoGame Is Sponsored By</a></h1>
+        <div class="row">
+            {% for sponsor in sponsors %}
+                <div class="col-lg-6 mb-5">
+                    <a class="hide-external-icon" href="{{sponsor.url}}" title="{{sponsor.name}}">
+                        <img src="/images/donate/Re-Logic_Logo_with_BG.jpg" style="width: 100%; height: auto;" alt="{{sponsor.name}}"/>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="container-xxl mb-5">
+        <h1 id="donations" class="fw-bold"><a href="#donations">Donations</a></h1>
+        <p>
+            The following is a preserved list of individuals and studios that generiously donated in the past to help run the project.
+        </p>
+        <div class="row">
+            {% for donor in donations | sort(true, false, 'amount') %}
+                <div class="col-lg-3 mb-3 text-center">
+                    {% if donor.url %}<a href="{{donor.url}}">{% endif %}
+                        <strong>{{donor.name}}</strong>
+                    {% if donor.url %}</a>{% endif %}
+                    <br />
+                    {{ (donor.amount / 100).toLocaleString('en-US', {style: 'currency', currency: 'USD'}) }}
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}
+
+{% block scripts %}
+    <script async type="text/javascript" src="/js/patreon.js"></script>
+{% endblock %}

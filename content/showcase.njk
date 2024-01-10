@@ -1,0 +1,49 @@
+---
+title: Showcase
+pagination:
+    data: collections.gameTags
+    size: 1
+    alias: category
+permalink: showcase/{{ (category | slugify) if category !== "all" }}/
+---
+{% extends "layouts/base.layout.njk" %}
+{% from 'macros/create_category_filter.njk' import create_category_filter %}
+
+{% block content %}
+    <section class="container-xxl my-3">
+        <h1 id="monogame-showcase" class="fw-bold"><a href="#monogame-showcase">MonoGame Showcase</a></h1>
+        <p>
+            There have been 1000s of games, libraries, and tools made using MonoGame over the years.
+            We have gathered a taste of those titles here from the big hits to the small hidden gems.
+        </p>
+        <p>
+            If you are a developer and would like us to add your game, library, or tool to this list,
+            please submit a GitHub Issue using the <a href="https://github.com/MonoGame/monogame.github.io/issues/new?assignees=&labels=showcase&projects=&template=01_Showcase_Submission.yml">Showcase Submission template</a>
+        </p>
+    </section>
+
+    {{ create_category_filter(collections.gameTags, "/showcase/", page.url) }}
+
+    <section class="container-xxl mb-3">
+        <div id="showcase-gallery" class="mg-item-grid">
+            {% for game in games %}
+                {% if category in game.tags or category === "all" %}
+                    <a class="mg-no-link hide-external-icon showcase-item" href="{{ game.url }}" title="{{ game.title }}">
+                        <div class="mg-card mg-box-shadow d-flex flex-column">
+                            <div class="mg-card-thumbnail"
+                                 style="background-image: url('/images/showcase-header/{{ game.screenshot }}');
+                                        image-rendering: {{ "pixelated" if game.pixelart else "auto"}}">
+                            </div>
+                            <div class="mg-card-thumbnail-overlay"
+                                style="background-image: url('/images/showcase-header/{{ game.logo }}');"></div>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript" src="/js/showcaseRandomizer.js"></script>
+{% endblock %}

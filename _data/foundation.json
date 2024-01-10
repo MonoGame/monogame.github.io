@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Dean Ellis",
+        "title": "President",
+        "github": "dellis1972"
+    },
+    {
+        "name": "Marko Jeremic",
+        "title": "Board Chairman",
+        "github": "harry-cpp"
+    },
+    {
+        "name": "Dominique Louis",
+        "title": "Treasurer",
+        "github": "CartBlanche"
+    },
+    {
+        "name": "Simon Jackson",
+        "title": "Corporate Secretary",
+        "github": "SimonDarksideJ"
+    },
+    {
+        "name": "Tom Spilman",
+        "title": "Banking Matters",
+        "github": "TomSpilman"
+    },
+    {
+        "name": "Thomas Altenburger",
+        "title": "Board Member",
+        "github": "mrhelmut"
+    }
+]

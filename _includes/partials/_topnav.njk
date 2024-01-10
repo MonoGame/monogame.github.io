@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg bg-body shadow sticky-md-top" aria-label="Navigation Bar">
+    <div class="container-xl">
+        <a class="navbar-brand" href="/" title="Return to Home">
+            <img class="mg-logo svg" style="height: 36px;" alt="MonoGame Logo">
+        </a>
+        <button
+            class="btn btn-lg d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#topNavBar"
+            aria-controls="topNavBar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="topNavBar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                {% for navlink in site.navigation %}
+                    <li class="nav-item">
+                        <a class="nav-link {{ 'active' if page.url === navlink.url }}" href="{{ navlink.url }}">
+                            {{ navlink.label }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <div class="d-flex flex-row">
+                {% for social in site.social %}
+                    <a class="btn border-0" href="{{ social.url }}" title="{{ social.title }}">
+                        <i class="bi {{ social.icon }}"></i>
+                    </a>
+                {% endfor %}
+            </div>
+            {% include 'partials/_themeToggle.njk' %}
+        </div>
+    </div>
+</nav>

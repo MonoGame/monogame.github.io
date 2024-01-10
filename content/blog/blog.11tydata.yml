@@ -1,0 +1,2 @@
+layout: "layouts/blogpost.layout.njk"
+category: "blog"

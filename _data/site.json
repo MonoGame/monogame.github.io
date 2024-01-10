@@ -1,0 +1,80 @@
+{
+    "name": "MonoGame",
+    "hostname": "https://monogame.net",
+    "favicon": "/favicon.png",
+    "meta": {
+        "title": "MonoGame",
+        "description": "One framework for creating powerful cross-platform games",
+        "image": "/images/social_embed_image.png",
+        "themeColor": "#E73C00",
+        "opengraph": {
+            "type": "website"
+        },
+        "twitter": {
+            "card": "summary_large_image"
+        }
+    },
+    "navigation": [
+        {
+            "label": "Documentation",
+            "url": "/documentation/"
+        },
+        {
+            "label": "Community",
+            "url": "https://community.monogame.net"
+        },
+        {
+            "label": "Showcase",
+            "url": "/showcase/"
+        },
+        {
+            "label": "Blog",
+            "url": "/blog/"
+        },
+        {
+            "label": "About",
+            "url": "/about/"
+        },
+        {
+            "label": "Donate",
+            "url": "/donate/"
+        }
+    ],
+    "social": [
+        {
+            "title": "GitHub",
+            "url": "https://github.com/monogame/monogame",
+            "icon": "bi-github"
+        },
+        {
+            "title": "Patreon",
+            "url": "https://www.patreon.com/MonoGame",
+            "icon": "bi-p-circle-fill"
+        },
+        {
+            "title": "Discord",
+            "url": "https://discord.gg/monogame",
+            "icon": "bi-discord"
+        },
+        {
+            "title": "YouTube",
+            "url": "https://www.youtube.com/MonoGame",
+            "icon": "bi-youtube"
+        },
+        {
+            "title": "Reddit",
+            "url": "https://www.reddit.com/r/monogame/",
+            "icon": "bi-reddit"
+        },
+        {
+            "title": "Facebook",
+            "url": "https://www.facebook.com/monogamecommunity",
+            "icon": "bi-facebook"
+        },
+        {
+            "title": "Twitter",
+            "url": "https://twitter.com/MonoGameTeam",
+            "icon": "bi-twitter"
+        }
+    ]
+}
