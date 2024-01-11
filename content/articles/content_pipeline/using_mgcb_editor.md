@@ -5,7 +5,7 @@ description: Learn how to use the MGCB Editor to organize and build content for 
 
 # Using MGCB Editor
 
-The [MGCB Editor](~/articles/tools/mgcb_editor.md) is used to organize and build content for use with MonoGame. It is accessed by double-clicking a "**.mgcb**" file from within the Visual Studio solution explorer (providing that you installed [MonoGame's Visual Studio extension](/Documentation/articles/getting_started/1_setting_up_your_development_environment_windows.md)).
+The [MGCB Editor](../tools/mgcb_editor.md) is used to organize and build content for use with MonoGame. It is accessed by double-clicking a "**.mgcb**" file from within the Visual Studio solution explorer (providing that you installed [MonoGame's Visual Studio extension](../getting_started/1_setting_up_your_development_environment_windows.md)).
 
 Alternatively, you can build it [directly from source](https://github.com/MonoGame/MonoGame/tree/develop/Tools/MonoGame.Content.Builder.Editor) if needed.
 
@@ -81,7 +81,7 @@ Additionally, the following options are configurable per image asset when import
 
 MonoGame supports several audio formats to cope with a wide variety of audio needs, from Wav files for effects to MP3's for songs/background music. The type of audio you use will depend on the audio needs for your project.
 
-Audio can be configured to use either the **Sound Effect** processor which imports audio as a [SoundEffect](xref:Microsoft.Xna.Framework.Audio.SoundEffect) which is generally used for short and quick audio sounds. Alternatively, by selecting the **Song** processor, the audio will be imported as a **Song** which is used for long-running audio using the Media Player class.
+Audio can be configured to use either the **Sound Effect** processor which imports audio as a [SoundEffect](../../api/Microsoft.Xna.Framework.Audio.SoundEffect) which is generally used for short and quick audio sounds. Alternatively, by selecting the **Song** processor, the audio will be imported as a **Song** which is used for long-running audio using the Media Player class.
 
 | Property  | Description                                                                                                                                                            |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -175,7 +175,7 @@ The MGCB Editor has 3 actions related to building content: Build, Rebuild and Cl
 
 ## Linking Content To Your Game
 
-Once you have built your content, you have a few different ways to add it to your game project. They all have the same goal, to get the built XNB's in your project output folder so a [`ContentManager`](xref:Microsoft.Xna.Framework.Content.ContentManager) can easily find and load them.
+Once you have built your content, you have a few different ways to add it to your game project. They all have the same goal, to get the built XNB's in your project output folder so a [`ContentManager`](../../api/Microsoft.Xna.Framework.Content.ContentManager) can easily find and load them.
 
 ### MonoGameContentReference
 

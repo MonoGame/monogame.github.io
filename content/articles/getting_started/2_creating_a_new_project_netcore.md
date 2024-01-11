@@ -27,7 +27,7 @@ For example:
 dotnet new mgdesktopgl -o MyGame
 ```
 
-> To know which platform identifier (short name) to use for your project, please refer to [Target Platforms](~/articles/platforms.md), or type the following command into the command prompt to list the installed templates and their corresponding short names:
+> To know which platform identifier (short name) to use for your project, please refer to [Target Platforms](../platforms.md), or type the following command into the command prompt to list the installed templates and their corresponding short names:
 > 
 > ```
 > dotnet new -l
@@ -35,6 +35,6 @@ dotnet new mgdesktopgl -o MyGame
 
 Once created, you can open your code editor of choice in the new folder and begin editing.
 
-> To run your project, check the instructions for [packaging your game](~/articles/packaging_games.md) to build the executable using the .NET tooling.
+> To run your project, check the instructions for [packaging your game](../packaging_games.md) to build the executable using the .NET tooling.
 
 **Next up:** [Understanding the code](3_understanding_the_code.md)
