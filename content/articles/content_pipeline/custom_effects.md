@@ -38,8 +38,8 @@ Under the hood these effects use the same system and tools as one would for a cu
 
 To use a custom effect with MonoGame you must do one of the following:
 
-* Run the effect file through the [MonoGame Effect content processor](~/articles/tools/mgcb.md) for loading via the [`ContentManager`](xref:Microsoft.Xna.Framework.Content.ContentManager) (Recommended).
-* Process your effect file with the [MGFXC tool](~/articles/tools/mgfxc.md) and load them yourself at runtime.
+* Run the effect file through the [MonoGame Effect content processor](../tools/mgcb.md) for loading via the [`ContentManager`](../../api/Microsoft.Xna.Framework.Content.ContentManager) (Recommended).
+* Process your effect file with the [MGFXC tool](../tools/mgfxc.md) and load them yourself at runtime.
 
 ## Effect Writing Tips
 
@@ -86,7 +86,7 @@ As an example, you can conditionally set shader models depending on the platform
   };
   ```
 
-Custom symbols can be defined from the [MGCB Editor](~/articles/tools/mgcb_editor.md) or via [MGFXC](~/articles/tools/mgfxc.md).
+Custom symbols can be defined from the [MGCB Editor](../tools/mgcb_editor.md) or via [MGFXC](../tools/mgfxc.md).
 
 * Make sure the pixel shaders inputs **exactly match** the vertex shader outputs so the parameters are passed in the correct registers. The parameters need to have the same size and order. Omitting parameters might not break compilation, but can cause unexpected results.
 * Note that on GL platforms default values on Effect parameters do not work.  Either set the parameter from code or use a real constant like a #define.

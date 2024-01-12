@@ -30,14 +30,14 @@ XNA uses the DirectX 9 graphics API. MonoGame uses the newer Direct X 11 API for
 
 DirectX 9 interprets UV coordinates differently from other graphics API's. This is typically referred to as the half-pixel offset.
 
-MonoGame supports replicating XNA's behavior (currently only on OpenGL platforms) by setting the `PreferHalfPixelOffset` flag in [`GraphicsDeviceManager`](xref:Microsoft.Xna.Framework.GraphicsDeviceManager) to `true`. This flag is set to `false` by default to encourage users to use the modern style of pixel addressing.
+MonoGame supports replicating XNA's behavior (currently only on OpenGL platforms) by setting the `PreferHalfPixelOffset` flag in [`GraphicsDeviceManager`](../api/Microsoft.Xna.Framework.GraphicsDeviceManager) to `true`. This flag is set to `false` by default to encourage users to use the modern style of pixel addressing.
 
 DirectX platforms will ignore setting the `PreferHalfPixelOffset` flag and will
 always render with a half pixel offset compared to XNA. This is usually not noticeable.
 
-This value is passed to `UseHalfPixelOffset` in [`GraphicsDevice`](xref:Microsoft.Xna.Framework.Graphics.GraphicsDevice). If `UseHalfPixelOffset` is `true`, you have to add half-pixel offset to a Projection matrix.
+This value is passed to `UseHalfPixelOffset` in [`GraphicsDevice`](../api/Microsoft.Xna.Framework.Graphics.GraphicsDevice). If `UseHalfPixelOffset` is `true`, you have to add half-pixel offset to a Projection matrix.
 
-[`SpriteBatch`](xref:Microsoft.Xna.Framework.Graphics.SpriteBatch) rendering is not affected by the flag.
+[`SpriteBatch`](../api/Microsoft.Xna.Framework.Graphics.SpriteBatch) rendering is not affected by the flag.
 
 Regardless of what value the flag has, `SpriteBatch` will render things exactly the same as in XNA.
 

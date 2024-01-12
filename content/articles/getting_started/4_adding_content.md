@@ -11,7 +11,7 @@ This tutorial will go over adding content such as images or sounds to your game.
 
 ## MonoGame Content Builder Tool (MGCB Editor)
 
-This tutorial assumes that you are using Visual Studio 2022 with its MonoGame extension installed. If you are not using the extension, you will need to manually install and use the [MGCB Editor](~/articles/tools/mgcb_editor.md).
+This tutorial assumes that you are using Visual Studio 2022 with its MonoGame extension installed. If you are not using the extension, you will need to manually install and use the [MGCB Editor](../tools/mgcb_editor.md).
 
 > This is technically optional, since you can edit the .mgcb files manually if you wish, but the editor is highly recommended for ease of use.
 
