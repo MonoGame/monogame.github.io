@@ -75,6 +75,11 @@
             "title": "Twitter",
             "url": "https://twitter.com/MonoGameTeam",
             "icon": "bi-twitter"
+        },
+        {
+            "title": "Blog RSS Feed",
+            "url": "https://monogame.net/blog/feed.xml",
+            "icon": "bi-rss-fill"
         }
     ]
 }
