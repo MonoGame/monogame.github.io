@@ -31,6 +31,10 @@
             "label": "Blog",
             "url": "/blog/"
         },
+		        {
+            "label": "Bounties",
+            "url": "/bounties/"
+        },
         {
             "label": "About",
             "url": "/about/"
