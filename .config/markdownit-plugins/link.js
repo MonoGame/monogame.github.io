@@ -1,18 +1,18 @@
 ////////////////////////////////////////////////////////////////////////////////
 /// MIT License
-/// 
+///
 /// Copyright (c) 2020 Jean-David Moisan
-/// 
+///
 /// Permission is hereby granted, free of charge, to any person obtaining a copy
 /// of this software and associated documentation files (the "Software"), to deal
 /// in the Software without restriction, including without limitation the rights
 /// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 /// copies of the Software, and to permit persons to whom the Software is
 /// furnished to do so, subject to the following conditions:
-/// 
+///
 /// The above copyright notice and this permission notice shall be included in all
 /// copies or substantial portions of the Software.
-/// 
+///
 /// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 /// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 /// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -67,6 +67,17 @@ module.exports = (md, opts) => {
     function normalizeHref(hrefAttr, env, token, addAttr) {
         let url = hrefAttr[1]
 
+        //  Old site style with DocFx linked to API documentation using the
+        //  following markdown example
+        //  [GraphicsDeviceManager](xref:Microsoft.Xna.Framework.GraphicsDeviceManager)
+        //
+        //  To allow documentation to continue to be written this way, the following
+        //  checks for the `xref:` string at the start of the link and explicitly
+        //  adjusts it for the `/api/` directory link.
+        if(url.startsWith('xref:')) {
+            url = '/api/' + url.slice(5);
+        } else {
+
         const parsed = new URL(url, 'http://a.com')
         let cleanUrl = url.replace(/\#.*$/, '').replace(/\?.*$/, '')
 
@@ -92,6 +103,7 @@ module.exports = (md, opts) => {
         if (applyBase) {
             url = eleventyConfig.getFilter("url")(url);
         }
+    }
 
         hrefAttr[1] = url
     }
