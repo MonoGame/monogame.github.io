@@ -12,6 +12,7 @@ _layout: landing
 <br/>
 
 # Table of contents
+
 1. [Article 1 - Offices](#article-1---offices)
 2. [Article 2 - Purpose](#article-2---purpose)
 3. [Article 3 - Shareholders](#article-3---shareholders)
@@ -35,7 +36,7 @@ These bylaws of the MonoGame Foundation, Inc. (the “**Corporation**”), dated
 - 2.1 *General Purpose.* The general purposes for which this Corporation has been established are as follows:
   - a. Exclusively for charitable, religious, educational, and scientific purposes, within the meaning of such terms as defined in the Internal Revenue Code (the “**Code**”) or the corresponding section of any future federal tax code, including for such purposes, the making of distributions to organizations that qualify as exempt organizations under such section.
   - b. The Corporation is established within the meaning of IRS Publication 557 Section 501(c) of the Code of 1986 or the corresponding section of any future federal tax code and will be operated exclusively for the solicitation of funds to support veterans’ service organizations.
-- 2.2 *Powers.* The Corporation will hold and may exercise all such powers as may be conferred upon any nonprofit organization by the laws of the State of Texas and as may be necessary or expedient for the administration of the affairs and attainment of the purposes of the Corporation. At no time and in no event will the Corporation participate in any activities which have not been permitted to be carried out by a Corporation exempt under Section 501(c) of the Code.
+- 2.2 *Powers.* The Corporation will hold and may exercise all such powers as may be conferred upon any non-profit organization by the laws of the State of Texas and as may be necessary or expedient for the administration of the affairs and attainment of the purposes of the Corporation. At no time and in no event will the Corporation participate in any activities which have not been permitted to be carried out by a Corporation exempt under Section 501(c) of the Code.
 
 ## Article 3 - Shareholders
 
@@ -46,7 +47,7 @@ The Corporation has no Shareholders.
 - 4.1 *Management.* The business and affairs of the Corporation will be managed by or under the direction of the Board of Directors, who may exercise all such powers of the Corporation and do all such lawful acts not directed or required by law, the certificate of formation, or these bylaws.
 - 4.2 *Board Elections.* The Governance Committee will present a nomination slate for new and renewing Board members at the board meeting immediately preceding the beginning of the next fiscal year. Recommendations from the Governance Committee will be made known to the Board in writing before nominations are made and voted on. New and renewing Board members shall be approved by a majority of those Board members at a Board meeting at which a quorum is present.
 - 4.3 *Qualification; Election; Term.* None of the Directors need be a resident of the state of Texas. Each Director will hold its office until whichever of the following occurs first: (a) a successor is elected and qualified, (b) resignation, (c) removal from office, or (d) death. Directors will be elected by the affirmative vote of a two-thirds majority of the then serving Board of Directors.
-- 4.4 *Number.* 
+- 4.4 *Number.*
   - a. The Board shall have up to eleven, but no fewer than three, Board members. The number of Board members may be increased beyond eleven members or decreased to less than three members by the affirmative vote of a two-thirds majority of the then serving Board of Directors. A Board member need not be a resident of the State of Texas.
   - b. In addition to the regular membership of the Board, representatives of such other organizations or individuals as the Board may deem advisable to elect shall be *Ex-Officio Board Members*, which will have the same rights and obligations, including voting power, as the other directors.
 - 4.5 *Term.* All appointments to the Board shall be for a term of three year(s). No person shall serve more than three consecutive terms unless a majority of the Board, during the course of a Board meeting at which a quorum is present, votes to appoint a Board member to one additional year(s). No person shall serve more than seven consecutive years. After serving the maximum total number of consecutive years on the Board, a member may be eligible for reconsideration as a Board member after one year has passed since the conclusion of such Board member's service.
@@ -92,7 +93,9 @@ The Corporation has no Shareholders.
   - f. Appoint any other committees of the Board of Directors or their members.
   - g. Approve a plan of merger, consolidation, voluntary dissolution, bankruptcy, or reorganization; or a plan for the sale, lease, or exchange of all or considerably all of the property and assets of the Corporation/Organization otherwise than in the usual and regular course of its business; or revoke any such plan.
   - h. Approve any self-dealing transaction, except as provided pursuant to law.
+
 <br/>
+
   Unless otherwise authorized by the Board of Directors, no committee will compel the Corporation into a contract or agreement or expend Corporation funds.
 
 - 7.2 *Meetings and Actions of Committees.* Meetings and actions of all committees will be governed by, and held and taken in accordance with, these bylaws concerning meetings and actions of the directors, with such changes in the context of those bylaws as are necessary to substitute the committee and its members for the Board of Directors and its members, except that the time for regular meetings of committees may be determined either by resolution of the Board of Directors or by resolution of the committee. Special meetings of committees may also be called by resolution of the Board of Directors. Notice of special meetings of committees will also be given to any and all alternate members, who will have the right to attend all meetings of the committee. Minutes will be kept of each meeting of any committee and will be filed with the Corporation records. The Board of Directors may adopt rules not consistent with the provisions of these bylaws for the governance of any committee. If a director relies on information prepared by a committee of the Board on which the director does not serve, the committee must be composed exclusively of any or any combination of (a) directors, (b) directors or employees of the Corporation/Organization whom the director believes to be reliable and competent in the matters presented, or (c) counsel, independent accountants, or other persons as to matters which the director believes to be within that person's professional or expert competence.
@@ -108,7 +111,9 @@ The Corporation has no Shareholders.
   - a. One or more officers or employees of the Corporation whom the director deems to be reliable and competent in the matters presented;
   - b. Counsel, independent accountants, or other persons, as to the matters which the director deems to be within such person's professional or expert competence; or
   - c. A committee of the Board upon which the director does not serve, as to matters within its designated authority, which committee the director deems to merit confidence, so long as in any such case the director acts in good faith, after reasonable inquiry when the need may be indicated by the circumstances, and without knowledge that would cause such reliance to be unwarranted.
+
 <br/>
+
   Except as herein provided in *Article 8*, any person who performs the duties of a director in accordance with the above shall have no liability based upon any failure or alleged failure to discharge that person's obligations as a director, including, without limitation of the following, any actions or omissions which exceed or defeat a public or charitable purpose to which the Corporation, or assets held by it, are dedicated.
 
 - 8.2 *Loans.* The Corporation/Organization will not make any loan of money or property to, or guarantee the obligation of, any director or officer, unless approved by the Texas Attorney General; provided, however, that the Corporation may advance money to a director or officer of the Corporation or any subsidiary for expenses reasonably anticipated to be incurred in the performance of the duties of such officer or director so long as such individual would be entitled to be reimbursed for such expenses absent that advance.
@@ -122,8 +127,9 @@ The Corporation has no Shareholders.
   - b. The Chair of the Board of the Board shall, if deemed necessary and appropriate, appoint a disinterested person or committee to investigate alternatives to the proposed transaction or arrangement.
   - c. After exercising due diligence, the Board shall determine whether the Corporation can obtain with reasonable efforts a more advantageous transaction or arrangement from a person or entity that would not give rise to a conflict of interest.
   - d. If a more advantageous transaction or arrangement is not reasonably possible under circumstances not producing a conflict of interest, the Board shall determine by a majority vote of the disinterested directors whether the transaction or arrangement is in the best interest of the Corporation, for its own benefit, and whether it is fair and reasonable. It shall make its decision as to whether to enter into the transaction arrangement in conformity with this determination.
+
 <br/>
-<br/>
+
 - 8.8 *Violations of Conflict of Interest Policy.* Should the Board have reasonable cause to believe an interested person has failed to disclose actual or possible conflicts of interest, the Board will then inform the interested person of the basis for such belief and afford the interested person an opportunity to explain the alleged failure to disclose. If, after hearing the interested person's explanation, and after making further investigation as may be warranted in consideration of the circumstances, the Board determines the interested person intentionally failed to disclose an actual or possible conflict of interest, it shall take appropriate disciplinary and corrective action.
 - 8.9 *Acknowledgement of the Conflict of Interest Policy.* Each director, principal officer, and member of a committee with Board delegated powers shall be required to sign a statement which affirms that such person:
 
@@ -131,26 +137,30 @@ The Corporation has no Shareholders.
   - b. Has read and understands the policy;
   - c. Has agreed to comply with the policy; and
   - d. Understands that the Corporation/Organization is charitable, and in order to maintain its federal tax exemption, it must engage primarily in activities which accomplish one or more of its tax-exempt purposes.
+
 <br/>
-<br/>
+
 - 8.10 *Violation of Loyalty - Self-Dealing Contracts.* A self-dealing contract is any contract or transaction (i) between this Corporation/Organization and one or more of its Directors, or between this Corporation/Organization and any corporation, firm, or association in which one or more of the Directors has a material financial interest ("*Interested Director*"), or (ii) between this Corporation/Organization and a corporation, firm, or association of which one or more of its directors are Directors of this Corporation/Organization. Said self-dealing shall not be void or voidable because such Director(s) of corporation, firm, or association are parties or because said Director(s) are present at the meeting of the Board of Directors or committee which authorizes, approves or ratifies the self-dealing contract, if:
 
   - a. All material facts are fully disclosed to or otherwise known by the members of the Board and the self-dealing contract is approved by the Interested Director in good faith (without including the vote of any membership owned by said interested Director(s));
   - b. All material facts are fully disclosed to or otherwise known by the Board of Directors or committee, and the Board of Directors or committee authorizes, approves, or ratifies the self-dealing contract in good faith—without counting the vote of the interested Director(s)— and the contract is just and reasonable as to the Corporation/Organization at the time it is authorized, approved, or ratified; or
   - c. As to contracts not approved as provided in above sections (a) and/or (b), the person asserting the validity of the self-dealing contract sustains the burden of proving that the contract was just and reasonable as to the Corporation/Organization at the time it was authorized, approved, or ratified.
+
 <br/>
-<br/>
+
  Interested Director(s) may be counted in determining the presence of a quorum at a meeting of the Board of Directors or a committee thereof, which authorizes, approves, or ratifies a contract or transaction as provided for and contained in this section.
+
 <br/>
-<br/>
+
 - 8.11 *Indemnification.*
 
   - a. To the fullest extent permitted by law, the Corporation will indemnify its "agents," as described by law, including its directors, officers, employees and volunteers, and including persons formerly occupying any such position, and their heirs, executors and administrators, against all expenses, judgments, fines, settlements, and other amounts actually and reasonably incurred by them in connection with any "proceeding," and including any action by or in the right of the Corporation, by reason of the fact that the person is or was a person as described in the Non-Profit Corporation Act. Such right of indemnification will not be deemed exclusive of any other right to which such persons may be entitled apart from this Article.
   - b. To the fullest extent permitted by law, and, except as otherwise determined by the Board in a specific instance, expenses incurred by a person seeking indemnification in defending any "proceeding" shall be advanced by the Corporation of an undertaking by or on behalf of that person to repay such amount unless it is ultimately determined that the person is entitled to be indemnified by the Corporation for those expenses.
   - c. The Corporation will have the power to purchase and maintain insurance on behalf of any agent of the Corporation, to the fullest extent permitted by law, against any liability asserted against or incurred by the agent in such capacity or arising out of the agent's status as such, or to give other indemnification to the extent permitted by law.
+
 <br/>
-<br/>
-- 8.12 *Net Earnings.* No part of the net earnings of the nonprofit corporation will inure to the benefit of, or be distributable to its officers, or other private persons, except that the nonprofit corporation will be authorized and empowered to pay reasonable compensation for services rendered and to make payments and distributions in furtherance of the purposes set forth herein.
+
+- 8.12 *Net Earnings.* No part of the net earnings of the non-profit corporation will inure to the benefit of, or be distributable to its officers, or other private persons, except that the nonprofit corporation will be authorized and empowered to pay reasonable compensation for services rendered and to make payments and distributions in furtherance of the purposes set forth herein.
 - 8.13 *No Political Campaigns.* No substantial part of the activities of the nonprofit corporation will be the carrying on of propaganda, or otherwise attempting to influence legislation, and the nonprofit corporation will not participate in, or intervene in (including the publishing or distribution of statements) any political campaign on behalf of or in opposition to any candidate for public Office. Notwithstanding any other provision of these articles, the nonprofit corporation will not carry on any other activities not permitted to be carried on (a) by a corporation exempt from federal income tax under section 501 (c)(3) of the Code, or the corresponding section of any future federal tax code or (b) by a corporation, contributions to which are deductible under section 501 (c)(3) of the Code.
 - 8.14. *Winding Up.* Upon the dissolution of the nonprofit corporation, after all liabilities and obligations of the nonprofit corporation have been paid, satisfied, and discharged in accordance with section 11.053 of the Texas Business Organizations Code (the "*BOC*"), (A) the assets held by the nonprofit corporation on a condition requiring return, transfer, or conveyance because of the winding up or termination will, in accordance with section 22.304 of the BOC, be returned, transferred, or conveyed in accordance with that requirement; and (B) the remaining assets will be distributed for one or more exempt purposes within the meaning of section 501 (c)(3) of the Internal Revenue Code, or the corresponding section of any future federal tax code, or will be distributed to the federal government, or to a state or local government, for a public purpose. Any such assets not so disposed of will be disposed of by a Court of Competent Jurisdiction of the county in which the principal office of the nonprofit corporation is then located, exclusively for such purposes or to such organization or organizations, as said Court will determine, which are organized and operated exclusively for such purposes.
 - 8.15 *Fiscal Year.* The fiscal year of the Corporation will be fixed by resolution of the board of directors.
@@ -158,25 +168,29 @@ The Corporation has no Shareholders.
   - a. The Board of Directors may, at its discretion, determine the method and designate the signatory officer or officers, or other person or persons, to execute any corporate instrument or document, or to sign the corporate name without limitation, except when otherwise provided by law, and such execution or signature shall be binding upon the Corporation.
   - b. Unless otherwise specifically determined by the Board of Directors or otherwise required by law, formal contracts of the Corporation, promissory notes, deeds of trust, mortgages, other evidences of indebtedness of the Corporation, other corporate/organization instruments or documents, memberships in other corporations/organizations, and certificates of shares of stock owned by the Corporation will be executed, signed, and/or endorsed by the President and Secretary.
   - c. All checks and drafts drawn on banks or other depositories on funds to the credit of the Corporation, or in special accounts of the Corporation, will be signed by such person or persons as the Board of Directors authorizes to do so.
+
 <br/>
-<br/>
+
 - 8.17 *Loans and Contracts.* No loans or advances will be contracted on behalf of the Corporation and no note or other evidence of indebtedness shall be issued in its name unless and except as the specific transaction is authorized by the Board of Directors. Without the express and specific authorization of the Board, no officer or other agent of the Corporation may enter into any contract or execute and deliver any instrument in the name of and on behalf of the Corporation.
 - 8.18 *Maintenance and inspection of Articles and Bylaws.* The Corporation will keep at its principal office the original or a copy of its Articles of Incorporation and bylaws as amended to date, which will be open to inspection by the directors at all reasonable times during office hours.
 - 8.19 *Maintenance and Inspection of Federal Tax Exemption Application and Annual Information Returns.* The Corporation will keep at its principal office a copy of its federal tax exemption application and its annual information returns for three years from their date of filing, which shall be open to public inspection and copying to the extent required by law.
 - 8.20 *Maintenance and Inspection of Other Corporate Records.* The Corporation will keep adequate and correct books and records of accounts and written minutes of the proceedings of the Board and committees of the Board. All such records will be kept at a place or places as designated by the Board and committees of the Board, or in the absence of such designation, at the principal office of the Corporation. Upon leaving office, each officer, employee, or agent of the Corporation will turn over to his or her successor or the Chair of the Board or President, in good order, such corporate monies, books, records, minutes, lists, documents, contracts or other property of the Corporation as have been in the custody of such officer, employee, or agent during his or her term of office.<br/><br/>Every director will have the absolute right at any reasonable time to inspect all books, records, and documents of every kind and the physical properties of the Corporation and each of its subsidiary corporations. The inspection may be made in person or by an agent or attorney, and shall include the right to copy and make extracts of documents.
+
 <br/>
-<br/>
+
 - 8.21 *Preparation of Annual Financial Statements.* The Corporation will prepare annual financial statements using generally accepted accounting principles. Such statements may at the Board’s request, be audited by an independent certified public accountant, in conformity with generally accepted accounting standards. The Corporation will make these financial statements available to the Texas Attorney General and members of the public for inspection no later than thirty days after the close of the fiscal year to which the statements relate.
 - 8.22 *Reports.* The Board will ensure an annual report is sent to all directors within thirty days after the end of the fiscal year of the Corporation, which shall contain the following information:
   - a. The assets and liabilities, including trust funds, of this corporation at the end of the fiscal year.
   - b. The principal changes in assets and liabilities, including trust funds, during the fiscal year.
   - c. The expenses or disbursements of the Corporation/Organization for both general and restricted purposes during the fiscal year.
   - d. The information required by Non-Profit Corporation Act concerning certain self-dealing transactions involving more than $50,000 or indemnifications involving more than $10,000 which took place during the fiscal year.
+
 <br/>
-<br/>
+
 The report will be accompanied by any pertinent report from an independent accountant or, if there is no such report, the certificate of an authorized officer of the Corporation/Organization that such statements were prepared without audit from the books and records of the Corporation.
+
 <br/>
-<br/>
+
 - 8.23 *Seal.* The Corporation may have a seal, and the seal may be used by causing it or a facsimile of it to be impressed, affixed, or reproduced, or otherwise.
 - 8.24 *Indemnification.* The Corporation will indemnify its directors and officers to the fullest extent permitted by the Texas Business Organizations Code and may, if and to the extent authorized by the board of directors, indemnify any other person whom it has the power to indemnify against liability, reasonable expense, or any other matter whatever.
 - 8.25 *Insurance.* The Corporation may at the discretion of the Board of Directors purchase and maintain insurance on behalf of the Corporation and any person whom it has the power to indemnify pursuant to law, the certificate of formation, or these bylaws, or otherwise.
