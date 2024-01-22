@@ -1,0 +1,28 @@
+---
+layout: ''
+permalink: "blog/feed.xml"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ site.hostname }}">
+    <title>{{ site.meta.title }}</title>
+    <subtitle>{{ site.meta.description }}</subtitle>
+    <link href="{{ permalink | absoluteUrl(site.hostname) }}" rel="self"/>
+    <link href="{{ site.hostname }}"/>
+    <updated>{{ collections.blogPosts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <id>{{ site.hostname }}/</id>
+    <author>
+        <name>MonoGame Foundation</name>
+        <email>admin@monogame.net</email>
+    </author>
+    {%- for post in collections.blogPosts | reverse %}
+        {%- set absolutePostUrl = post.url | absoluteUrl(site.hostname) %}
+        <entry>
+            <title>{{ post.data.title }}</title>
+            <link href="{{ absolutePostUrl }}"/>
+            <updated>{{ post.date | dateToRfc3339 }}</updated>
+            <id>{{ absolutePostUrl }}</id>
+            <content xml:lang="en-US" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+        </entry>
+    {%- endfor %}
+</feed>
