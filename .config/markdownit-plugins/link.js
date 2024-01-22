@@ -67,6 +67,17 @@ module.exports = (md, opts) => {
     function normalizeHref(hrefAttr, env, token, addAttr) {
         let url = hrefAttr[1]
 
+        //  Old site style with DocFx linked to API documentation using the
+        //  following markdown example
+        //  [GraphicsDeviceManager](xref:Microsoft.Xna.Framework.GraphicsDeviceManager)
+        //
+        //  To allow documentation to continue to be written this way, the following
+        //  checks for the `xref:` string at the start of the link and explicitly
+        //  adjusts it for the `/api/` directory link.
+        if(url.startsWith('xref:')) {
+            url = '/api/' + url.slice(5);
+        } else {
+
         const parsed = new URL(url, 'http://a.com')
         let cleanUrl = url.replace(/\#.*$/, '').replace(/\?.*$/, '')
 
@@ -92,6 +103,7 @@ module.exports = (md, opts) => {
         if (applyBase) {
             url = eleventyConfig.getFilter("url")(url);
         }
+    }
 
         hrefAttr[1] = url
     }

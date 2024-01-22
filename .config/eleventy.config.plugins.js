@@ -2,6 +2,7 @@
 const navigation = require('@11ty/eleventy-navigation');
 const syntaxhighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const nesting = require('eleventy-plugin-nesting-toc');
+const feed = require('@11ty/eleventy-plugin-rss');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 
 
@@ -17,4 +18,5 @@ module.exports = function (config) {
         headingTag: 'h5'
     });
     config.addPlugin(EleventyHtmlBasePlugin);
+    config.addPlugin(feed);
 }
