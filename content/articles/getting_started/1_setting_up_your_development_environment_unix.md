@@ -12,6 +12,16 @@ The only development environment that MonoGame officially supports on Linux is [
 ## Install .NET 6 SDK
 
 - .NET SDK at: [https://dotnet.microsoft.com/en-us/download](https://dotnet.microsoft.com/en-us/download)
+- If you are intending to target mobile platforms, make sure that you have the corresponding workload installed
+
+```sh
+dotnet workload install ios
+dotnet workload install android
+```
+
+## macOS considerations
+
+For the time being, MonoGame requires that you install the x64 version of the .NET SDK even if you are running on an Apple Silicon mac. It is also required that [Rosetta](https://support.apple.com/en-us/HT211861) is enabled.
 
 ## [Optional] Install Visual Studio Code
 
