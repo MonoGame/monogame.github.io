@@ -142,7 +142,7 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
 
 .mg-card-thumbnail {
   aspect-ratio: 16/9;
-  filter: brightness(80%);
+  filter: brightness(100%);
   border-radius: 7px;
   background-position: center;
   background-size: cover;
@@ -174,7 +174,7 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
 
 .mg-card:hover .mg-card-thumbnail,
 .mg-card:focus .mg-card-thumbnail {
-  filter: brightness(100%);
+  filter: brightness(110%);
   transform: scale(1.1);
 }
 
