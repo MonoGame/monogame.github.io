@@ -23,13 +23,6 @@
                     </li>
                 {% endfor %}
             </ul>
-            <div class="d-flex flex-row">
-                {% for social in site.social %}
-                    <a class="btn border-0" href="{{ social.url }}" title="{{ social.title }}">
-                        <i class="bi {{ social.icon }}"></i>
-                    </a>
-                {% endfor %}
-            </div>
             {% include 'partials/_themeToggle.njk' %}
         </div>
     </div>

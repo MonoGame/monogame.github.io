@@ -59,12 +59,20 @@
                 <h3 class="fw-bold"><a href="/about/#contact-us">Contact Us</a></h1>
             </div>
         </div>
+
         <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-3 py-4 my-4">
             <div>
                 Copyright © 2009-2024 MonoGame Foundation, Inc. <br/> Designed with
                 <span class="text-danger">❤</span>
                 by
                 <a href="https://github.com/MonoGame/monogame.github.io/graphs/contributors">MonoGame Community</a>
+            </div>
+            <div class="d-flex justify-content-between gap-3">
+                {% for social in site.social %}
+                    <a class="mg-social-link hide-external-icon" href="{{ social.url }}" title="{{ social.title }}">
+                        <i class="bi {{ social.icon }}"></i>
+                    </a>
+                {% endfor %}
             </div>
         </div>
     </footer>
