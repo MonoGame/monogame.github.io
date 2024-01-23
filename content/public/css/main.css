@@ -138,6 +138,7 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
   border-radius: .5rem;
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 .mg-card-thumbnail {
