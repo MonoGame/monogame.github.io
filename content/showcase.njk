@@ -10,7 +10,7 @@ permalink: showcase/{{ (category | slugify) if category !== "all" }}/
 {% from 'macros/create_category_filter.njk' import create_category_filter %}
 
 {% block content %}
-    <section class="container-xxl my-3">
+    <section class="container-xxl my-5">
         <h1 id="monogame-showcase" class="fw-bold"><a href="#monogame-showcase">MonoGame Showcase</a></h1>
         <p>
             There have been 1000s of games, libraries, and tools made using MonoGame over the years.
@@ -24,7 +24,7 @@ permalink: showcase/{{ (category | slugify) if category !== "all" }}/
 
     {{ create_category_filter(collections.gameTags, "/showcase/", page.url) }}
 
-    <section class="container-xxl mb-3">
+    <section class="container-xxl mb-5">
         <div id="showcase-gallery" class="mg-item-grid">
             {% for game in games %}
                 {% if category in game.tags or category === "all" %}

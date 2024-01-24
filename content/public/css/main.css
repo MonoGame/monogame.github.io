@@ -138,11 +138,12 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
   border-radius: .5rem;
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 .mg-card-thumbnail {
   aspect-ratio: 16/9;
-  filter: brightness(80%);
+  filter: brightness(100%);
   border-radius: 7px;
   background-position: center;
   background-size: cover;
@@ -174,7 +175,7 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
 
 .mg-card:hover .mg-card-thumbnail,
 .mg-card:focus .mg-card-thumbnail {
-  filter: brightness(100%);
+  filter: brightness(110%);
   transform: scale(1.1);
 }
 
@@ -250,6 +251,17 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
   gap: 30px;
 }
 
+.mg-social-link {
+    text-decoration: none;
+    color: var(--bs-body-color);
+    font-size: 24px;
+    filter: brightness(100%);
+}
+
+.mg-social-link:hover,
+.mg-social-link:focus {
+    filter: brightness(120%);
+}
 
 /*******************************************************************************
 *** Section: Table of Contents
