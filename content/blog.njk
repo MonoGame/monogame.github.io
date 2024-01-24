@@ -12,12 +12,12 @@ permalink: blog/{{ (category | slugify) if category !== "all" }}/
 
 
 {% block content %}
-    <section class="container-xxl my-3">
+    <section class="container-xxl my-5">
         <h1 id="monogame-blog" class="fw-bold"><a href="#monogame-blog">MonoGame Blog</a></h1>
     </section>
     {{ create_category_filter(collections.blogTags, "/blog/", page.url) }}
 
-    <section class="container-xxl mb-3">
+    <section class="container-xxl mb-5">
         <div class="mg-item-grid">
             {% for post in collections.blogPosts | reverse %}
                 {% if category in post.data.tags or category === "all" %}
