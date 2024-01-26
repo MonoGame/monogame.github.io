@@ -6,7 +6,8 @@
         "debugbuild": "set DEBUG=Eleventy* & npx @11ty/eleventy",
         "debugdev": "set DEBUG=Eleventy* & npx @11ty/eleventy --serve",
         "benchmarkbuild": "set DEBUG=Eleventy:Benchmark* & npx @11ty/eleventy",
-        "benchmarkdev": "set DEBUG=Eleventy:Benchmark* & npx @11ty/eleventy --serve"
+        "benchmarkdev": "set DEBUG=Eleventy:Benchmark* & npx @11ty/eleventy --serve",
+        "checklinks": "node ./.utilities/link-checker/index.js"
     },
     "devDependencies": {
         "@11ty/eleventy": "^2.0.1",
