@@ -18,13 +18,13 @@ function filterElementsWithoutHref(element) {
 function removeMDExtension(json) {
     json.forEach((element) => {
         if (element.href) {
-            element.href = element.href.replace(/\.md$/, '');
+            element.href = element.href.replace(/\.md$/, '/');
         }
 
         if (element.items) {
             element.items.forEach((item) => {
                 if (item.href) {
-                    item.href = item.href.replace(/\.md$/, '');
+                    item.href = item.href.replace(/\.md$/, '/');
                 }
             });
             removeMDExtension(element.items);
