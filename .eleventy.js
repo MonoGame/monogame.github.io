@@ -9,6 +9,7 @@ const plugins = require('./.config/eleventy.config.plugins');
 const libraries = require('./.config/eleventy.config.libraries');
 const passThrough  = require('./.config/eleventy.config.passthrough');
 const transforms = require('./.config/eleventy.config.transforms');
+const events = require('./.config/eleventy.config.events');
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 function eleventy(eleventyConfig) {
@@ -21,6 +22,7 @@ function eleventy(eleventyConfig) {
     libraries(eleventyConfig);
     passThrough(eleventyConfig);
     transforms(eleventyConfig);
+    events(eleventyConfig);
 
     return {
         //  Which files Eleventy will process
