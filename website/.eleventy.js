@@ -8,7 +8,6 @@ const collections = require('./.config/eleventy.config.collections');
 const plugins = require('./.config/eleventy.config.plugins');
 const libraries = require('./.config/eleventy.config.libraries');
 const passThrough  = require('./.config/eleventy.config.passthrough');
-const transforms = require('./.config/eleventy.config.transforms');
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 function eleventy(eleventyConfig) {
@@ -18,9 +17,8 @@ function eleventy(eleventyConfig) {
     dataExtensions(eleventyConfig);
     collections(eleventyConfig);
     plugins(eleventyConfig);
-    libraries(eleventyConfig);
+    // libraries(eleventyConfig);
     passThrough(eleventyConfig);
-    transforms(eleventyConfig);
 
     return {
         //  Which files Eleventy will process
@@ -38,7 +36,7 @@ function eleventy(eleventyConfig) {
 
         //  Configure directories where eleventy looks for content
         "dir": {
-            "input": "content",
+            "input": "./website/content",
             "includes": "../_includes",
             "data": "../_data",
             "output": "_site"

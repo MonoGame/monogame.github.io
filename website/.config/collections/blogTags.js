@@ -3,7 +3,7 @@
 /** @param {import("@11ty/eleventy/src/TemplateCollection")} api */
 function blogTags(api) {
     let tags = [];
-    let posts = api.getFilteredByGlob('./content/blog/*.md');
+    let posts = api.getFilteredByGlob('./website/content/blog/*.md');
 
     posts.forEach((post) => {
         if(post.data.tags) {
