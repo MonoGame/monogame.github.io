@@ -1,6 +1,6 @@
 ---
-layout: layouts/article.layout.njk
-hidetoc: true
+title: Foundation Bylaws
+layout: landing
 ---
 
 <h1 class="text-center">
@@ -9,14 +9,14 @@ hidetoc: true
 </h1>
 
 # Table of contents
-1. [Article 1 - Offices](#article-offices)
-2. [Article 2 - Purpose](#article-purpose)
-3. [Article 3 - Shareholders](#article-shareholders)
-4. [Article 4 - Board of Directors](#article-board-of-directors)
-5. [Article 5 - Notice](#article-notice)
-6. [Article 6 - Officers and Agents](#article-officers-and-agents)
-7. [Article 7 - Committees](#article-committees)
-8. [Article 8 - General Provisions](#article-general-provisions)
+1. [Article 1 - Offices](#article-1---offices)
+2. [Article 2 - Purpose](#article-2---purpose)
+3. [Article 3 - Shareholders](#article-3---shareholders)
+4. [Article 4 - Board of Directors](#article-4---board-of-directors)
+5. [Article 5 - Notice](#article-5---notice)
+6. [Article 6 - Officers and Agents](#article-6---officers-and-agents)
+7. [Article 7 - Committees](#article-7---committees)
+8. [Article 8 - General Provisions](#article-8---general-provisions)
 
 These bylaws of the MonoGame Foundation, Inc. (the “**Corporation**”), dated as of 29 September 2023 (the “**Effective Date**”), are adopted by the Board of Directors and are executed and agreed to.
 
