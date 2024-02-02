@@ -27,32 +27,6 @@
           "api/**/*.yml",
           "api/**/*.md"
         ]
-      },
-      {
-        "files": [
-          "articles/**/*.md",
-          "articles/**/*.yml",
-          "toc.yml",
-          "*.md"
-        ],
-        "exclude": [
-          "obj/**",
-          "bin/**"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "**/images/**",
-          "codesnippet/**",
-          "scripts/*.js"
-        ],
-        "exclude": [
-          "_site/**",
-          "obj/**",
-          "external/**"
-        ]
       }
     ],
     "output": "../_site",
