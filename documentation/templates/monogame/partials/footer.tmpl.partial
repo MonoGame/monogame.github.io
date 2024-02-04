@@ -84,7 +84,13 @@
                 </a>
                 <a class="mg-social-link hide-external-icon" href="https://www.facebook.com/monogamecommunity" title="Facebook">
                     <i class="bi bi-facebook"></i>
-                </a>                                     
+                </a>
+                <a class="mg-social-link hide-external-icon" href="https://twitter.com/MonoGameTeam" title="Twitter">
+                    <i class="bi bi-twitter"></i>
+                </a>     
+                <a class="mg-social-link hide-external-icon" href="https://monogame.net/blog/feed.xml" title="MonoGame Blog">
+                    <i class="bi bi-rss-fill"></i>
+                </a>                                                   
             </div>
         </div>
     </footer>
