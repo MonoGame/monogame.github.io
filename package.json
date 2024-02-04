@@ -1,17 +1,10 @@
 {
     "scripts": {
-        "website": "node index.js --website",
-        "api": "node index.js --website --api",
-        "articles": "node index.js --website --articles",
-        "dev": "node index.js",
-        "docfx": "dotnet tool restore && dotnet docfx metadata",
-        "build": "npx @11ty/eleventy",
-        "olddev": "npx @11ty/eleventy --serve --config=./website/.eleventy.js",
-        "debugbuild": "set DEBUG=Eleventy* & npx @11ty/eleventy",
-        "debugdev": "set DEBUG=Eleventy* & npx @11ty/eleventy --serve",
-        "benchmarkbuild": "set DEBUG=Eleventy:Benchmark* & npx @11ty/eleventy",
-        "benchmarkdev": "set DEBUG=Eleventy:Benchmark* & npx @11ty/eleventy --serve"
-    },
+        "dev": "set RUN_MODE=%npm_lifecycle_event% && npx @11ty/eleventy --serve --config=./website/.eleventy.js || export RUN_MODE=$npm_lifecycle_event; npx @11ty/eleventy --serve --config=./website/.eleventy.js",
+        "website": "set RUN_MODE=%npm_lifecycle_event% && npx @11ty/eleventy --serve --config=./website/.eleventy.js || export RUN_MODE=$npm_lifecycle_event; npx @11ty/eleventy --serve --config=./website/.eleventy.js",
+        "articles": "set RUN_MODE=%npm_lifecycle_event% && npx @11ty/eleventy --serve --config=./website/.eleventy.js || export RUN_MODE=$npm_lifecycle_event; npx @11ty/eleventy --serve --config=./website/.eleventy.js",
+        "build": "set RUN_MODE=%npm_lifecycle_event% && npx @11ty/eleventy --config=./website/.eleventy.js || export RUN_MODE=$npm_lifecycle_event; npx @11ty/eleventy --serve --config=./website/.eleventy.js"
+    },    
     "devDependencies": {
         "@11ty/eleventy": "^2.0.1",
         "@11ty/eleventy-navigation": "^0.3.5",
