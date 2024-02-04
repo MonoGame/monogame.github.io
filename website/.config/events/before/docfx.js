@@ -6,7 +6,7 @@ const chalk = require('chalk');
 
 async function docfx() {
     const cwd = path.join(process.cwd(), 'documentation');
-    const command = 'dotnet docfx';
+    const command = 'dotnet tool restore && dotnet docfx';
 
     console.log();
     console.log('--------------------');
