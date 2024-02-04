@@ -47,11 +47,6 @@
           "**/images/**",
           "codesnippet/**",
           "scripts/*.js"
-        ],
-        "exclude": [
-          "_site/**",
-          "obj/**",
-          "external/**"
         ]
       }
     ],
