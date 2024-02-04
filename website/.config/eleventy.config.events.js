@@ -1,6 +1,9 @@
 'use strict'
 
-const docfxBuilder = require('./events/before/docfxBuilder');
+const fs = require('fs');
+const path = require('path');
+const docfxBuilder = require('./events/before/docfx');
+const sitemap = require('./events/after/sitemap');
 
 /** @param {import("@11ty/eleventy").UserConfig} config */
 module.exports = function (config) {
