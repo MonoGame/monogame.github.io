@@ -1,9 +1,9 @@
 {
     "scripts": {
-        "dev": "set RUN_MODE=%npm_lifecycle_event% && npx @11ty/eleventy --serve --config=./website/.eleventy.js || export RUN_MODE=$npm_lifecycle_event; npx @11ty/eleventy --serve --config=./website/.eleventy.js",
-        "website": "set RUN_MODE=%npm_lifecycle_event% && npx @11ty/eleventy --serve --config=./website/.eleventy.js || export RUN_MODE=$npm_lifecycle_event; npx @11ty/eleventy --serve --config=./website/.eleventy.js",
-        "articles": "set RUN_MODE=%npm_lifecycle_event% && npx @11ty/eleventy --serve --config=./website/.eleventy.js || export RUN_MODE=$npm_lifecycle_event; npx @11ty/eleventy --serve --config=./website/.eleventy.js",
-        "build": "set RUN_MODE=%npm_lifecycle_event% && npx @11ty/eleventy --config=./website/.eleventy.js || export RUN_MODE=$npm_lifecycle_event; npx @11ty/eleventy --serve --config=./website/.eleventy.js"
+        "dev": "cross-env RUN_MODE=$npm_lifecycle_event npx @11ty/eleventy --serve --config=./website/.eleventy.js",
+        "website": "cross-env RUN_MODE=$npm_lifecycle_event npx @11ty/eleventy --serve --config=./website/.eleventy.js",
+        "articles": "cross-env RUN_MODE=$npm_lifecycle_event npx @11ty/eleventy --serve --config=./website/.eleventy.js",
+        "build": "cross-env RUN_MODE=$npm_lifecycle_event npx @11ty/eleventy --config=./website/.eleventy.js"
     },
     "devDependencies": {
         "@11ty/eleventy": "^2.0.1",
