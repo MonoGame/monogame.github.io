@@ -38,7 +38,7 @@ Under the hood these effects use the same system and tools as one would for a cu
 
 To use a custom effect with MonoGame you must do one of the following:
 
-* Run the effect file through the [MonoGame Effect content processor](../tools/mgcb.md) for loading via the [`ContentManager`](../../api/Microsoft.Xna.Framework.Content.ContentManager) (Recommended).
+* Run the effect file through the [MonoGame Effect content processor](../tools/mgcb.md) for loading via the <xref:Microsoft.Xna.Framework.Content.ContentManager> (Recommended).
 * Process your effect file with the [MGFXC tool](../tools/mgfxc.md) and load them yourself at runtime.
 
 ## Effect Writing Tips

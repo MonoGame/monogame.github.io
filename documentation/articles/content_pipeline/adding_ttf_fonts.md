@@ -26,19 +26,19 @@ To be able to use a TrueType font, MonoGame requires the **TrueType font file** 
 
 ## Usage Example
 
-Make a class variable of type [`Spritefont`](../../api/Microsoft.Xna.Framework.Graphics.SpriteFont)
+Make a class variable of type <xref:Microsoft.Xna.Framework.Graphics.SpriteFont>
 
 ```csharp
 SpriteFont font;
 ```
 
-Load the font with [`ContentManager.Load`](../../api/Microsoft.Xna.Framework.Content.ContentManager)
+Load the font with <xref:Microsoft.Xna.Framework.Content.ContentManager>
 
 ```csharp
 font = myGame.Content.Load<SpriteFont>("Fonts/myFont")
 ```
 
-Draw text with [`SpriteBatch.Draw`](../../api/Microsoft.Xna.Framework.Graphics.SpriteBatch)
+Draw text with <xref:Microsoft.Xna.Framework.Graphics.SpriteBatch>
 
 ```csharp
 spriteBatch.Begin();
