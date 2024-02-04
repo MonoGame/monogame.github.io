@@ -52,7 +52,6 @@
     ],
     "output": "../_site",
     "globalMetadata": {
-      "_appLogoPath": "images/monogame_title_dark.svg",
       "_appFaviconPath": "images/favicon.png",
       "_disableBreadcrumb": "true",
       "_disableNavbar": true,
