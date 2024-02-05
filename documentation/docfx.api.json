@@ -31,12 +31,8 @@
     ],
     "output": "../_site",
     "globalMetadata": {
-      "_appLogoPath": "images/monogame_title_dark.svg",
-      "_appFaviconPath": "images/favicon.png",
+      "_appFaviconPath": "/favicon.png",
       "_disableBreadcrumb": "true",
-      "_appFooter": "Copyright © 2009-2023 MonoGame Foundation, Inc.",
-      "_hostname": "monogame.github.io",
-      "_openGraphImage": "images/horizontallogo.png",
       "_appFooter": "Copyright © 2009-2024 MonoGame Foundation, Inc.",
       "_hostname": "monogame.net",
       "_openGraphImage": "images/social_embed_image.png",

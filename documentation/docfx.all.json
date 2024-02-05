@@ -47,12 +47,9 @@
     ],
     "output": "../_site",
     "globalMetadata": {
-      "_appFaviconPath": "images/favicon.png",
+      "_appFaviconPath": "/favicon.png",
       "_disableBreadcrumb": "true",
-      "_disableNavbar": true,
       "_appFooter": "Copyright © 2009-2024 MonoGame Foundation, Inc.",
-      "_hostname": "monogame.github.io",
-      "_openGraphImage": "images/horizontallogo.png",
       "_hostname": "monogame.net",
       "_openGraphImage": "images/social_embed_image.png",
       "_description": "One framework for creating powerful cross-platform games.",
@@ -67,7 +64,6 @@
       "default",
       "modern",
       "templates/monogame"
-      
     ],
     "postProcessors": [],
     "keepFileLink": false,
