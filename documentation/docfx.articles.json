@@ -14,9 +14,7 @@
     "resource": [
       {
         "files": [
-          "**/images/**",
-          "codesnippet/**",
-          "scripts/*.js"
+          "**/images/**"
         ]
       }
     ],
