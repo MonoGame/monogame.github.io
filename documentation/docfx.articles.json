@@ -8,10 +8,6 @@
           "foundation/**/*.md",
           "toc.yml",
           "*.md"
-        ],
-        "exclude": [
-          "obj/**",
-          "bin/**"
         ]
       }
     ],
