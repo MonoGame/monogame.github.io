@@ -22,7 +22,7 @@
 <meta name="twitter:description" content="{{description}}">
 <meta name="twitter:image" content="https://{{_hostname}}/{{_openGraphImage}}">
 
-<link rel="icon" href="{{_rel}}{{{_appFaviconPath}}}{{^_appFaviconPath}}favicon.ico{{/_appFaviconPath}}">
+<link rel="icon" href="{{_appFaviconPath}}">
 <link rel="stylesheet" href="{{_rel}}public/docfx.min.css">
 <link rel="stylesheet" href="{{_rel}}public/main.css">
 <meta name="docfx:navrel" content="{{_navRel}}">
