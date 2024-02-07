@@ -7,7 +7,7 @@ description: Learn how to add content such as images or sounds to your game.
 
 This tutorial will go over adding content such as images or sounds to your game.
 
-> For help with creating a project, please look at the [Creating a New Project](index.md) section of the Getting Started guide.
+> For help with creating a project, please look at the [Creating a New Project](/) section of the Getting Started guide.
 
 ## MonoGame Content Builder Tool (MGCB Editor)
 
@@ -29,7 +29,7 @@ Now open up your game project and look at the Solution Explorer window. Expand t
 
 You should now see the MGCB Editor window open up. If a text file opens instead, then right-click on **Content.mgcb** and select **Open With**, then select **MGCB Editor** in the list, click **Set as Default** and then click **OK**, then try again.
 
-> If you do not see the **MGCB Editor** option when you right-click and select **Open With**, then please review the [Tools documentation](../tools/index.md) for installing the MGCB Editor tool for your operating system.
+> If you do not see the **MGCB Editor** option when you right-click and select **Open With**, then please review the [Tools documentation](../tools/) for installing the MGCB Editor tool for your operating system.
 
 ![MGCB Editor](images/3_mgcb_editor_tool.png)
 

@@ -6,7 +6,7 @@
         <p>Select a category below to filter the results</p>
         <div class="d-flex flex-row flex-wrap gap-3 mb-1">
             {% for category in categories %}
-                <a href="{{ basePath }}{{ (category | slugify) if category !== "all" }}"
+                <a href="{{ basePath }}{{ (category | slugify) if category !== "all" }}/"
                    type="button"
                    class="btn
                           mg-outline-button

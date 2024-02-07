@@ -16,7 +16,7 @@ It is a re-implementation of the discontinued [Microsoft's XNA Framework](https:
 - Content building and optimization
 - Math library optimized for games
 
-This documentation [helps you to get started](getting_started/index.md) by providing overviews of key features and tools, and a complete API reference.
+This documentation [helps you to get started](getting_started/) by providing overviews of key features and tools, and a complete API reference.
 
 Please use the links at the top and left to navigate the documentation sections.
 
@@ -30,7 +30,7 @@ If you are expecting a scene editor (like Unity or Unreal), MonoGame is not that
 
 If you love coding and understanding how things work under the hood, MonoGame might be what you are looking for. And fear not, getting a game running with MonoGame only takes a few minutes.
 
-[Let's get started!](getting_started/index.md)
+[Let's get started!](getting_started/)
 
 ## We Need Your Help!
 

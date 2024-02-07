@@ -5,7 +5,7 @@ function replaceXrefTags(content) {
         const parts = hrefAttribute.split('.');
         const linkText = parts[parts.length - 1];
 
-        return `<a href="${hrefAttribute}">${linkText}</a>`;
+        return `<a href="/api/${hrefAttribute}">${linkText}</a>`;
     });
 }
 
