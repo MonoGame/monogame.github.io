@@ -1,0 +1,100 @@
+/******************************************************************************
+*** Section: Properties
+*** Defines the CSS properties used throughout the styling of this site.
+***
+*** :root contains standardized properties for colors, sizes, etc
+*** [data-bs-theme=*] contains the specific color styling for the theme.
+******************************************************************************/
+:root {
+  --mg-orange-dark-rgb: 231, 60, 0;
+  --mg-orange-light-rgb: 212, 93, 53;
+  --mg-orange-dark: rgba(var(--mg-orange-dark-rgb), 1);
+  --mg-orange-light: rgba(var(--mg-orange-light-rgb), 1);
+  --navbar-height: 62px;
+}
+
+[data-bs-theme="light"] {
+  --mg-orange-primary: var(--mg-orange-dark);
+  --mg-orange-secondary: var(--mg-orange-light);
+  --mg-logo: url('/images/logo_light.svg');
+
+  --bs-link-color-rgb: var(--mg-orange-dark-rgb);
+  --bs-link-hover-color-rgb: var(--mg-orange-light-rgb);
+}
+
+[data-bs-theme="dark"] {
+  --mg-orange-primary: var(--mg-orange-light);
+  --mg-orange-secondary: var(--mg-orange-dark);
+  --mg-logo: url('/images/logo_dark.svg');
+
+  --bs-link-color-rgb: var(--mg-orange-light-rgb);
+  --bs-link-hover-color-rgb: var(--mg-orange-dark-rgb);
+}
+
+/*******************************************************************************
+*** Section: General
+*** General styling across HTMLspecific elements
+*******************************************************************************/
+
+body {
+font-family: 'Inter', sans-serif;
+}
+
+
+/*******************************************************************************
+*** Section: Bootstrap Overrides
+*** Contains various overrides to the built-in bootstrap classes and properties
+*** at the class selector level
+*******************************************************************************/
+
+/*  Use MonoGame orange as the hover and active color for navbars */
+.navbar {
+--bs-navbar-hover-color: var(--mg-orange-secondary);
+--bs-navbar-active-color: var(--mg-orange-primary);
+}
+
+.nav {
+--bs-nav-link-color: var(--bs-body-color);
+--bs-nav-link-hover-color: var(--mg-orange-primary);
+}
+
+/*  Bootstrap doesn't provide an .active class for .nav by default so we have */
+/*  to create it ourselves.... */
+.nav .active {
+color: var(--mg-orange-primary)
+}
+
+/*******************************************************************************
+*** Section: MonoGame Utility Classes
+*** Utility classes used throughout the site that provide some MonoGame specific
+*** styling.
+*** Classes begin with '.mg-'
+*******************************************************************************/
+.mg-color-orange {
+color: var(--mg-orange-primary);
+}
+
+.mg-logo {
+content: var(--mg-logo);
+}
+
+.mg-box-shadow {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mg-box-shadow:hover,
+.mg-box-shadow:focus {
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mg-social-link {
+  text-decoration: none;
+  color: var(--bs-body-color);
+  font-size: 24px;
+  filter: brightness(100%);
+}
+
+.mg-social-link:hover,
+.mg-social-link:focus {
+  filter: brightness(120%);
+}

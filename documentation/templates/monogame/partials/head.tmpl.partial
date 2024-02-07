@@ -1,0 +1,47 @@
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="title" content="{{#title}}{{title}}{{/title}}{{^title}}{{>partials/title}}{{/title}} {{#_appTitle}}| {{_appTitle}} {{/_appTitle}}">
+
+{{! HTML meta tags }}
+<title>{{#title}}{{title}}{{/title}}{{^title}}{{>partials/title}}{{/title}} {{#_appTitle}}| {{_appTitle}} {{/_appTitle}}</title>
+{{#description}}<meta name="description" content="{{description}}">{{/description}}
+
+{{! Facebook OpenGraph meta tags }}
+<meta name="og:url" content="https://{{_hostname}}/{{_path}}"
+<meta name="og:type" content="website">
+<meta name="og:title" content="{{#title}}{{title}}{{/title}}{{^title}}{{>partials/title}}{{/title}} {{#_appTitle}}| {{_appTitle}} {{/_appTitle}}">
+<meta name="og:description" content="{{description}}">
+<meta name="og:image" content="https://{{_hostname}}/{{_openGraphImage}}">
+
+{{! Twitter Card meta tags }}
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="{{_hostname}}">
+<meta property="twitter:url" content="https://{{_hostname}}/{{_path}}">
+<meta name="twitter:title" content="{{#title}}{{title}}{{/title}}{{^title}}{{>partials/title}}{{/title}} {{#_appTitle}}| {{_appTitle}} {{/_appTitle}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="https://{{_hostname}}/{{_openGraphImage}}">
+
+<link rel="icon" href="{{_appFaviconPath}}">
+<link rel="stylesheet" href="{{_rel}}public/docfx.min.css">
+<link rel="stylesheet" href="{{_rel}}public/main.css">
+<meta name="docfx:navrel" content="{{_navRel}}">
+<meta name="docfx:tocrel" content="{{_tocRel}}">
+{{#_noindex}}<meta name="searchOption" content="noindex">{{/_noindex}}
+{{#_enableSearch}}<meta name="docfx:rel" content="{{_rel}}">{{/_enableSearch}}
+{{#_disableNewTab}}<meta name="docfx:disablenewtab" content="true">{{/_disableNewTab}}
+{{#_disableTocFilter}}<meta name="docfx:disabletocfilter" content="true">{{/_disableTocFilter}}
+{{#docurl}}<meta name="docfx:docurl" content="{{docurl}}">{{/docurl}}
+<meta name="loc:inThisArticle" content="{{__global.inThisArticle}}">
+<meta name="loc:searchResultsCount" content="{{__global.searchResultsCount}}">
+<meta name="loc:searchNoResults" content="{{__global.searchNoResults}}">
+<meta name="loc:tocFilter" content="{{__global.tocFilter}}">
+<meta name="loc:nextArticle" content="{{__global.nextArticle}}">
+<meta name="loc:prevArticle" content="{{__global.prevArticle}}">
+<meta name="loc:themeLight" content="{{__global.themeLight}}">
+<meta name="loc:themeDark" content="{{__global.themeDark}}">
+<meta name="loc:themeAuto" content="{{__global.themeAuto}}">
+<meta name="loc:changeTheme" content="{{__global.changeTheme}}">
+<meta name="loc:copy" content="{{__global.copy}}">    
+
+{{>partials/analytics}}

@@ -1,0 +1,12 @@
+---
+permalink: bundle.css
+---
+{% set css %}
+    {% include '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css' %}
+    {% include '../../../../node_modules/bootstrap-icons/font/bootstrap-icons.css' %}
+    {% include './prism-vsc-dark-plus.css'%}
+    {% include './main.css'%}
+    {% include './main.lg.css' %}
+{% endset %}
+
+{{ css | cssmin | safe }}
