@@ -1,0 +1,30 @@
+{% extends 'layouts/base.layout.njk' %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row justify-content-between">
+                {# Table of Contents #}
+                {% if not hidetoc %}
+                    <aside class="col-lg-3 col-xxl-2 p-3" style="z-index: 999;">
+                            {% block toc %}{% endblock %}
+                    </aside>
+                {% endif %}
+
+            {# Content #}
+            <article class="{{ 'col-lg-9 col-xxl-10' if not hidetoc else 'col-12' }} ps-0 content">
+                <div class="row justify-content-between content-body">
+                    {% block documentBody %}{% endblock %}
+                    <aside class="col-3 d-none d-lg-block">
+                        {% include 'partials/_affix.njk' %}
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </div>
+{% endblock %}
+
+{% if not hidetoc %}
+    {% block scripts %}
+        <script type="text/javascript" src="/js/tocFilter.js"></script>
+    {% endblock %}
+{% endif %}

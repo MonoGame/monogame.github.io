@@ -26,6 +26,9 @@ jobs:
       - name: Restore NPM Packages
         run: npm install
 
+      - name: Build DocFX MetaData
+        run: npm run docfx
+
       - name: Build Site
         run: npm run build
 
