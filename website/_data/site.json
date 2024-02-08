@@ -38,10 +38,6 @@
         {
             "label": "About",
             "url": "/about/"
-        },
-        {
-            "label": "Donate",
-            "url": "/donate/"
         }
     ],
     "social": [
