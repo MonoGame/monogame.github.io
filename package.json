@@ -1,12 +1,9 @@
 {
     "scripts": {
-        "docfx": "dotnet tool restore && dotnet docfx metadata",
-        "build": "npx @11ty/eleventy",
-        "dev": "npx @11ty/eleventy --serve",
-        "debugbuild": "set DEBUG=Eleventy* & npx @11ty/eleventy",
-        "debugdev": "set DEBUG=Eleventy* & npx @11ty/eleventy --serve",
-        "benchmarkbuild": "set DEBUG=Eleventy:Benchmark* & npx @11ty/eleventy",
-        "benchmarkdev": "set DEBUG=Eleventy:Benchmark* & npx @11ty/eleventy --serve"
+        "dev": "cross-env RUN_MODE=$npm_lifecycle_event npx @11ty/eleventy --serve --config=./website/.eleventy.js",
+        "website": "cross-env RUN_MODE=$npm_lifecycle_event npx @11ty/eleventy --serve --config=./website/.eleventy.js",
+        "articles": "cross-env RUN_MODE=$npm_lifecycle_event npx @11ty/eleventy --serve --config=./website/.eleventy.js",
+        "build": "cross-env RUN_MODE=$npm_lifecycle_event npx @11ty/eleventy --config=./website/.eleventy.js"
     },
     "devDependencies": {
         "@11ty/eleventy": "^2.0.1",
@@ -16,6 +13,7 @@
         "bootstrap": "^5.3.2",
         "bootstrap-icons": "^1.11.2",
         "clean-css": "^5.3.3",
+        "cross-env": "^7.0.3",
         "eleventy-plugin-nesting-toc": "^1.3.0",
         "js-yaml": "^4.1.0",
         "markdown-it-anchor": "^8.6.7"

@@ -1,0 +1,97 @@
+<section class="container-xxl">
+    <footer class="border-top my-5 pt-5">
+        <div class="row justify-content-between">
+            <div class="col-6 col-lg-3 mb-3">
+                <h5>MonoGame</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="/articles/" class="p-0">Documentation</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="/api/" class="p-0">API Reference</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="/showcase/" class="p-0">Showcase</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="/about/" class="p-0">About</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="/foundation/" class="p-0">Foundation Bylaws</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-3 mb-3">
+                <h5>Get Involved</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="https://github.com/MonoGame/MonoGame" class="p-0">Source Code</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://github.com/MonoGame/monogame.github.io/blob/main/CONTRIBUTING.md"
+                           class="p-0">Documentation</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://github.com/MonoGame/MonoGame/issues/new/choose" class="p-0">Report
+                            Issues</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://www.patreon.com/MonoGame" class="p-0">Patreon</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-3 mb-3">
+                <h5>Public Relations</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="/blog/" class="p-0">Blog</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://community.monogame.net" class="p-0">Community</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="/presskit/" class="p-0">Press Kit</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-3 mb-3">
+                <h3 class="fw-bold"><a href="/about/#contact-us">Contact Us</a></h1>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-3 py-4 my-4">
+            <div>
+                Copyright © 2009-2024 MonoGame Foundation, Inc. <br/> Designed with
+                <span class="text-danger">❤</span>
+                by
+                <a href="https://github.com/MonoGame/monogame.github.io/graphs/contributors">MonoGame Community</a>
+            </div>
+            <div class="d-flex justify-content-between gap-3">
+                <a class="mg-social-link hide-external-icon" href="https://github.com/monogame/monogame" title="GitHub">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a class="mg-social-link hide-external-icon" href="https://www.patreon.com/MonoGame" title="Patreon">
+                    <i class="bi bi-p-circle-fill"></i>
+                </a>                    
+                <a class="mg-social-link hide-external-icon" href="https://discord.gg/monogame" title="Discord">
+                    <i class="bi bi-discord"></i>
+                </a>    
+                <a class="mg-social-link hide-external-icon" href="https://www.youtube.com/MonoGame" title="YouTube">
+                    <i class="bi bi-youtube"></i>
+                </a>  
+                <a class="mg-social-link hide-external-icon" href="https://www.reddit.com/r/monogame/" title="Reddit">
+                    <i class="bi bi-reddit"></i>
+                </a>
+                <a class="mg-social-link hide-external-icon" href="https://www.facebook.com/monogamecommunity" title="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a class="mg-social-link hide-external-icon" href="https://twitter.com/MonoGameTeam" title="Twitter">
+                    <i class="bi bi-twitter"></i>
+                </a>     
+                <a class="mg-social-link hide-external-icon" href="https://monogame.net/blog/feed.xml" title="MonoGame Blog">
+                    <i class="bi bi-rss-fill"></i>
+                </a>                                                   
+            </div>
+        </div>
+    </footer>
+</section>

@@ -1,0 +1,4 @@
+{{! Only include module loading if we're not redirecting }}
+{{^redirect_url}}
+    <script type="module" src="./{{_rel}}public/docfx.min.js"></script>
+{{/redirect_url}}
