@@ -527,5 +527,18 @@
             "Xbox One",
             "Featured"
         ]
+    },
+    {
+        "name": "party-words",
+        "title": "Party Words",
+        "logo": "party-words-logo.png",
+        "screenshot": "party-words-screenshot.png",
+        "url": "https://partywords.kelsam.net/",
+        "pixelart": true,
+        "tags": [
+            "Mobile",
+            "iOS",
+            "Android"
+        ]
     }
 ]
