@@ -55,6 +55,83 @@ Limit documentation to public methods and functions unless there is a specific r
 
 Remember that the user is searching for an answer for a specific question.  It is your job to predict these questions and provide them clear answers.
 
+#### XML Tag guidance
+
+By default, the standard [Microsoft recommendations](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/recommended-tags) should be used for filling in XML tags for each class, method and property.
+
+With a few points to call out:
+
+#### See / CRef should be used whenever an API reference is used in the documentation
+
+To ensure that API documentaiton is linked to whichever reference is used, `<see>` and `<cref` references should be used, this helps users navigate the methods, espeically when looking up initializers or use of a property or method.
+
+#### 120 Width comments for easy reading
+
+Comments should be limited to **120** width, with overflow moving to the next line to make reading easier, for example:
+
+```csharp
+<summary>
+Packed vector type containing unsigned normalized values ranging from 0 to 1. The x and z components use 5 bits,
+and the y component uses 6 bits.
+</summary>
+```
+
+#### Use the packed multi-line stype with surrounding tags
+
+To keep the documentation packed and readable, each parameter should be contained to a single line, for example:
+
+```csharp
+<summary>
+Creates a new instance of Bgr565.
+</summary>
+<param name="x">The x component</param>
+<param name="y">The y component</param>
+<param name="z">The z component</param>
+```
+
+#### Interface documentation
+
+If documentation is already provided by an interface or inherited class, then the `<inheritdoc />` tag should be used.  Critically, **DO NOT** duplicate documentaiton as it increases maintenance later, for example:
+
+```csharp
+/// <inheritdoc />
+public void InterfaceDefinedMethod()
+```
+
+This applies to all derrived elements within a class, proprty or method.
+
+#### Inherited properties
+
+Where a property or type is already documented in an enum or static, to avoid duplication the `<inheritdoc cref=""/>` style should be used, for example:
+
+```csharp
+    public struct VertexPositionColorNormalTexture : IVertexType
+    {
+        /// <inheritdoc cref="VertexPosition.Position" />
+        public Vector3 Position;
+
+        /// <inheritdoc cref="VertexPositionColor.Color" />
+        public Color Color;
+
+        /// <inheritdoc cref="VertexPositionColorNormalTexture.Normal" />
+        public Vector3 Normal;
+
+        /// <inheritdoc cref="VertexPositionTexture.Texture" />
+        public Vector2 TextureCoordinate;
+
+        /// <inheritdoc cref="IVertexType.VertexDeclaration" />
+        public static readonly VertexDeclaration VertexDeclaration;
+```
+
+#### Protected methods requiring documentation by the linter
+
+By default, we do not document Finalizers or other protected methods, the recommendation is to apply an empty `<sumary />` tag to surpress the warnings raised by the linter, for example:
+
+```csharp
+/// <summary />
+~Foo() => Dispose(false);
+```
+
 ## License
 
 All documentation contributed to the MonoGame project is subject to the [Creative Commons Attribution-NonCommercial-ShareAlike](http://creativecommons.org/licenses/by-nc-sa/4.0/) license.  By contributing you are agreeing to the terms of that license.
