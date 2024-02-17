@@ -529,6 +529,19 @@
         ]
     },
     {
+        "name": "perilune",
+        "title": "Perilune",
+        "logo": "perilune-logo.png",
+        "screenshot": "perilune-screenshot.png",
+        "url": "https://play.google.com/store/apps/details?id=kristianseng.perilune",
+        "pixelart": true,
+        "tags": [
+            "Mobile",
+            "3D",
+            "Android"
+        ]
+    },
+    {
         "name": "cymatically-muffed",
         "title": "Cymatically Muffed",
         "logo": "cymatically-muffed-logo.png",
