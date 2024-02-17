@@ -529,6 +529,26 @@
         ]
     },
     {
+        "name": "cymatically-muffed",
+        "title": "Cymatically Muffed",
+        "logo": "cymatically-muffed-logo.png",
+        "screenshot": "cymatically-muffed-screenshot.png",
+        "url": "https://muffed.kelsam.net/",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "Mobile",
+            "Console",
+            "2D",
+            "Windows",
+            "Mac",
+            "Linux",
+            "Android",
+            "Xbox One",
+            "Xbox Series X/S"
+        ]
+    },
+    {
         "name": "yuppie-psycho",
         "title": "Yuppie Psycho",
         "logo": "yuppie-psycho-logo.png",
