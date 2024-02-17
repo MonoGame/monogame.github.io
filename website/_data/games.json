@@ -529,6 +529,28 @@
         ]
     },
     {
+        "name": "yuppie-psycho",
+        "title": "Yuppie Psycho",
+        "logo": "yuppie-psycho-logo.png",
+        "screenshot": "yuppie-psycho-screenshot.jpg",
+        "url": "https://baroquedecay.com/#games",
+        "pixelart": true,
+        "tags": [
+           "Desktop",
+           "Mobile",
+           "Console",
+           "2D",
+           "Windows",
+           "Mac",
+           "Linux",
+           "iOS",
+           "Android",
+           "Nintendo Switch",
+           "Playstation 4",
+           "Xbox One"
+       ]
+    },
+    {
         "name": "melkhiors-mansion",
         "title": "Melkhior's Mansion",
         "logo": "melkhiors-mansion-logo.png",
