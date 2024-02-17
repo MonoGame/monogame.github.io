@@ -548,6 +548,21 @@
            "Nintendo Switch",
            "Playstation 4",
            "Xbox One"
+       ]
+    }.
+    {
+        "name": "melkhiors-mansion",
+        "title": "Melkhior's Mansion",
+        "logo": "melkhiors-mansion-logo.png",
+        "screenshot": "melkhiors-mansion-screenshot.png",
+        "url": "https://bitglint.itch.io/melkhiors-mansion",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows",
+            "Mac",
+            "Linux"
         ]
     }
 ]
