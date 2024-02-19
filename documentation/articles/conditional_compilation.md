@@ -53,13 +53,11 @@ MonoGame provides the following scripting symbols through the [PlatformInfo](htt
 |XB1|Xbox One, all editions. Including Xbox One, Xbox One X & S, Xbox Series X&S||
 |PLAYSTATION4|Playstation 4 custom silicon platform, for all editions of Playstation 4 including Pro||
 |PLAYSTATION5|Playstation 5 AMD based platform, for all editions||
-|STADIA|Google Statia runtime|*Note, being deprecated with the fall of Stadia|
+|STADIA|Google Statia runtime|Being deprecated with the fall of Stadia|
 
 ## Other scripting symbols
 
 Microsoft Build which is used under the hood to build MonoGame projects also provides the following default symbols (as well as those included in your projects definition):
-
-
 
 |Scripting #define|Description|Notes|
 |-|-|-|
@@ -88,7 +86,9 @@ The below example adds a `MYDEBUG` symbol in `Debug` build profile.
 
 In Visual Studio, you can right-click your project and select properties to view your project definition, navigating down to the `Build` tab shows the symbol options for your project.
 
-![Visual Studio Build properties](./images/vsprojectbuildproperties.png)
+![Visual Studio Build properties](images/vsprojectbuildproperties.png)
+
+---
 
 ## Testing precompiled code
 
