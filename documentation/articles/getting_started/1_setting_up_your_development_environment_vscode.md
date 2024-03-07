@@ -12,7 +12,6 @@ This section provides a step-by-step guide for setting up your development envir
 >
 > [Visual Studio for Mac will be discontinued](https://devblogs.microsoft.com/visualstudio/visual-studio-for-mac-retirement-announcement/) by Microsoft in August 2024.  At that time, [Visual Studio Code](https://code.visualstudio.com/) will be the only development environment supported by MonoGame on macOS.
 
-
 ## Install .NET 8 SDK
 To develop with C#, you will need to install the .NET SDK.  At the time of this writing, the current version is .NET 8.0.  You can follow the instructions below based your operating system to install the .NET 8.0 SDK
 
@@ -124,7 +123,6 @@ dotnet new install MonoGame.Templates.CSharp
 
 ![Install MonoGame Templates](./images/1_setting_up_your_development_environment/vscode/linux/install-templates.png)
 
-
 ---
 
 > [!NOTE]
@@ -140,12 +138,6 @@ dotnet new install MonoGame.Templates.CSharp
 2. Click the **Download for Windows** button.  This will redirect you to the download page where the installer will automatically download.
 3. When the download completes, run the installer and complete the steps to install Visual Studio Code.
 
-> [!NOTE]
-> On the **Select Additional Tasks** window during installation, it is recommended to check both the **Add "Open with Code" action to WIndows Explorer file context menu** and **Add "Open with Code" action to Windows Explorer directory context menu**.  Doing this will allow you to right-click a file or a directory and select "Open With Code" from the context-menu for quick launching.
->
-> ![Open With Code Options](./images/1_setting_up_your_development_environment/vscode/windows/open-with-code-options.png)
-
-
 # [macOS](#tab/macos)
 1. Open your web browser and navigate to [https://code.visualstudio.com/](https://code.visualstudio.com/).
 
@@ -154,7 +146,6 @@ dotnet new install MonoGame.Templates.CSharp
 2. Click the **Download Mac Universal** button.  This will redirect you to the page where the application archive (.zip) file will begin downloading.
 3. Extract the contents of the VSCode archive that downloaded by double-clicking it inside a Finder window.  This will extract the **Visual Studio Code.app** file.
 4. Drag the **Visual Studio Code.app** file into the **Applications** folder, making it available in the macOS Launchpad.
-
 
 # [Linux](#tab/linux)
 The recommended method for installing Visual Studio Code in Linux is to use Snap. This is supported by most Linux distributions.
@@ -185,7 +176,6 @@ Visual Studio Code by itself is just a text editor.  In order to code and build 
 
 ![Install C# DevKit Extension](./images/1_setting_up_your_development_environment/vscode/windows/install-devkit.png)
 
-
 # [macOS](#tab/macos)
 1. Open Visual Studio Code
 2. Click the **Extensions** icon in the **Activity Bar** on the left.
@@ -196,7 +186,6 @@ Visual Studio Code by itself is just a text editor.  In order to code and build 
 4. Click **Install** for the **C# Dev Kit** extension.  Installing this will also install the base **C#** extension.
 
 ![Install C# DevKit Extension](./images/1_setting_up_your_development_environment/vscode/mac/install-devkit.png)
-
 
 # [Linux](#tab/linux)
 1. Open Visual Studio Code.
@@ -283,6 +272,33 @@ wget -qO- https://raw.githubusercontent.com/MonoGame/MonoGame/master/Tools/MonoG
 This will create new directory called `.winemonogame` in your home directory.  If you ever wish to undo the setup this script performed, just simply delete that directory.
 
 ---
+
+## Apple Silicon Known Issues
+There is currently a two known issue when building content on an Apple Silicon (M1/M2) Mac:
+
+1. **Building Textures**: An exception occurs stating that the **freeimage** lib could not be found.
+2. **Building SpriteFonts**: An exception occurs stating that the **freetype** lib could not be found.
+
+These issue occur due to needing compiled versions of these libs for the M1/M2 architecture.  [There is currently work being done to resolve this](https://github.com/MonoGame/MonoGame/issues/8124), however in the meantime you can use the following workaround that has been provided by community members.
+
+1. Open a terminal and install **freeimage** and **freetype** using **brew**
+
+```sh
+brew install freeimage freetype
+```
+
+2. (Optional) Create the `/usr/local/lib/` directory if it does not exist
+
+```sh
+mkdir /usr/local/lib/
+```
+
+3. Symlink both **freeimage** and **freetype** to the `/usr/local/lib/` directory
+
+```sh
+sudo ln -s /opt/homebrew/lib/libfreetype.6.dylib /usr/local/lib/libfreetype.6.dylib
+sudo ln -s /opt/homebrew/lib/libfreeimage.3.18.0.dylib /usr/local/lib/libfreeimage.dylib
+```
 
 ## Next Up
 Visual Studio Code does not have an option within the UI to create a new MonoGame project like you would have in Visual Studio.  In the [Creating a New Project With VSCode](2_creating_a_new_project_netcore.md), we'll go over the steps to create a new MonoGame project when using Visual Studio Code.
