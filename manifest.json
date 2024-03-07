@@ -4727,6 +4727,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/contributing.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/contributing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/getting_started/1_setting_up_your_development_environment_unix.md",
       "output": {
         ".html": {
