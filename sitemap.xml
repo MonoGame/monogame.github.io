@@ -2,2066 +2,2066 @@
         <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
         	<url>
 		<loc>https://monogame.net/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/toc.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/about/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.AudioCategory.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.AudioChannels.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.AudioEmitter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.AudioEngine.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.AudioListener.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.AudioStopOptions.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.Cue.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.InstancePlayLimitException.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.Microphone.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.MicrophoneState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.NoAudioHardwareException.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.NoMicrophoneConnectedException.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.SoundBank.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.SoundEffect.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.SoundEffectInstance.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.SoundState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.WaveBank.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Audio.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.BoundingBox.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.BoundingFrustum.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.BoundingSphere.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Color.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.ContainmentType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ContentLoadException.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ContentManager.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ContentReader.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ContentReaderExtensions.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ContentSerializerAttribute.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ContentSerializerCollectionItemNameAttribute.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ContentSerializerIgnoreAttribute.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ContentSerializerRuntimeTypeAttribute.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ContentSerializerTypeVersionAttribute.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ContentTypeReader-1.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ContentTypeReader.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Audio.AudioContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Audio.AudioFileType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Audio.AudioFormat.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Audio.AudioProfile.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Audio.ConversionFormat.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Audio.ConversionQuality.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Audio.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Builder.Convertors.StringToColorConverter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Builder.Convertors.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ChildCollection-2.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ContentBuildLogger.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ContentIdentity.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ContentImporter-1.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ContentImporterAttribute.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ContentImporterContext.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ContentProcessor-2.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ContentProcessorAttribute.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ContentProcessorContext.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ContentStats.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ContentStatsCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ExternalReference-1.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.FbxImporter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.FontDescriptionImporter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.ABCFloat.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.AlphaTestMaterialContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.AnimationChannel.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.AnimationChannelDictionary.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.AnimationContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.AnimationContentDictionary.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.AnimationKeyframe.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.AtcBitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.AtcExplicitBitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.AtcInterpolatedBitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.BasicMaterialContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.BitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.BoneContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.BoneWeight.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.BoneWeightCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.CharacterRegion.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.CharacterRegionTypeConverter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.DualTextureMaterialContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.Dxt1BitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.Dxt3BitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.Dxt5BitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.DxtBitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.EffectContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.EffectMaterialContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.EnvironmentMapMaterialContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.Etc1BitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.FontDescription.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.FontDescriptionStyle.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.GeometryContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.GeometryContentCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.GraphicsUtil.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.GrowRule.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.IndexCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.IndirectPositionCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.LocalizedFontDescription.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.MaterialContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.MaxRectsBin.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.MaxRectsHeuristic.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.MeshBuilder.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.MeshContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.MeshHelper.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.MipmapChain.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.MipmapChainCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.NodeContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.NodeContentCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.PixelBitmapContent-1.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.PositionCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.PvrtcBitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.PvrtcRgb2BitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.PvrtcRgb4BitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.PvrtcRgba2BitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.PvrtcRgba4BitmapContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.SkinnedMaterialContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.SpriteFontContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.Texture2DContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.Texture3DContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.TextureContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.TextureCubeContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.TextureProfile.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.TextureReferenceDictionary.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.VertexChannel-1.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.VertexChannel.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.VertexChannelCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.VertexChannelNames.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.VertexContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.H264Importer.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.IContentImporter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.IContentProcessor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.InvalidContentException.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.LoadedTypeCollection-1.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Mp3Importer.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.NamedValueDictionary-1.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.OggImporter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.OpaqueDataDictionary.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.OpenAssetImporter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.PipelineComponentScanner.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.PipelineException.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ProcessorParameter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.ProcessorParameterCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.CompiledEffectContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessorDebugMode.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.FontDescriptionProcessor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.FontTextureProcessor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.LocalizedFontProcessor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.MaterialProcessor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.MaterialProcessorDefaultEffect.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.ModelBoneContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.ModelBoneContentCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.ModelContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.ModelMeshContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.ModelMeshContentCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.ModelMeshPartContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.ModelMeshPartContentCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.ModelProcessor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.PassThroughProcessor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.SongContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.SongProcessor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.SoundEffectContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.SoundEffectProcessor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.TextureProcessor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.TextureProcessorOutputFormat.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.VertexBufferContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.VertexDeclarationContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.VideoProcessor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler.ContentCompiler.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler.ContentTypeWriter-1.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler.ContentTypeWriter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler.ContentTypeWriterAttribute.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler.ContentWriter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler.SpriteFontContentWriter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate.ContentTypeSerializer-1.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate.ContentTypeSerializer.ChildCallback.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate.ContentTypeSerializer.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate.ContentTypeSerializerAttribute.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate.IntermediateReader.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate.IntermediateSerializer.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate.IntermediateWriter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.TargetPlatform.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.VideoContent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.WavImporter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.WmaImporter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.WmvImporter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.XImporter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.XmlImporter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.Pipeline.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.ResourceContentManager.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Content.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Curve.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.CurveContinuity.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.CurveKey.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.CurveKeyCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.CurveLoopType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.CurveTangent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Design.Byte4TypeConverter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Design.Vector2TypeConverter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Design.Vector3TypeConverter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Design.Vector4TypeConverter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Design.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.DisplayOrientation.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.DrawableGameComponent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.FileDropEventArgs.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.FrameworkDispatcher.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Game.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.GameComponent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.GameComponentCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.GameComponentCollectionEventArgs.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.GameRunBehavior.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.GameServiceContainer.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.GameTime.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.GameWindow.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.BasicEffect.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.Blend.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.BlendFunction.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.BlendState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.BufferUsage.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ClearOptions.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ColorWriteChannels.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.CompareFunction.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.CubeMapFace.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.CullMode.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.DefaultColorProcessors.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.DepthFormat.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.DepthStencilState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.DeviceLostException.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.DeviceNotResetException.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.DirectionalLight.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.DisplayMode.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.DisplayModeCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.DynamicIndexBuffer.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.DynamicVertexBuffer.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.Effect.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EffectAnnotation.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EffectMaterial.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EffectParameter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EffectParameterClass.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EffectParameterCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EffectParameterType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EffectPass.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EffectTechnique.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.FillMode.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DriverType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.GraphicsDebug.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.GraphicsDebugMessage.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.GraphicsDevice.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.GraphicsDeviceStatus.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.GraphicsProfile.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.GraphicsResource.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.IEffectBones.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.IEffectFog.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.IEffectLights.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.IEffectMatrices.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.IGraphicsDeviceService.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.IVertexType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.IndexBuffer.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.IndexElementSize.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.Model.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ModelBone.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ModelBoneCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ModelEffectCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ModelMesh.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ModelMeshCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ModelMeshPart.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ModelMeshPartCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.NoSuitableGraphicsDeviceException.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.OcclusionQuery.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.Alpha8.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.Bgr565.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.Bgra5551.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.HalfSingle.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.HalfVector2.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.HalfVector4.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector-1.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedByte2.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedByte4.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedShort2.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedShort4.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.Rg32.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.Rgba1010102.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.Rgba64.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.Short2.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.Short4.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PackedVector.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PresentInterval.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PresentationParameters.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.PrimitiveType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.RasterizerState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.RenderTarget2D.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.RenderTargetBinding.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.RenderTargetCube.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.RenderTargetUsage.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ResourceCreatedEventArgs.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.ResourceDestroyedEventArgs.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.SamplerState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.SamplerStateCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.SetDataOptions.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.SpriteBatch.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.SpriteEffect.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.SpriteEffects.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.SpriteFont.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.SpriteSortMode.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.StencilOperation.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.SurfaceFormat.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.TargetBlendState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.Texture.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.Texture2D.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.Texture3D.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.TextureAddressMode.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.TextureCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.TextureCube.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.TextureFilter.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.TextureFilterMode.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexBuffer.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexBufferBinding.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexDeclaration.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexElement.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexElementFormat.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexElementUsage.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexPosition.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexPositionColor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexPositionColorNormal.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexPositionColorNormalTexture.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexPositionTexture.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.Viewport.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Graphics.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.GraphicsDeviceInformation.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.GraphicsDeviceManager.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.ICurveEvaluator-1.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.IDrawable.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.IGameComponent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.IGraphicsDeviceManager.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.IPlatformBackButton.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.IUpdateable.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.ButtonState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Buttons.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.GamePad.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.GamePadButtons.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.GamePadCapabilities.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.GamePadDPad.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.GamePadDeadZone.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.GamePadState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.GamePadThumbSticks.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.GamePadTriggers.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.GamePadType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Joystick.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.JoystickCapabilities.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.JoystickHat.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.JoystickState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.KeyState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Keyboard.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.KeyboardInput.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.KeyboardState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Keys.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.MessageBox.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Mouse.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.MouseCursor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.MouseState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Touch.GestureSample.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Touch.GestureType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Touch.TouchLocation.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Touch.TouchLocationState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Touch.TouchPanel.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Touch.TouchPanelState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.Touch.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Input.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.InputKeyEventArgs.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.LaunchParameters.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.MathHelper.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Matrix.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.Album.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.AlbumCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.Artist.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.Genre.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.MediaLibrary.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.MediaPlayer.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.MediaQueue.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.MediaSource.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.MediaSourceType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.MediaState.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.Playlist.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.PlaylistCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.Song.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.SongCollection.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.Video.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.VideoPlayer.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.VideoSoundtrackType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Media.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Plane.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.PlaneIntersectionType.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.PlayerIndex.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Point.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Quaternion.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Ray.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Rectangle.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.TextInputEventArgs.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.TitleContainer.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Vector2.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Vector3.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.Vector4.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/Microsoft.Xna.Framework.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Content.Pipeline.Builder.FileHelper.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Content.Pipeline.Builder.PathHelper.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineBuildEvent.Pair.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineBuildEvent.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineBuildLogger.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineImporterContext.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineManager.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineProcessorContext.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Content.Pipeline.Builder.TypeExtensions.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Content.Pipeline.Builder.XmlColor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Content.Pipeline.Builder.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Utilities.GraphicsBackend.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Utilities.MonoGamePlatform.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Utilities.PlatformInfo.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.Framework.Utilities.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.OpenGL.IWindowInfo.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/MonoGame.OpenGL.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/api/toc.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/help_and_support.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/migrate_37.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/migrate_38.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/migrate_xna.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/packaging_games.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/platforms.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/samples.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/toc.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/tutorials.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/whats_new.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/blog/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/bounties/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/community/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/documentation/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/donate/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/foundation/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/presskit/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/content_pipeline/adding_ttf_fonts.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/content_pipeline/custom_effects.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/content_pipeline/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/content_pipeline/localization.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/content_pipeline/using_mgcb_editor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/content_pipeline/why_content_pipeline.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/getting_started/1_setting_up_your_development_environment_unix.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/getting_started/1_setting_up_your_development_environment_windows.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/getting_started/2_creating_a_new_project_netcore.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/getting_started/2_creating_a_new_project_vs.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/getting_started/3_understanding_the_code.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/getting_started/4_adding_content.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/getting_started/5_adding_basic_code.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/getting_started/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/tools/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/tools/mgcb.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/tools/mgcb_editor.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/articles/tools/mgfxc.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/blog/2023-10-24-meeting/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/blog/2023-11-15-meeting/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/blog/2023-11-22-meeting/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/blog/2023-12-29-website-refresh/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/blog/2024-01-10-meeting/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/blog/2024-02-14-meeting/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/blog/foundation/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/blog/website/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/2d/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/3d/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/android/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/console/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/desktop/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/featured/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/ios/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/library/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/linux/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/mac/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/mobile/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/nintendo-switch/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/playstation-4/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/playstation-5/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/playstation-vita/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/windows/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/windows-phone/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/xbox-one/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
 	<url>
 		<loc>https://monogame.net/showcase/xbox-series-x-s/index.html</loc>
-		<lastmod>2024-02-18</lastmod>
+		<lastmod>2024-03-07</lastmod>
 	</url>
         </urlset>
