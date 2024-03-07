@@ -22,18 +22,18 @@ To develop with C#, you will need to install the .NET SDK.  At the time of this 
 # [Windows](#tab/windows)
 1. Navigate to [https://dotnet.microsoft.com/en-us/download](https://dotnet.microsoft.com/en-us/download)
 
-![Download .NET For Windows](./images/1_setting_up_your_development_environment_vscode/download-dotnet-windows.png)
+![Download .NET For Windows](./images/1_setting_up_your_development_environment/vscode/windows/download-dotnet.png)
 
 2. Click the **.NET SDK x64** download button to download.  This will take you to the download page where the **dotnet-sdk-8.x.yyy-win-x64.exe** will download.
 3. When the download completes, run the **dotnet-sdk-8.x.yyy-win-x64.exe** installer and complete the steps to install .NET on your machine.
 4. When the install completes, open a new **Command Prompt** window and run the command `dotnet` to verify the installation was successful.
 
-![Verify Installation](./images/1_setting_up_your_development_environment_vscode/verify-install-windows.png)
+![Verify Installation](./images/1_setting_up_your_development_environment/vscode/windows/verify-install.png)
 
 # [macOS](#tab/macos)
 1. Navigate to [https://dotnet.microsoft.com/en-us/download](https://dotnet.microsoft.com/en-us/download)
 
-![Download .NET For Mac](./images/1_setting_up_your_development_environment_vscode/download-dotnet-mac.png)
+![Download .NET For Mac](./images/1_setting_up_your_development_environment/vscode/mac/download-dotnet.png)
 
 2. Download the .NET SDK x64-(Intel) Installer
 
@@ -42,12 +42,11 @@ To develop with C#, you will need to install the .NET SDK.  At the time of this 
 
 3. Once the installation **.pkg** file finishes downloading, run it and follow the prompts to install the .NET SDK
 
-![Install .NET for Mac](./images/1_setting_up_your_development_environment_vscode/install-dotnet-mac.png)
+![Install .NET For Mac](./images/1_setting_up_your_development_environment/vscode/mac/install-dotnet.png)
 
 4. Once the installation is complete, open a new terminal window and run the command `dotnet` to verify the installation was successful.
 
-![Verify Installation](./images/1_setting_up_your_development_environment_vscode/verify-install-mac.png)
-
+![Verify Installation](./images/1_setting_up_your_development_environment/vscode/mac/verify-install.png)
 
 # [Linux](#tab/linux)
 1. Open a new **Terminal** window.
@@ -69,7 +68,7 @@ chmod +x ./dotnet-install.sh
 ./dotnet-install.sh
 ```
 
-![.NET Install Script](./images/1_setting_up_your_development_environment_vscode/dotnet-install-script-linux.png)
+![.NET Install Script](./images/1_setting_up_your_development_environment/vscode/linux/dotnet-install-script.png)
 
 5. You will now need to setup your environment variables so that the `dotnet` command is recognized.  To do this, open the file `~/.bashrc` in a text editor and add the following lines to the end of the file.
 
@@ -78,12 +77,12 @@ export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 ```
 
-![Add Environment Variables](./images/1_setting_up_your_development_environment_vscode/add-environment-variables-linux.png)
+![Add Environment Variables](./images/1_setting_up_your_development_environment/vscode/linux/add-environment-variables.png)
 
 6. Save and close the file, close any open terminal windows, then open a new terminal window so the new environment variables are registered.
 7. Enter the `dotnet` command to validate that the .NET 8 SDK is now installed.
 
-![Verify Installation](./images/1_setting_up_your_development_environment_vscode/verify-install-linux.png)
+![Verify Installation](./images/1_setting_up_your_development_environment/vscode/linux/verify-install.png)
 
 ---
 
@@ -105,7 +104,7 @@ The .NET SDK installation comes with the default C# project templates, but it do
 dotnet new install MonoGame.Templates.CSharp
 ```
 
-![Install MonoGame Templates](./images/1_setting_up_your_development_environment_vscode/install-templates-windows.png)
+![Install MonoGame Templates](./images/1_setting_up_your_development_environment/vscode/windows/install-templates.png)
 
 # [macOS](#tab/macos)
 1. Open a new terminal window an run the following command:
@@ -114,7 +113,7 @@ dotnet new install MonoGame.Templates.CSharp
 dotnet new install MonoGame.Templates.CSharp
 ```
 
-![Install MonoGame Templates](./images/1_setting_up_your_development_environment_vscode/install-templates-mac.png)
+![Install MonoGame Templates](./images/1_setting_up_your_development_environment/vscode/mac/install-templates.png)
 
 # [Linux](#tab/linux)
 1. Open a new terminal window and run the following command
@@ -123,7 +122,7 @@ dotnet new install MonoGame.Templates.CSharp
 dotnet new install MonoGame.Templates.CSharp
 ```
 
-![Install MonoGame Templates](./images/1_setting_up_your_development_environment_vscode/install-templates-linux.png)
+![Install MonoGame Templates](./images/1_setting_up_your_development_environment/vscode/linux/install-templates.png)
 
 
 ---
@@ -136,7 +135,7 @@ dotnet new install MonoGame.Templates.CSharp
 # [Windows](#tab/windows)
 1. Open your web browser and navigate to [https://code.visualstudio.com/](https://code.visualstudio.com/).
 
-![Download VSCode](./images/1_setting_up_your_development_environment_vscode/download-vscode-windows.png)
+![Download VSCode](./images/1_setting_up_your_development_environment/vscode/windows/download-vscode.png)
 
 2. Click the **Download for Windows** button.  This will redirect you to the download page where the installer will automatically download.
 3. When the download completes, run the installer and complete the steps to install Visual Studio Code.
@@ -144,13 +143,13 @@ dotnet new install MonoGame.Templates.CSharp
 > [!NOTE]
 > On the **Select Additional Tasks** window during installation, it is recommended to check both the **Add "Open with Code" action to WIndows Explorer file context menu** and **Add "Open with Code" action to Windows Explorer directory context menu**.  Doing this will allow you to right-click a file or a directory and select "Open With Code" from the context-menu for quick launching.
 >
-> ![Open With Code Options](./images/1_setting_up_your_development_environment_vscode/open-with-code-options-windows.png)
+> ![Open With Code Options](./images/1_setting_up_your_development_environment/vscode/windows/open-with-code-options.png)
 
 
 # [macOS](#tab/macos)
 1. Open your web browser and navigate to [https://code.visualstudio.com/](https://code.visualstudio.com/).
 
-![Download VSCode](./images/1_setting_up_your_development_environment_vscode/download-vscode-windows.png)
+![Download VSCode](./images/1_setting_up_your_development_environment/vscode/windows/download-vscode.png)
 
 2. Click the **Download Mac Universal** button.  This will redirect you to the page where the application archive (.zip) file will begin downloading.
 3. Extract the contents of the VSCode archive that downloaded by double-clicking it inside a Finder window.  This will extract the **Visual Studio Code.app** file.
@@ -184,31 +183,31 @@ Visual Studio Code by itself is just a text editor.  In order to code and build 
 3. In the **Search Box** type `C#`.
 4. Click **Install** for the **C# Dev Kit** extension.  Installing this will also install the base **C#** extension.
 
-![Install C# DevKit Extension](./images/1_setting_up_your_development_environment_vscode/install-devkit-windows.png)
+![Install C# DevKit Extension](./images/1_setting_up_your_development_environment/vscode/windows/install-devkit.png)
 
 
 # [macOS](#tab/macos)
 1. Open Visual Studio Code
 2. Click the **Extensions** icon in the **Activity Bar** on the left.
 
-![Click Extensions](./images/1_setting_up_your_development_environment_vscode/click-extensions-mac.png)
+![Click Extensions](./images/1_setting_up_your_development_environment/vscode/mac/click-extensions.png)
 
 3. In the **Search Box** type `C#`
 4. Click **Install** for the **C# Dev Kit** extension.  Installing this will also install the base **C#** extension.
 
-![Install C# DevKit Extension](./images/1_setting_up_your_development_environment_vscode/install-devkit-mac.png)
+![Install C# DevKit Extension](./images/1_setting_up_your_development_environment/vscode/mac/install-devkit.png)
 
 
 # [Linux](#tab/linux)
 1. Open Visual Studio Code.
 2. Click the **Extensions** icon in the **Activity Bar** on the left.
 
-![Click Extensions](./images/1_setting_up_your_development_environment_vscode/click-extensions-linux.png)
+![Click Extensions](./images/1_setting_up_your_development_environment/vscode/linux/click-extensions.png)
 
 3. In the **Search Box** type `C#`.
 4. Click the **Install** button for the **C# Dev Kit** extension.  Installing this will also install the base **C#** extension.
 
-![Install C# DevKit Extension](./images/1_setting_up_your_development_environment_vscode/install-devkit-linux.png)
+![Install C# DevKit Extension](./images/1_setting_up_your_development_environment/vscode/linux/install-devkit.png)
 
 ---
 
@@ -284,8 +283,6 @@ wget -qO- https://raw.githubusercontent.com/MonoGame/MonoGame/master/Tools/MonoG
 This will create new directory called `.winemonogame` in your home directory.  If you ever wish to undo the setup this script performed, just simply delete that directory.
 
 ---
-
-
 
 ## Next Up
 Visual Studio Code does not have an option within the UI to create a new MonoGame project like you would have in Visual Studio.  In the [Creating a New Project With VSCode](2_creating_a_new_project_netcore.md), we'll go over the steps to create a new MonoGame project when using Visual Studio Code.
