@@ -73,7 +73,7 @@
             <h5>Get Involved</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="https://github.com/MonoGame/MonoGame" class="footer-link p-0 text-body-secondary">Source Code</a></li>
-              <li class="nav-item mb-2"><a href="https://github.com/MonoGame/monogame.github.io/blob/main/CONTRIBUTING.md" class="footer-link p-0 text-body-secondary">Documentation</a></li>
+              <li class="nav-item mb-2"><a href="/articles/contributing" class="footer-link p-0 text-body-secondary">Contributing to Docs</a></li>
               <li class="nav-item mb-2"><a href="https://github.com/MonoGame/MonoGame/issues/new/choose" class="footer-link p-0 text-body-secondary">Report Issues</a></li>
               <li class="nav-item mb-2"><a href="https://www.patreon.com/MonoGame" class="footer-link p-0 text-body-secondary">Patreon</a></li>
             </ul>
