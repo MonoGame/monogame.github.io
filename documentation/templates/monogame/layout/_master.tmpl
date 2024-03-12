@@ -44,6 +44,11 @@
 
         <article data-uid="{{uid}}">
           {{!body}}
+          {{#requireMSLicense}}
+            <div class="d-flex flex-row justify-content-end">
+                <i>© 2012 Microsoft Corporation. All rights reserved.</i>
+            </div>
+          {{/requireMSLicense}}
         </article>
 
         {{^_disableContribution}}
