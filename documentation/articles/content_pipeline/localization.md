@@ -80,7 +80,7 @@ You should end up with a .spritefont file like this
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
-  <Asset Type="Graphics:FontDescription">
+  <Asset Type="Graphics:LocalizedFontDescription">
     <FontName>Verdana</FontName>
     <Size>14</Size>
     <Spacing>1</Spacing>

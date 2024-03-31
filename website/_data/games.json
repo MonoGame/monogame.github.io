@@ -527,5 +527,88 @@
             "Xbox One",
             "Featured"
         ]
+    },
+    {
+        "name": "party-words",
+        "title": "Party Words",
+        "logo": "party-words-logo.png",
+        "screenshot": "party-words-screenshot.png",
+        "url": "https://partywords.kelsam.net/",
+        "pixelart": true,
+        "tags": [
+            "Mobile",
+            "iOS",
+            "Android"
+        ]
+    },
+    {
+        "name": "perilune",
+        "title": "Perilune",
+        "logo": "perilune-logo.png",
+        "screenshot": "perilune-screenshot.png",
+        "url": "https://play.google.com/store/apps/details?id=kristianseng.perilune",
+        "pixelart": true,
+        "tags": [
+            "Mobile",
+            "3D",
+            "Android"
+        ]
+    },
+    {
+        "name": "cymatically-muffed",
+        "title": "Cymatically Muffed",
+        "logo": "cymatically-muffed-logo.png",
+        "screenshot": "cymatically-muffed-screenshot.png",
+        "url": "https://muffed.kelsam.net/",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "Mobile",
+            "Console",
+            "2D",
+            "Windows",
+            "Mac",
+            "Linux",
+            "Android",
+            "Xbox One",
+            "Xbox Series X/S"
+        ]
+    },
+    {
+        "name": "yuppie-psycho",
+        "title": "Yuppie Psycho",
+        "logo": "yuppie-psycho-logo.png",
+        "screenshot": "yuppie-psycho-screenshot.jpg",
+        "url": "https://baroquedecay.com/#games",
+        "pixelart": true,
+        "tags": [
+           "Desktop",
+           "Mobile",
+           "Console",
+           "2D",
+           "Windows",
+           "Mac",
+           "Linux",
+           "iOS",
+           "Android",
+           "Nintendo Switch",
+           "Playstation 4",
+           "Xbox One"
+       ]
+    },
+    {
+        "name": "melkhiors-mansion",
+        "title": "Melkhior's Mansion",
+        "logo": "melkhiors-mansion-logo.png",
+        "screenshot": "melkhiors-mansion-screenshot.png",
+        "url": "https://bitglint.itch.io/melkhiors-mansion",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows",
+            "Mac",
+            "Linux"
+        ]
     }
 ]
