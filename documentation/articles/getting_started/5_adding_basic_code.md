@@ -125,6 +125,104 @@ The rest of the lines of code do the same thing but for the Down, Left and Right
 
 If you run the game, you should be able to move the ball with the arrow keys.
 
+Another option for user input is the Joystick class. Setting up input for the Joystick is very similar to setting up keyboard input. Find the **Update** method in the Game1.cs class file and add:
+```csharp
+if(Joystick.LastConnectedIndex == 0)
+{
+    JoystickState jstate = Joystick.GetState(0);
+	
+    if (jstate.Axes[1] < 0)
+    {
+        ballPosition.Y -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+    }
+
+	if (jstate.Axes[1] > 0)
+    {
+        ballPosition.Y += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+    }
+
+    if (jstate.Axes[0] < 0)
+    {
+        ballPosition.X -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+    }
+
+    if (jstate.Axes[0] > 0)
+    {
+        ballPosition.X += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+    }
+}
+```
+
+The following is a line-by-line analysis of the above code.
+```csharp
+if(Joystick.LastConnectedIndex == 0)
+```
+
+This code assumes that we have a single controller plugged into our device. LastConnectedIndex is the index of the last connected controller. The default is -1, which would mean no controller is plugged in. 
+If there is no controller, the code inside the if statement will be skipped over.
+
+```csharp
+JoystickState jstate = Joystick.GetState(0);
+```
+
+This code fetches the current joystick state ('Joystick.GetState(0)') and stores it into a variable called **jstate**.
+
+```csharp
+if (jstate.Axes[1] < 0)
+```
+
+This line checks whether the second Joystick axis is less than 0. The Joystick class stores multiple axis of direction for anything with an integer based range. For any number of 2D axis sticks, it stores it in an x,y format inside of an integer array. 
+The axis of movement for 2D joysticks goes from -32768 to 32768 on most modern controllers. Aiming the Joystick upwards results in a negative value on the Y-axis ('Axes[1]').
+
+The rest of the lines of the code do the same thing but for their relevant x and y directions.
+
+If you run the game, you should be able to move the ball with the left Joystick on your controller if one is plugged in.
+
+You will probably notice that the ball slightly moves on its own. This will likely be the result of your Joystick having a slight drift. You can fix that by adding a deadzone and changing the conditions to use this deadzone.
+
+```csharp
+public class Game1 : Game
+{
+    Texture2D ballTexture;
+    Vector2 ballPosition;
+    float ballSpeed;
+
+    int deadZone;
+```
+
+Next, you need to initialize the deadzone. Find the **Initialize** method and add the following lines.
+
+```csharp
+deadZone = 4096;
+```
+
+Now, replace the conditions for the Joystick movement in **Update** to the following:
+
+```csharp
+if (jstate.Axes[1] < -deadZone)
+{
+    ballPosition.Y -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+}
+
+if (jstate.Axes[1] > deadZone)
+{
+    ballPosition.Y += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+}
+
+if (jstate.Axes[0] < -deadZone)
+{
+    ballPosition.X -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+}
+
+if (jstate.Axes[0] > deadZone)
+{
+    ballPosition.X += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+}
+```
+
+If you run the game and move the Joystick around, you should notice that your Joystick has to move a decent distance before the ball starts moving. This is what a deadZone does, it allows for there to be a minimum distance before the input is reflected in the game.
+> Try experimenting with what happens when you change the value of the deadZone. Mess around and find an amount that fits your project.
+
 You will probably notice that the ball is not confined to the window. You can fix that by setting bounds onto the ballPosition after it has already been moved to ensure it cannot go further than the width or height of the screen.
 
 ```csharp
