@@ -18,7 +18,7 @@ function eleventy(eleventyConfig) {
     dataExtensions(eleventyConfig);
     collections(eleventyConfig);
     plugins(eleventyConfig);
-    // libraries(eleventyConfig);
+    libraries(eleventyConfig);
     passThrough(eleventyConfig);
     events(eleventyConfig);
 
