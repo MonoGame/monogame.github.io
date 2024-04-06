@@ -14,13 +14,6 @@ jobs:
     steps:
       - name: Clone repository
         uses: actions/checkout@v2
-        with:
-          submodules: recursive
-
-      - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
-        uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: '8.0.x'
 
       - name: Restore NPM Packages
         run: npm install
