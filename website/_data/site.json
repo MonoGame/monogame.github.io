@@ -17,7 +17,7 @@
     "navigation": [
         {
             "label": "Documentation",
-            "url": "/documentation/"
+            "url": "https://docs.monogame.net"
         },
         {
             "label": "Community",
