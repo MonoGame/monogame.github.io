@@ -131,24 +131,24 @@ if(Joystick.LastConnectedIndex == 0)
 {
     JoystickState jstate = Joystick.GetState(0);
 	
+	float updatedBallSpeed = ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+	
     if (jstate.Axes[1] < 0)
     {
-        ballPosition.Y -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+        ballPosition.Y -= updatedBallSpeed;
     }
-
-	if (jstate.Axes[1] > 0)
+	else if (jstate.Axes[1] > 0)
     {
-        ballPosition.Y += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+        ballPosition.Y += updatedBallSpeed;
     }
 
     if (jstate.Axes[0] < 0)
     {
-        ballPosition.X -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+        ballPosition.X -= updatedBallSpeed;
     }
-
-    if (jstate.Axes[0] > 0)
+    else if (jstate.Axes[0] > 0)
     {
-        ballPosition.X += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+        ballPosition.X += updatedBallSpeed;
     }
 }
 ```
@@ -201,22 +201,20 @@ Now, replace the conditions for the Joystick movement in **Update** to the follo
 ```csharp
 if (jstate.Axes[1] < -deadZone)
 {
-    ballPosition.Y -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+    ballPosition.Y -= updatedBallSpeed;
 }
-
-if (jstate.Axes[1] > deadZone)
+else if (jstate.Axes[1] > deadZone)
 {
-    ballPosition.Y += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+    ballPosition.Y += updatedBallSpeed;
 }
 
 if (jstate.Axes[0] < -deadZone)
 {
-    ballPosition.X -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+    ballPosition.X -= updatedBallSpeed;
 }
-
-if (jstate.Axes[0] > deadZone)
+else if (jstate.Axes[0] > deadZone)
 {
-    ballPosition.X += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+    ballPosition.X += updatedBallSpeed;
 }
 ```
 
