@@ -14,4 +14,5 @@ module.exports = function (config) {
     config.addPassthroughCopy({
         "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js": "/js/bootstrap.bundle.min.js"
     });
+    config.addPassthroughCopy({ "./website/content/public/downloads/**/*": "/downloads"});
 }
