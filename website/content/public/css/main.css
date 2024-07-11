@@ -70,6 +70,19 @@ a[href^='https']:not([href*='monogame.net']):not(.btn)::after {
   display: none !important;
 }
 
+blockquote {
+    border-style: solid;
+    border-width: 0 0 0 3px;
+    border-color: #c4c8cb;
+    margin: 1.2em 0 2em;
+    padding: 0 .8em;
+    display: block;
+}
+
+[data-bs-theme="dark"] blockquote {
+    border-color: #41464b;
+}
+
 /*******************************************************************************
 *** Section: Bootstrap Overrides
 *** Contains various overrides to the built-in bootstrap classes and properties
