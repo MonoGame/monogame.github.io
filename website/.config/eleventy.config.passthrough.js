@@ -5,6 +5,7 @@ module.exports = function (config) {
     config.addPassthroughCopy({ ".website/static": "/" });
     config.addPassthroughCopy('./website/content/articles/**/*.{png, jpg, jpeg, gif}');
     config.addPassthroughCopy('./website/content/blog/**/*.{png, jpg, jpeg, gif}');
+    config.addPassthroughCopy({ "./website/content/blog/images": "/blog/images" });
     config.addPassthroughCopy({ "./website/content/public/images": "/images" });
     config.addPassthroughCopy({ "./website/content/static/**/*": "/"});
     config.addPassthroughCopy({ "./website/content/public/js/**/*.js": "/js" });
