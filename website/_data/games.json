@@ -610,5 +610,85 @@
             "Mac",
             "Linux"
         ]
+    },
+    {
+        "name": "blister-blight",
+        "title": "Blister Blight",
+        "logo": "blister-blight-logo.png",
+        "screenshot": "blister-blight-screenshot.png",
+        "url": "https://blisterblight.com/",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows"
+        ]
+    }
+    ,
+    {
+        "name": "xon",
+        "title": "Xon",
+        "logo": "xon-logo.png",
+        "screenshot": "xon-screenshot.png",
+        "url": "https://store.steampowered.com/app/2400690/Xon/",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows"
+        ]
+    },
+    {
+        "name": "warsphere",
+        "title": "WarSphere",
+        "logo": "warsphere-logo.png",
+        "screenshot": "warsphere-screenshot.png",
+        "url": "https://store.steampowered.com/app/2451530/WarSphere/",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows"
+        ]
+    },
+    {
+        "name": "last-war-forrest-of-doom",
+        "title": "The last war: Forest of doom",
+        "logo": "last-war-forrest-of-doom-logo.png",
+        "screenshot": "last-war-forrest-of-doom-screenshot.png",
+        "url": "https://adc-games.itch.io/the-last-war",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows"
+        ]
+    },
+    {
+        "name": "spinshuffle",
+        "title": "SpinShuffle",
+        "logo": "spinshuffle-logo.png",
+        "screenshot": "spinshuffle-screenshot.png",
+        "url": "https://spinshuffle.net/",
+        "pixelart": true,
+        "tags": [
+            "Mobile",
+            "3D",
+            "iOS",
+            "Android"
+        ]
+    },
+    {
+        "name": "hard-chip",
+        "title": "Hard Chip",
+        "logo": "hard-chip-logo.png",
+        "screenshot": "hard-chip-screenshot.png",
+        "url": "https://hardchip.io/",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "3D",
+            "Windows"
+        ]
     }
 ]
