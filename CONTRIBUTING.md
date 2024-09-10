@@ -17,7 +17,7 @@ Breaking these rules can result in your contribution being rejected.
 
 For further details for guidance and advice when contributing to the MonoGame Framework Documentation / API repository, please see the official guide:
 
-### [MonoGame Documentation official contributing guide](https://monogame.net/articles/contributing)
+### [MonoGame Documentation official contributing guide](https://docs.monogame.net/articles/contributing)
 
 ## License
 
