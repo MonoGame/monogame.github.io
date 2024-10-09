@@ -44,7 +44,7 @@ title: Donate
             {% endfor %}
         </div>
          <div class="row">
-            {% for patreon in patreons | sort((a, b) => a.tier.localeCompare(b.tier)) %}
+            {% for patreon in patreons | sort('tier') %}
                 <div class="col-lg-3 mb-3 text-center">
                     {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
                         <strong>{{patreon.name}}</strong>
