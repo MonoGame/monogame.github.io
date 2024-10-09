@@ -17,7 +17,8 @@
     },
     {
         "name": "Michal Škoula",
-        "tier": "Cornflower Blue"
+        "tier": "Cornflower Blue",
+        "url": "https://skoula.cz/"
     },
     {
         "name": "Ben",
@@ -29,7 +30,8 @@
     },
     {
         "name": "Ellpeck Games",
-        "tier": "Model.Draw"
+        "tier": "Model.Draw",
+        "url": "https://games.ellpeck.de/"
     },
     {
         "name": "Csharpskolan",
@@ -50,5 +52,13 @@
     {
         "name": "NotExplosive",
         "tier": "SpriteBatch"
+    },
+    {
+        "name": "Jake Kirkbride",
+        "tier": "GraphicsDevice.DrawUserPrimitives"
+    },
+    {
+        "name": "Oblotzky",
+        "tier": "GraphicsDevice.DrawUserPrimitives"
     }
 ]
