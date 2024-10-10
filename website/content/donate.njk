@@ -44,11 +44,86 @@ title: Donate
             {% endfor %}
         </div>
     </section>
+    <section class="container-xxl mb-5">
+        <h1 id="patreons" class="fw-bold"><a href="#patreons">Patreons By Tier</a></h2>
+        <p>
+            The following is a preserved list of individuals and studios that continue to support MonoGame through Patreon.
+        </p>        
+        <h4 id="EnvironmentMapEffect" class="fw-bold"><a href="https://www.patreon.com/monogame/membership">Graphics.EnvironmentMapEffect  - $64 / month</a></h4>
+        <div class="row">
+            {% for patreon in patreons | sort() %}
+                {% if patreon.tier == "Graphics.EnvironmentMapEffect" %}
+                <div class="col-lg-3 mb-3 text-center">
+                    {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
+                        <strong>{{patreon.name}}</strong>
+                    {% if patreon.url %}</a>{% endif %}
+                    <br />
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <br />
+        <h4 id="Model.Draw" class="fw-bold"><a href="https://www.patreon.com/monogame/membership">Model.Draw  - $32 / month</a></h4>
+        <div class="row">
+            {% for patreon in patreons | sort() %}
+                {% if patreon.tier == "Model.Draw" %}
+                <div class="col-lg-3 mb-3 text-center">
+                    {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
+                        <strong>{{patreon.name}}</strong>
+                    {% if patreon.url %}</a>{% endif %}
+                    <br />
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <br />
+        <h4 id="GraphicsDevice.DrawUserPrimitives" class="fw-bold"><a href="https://www.patreon.com/monogame/membership">GraphicsDevice.DrawUserPrimitives  - $16 / month</a></h4>
+        <div class="row">
+            {% for patreon in patreons | sort() %}
+                {% if patreon.tier == "GraphicsDevice.DrawUserPrimitives" %}
+                <div class="col-lg-3 mb-3 text-center">
+                    {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
+                        <strong>{{patreon.name}}</strong>
+                    {% if patreon.url %}</a>{% endif %}
+                    <br />
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <br />
+        <h4 id="SpriteBatch" class="fw-bold"><a href="https://www.patreon.com/monogame/membership">SpriteBatch  - $4 / month</a></h4>
+        <div class="row">
+            {% for patreon in patreons | sort() %}
+                {% if patreon.tier == "SpriteBatch" %}
+                <div class="col-lg-3 mb-3 text-center">
+                    {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
+                        <strong>{{patreon.name}}</strong>
+                    {% if patreon.url %}</a>{% endif %}
+                    <br />
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <br />
+        <h4 id="Cornflower Blue" class="fw-bold"><a href="https://www.patreon.com/monogame/membership">Cornflower Blue  - $2 / month</a></h4>
+        <div class="row">
+            {% for patreon in patreons | sort() %}
+                {% if patreon.tier == "Cornflower Blue" %}
+                <div class="col-lg-3 mb-3 text-center">
+                    {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
+                        <strong>{{patreon.name}}</strong>
+                    {% if patreon.url %}</a>{% endif %}
+                    <br />
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
 
     <section class="container-xxl mb-5">
         <h1 id="donations" class="fw-bold"><a href="#donations">Donations</a></h1>
         <p>
-            The following is a preserved list of individuals and studios that generiously donated in the past to help run the project.
+            The following is a preserved list of individuals and studios that generously donated in the past to help run the project.
         </p>
         <div class="row">
             {% for donor in donations | sort(true, false, 'amount') %}

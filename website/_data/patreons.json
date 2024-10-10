@@ -1,0 +1,68 @@
+[
+    {
+        "name": "James Silva",
+        "tier": "Graphics.EnvironmentMapEffect"
+    },
+    {
+        "name": "D. Ezra Sidran, PhD",
+        "tier": "GraphicsDevice.DrawUserPrimitives"
+    },
+    {
+        "name": "Pirota Pirozou",
+        "tier": "Cornflower Blue"
+    },
+    {
+        "name": "macabrett",
+        "tier": "Cornflower Blue"
+    },
+    {
+        "name": "Michal Škoula",
+        "tier": "Cornflower Blue",
+        "url": "https://skoula.cz/"
+    },
+    {
+        "name": "Ben",
+        "tier": "SpriteBatch"
+    },
+    {
+        "name": "ajian_nedo",
+        "tier": "SpriteBatch"
+    },
+    {
+        "name": "Ellpeck Games",
+        "tier": "Model.Draw",
+        "url": "https://games.ellpeck.de/"
+    },
+    {
+        "name": "Csharpskolan",
+        "tier": "Cornflower Blue"
+    },
+    {
+        "name": "Donny Beals",
+        "tier": "SpriteBatch"
+    },
+    {
+        "name": "Rui Holdorf",
+        "tier": "SpriteBatch"
+    },
+    {
+        "name": "Alex Campbell-Black",
+        "tier": "Cornflower Blue"
+    },
+    {
+        "name": "NotExplosive",
+        "tier": "SpriteBatch"
+    },
+    {
+        "name": "Jake Kirkbride",
+        "tier": "GraphicsDevice.DrawUserPrimitives"
+    },
+    {
+        "name": "Oblotzky",
+        "tier": "GraphicsDevice.DrawUserPrimitives"
+    },
+    {
+        "name": "Gerald Unterrainer",
+        "tier": "SpriteBatch"
+    }
+]
