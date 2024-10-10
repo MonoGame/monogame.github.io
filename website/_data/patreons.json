@@ -73,5 +73,9 @@
         "name": "MoonFarmGame",
         "tier": "SpriteBatch",
         "url": "https://x.com/MoonFarmGame"
+    },
+    {
+        "name": "MrValentine",
+        "tier": "SpriteBatch"
     }
 ]
