@@ -64,5 +64,14 @@
     {
         "name": "Gerald Unterrainer",
         "tier": "SpriteBatch"
+    },
+    {
+        "name":"Aaron Langille",
+        "tier": "SpriteBatch"
+    },
+    {
+        "name": "MoonFarmGame",
+        "tier": "SpriteBatch",
+        "url": "https://x.com/MoonFarmGame"
     }
 ]
