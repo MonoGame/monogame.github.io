@@ -60,5 +60,9 @@
     {
         "name": "Oblotzky",
         "tier": "GraphicsDevice.DrawUserPrimitives"
+    },
+    {
+        "name": "Gerald Unterrainer",
+        "tier": "SpriteBatch"
     }
 ]
