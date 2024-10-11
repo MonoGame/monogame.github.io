@@ -27,9 +27,11 @@ Each month, one week on from the MonoGame Foundation monthly board meeting, the 
 * MonoGame Board meetings - 2nd Wednesday each month
 * "MonoGame "Open Hours" - 3rd Wednesday each month - 4PM UTC
 
+
 ::: note Following the crowd
 This all came about due to [Microsoft hosting their own "Open Hours" sessions](https://discord.gg/msftgamedev) recently and some of the MonoGame community who also join that call expressed an interest in MonoGame doing the same, we agreed.
 :::
+
 
 ## Agenda
 
@@ -38,11 +40,13 @@ Going forward we aim to talk about a recent announcement or feature and then ope
 
 If you prefer to just type, the call will also use Discord's text features and the team will be on hand to respond too.
 
+
 ::: note Only during open hours
 Following suit with Microsoft's process, the "Open Hours" chat will only be open during the meeting (and clearing up any outstanding questions afterward), it will not be a general support forum.  The team are making this time available to the community, so please do not abuse it.
 
 If you have queries beyond the meeting times, then we recommend you use the rest of the Discord channel.
 :::
+
 
 We look forward to meeting and hearing from you then!
 
