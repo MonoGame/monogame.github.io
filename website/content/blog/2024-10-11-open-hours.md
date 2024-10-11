@@ -8,7 +8,7 @@ image: /images/blog/cover/monogame_foundation.png
 ogImage: /images/blog/cover/monogame_foundation.png
 ---
 
-The MonoGame Foundation is proud to announce a new level of engagement with the MonoGame community through a series of monthly AMA sessions aimed to improve communication.
+The MonoGame Foundation is proud to announce a new level of engagement with the MonoGame community through a series of monthly AMA sessions aimed at improving communication.
 
 ::: note Following the crowd
 This all came about due to [Microsoft hosting their own "Open Hours" sessions](https://discord.gg/msftgamedev) recently and some of the MonoGame community who also join that call expressed an interest in MonoGame doing the same, we agreed.
