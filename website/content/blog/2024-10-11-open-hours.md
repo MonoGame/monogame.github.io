@@ -22,7 +22,7 @@ The inaugural MonoGame "Open Hours" meeting will be on:
 
 ### Channel and Connection Details
 
-TBA
+#### [MonoGame Community discord - Open Hours channel](https://discord.gg/monogame?event=1295042873430905024)
 
 ## The Meeting Schedule
 
