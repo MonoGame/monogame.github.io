@@ -196,9 +196,7 @@ function admonition(state, startLine, endLine, silent) {
 /// Adds the admonition parsing plugin to markdown-it
 ////////////////////////////////////////////////////////////////////////////////
 function admonitionPlugin(md) {
-    md.block.ruler.before("code", "admonition", admonition, {
-        alt: ["paragraph", "reference", "blockquote", "list"]
-    });
+    md.block.ruler.before("code", "admonition", admonition);
     md.renderer.rules["admonition_open"] = render;
     md.renderer.rules["admonition_title_open"] = render;
     md.renderer.rules["admonition_title_close"] = render;
