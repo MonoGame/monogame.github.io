@@ -67,7 +67,8 @@
     },
     {
         "name":"Aaron Langille",
-        "tier": "SpriteBatch"
+        "tier": "SpriteBatch",
+        "url": "https://welcomebraveadventurer.ca"
     },
     {
         "name": "MoonFarmGame",
@@ -76,6 +77,15 @@
     },
     {
         "name": "MrValentine",
+        "tier": "SpriteBatch"
+    },
+    {
+        "name": "aristurtledev",
+        "tier": "Graphics.EnvironmentMapEffect",
+        "url": "https://monogameaseprite.net/"
+    },
+    {
+        "name": "Christopher Hanna",
         "tier": "SpriteBatch"
     }
 ]
