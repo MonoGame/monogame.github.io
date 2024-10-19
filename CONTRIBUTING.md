@@ -1,6 +1,6 @@
 # MonoGame Documentation
 
-This is the source for the [documentation published on MonoGame.net](http://www.monogame.net/documentation/).  It is rebuilt when the code changes and is published nightly to the website.
+This is the source for the [MonoGame.net website](https://www.monogame.net/).
 
 ## General Rules
 
