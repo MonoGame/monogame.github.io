@@ -216,5 +216,14 @@
                 "description": "The MonoGame Foundation is formed."
             }
         ]
+    },
+    {
+        "year": "2024",
+        "events": [
+            {
+                "date": "August 16th",
+                "description": "MonoGame 3.8.2 is released."
+            }
+        ]
     }
 ]
