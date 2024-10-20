@@ -7,25 +7,34 @@ title: Donate
     <section class="container-xxl my-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-7 mb-5">
+                <div class="col-xl-9 mb-5">
                     <h1 id="support-monogame" class="fw-bold"><a href="#support-monogame">Support MonoGame</a></h1>
                     <p>MonoGame is an open-source answer to expensive, restrictive game engines.  It is free to use on ALL platforms, even on game consoles.  This was achieved by the generous donation of code by hundreds of independent developers over the last 15 years.</p>
-<p>To ensure MonoGame continues to thrive into the future the non-profit MonoGame Foundation needs your support.  Your donations help us keep pace with advancing technology and new platforms, ensuring MonoGame remains a powerful tool for all game developers.</p>
+<p>To ensure MonoGame continues to thrive into the future the MonoGame Foundation <b>needs your support</b>.  Your donations help us keep pace with advancing technology and new platforms, ensuring MonoGame remains a powerful tool for all game developers.</p>
 <p>If your time using MonoGame has been enjoyable, educational, or it helped create your successful game, consider giving back to the project.  Your contributions ensure a future where game development is accessible to everyone.</p>
 <p>Donate now and be a part of this exciting journey.</p>
-                    <a class="btn mg-patreon-button" type="button" href="https://www.patreon.com/bePatron?u=3142012" target="_blank">
-                        {% include 'svgs/logos/patreon.svg'%}
-                        Become a member!
-                    </a>
+    <br/>
+                    <div class="row justify-content-center">
+                        <div class="col-md-auto mb-2 mx-4">
+                            <a class="btn mg-patreon-button px-4" type="button" href="https://github.com/sponsors/MonoGame" target="_blank">
+                                    <i class="bi bi-heart"></i> GitHub
+                            </a>
+                        </div>
+                        <div class="col-md-auto mb-2 mx-4">
+                            <a class="btn mg-patreon-button px-4" type="button" href="https://www.patreon.com/bePatron?u=3142012" target="_blank">
+                                    {% include 'svgs/logos/patreon.svg'%} Patreon
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-5 patreon-stats">
+                <div class="col-sm-3 patreon-stats">
                     <div class="patreon-stat monthly">
                         <span id="per-month"></span>
-                        <p>monthly</p>
+                        <p>Monthly</p>
                     </div>
                     <div class="patreon-stat patreon">
                         <span id="total-patrons"></span>
-                        <p>patrons</p>
+                        <p>Sponsors</p>
                     </div>
                 </div>
             </div>
@@ -33,8 +42,10 @@ title: Donate
     </section>
 
     <section class="container-xxl mb-5">
-        <h1 id="sponsors" class="fw-bold"><a href="#sponsors">MonoGame Is Sponsored By</a></h1>
-        <div class="row">
+        <h1 id="sponsors" class="fw-bold"><a href="#sponsors">Corporate Sponsors</a></h1>
+	<p>If you're interested in becoming a headline sponsor of MonoGame please <a href="/about/#contact-us">contact us</a>.</p>
+    <br/>
+        <div class="row justify-content-center">
             {% for sponsor in sponsors %}
                 <div class="col-lg-6 mb-5">
                     <a class="hide-external-icon" href="{{sponsor.url}}" title="{{sponsor.name}}">
@@ -45,17 +56,18 @@ title: Donate
         </div>
     </section>
     <section class="container-xxl mb-5">
-        <h1 id="patreons" class="fw-bold"><a href="#patreons">Patreons By Tier</a></h2>
+        <h1 id="patreons" class="fw-bold"><a href="#patreons">Monthly Sponsors</a></h1>
         <p>
-            The following is a preserved list of individuals and studios that continue to support MonoGame through Patreon.
-        </p>        
-        <h4 id="EnvironmentMapEffect" class="fw-bold"><a href="https://www.patreon.com/monogame/membership">EnvironmentMapEffect  - $64 / month</a></h4>
-        <div class="row">
+            The following is a partial list of individuals and studios that support us through <a href="https://www.patreon.com/bePatron?u=3142012">Patreon</a>.
+        </p>
+        <br/>        
+        <h4 class="text-center" id="EnvironmentMapEffect">EnvironmentMapEffect</h4>
+        <div class="row justify-content-center mb-3">
             {% for patreon in patreons | sort() %}
                 {% if patreon.tier == "EnvironmentMapEffect" %}
-                <div class="col-lg-3 mb-3 text-center">
+                <div class="col-sm-4 mb-1 text-center">
                     {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
-                        <strong>{{patreon.name}}</strong>
+                        {{patreon.name}}
                     {% if patreon.url %}</a>{% endif %}
                     <br />
                 </div>
@@ -63,13 +75,13 @@ title: Donate
             {% endfor %}
         </div>
         <br />
-        <h4 id="Model.Draw" class="fw-bold"><a href="https://www.patreon.com/monogame/membership">Model.Draw  - $32 / month</a></h4>
-        <div class="row">
+        <h4 class="text-center" id="Model.Draw">Model.Draw</h4>
+        <div class="row justify-content-center mb-3">
             {% for patreon in patreons | sort() %}
                 {% if patreon.tier == "Model.Draw" %}
-                <div class="col-lg-3 mb-3 text-center">
+                <div class="col-sm-4 mb-1 text-center">
                     {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
-                        <strong>{{patreon.name}}</strong>
+                        {{patreon.name}}
                     {% if patreon.url %}</a>{% endif %}
                     <br />
                 </div>
@@ -77,13 +89,13 @@ title: Donate
             {% endfor %}
         </div>
         <br />
-        <h4 id="DrawUserPrimitives" class="fw-bold"><a href="https://www.patreon.com/monogame/membership">DrawUserPrimitives  - $16 / month</a></h4>
-        <div class="row">
+        <h4 class="text-center" id="DrawUserPrimitives">DrawUserPrimitives</h4>
+        <div class="row justify-content-center mb-3">
             {% for patreon in patreons | sort() %}
                 {% if patreon.tier == "DrawUserPrimitives" %}
-                <div class="col-lg-3 mb-3 text-center">
+                <div class="col-sm-4 mb-1 text-center">
                     {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
-                        <strong>{{patreon.name}}</strong>
+                        {{patreon.name}}
                     {% if patreon.url %}</a>{% endif %}
                     <br />
                 </div>
@@ -91,13 +103,13 @@ title: Donate
             {% endfor %}
         </div>
         <br />
-        <h4 id="SpriteBatch" class="fw-bold"><a href="https://www.patreon.com/monogame/membership">SpriteBatch  - $4 / month</a></h4>
-        <div class="row">
+        <h4 class="text-center" id="SpriteBatch">SpriteBatch</h4>
+        <div class="row justify-content-center mb-3">
             {% for patreon in patreons | sort() %}
                 {% if patreon.tier == "SpriteBatch" %}
-                <div class="col-lg-3 mb-3 text-center">
+                <div class="col-sm-4 mb-1 text-center">
                     {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
-                        <strong>{{patreon.name}}</strong>
+                        {{patreon.name}}
                     {% if patreon.url %}</a>{% endif %}
                     <br />
                 </div>
@@ -105,13 +117,13 @@ title: Donate
             {% endfor %}
         </div>
         <br />
-        <h4 id="Cornflower Blue" class="fw-bold"><a href="https://www.patreon.com/monogame/membership">Cornflower Blue  - $2 / month</a></h4>
-        <div class="row">
+        <h4 class="text-center" id="Cornflower Blue">Cornflower Blue</h4>
+        <div class="row justify-content-center mb-3">
             {% for patreon in patreons | sort() %}
                 {% if patreon.tier == "Cornflower Blue" %}
-                <div class="col-lg-3 mb-3 text-center">
+                <div class="col-sm-4 mb-1 text-center">
                     {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
-                        <strong>{{patreon.name}}</strong>
+                        {{patreon.name}}
                     {% if patreon.url %}</a>{% endif %}
                     <br />
                 </div>
@@ -129,7 +141,7 @@ title: Donate
             {% for donor in donations | sort(true, false, 'amount') %}
                 <div class="col-lg-3 mb-3 text-center">
                     {% if donor.url %}<a href="{{donor.url}}">{% endif %}
-                        <strong>{{donor.name}}</strong>
+                        {{donor.name}}
                     {% if donor.url %}</a>{% endif %}
                     <br />
                     {{ (donor.amount / 100).toLocaleString('en-US', {style: 'currency', currency: 'USD'}) }}
