@@ -25,7 +25,16 @@
     if(data.included && data.included.length > 0) {
         const attributes = data.included[0].attributes;
         const patron_count = attributes.patron_count;
-        const pledge_sum = attributes.pledge_sum;
+        let pledge_sum = attributes.pledge_sum;
+
+        // HACK: Add in a few things from other services.
+        {
+            // Re-logic's monthly donation.
+            pledge_sum += 100000;
+
+            // TODO: Get GitHub sponsors and merge them with this.
+            // Requires a personal access token to do so.
+        }
 
         const total_patrons = document.getElementById('total-patrons');
         countUp(total_patrons, patron_count, (x) => x);
