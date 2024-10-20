@@ -61,10 +61,10 @@ title: Donate
             The following is a partial list of individuals and studios that support us through <a href="https://www.patreon.com/bePatron?u=3142012">Patreon</a>.
         </p>
         <br/>        
-        <h4 class="text-center" id="Graphics.EnvironmentMapEffect">Graphics.EnvironmentMapEffect</h4>
+        <h4 class="text-center" id="EnvironmentMapEffect">EnvironmentMapEffect</h4>
         <div class="row justify-content-center mb-3">
             {% for patreon in patreons | sort() %}
-                {% if patreon.tier == "Graphics.EnvironmentMapEffect" %}
+                {% if patreon.tier == "EnvironmentMapEffect" %}
                 <div class="col-sm-4 mb-1 text-center">
                     {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
                         {{patreon.name}}
@@ -89,10 +89,10 @@ title: Donate
             {% endfor %}
         </div>
         <br />
-        <h4 class="text-center" id="GraphicsDevice.DrawUserPrimitives">GraphicsDevice.DrawUserPrimitives</h4>
+        <h4 class="text-center" id="DrawUserPrimitives">DrawUserPrimitives</h4>
         <div class="row justify-content-center mb-3">
             {% for patreon in patreons | sort() %}
-                {% if patreon.tier == "GraphicsDevice.DrawUserPrimitives" %}
+                {% if patreon.tier == "DrawUserPrimitives" %}
                 <div class="col-sm-4 mb-1 text-center">
                     {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
                         {{patreon.name}}

@@ -1,11 +1,11 @@
 [
     {
         "name": "James Silva",
-        "tier": "Graphics.EnvironmentMapEffect"
+        "tier": "EnvironmentMapEffect"
     },
     {
         "name": "D. Ezra Sidran, PhD",
-        "tier": "GraphicsDevice.DrawUserPrimitives"
+        "tier": "DrawUserPrimitives"
     },
     {
         "name": "Pirota Pirozou",
@@ -55,11 +55,11 @@
     },
     {
         "name": "Jake Kirkbride",
-        "tier": "GraphicsDevice.DrawUserPrimitives"
+        "tier": "DrawUserPrimitives"
     },
     {
         "name": "Oblotzky",
-        "tier": "GraphicsDevice.DrawUserPrimitives"
+        "tier": "DrawUserPrimitives"
     },
     {
         "name": "Gerald Unterrainer",
@@ -67,7 +67,8 @@
     },
     {
         "name":"Aaron Langille",
-        "tier": "SpriteBatch"
+        "tier": "SpriteBatch",
+        "url": "https://welcomebraveadventurer.ca"
     },
     {
         "name": "MoonFarmGame",
@@ -76,6 +77,15 @@
     },
     {
         "name": "MrValentine",
+        "tier": "SpriteBatch"
+    },
+    {
+        "name": "aristurtledev",
+        "tier": "EnvironmentMapEffect",
+        "url": "https://aristurtledev.github.io/"
+    },
+    {
+        "name": "Christopher Hanna",
         "tier": "SpriteBatch"
     }
 ]
