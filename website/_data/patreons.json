@@ -1,11 +1,11 @@
 [
     {
         "name": "James Silva",
-        "tier": "Graphics.EnvironmentMapEffect"
+        "tier": "EnvironmentMapEffect"
     },
     {
         "name": "D. Ezra Sidran, PhD",
-        "tier": "GraphicsDevice.DrawUserPrimitives"
+        "tier": "DrawUserPrimitives"
     },
     {
         "name": "Pirota Pirozou",
@@ -55,11 +55,11 @@
     },
     {
         "name": "Jake Kirkbride",
-        "tier": "GraphicsDevice.DrawUserPrimitives"
+        "tier": "DrawUserPrimitives"
     },
     {
         "name": "Oblotzky",
-        "tier": "GraphicsDevice.DrawUserPrimitives"
+        "tier": "DrawUserPrimitives"
     },
     {
         "name": "Gerald Unterrainer",
@@ -81,7 +81,7 @@
     },
     {
         "name": "aristurtledev",
-        "tier": "Graphics.EnvironmentMapEffect",
+        "tier": "EnvironmentMapEffect",
         "url": "https://aristurtledev.github.io/"
     },
     {
