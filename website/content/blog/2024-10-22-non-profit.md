@@ -12,6 +12,6 @@ ogImage: /images/blog/cover/monogame_foundation.png
 
 The MonoGame Foundation is now officially a 501(c)(3) non-profit organisation. It is retroactive, so valid from September 2023.
 
-You can support us here - https://www.patreon.com/MonoGame
+You can support us here - https://monogame.net/donate/
 
 The MonoGame Foundation team
