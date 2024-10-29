@@ -31,10 +31,14 @@
             "label": "Blog",
             "url": "/blog/"
         },
-		        {
+		{
             "label": "Bounties",
             "url": "/bounties/"
         },
+        {
+            "label": "Store",
+            "url": "https://www.teepublic.com/user/monogame"
+        }
         {
             "label": "About",
             "url": "/about/"
