@@ -87,5 +87,9 @@
     {
         "name": "Christopher Hanna",
         "tier": "SpriteBatch"
+    },
+    {
+        "name": "RenewEarth",
+        "tier": "SpriteBatch"
     }
 ]
