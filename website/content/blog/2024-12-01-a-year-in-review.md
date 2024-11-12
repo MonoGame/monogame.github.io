@@ -87,4 +87,14 @@ It has been a year since we announced that we received a very generous donation 
 * Improved Content pipeline (Mr H / Harry, details)  
   * Automating XNB builds to make using MGCB or the content editor optional, and adding content more easily to projects  
 * Full DX12 support on Windows / Xbox  
-* Vulkan support to replace OpenGL (Tom to clarify) 
+* Vulkan support to replace OpenGL (Tom to clarify)
+
+### Support
+
+You can support us here - https://monogame.net/donate/
+
+---
+
+### Onwards MonoGame
+
+The MonoGame Foundation team
