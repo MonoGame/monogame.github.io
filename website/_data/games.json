@@ -690,5 +690,37 @@
             "3D",
             "Windows"
         ]
+    },
+    {
+        "name": "sanguo",
+        "title": "Sanguo",
+        "logo": "sanguo-logo.png",
+        "screenshot": "sanguo-screenshot.png",
+        "url": "https://anonames-lair.itch.io/sanguo",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows"
+        ]
+    },
+    {
+        "name": "nazdar",
+        "title": "Nazdar!",
+        "logo": "nazdar-logo.png",
+        "screenshot": "nazdar-screenshot.png",
+        "url": "https://skoula.cz/nazdar/",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "Mobile",
+            "Console",
+            "2D",
+            "Windows",
+            "Linux",
+            "Android",
+            "Xbox One",
+            "Xbox Series X/S"
+        ]
     }
 ]
