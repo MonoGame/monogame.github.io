@@ -18,7 +18,7 @@ The 2nd MonoGame "Open Hours" AMA meeting will be on:
 
 ### Channel and Connection Details
 
-#### [MonoGame Community discord - Open Hours channel](https://discord.gg/monogame?event=1295042873430905024)
+#### [MonoGame Community discord - Open Hours channel](https://discord.gg/monogame?event=1306314938402340884)
 
 ## Agenda
 
