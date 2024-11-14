@@ -61,77 +61,39 @@ title: Donate
             The following is a partial list of individuals and studios that support us through <a href="https://www.patreon.com/bePatron?u=3142012">Patreon</a>.
         </p>
         <br/>        
-        <h4 class="text-center" id="EnvironmentMapEffect">EnvironmentMapEffect</h4>
-        <div class="row justify-content-center mb-3">
-            {% for patreon in patreons | sort() %}
-                {% if patreon.tier == "EnvironmentMapEffect" %}
-                <div class="col-sm-4 mb-1 text-center">
-                    {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
-                        {{patreon.name}}
-                    {% if patreon.url %}</a>{% endif %}
-                    <br />
+        <div class="container">
+            {% set tiers = [
+                { name: "EnvironmentMapEffect", url: "https://www.patreon.com/checkout/MonoGame?rid=9142452" },
+                { name: "Model.Draw", url: "https://www.patreon.com/checkout/MonoGame?rid=9142450" },
+                { name: "DrawUserPrimitives", url: "https://www.patreon.com/checkout/MonoGame?rid=1916865" },
+                { name: "SpriteBatch", url: "https://www.patreon.com/checkout/MonoGame?rid=1867475" },
+                { name: "Cornflower Blue", url: "https://www.patreon.com/checkout/MonoGame?rid=1867471" }
+            ] %}
+            <div class="row">
+                {% for tier in tiers %}
+                <div class="col-sm">
+                <b><a href="{{tier.url}}">{{tier.name}}</a></b>
+                <br />
+                <br />
                 </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-        <br />
-        <h4 class="text-center" id="Model.Draw">Model.Draw</h4>
-        <div class="row justify-content-center mb-3">
-            {% for patreon in patreons | sort() %}
-                {% if patreon.tier == "Model.Draw" %}
-                <div class="col-sm-4 mb-1 text-center">
-                    {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
-                        {{patreon.name}}
-                    {% if patreon.url %}</a>{% endif %}
-                    <br />
+                {% endfor %}
+            </div>
+            <div class="row">
+            {% for tier in tiers %}
+                <div class="col-sm">
+                    {% for patreon in patreons %}
+                        {% if patreon.tier == tier.name %}
+                            {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
+                            {{patreon.name}}
+                            {% if patreon.url %}</a>{% endif %}
+                            <br />
+                        {% endif %}
+                    {% endfor %}
                 </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-        <br />
-        <h4 class="text-center" id="DrawUserPrimitives">DrawUserPrimitives</h4>
-        <div class="row justify-content-center mb-3">
-            {% for patreon in patreons | sort() %}
-                {% if patreon.tier == "DrawUserPrimitives" %}
-                <div class="col-sm-4 mb-1 text-center">
-                    {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
-                        {{patreon.name}}
-                    {% if patreon.url %}</a>{% endif %}
-                    <br />
-                </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-        <br />
-        <h4 class="text-center" id="SpriteBatch">SpriteBatch</h4>
-        <div class="row justify-content-center mb-3">
-            {% for patreon in patreons | sort() %}
-                {% if patreon.tier == "SpriteBatch" %}
-                <div class="col-sm-4 mb-1 text-center">
-                    {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
-                        {{patreon.name}}
-                    {% if patreon.url %}</a>{% endif %}
-                    <br />
-                </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-        <br />
-        <h4 class="text-center" id="Cornflower Blue">Cornflower Blue</h4>
-        <div class="row justify-content-center mb-3">
-            {% for patreon in patreons | sort() %}
-                {% if patreon.tier == "Cornflower Blue" %}
-                <div class="col-sm-4 mb-1 text-center">
-                    {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
-                        {{patreon.name}}
-                    {% if patreon.url %}</a>{% endif %}
-                    <br />
-                </div>
-                {% endif %}
-            {% endfor %}
+            {% endfor%}
+            </div>
         </div>
     </section>
-
     <section class="container-xxl mb-5">
         <h1 id="donations" class="fw-bold"><a href="#donations">Donations</a></h1>
         <p>
