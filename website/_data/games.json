@@ -722,5 +722,19 @@
             "Xbox One",
             "Xbox Series X/S"
         ]
+    },
+    {
+        "name": "mochiescape",
+        "title": "Mochi Escape",
+        "logo": "mochiescape-logo.png",
+        "screenshot": "mochiescape-screenshot.png",
+        "url": "https://anonames-lair.itch.io/mochi-escape",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows",
+            "Linux"
+        ]
     }
 ]
