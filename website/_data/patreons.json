@@ -1,7 +1,8 @@
 [
     {
         "name": "James Silva",
-        "tier": "EnvironmentMapEffect"
+        "tier": "EnvironmentMapEffect",
+        "url": "https://ska-studios.com/"
     },
     {
         "name": "D. Ezra Sidran, PhD",
@@ -94,6 +95,10 @@
     },
     {
         "name": "Andrew Powell",
+        "tier": "SpriteBatch"
+    },
+    {
+        "name": "Cynthia McMahon",
         "tier": "SpriteBatch"
     }
 ]
