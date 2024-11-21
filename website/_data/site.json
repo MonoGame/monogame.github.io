@@ -81,6 +81,11 @@
             "icon": "bi-twitter"
         },
         {
+            "title": "Blue Sky",
+            "url": "https://bsky.app/profile/monogame.net",
+            "icon": "bi-bluesky"
+        },
+        {
             "title": "Blog RSS Feed",
             "url": "https://monogame.net/blog/feed.xml",
             "icon": "bi-rss-fill"
