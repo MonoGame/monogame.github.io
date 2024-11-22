@@ -31,9 +31,13 @@
             "label": "Blog",
             "url": "/blog/"
         },
-		        {
+		{
             "label": "Bounties",
             "url": "/bounties/"
+        },
+        {
+            "label": "Store",
+            "url": "https://store.monogame.net"
         },
         {
             "label": "About",
