@@ -14,7 +14,7 @@ It has been a year since we announced that we received a very generous donation 
 
 ### So far in the last year we:
 
-* Now have recurring Patreon subscriptions of $788/month  
+* Now have recurring subscriptions (Patreon, Github & PayPal) of almost $2000 a month
 * Refreshed the website, with more focus on the creators and their titles \- Thanks Chris (ArisTurtle)  
 * Overhauled the documentation site and increased the content by more than 500%, with even more to come  
 * Released 3.8.2
@@ -67,13 +67,20 @@ It has been a year since we announced that we received a very generous donation 
       * More starter kits for 2D and 3D  
       * More shader guidance/samples
 
-* #### Bug Fixes
+* #### Bug Fixes and Enhancements
 
   * Re-enabled the Unit Tests for PR’s.  
   * [Upgrade Mac Editor to net8.0-macos. Upgrade Eto.Forms](https://github.com/MonoGame/MonoGame/pull/8505)   
-  * Fix Issues with OpenAL Panning on DekstopGL and Mobile  [https://github.com/MonoGame/MonoGame/pull/8480](https://github.com/MonoGame/MonoGame/pull/8480) and [https://github.com/MonoGame/MonoGame/pull/8466](https://github.com/MonoGame/MonoGame/pull/8466)  
-  * [Detect GamePad/Keyboard events on Android](https://github.com/MonoGame/MonoGame/pull/8465)   
+  * Fix Issues with OpenAL Panning on DesktopGL and Mobile  [https://github.com/MonoGame/MonoGame/pull/8480](https://github.com/MonoGame/MonoGame/pull/8480) and [https://github.com/MonoGame/MonoGame/pull/8466](https://github.com/MonoGame/MonoGame/pull/8466)
+  * [Detect GamePad/Keyboard events on Android](https://github.com/MonoGame/MonoGame/pull/8465)
   * [Remove string allocations when calling GamePad.GetCapabilities](https://github.com/MonoGame/MonoGame/pull/8453)
+  * [Content Pipeline now works on M1/M2 Macs](https://github.com/MonoGame/MonoGame/pull/8570)
+  * [Fix Android MediaPlayer Song implementation](https://github.com/MonoGame/MonoGame/pull/8583)
+  * [Update MonoGame.Library.OpenAL to 1.23.1.10](https://github.com/MonoGame/MonoGame/pull/8560)
+  * [Fix Sprite font multi byte parsing](https://github.com/MonoGame/MonoGame/pull/8554)
+  * [Added Vibration and Caps to Native GamePad API](https://github.com/MonoGame/MonoGame/pull/8520)
+  * [Fix MacOS Content directory location](https://github.com/MonoGame/MonoGame/pull/8479)
+  * [Detect GamePad/Keyboard events on Android](https://github.com/MonoGame/MonoGame/pull/8465)
 
 * #### Game Released (that we know of)
   * [Mochi's Escape](https://anonames-lair.itch.io/mochi-escape) by Anonames
