@@ -17,7 +17,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 {% for navlink in site.navigation %}
                     <li class="nav-item">
-                        <a class="nav-link {{ 'active' if page.url === navlink.url }}" href="{{ navlink.url }}">
+                        <a class="hide-external-icon nav-link {{ 'active' if page.url === navlink.url }}" href="{{ navlink.url }}">
                             {{ navlink.label }}
                         </a>
                     </li>
