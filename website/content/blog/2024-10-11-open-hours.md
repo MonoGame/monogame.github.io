@@ -46,12 +46,4 @@ If you have queries beyond the meeting times, then we recommend you use the rest
 
 We look forward to meeting and hearing from you then!
 
-## Get Involved
-
-[Contributions are welcome through:](https://monogame.net/donate/)
-
-- Code.
-- Help in the [Community discord](https://discord.gg/monogame) and beyond (we also love blog posts).
-- [Patreon](https://www.patreon.com/bePatron?u=3142012), several tiers are available.
-- The MonoGame store (coming soon) with MonoGame branded gear and merchandise.
-- [Bounties](https://github.com/MonoGame/MonoGame/issues/8120), Fix bugs and add features faster as well as get paid for your work :)
+{% include 'partials/_blog_footer.njk' %}

@@ -23,12 +23,4 @@ We hope you enjoy and support both of these projects and find the information wi
 We'll be bringing you more soon!
 
 
-### Support
-
-You can support us here - https://monogame.net/donate/
-
----
-
-### Onwards MonoGame
-
-The MonoGame Foundation team
+{% include 'partials/_blog_footer.njk' %}

@@ -24,21 +24,4 @@ If you didn't make it this month, all is not lost. Each month, one week on from 
 * MonoGame Board meetings - 2nd Wednesday each month
 * "MonoGame "Open Hours" - 3rd Wednesday each month - 4PM UTC
 
-### Support
-
-You can support us financially here - https://monogame.net/donate/
-
-
-## Get Involved
-
-- Code.
-- Help in the [Community discord](https://discord.gg/monogame) and beyond (we also love blog posts).
-- [Patreon](https://www.patreon.com/bePatron?u=3142012), several tiers are available.
-- The MonoGame store (coming soon) with MonoGame branded gear and merchandise.
-- [Bounties](https://github.com/MonoGame/MonoGame/issues/8120), Fix bugs and add features faster as well as get paid for your work :)
-
----
-
-### Onwards and Upwards
-
-The MonoGame Foundation team
+{% include 'partials/_blog_footer.njk' %}

@@ -114,3 +114,5 @@ Danger that needs to be conveyed concerning a topic.
 That's all I can think of for now. Also I'm really hungry and I'd like to stop typing to go get some food now.  Let me know what you think, shoot me some feedback on [Discord](https://discord.gg/monogame).
 
 - Chris Whitley (Aristurtle)
+
+{% include 'partials/_blog_footer.njk' %}
