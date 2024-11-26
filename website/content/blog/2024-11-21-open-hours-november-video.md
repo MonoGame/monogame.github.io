@@ -26,8 +26,8 @@ If you didn't make it this month, all is not lost. Each month, one week on from 
 
 ### Support
 
-- Financially here - https://monogame.net/donate/. There are several tiers and options available for Github, PayPal and Patreon.
-- The MonoGame Store - https://store.monogame.net with MonoGame branded gear and merchandise.
+- [Financially](https://monogame.net/donate/) - several tiers and options available for Github, PayPal and Patreon.
+- The [MonoGame Store](https://store.monogame.net) - MonoGame branded gear and merchandise.
 
 ## Get Involved
 
