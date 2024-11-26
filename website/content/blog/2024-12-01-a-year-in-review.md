@@ -75,6 +75,11 @@ It has been a year since we announced that we received a very generous donation 
   * [Detect GamePad/Keyboard events on Android](https://github.com/MonoGame/MonoGame/pull/8465)   
   * [Remove string allocations when calling GamePad.GetCapabilities](https://github.com/MonoGame/MonoGame/pull/8453)
 
+* #### Game Released (that we know of)
+  * [Mochi's Escape](https://anonames-lair.itch.io/mochi-escape) by Anonames
+  * [Arid Arnold](https://icefish-software.itch.io/arid-arnold) by IceFish Software
+  * [Dungeon Adventure Gang](https://store.steampowered.com/app/2147690/Dungeon_Adventure_Gang/) by DAG Team
+
 ### What is coming in the next year:
 
 * #### 3.8.3 Release
@@ -89,12 +94,4 @@ It has been a year since we announced that we received a very generous donation 
 * Full DX12 support on Windows / Xbox  
 * Vulkan support to replace OpenGL (Tom to clarify)
 
-### Support
-
-You can support us here - https://monogame.net/donate/
-
----
-
-### Onwards MonoGame
-
-The MonoGame Foundation team
+{% include 'partials/_blog_footer.njk' %}
