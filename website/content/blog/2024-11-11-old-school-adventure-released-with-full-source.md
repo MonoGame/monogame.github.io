@@ -25,10 +25,17 @@ We'll be bringing you more soon!
 
 ### Support
 
-You can support us here - https://monogame.net/donate/
+- Financially here - https://monogame.net/donate/. There are several tiers and options available for Github, PayPal and Patreon.
+- The MonoGame Store - https://store.monogame.net with MonoGame branded gear and merchandise.
+
+## Get Involved
+
+- Code, we accept Pull Requests.
+- Help in the [Community discord](https://discord.gg/monogame) and beyond (we also love blog posts).
+- [Bounties](https://github.com/MonoGame/MonoGame/issues/8120), Fix bugs and add features faster as well as get paid for your work :)
 
 ---
 
-### Onwards MonoGame
+### Onwards and Upwards
 
 The MonoGame Foundation team

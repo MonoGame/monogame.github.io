@@ -114,3 +114,20 @@ Danger that needs to be conveyed concerning a topic.
 That's all I can think of for now. Also I'm really hungry and I'd like to stop typing to go get some food now.  Let me know what you think, shoot me some feedback on [Discord](https://discord.gg/monogame).
 
 - Chris Whitley (Aristurtle)
+
+### Support
+
+- Financially here - https://monogame.net/donate/. There are several tiers and options available for Github, PayPal and Patreon.
+- The MonoGame Store - https://store.monogame.net with MonoGame branded gear and merchandise.
+
+## Get Involved
+
+- Code, we accept Pull Requests.
+- Help in the [Community discord](https://discord.gg/monogame) and beyond (we also love blog posts).
+- [Bounties](https://github.com/MonoGame/MonoGame/issues/8120), Fix bugs and add features faster as well as get paid for your work :)
+
+---
+
+### Onwards and Upwards
+
+The MonoGame Foundation team
