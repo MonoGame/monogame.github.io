@@ -79,6 +79,8 @@ It has been a year since we announced that we received a very generous donation 
   * [Mochi's Escape](https://anonames-lair.itch.io/mochi-escape) by Anonames
   * [Arid Arnold](https://icefish-software.itch.io/arid-arnold) by IceFish Software
   * [Dungeon Adventure Gang](https://store.steampowered.com/app/2147690/Dungeon_Adventure_Gang/) by DAG Team
+  * [Cranky Chibi Cthulhu](https://little-tlaloc-interactive.itch.io/cranky-chibi-cthulhu) by Little Tlaloc Interactive. Uses [FlatRedBall](https://flatredball.com/) and [Gum](http://docs.flatredball.com/gum/)
+  * [BattleCrypt Bombers](https://store.steampowered.com/app/2188930/BattleCrypt_Bombers/) by Narfox LLC. Uses [FlatRedBall](https://flatredball.com/) and [Gum](http://docs.flatredball.com/gum/)
 
 ### What is coming in the next year:
 
