@@ -46,19 +46,4 @@ If you have queries beyond the meeting times, then we recommend you use the rest
 
 We look forward to meeting and hearing from you then!
 
-### Support
-
-- [Financially](https://monogame.net/donate/) - several tiers and options available for Github, PayPal and Patreon.
-- The [MonoGame Store](https://store.monogame.net) - MonoGame branded gear and merchandise.
-
-## Get Involved
-
-- Code, we accept Pull Requests.
-- Help in the [Community discord](https://discord.gg/monogame) and beyond (we also love blog posts).
-- [Bounties](https://github.com/MonoGame/MonoGame/issues/8120), Fix bugs and add features faster as well as get paid for your work :)
-
----
-
-### Onwards and Upwards
-
-The MonoGame Foundation team
+{% include 'partials/_blog_footer.njk' %}
