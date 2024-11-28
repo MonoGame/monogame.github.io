@@ -88,6 +88,7 @@ It has been a year since we announced that we received a very generous donation 
   * [Ninja Cat Remewstered](https://pixelshock.itch.io/ninja-cat-remewstered) by Pixel Shock
   * [Smack 'n' Snatch](https://skyyyla.itch.io/smack-n-snatch) by Skyla
   * [FishGrid](https://shmellyorc.itch.io/fishgrid) by Shmellyorc
+  * [Axe Attacks](https://serork.itch.io/axe-attacks) by Serork
   * [Mochi's Escape](https://anonames-lair.itch.io/mochi-escape) by Anonames
   * [Armored Crucible: The Crimson Dunes](https://fontty.itch.io/ac-tcd) by Fontty Games
   * [Arid Arnold](https://icefish-software.itch.io/arid-arnold) by IceFish Software
