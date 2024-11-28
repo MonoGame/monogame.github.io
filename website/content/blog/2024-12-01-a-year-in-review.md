@@ -97,7 +97,7 @@ It has been a year since we announced that we received a very generous donation 
   * [BattleCrypt Bombers](https://store.steampowered.com/app/2188930/BattleCrypt_Bombers/) by Narfox LLC. Uses [FlatRedBall](https://flatredball.com/) and [Gum](http://docs.flatredball.com/gum/)
 
 
-### What is coming in the next year:
+### What's coming in the next year:
 
 * #### 3.8.3 Release
 
