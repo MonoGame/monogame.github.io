@@ -83,12 +83,18 @@ It has been a year since we announced that we received a very generous donation 
   * [Detect GamePad/Keyboard events on Android](https://github.com/MonoGame/MonoGame/pull/8465)
 
 * #### Game Released (that we know of)
+  * [Breeze & Freeze](https://msiebenmann.itch.io/breeze-and-freeze) by msiebenmann
+  * [Tic Tac Dough](https://ms00.itch.io/tic-tac-dough) by MS00
+  * [Ninja Cat Remewstered](https://pixelshock.itch.io/ninja-cat-remewstered) by Pixel Shock
+  * [Smack 'n' Snatch](https://skyyyla.itch.io/smack-n-snatch) by Skyla
+  * [FishGrid](https://shmellyorc.itch.io/fishgrid) by Shmellyorc
   * [Mochi's Escape](https://anonames-lair.itch.io/mochi-escape) by Anonames
   * [Armored Crucible: The Crimson Dunes](https://fontty.itch.io/ac-tcd) by Fontty Games
   * [Arid Arnold](https://icefish-software.itch.io/arid-arnold) by IceFish Software
   * [Dungeon Adventure Gang](https://store.steampowered.com/app/2147690/Dungeon_Adventure_Gang/) by DAG Team
   * [Cranky Chibi Cthulhu](https://little-tlaloc-interactive.itch.io/cranky-chibi-cthulhu) by Little Tlaloc Interactive. Uses [FlatRedBall](https://flatredball.com/) and [Gum](http://docs.flatredball.com/gum/)
   * [BattleCrypt Bombers](https://store.steampowered.com/app/2188930/BattleCrypt_Bombers/) by Narfox LLC. Uses [FlatRedBall](https://flatredball.com/) and [Gum](http://docs.flatredball.com/gum/)
+
 
 ### What is coming in the next year:
 
