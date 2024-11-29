@@ -10,7 +10,7 @@ ogImage: /images/blog/cover/monogame_foundation.png
 
 # What a year it's been!
 
-It has been a year since we announced that we received a very generous donation from Re-Logic and the formation of the MonoGame Foundation. A lot has happened.
+It has been a year since we announced that we received a very generous [donation from Re-Logic](https://x.com/MonoGameTeam/status/1724164491363967465) and the formation of the MonoGame Foundation. A lot has happened.
 
 ### So far in the last year we:
 
@@ -42,30 +42,7 @@ It has been a year since we announced that we received a very generous donation 
   * [Switch the console runtime from BRUTE to NativeAOT \#8194](https://github.com/MonoGame/MonoGame/issues/8194)  
   * [A better 2D onboarding tutorial \#8317](https://github.com/MonoGame/MonoGame/issues/8317)  
   * [A better 3D onboarding tutorial \#8318](https://github.com/MonoGame/MonoGame/issues/8318)
-
-* #### More bounties to come in the areas of:
-
-  * Graphics  
-    * Optimise and fix DesktopVK  
-      * Why: it is still experimental and there is some unexpected flickers  
-  * Content  
-    * Native Texture Compression and Asset processing shared object  
-      * Why: enhance assets processing performance and reduce dependencies  
-    * Upgrade Shader Compiler to use [https://github.com/microsoft/ShaderConductor](https://github.com/microsoft/ShaderConductor) and [https://github.com/KhronosGroup/SPIRV-Cross](https://github.com/KhronosGroup/SPIRV-Cross)	  
-      * Why: retiring mojoshader to allow future improvements on shaders  
-  * Audio  
-    * FAudio implementation for DesktopVK  
-      * Why: replace OpenAL-Soft which can’t be totally XAudio-accurate  
-  * Tutorials and content  
-    * Advanced 3D concepts (Some ideas I know this isn’t a planning doc)  
-      * Custom Effects   
-      * Culling  
-      * Shadows  
-      * Post Processing  
-      * Scene Management?  
-      * Deferred Rendering  
-      * More starter kits for 2D and 3D  
-      * More shader guidance/samples
+  * [2D StartKit](https://github.com/MonoGame/MonoGame/pull/8275)
 
 * #### Bug Fixes and Enhancements
 
@@ -83,6 +60,7 @@ It has been a year since we announced that we received a very generous donation 
   * [Detect GamePad/Keyboard events on Android](https://github.com/MonoGame/MonoGame/pull/8465)
 
 * #### Game Released (that we know of)
+  * [Horticular](https://store.steampowered.com/app/1928540/Horticular/) by inDirection Games
   * [Breeze & Freeze](https://msiebenmann.itch.io/breeze-and-freeze) by msiebenmann
   * [Tic Tac Dough](https://ms00.itch.io/tic-tac-dough) by MS00
   * [Ninja Cat Remewstered](https://pixelshock.itch.io/ninja-cat-remewstered) by Pixel Shock
@@ -100,15 +78,33 @@ It has been a year since we announced that we received a very generous donation 
 ### What's coming in the next year:
 
 * #### 3.8.3 Release
+  * Smoother macOS installation support and Content Pipeline
+  * The MonoGame.Framework.Native is going to be a principal focus. The plan is to allow the support of NativeAOT on all the platforms which support it.
+  * Effect compiler refactor to support modern tools and additional shader stages.
+  * Improved Content pipeline (Mr H / Harry, details)
+    * Automating XNB builds to make using MGCB or the content editor optional, and adding content more easily to projects
+  * New DirectX 12 Desktop platform which shares code with Xbox (may replace DX11 at some point).
+  * New Vulkan Desktop platform (it may replace OpenGL at some point).
 
-  * Smoother macOS installation support and Content Pipeline  
-  * Bump to use latest StbImageSharp  
-  * more????  
-* The MonoGame.Framework.Native is going to be a principal focus. The plan is to allow the support of NativeAOT on all the platforms which support it.   
-* Upgrading the Shader Compiler to support more modern shader models.   
-* Improved Content pipeline (Mr H / Harry, details)  
-  * Automating XNB builds to make using MGCB or the content editor optional, and adding content more easily to projects  
-* Full DX12 support on Windows / Xbox  
-* Vulkan support to replace OpenGL (Tom to clarify)
+* #### More bounties:
+  * Graphics
+    * Optimise and fix DesktopVK
+  * Content
+    * Native Texture Compression and Asset processing shared object
+    * Upgrade Shader Compiler to use [https://github.com/microsoft/ShaderConductor](https://github.com/microsoft/ShaderConductor) and [https://github.com/KhronosGroup/SPIRV-Cross](https://github.com/KhronosGroup/SPIRV-Cross)
+    * Why: retiring mojoshader to allow future improvements on shaders
+  * Audio
+    * FAudio implementation for DesktopVK
+      * Why: replace OpenAL-Soft which can’t be totally XAudio-accurate
+  * Tutorials and content
+    * Advanced 3D concepts (Some ideas I know this isn’t a planning doc)
+    * Custom Effects
+      * Culling
+      * Shadows
+      * Post Processing
+      * Scene Management?
+      * Deferred Rendering
+      * More shader guidance/samples
+    * 3D StartKit
 
 {% include 'partials/_blog_footer.njk' %}
