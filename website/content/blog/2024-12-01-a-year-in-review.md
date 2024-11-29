@@ -85,7 +85,7 @@ It has been a year since we announced that we received a very generous [donation
 
   * Smoother macOS installation support and Content Pipeline
   * The `MonoGame.Framework.Native` backend is going to be a principal focus. The plan is to allow the support of NativeAOT on all the platforms can which support it.
-  * Effect compiler refactored to support modern tools and additional shader stages.
+  * Effect compiler refactored to support modern tools.
   * Improved Content pipeline (Mr H / Harry, details)
     * Automating XNB builds to make using MGCB or the content editor optional, and adding content more easily to projects
   * New **DirectX 12** Desktop platform which shares code with Xbox (may replace DX9/DX11 at some point).
@@ -97,8 +97,8 @@ It has been a year since we announced that we received a very generous [donation
     * Optimise and fix DesktopVK
   * Content
     * Native Texture Compression and Asset processing shared object
-    * Upgrade Shader Compiler to use [https://github.com/microsoft/ShaderConductor](https://github.com/microsoft/ShaderConductor) and [https://github.com/KhronosGroup/SPIRV-Cross](https://github.com/KhronosGroup/SPIRV-Cross)
-    * Why: retiring mojoshader to allow future improvements on shaders
+    * Upgrade Shader Compiler
+      * Why: retiring mojoshader to allow future improvements on shaders
   * Audio
     * FAudio implementation for DesktopVK
       * Why: replace OpenAL-Soft which can’t be totally XAudio-accurate
