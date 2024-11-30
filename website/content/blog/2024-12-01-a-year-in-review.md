@@ -81,15 +81,14 @@ It has been a year since we announced that we received a very generous [donation
 
 ### What is coming in the next year:
 
-* #### 3.8.3 Release
-
-  * Smoother macOS installation support and Content Pipeline
-  * The `MonoGame.Framework.Native` backend is going to be a principal focus. The plan is to allow the support of NativeAOT on all the platforms can which support it.
-  * Effect compiler refactored to support modern tools.
-  * Improved Content pipeline (Mr H / Harry, details)
-    * Automating XNB builds to make using MGCB or the content editor optional, and adding content more easily to projects
-  * New **DirectX 12** Desktop platform which shares code with Xbox (may replace DX9/DX11 at some point).
-  * New **Vulkan** Desktop platform (it may replace OpenGL at some point).
+* 3.8.3 Release
+* Smoother macOS installation support and Content Pipeline
+* The `MonoGame.Framework.Native` backend is going to be a principal focus. The plan is to allow the support of NativeAOT on all the platforms can which support it.
+* Effect compiler refactored to support modern tools.
+* Improved Content pipeline (Mr H / Harry, details)
+  * Automating XNB builds to make using MGCB or the content editor optional, and adding content more easily to projects
+* New **DirectX 12** Desktop platform which shares code with Xbox (may replace DX11 at some point).
+* New **Vulkan** Desktop platform (it may replace OpenGL at some point).
 
 * #### More bounties:
 
