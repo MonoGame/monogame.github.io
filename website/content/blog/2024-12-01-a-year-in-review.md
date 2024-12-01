@@ -30,8 +30,9 @@ It has been a year since we announced that we received a very generous [donation
 
 * Regular board meetings with full transparency, keeping the community involved in the plans and actions for MonoGame to take it into the next decade.
 
-> [!NOTE]
-> Please read our [Board Meeting notes](https://monogame.net/blog/meeting)  
+::: note Meeting Notes
+Please read our [Board Meeting notes](https://monogame.net/blog/meeting)
+::: 
 
 * #### Completed Bounties
 
