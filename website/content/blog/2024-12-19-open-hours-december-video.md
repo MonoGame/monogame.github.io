@@ -1,21 +1,20 @@
 ---
-title: Video of our 2nd MonoGame "Open Hours" AMA session
-date: "2024-11-13"
-excerpt: Catch up on what was discussed during our 2nd "Open Hours" AMA
+title: Video of our 3rd MonoGame "Open Hours" AMA session
+date: "2024-12-19"
+excerpt: Catch up on what was discussed during our 3rd "Open Hours" AMA
 tags: announcements
 author: MonoGame Foundation
 image: /images/blog/cover/monogame_foundation.png
 ogImage: /images/blog/cover/monogame_foundation.png
 ---
 
-Thanks to everyone who joined us for our 2nd "Open Hours" AMA session.
+Thanks to everyone who joined us for our 3rd "Open Hours" AMA session.
 
-## Video of our 2nd "Open Hours" AMA Meeting
+## Video of our 3rd "Open Hours" AMA Meeting
 
-For those who missed our 2nd "Open Hours" AMA yesterday, the recording is now available on YouTube, so you can find out what we've been up to and what we're working on, as well as what questions from the community we replied to.
+For those who missed our 3rd "Open Hours" AMA yesterday, the recording is now available on YouTube, so you can find out what we've been up to and what we're working on, as well as what questions from the community we replied to.
 
-https://www.youtube.com/watch?v=vMR1kRuX2KU
-
+https://www.youtube.com/watch?v=UYrQlHRv2C0
 
 ## The Meeting Schedule
 
