@@ -12,9 +12,7 @@ Thanks to everyone who joined us for our 2nd "Open Hours" AMA session.
 
 ## Video of our 2nd "Open Hours" AMA Meeting
 
-For those who missed our 2nd "Open Hours" AMA yesterday, the recording is now available on YouTube, so you can find out what we've been up to and what we're working on, as well as what questions from the community we replied to.
-
-https://www.youtube.com/watch?v=vMR1kRuX2KU
+For those who missed our 2nd "Open Hours" AMA yesterday, the recording is now available on [YouTube](https://www.youtube.com/watch?v=vMR1kRuX2KU), so you can find out what we've been up to and what we're working on, as well as what questions from the community we replied to.
 
 
 ## The Meeting Schedule
