@@ -1,5 +1,5 @@
 ---
-title: Onwards and Updwards in 2025
+title: Onwards and Upwards in 2025
 date: "2025-01-01"
 excerpt: Happy New Year
 tags: announcements
@@ -10,7 +10,7 @@ ogImage: /images/blog/cover/monogame_foundation.png
 
 The MonoGame Foundation wishes everyone a Happy New Year.
 
-## Onwards and Updwards in 2025
+## Onwards and Upwards in 2025
 
 Farewell to 2024,
 
