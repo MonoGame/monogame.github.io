@@ -20,6 +20,6 @@ For those who missed our 2nd "Open Hours" AMA yesterday, the recording is now av
 If you didn't make it this month, all is not lost. Each month, one week on from the MonoGame Foundation monthly board meeting, the group has agreed to host a series of sessions to both communicate announcements to the community and also open the floor up to questions the community has about MonoGame operations or ask questions that they have about the framework.
 
 * MonoGame Board meetings - 2nd Wednesday each month
-* "MonoGame "Open Hours" - 3rd Wednesday each month - 4PM UTC
+* MonoGame "Open Hours" - 3rd Wednesday each month - 4PM UTC
 
 {% include 'partials/_blog_footer.njk' %}

@@ -29,7 +29,7 @@ The inaugural MonoGame "Open Hours" meeting will be on:
 Each month, one week on from the MonoGame Foundation monthly board meeting, the group has agreed to host a series of sessions to both communicate announcements to the community and also open the floor up to questions the community has about MonoGame operations or ask questions that they have about the framework.
 
 * MonoGame Board meetings - 2nd Wednesday each month
-* "MonoGame "Open Hours" - 3rd Wednesday each month - 4PM UTC
+* MonoGame "Open Hours" - 3rd Wednesday each month - 4PM UTC
 
 ## Agenda
 

@@ -1,6 +1,6 @@
 ---
-title: 2nd MonoGame "Open Hours" AMA session
-date: "2024-11-13"
+title: 4th MonoGame "Open Hours" AMA session
+date: "2025-01-15"
 excerpt: Meet the MonoGame team and get your questions answered
 tags: announcements
 author: MonoGame Foundation
@@ -8,23 +8,25 @@ image: /images/blog/cover/monogame_foundation.png
 ogImage: /images/blog/cover/monogame_foundation.png
 ---
 
-The MonoGame Foundation is hoping you can join the MonoGame community for our 2nd AMA session.
+The MonoGame Foundation is hoping you can join the MonoGame community for our 4th AMA session.
 
-## 2nd "Open Hours" AMA Meeting
+## 4th "Open Hours" AMA Meeting
 
-The 2nd MonoGame "Open Hours" AMA meeting will be on:
+The 4th MonoGame "Open Hours" AMA meeting will be on:
 
-### Wednesday 20th November @ 11:00 EDT, 16:00 UTC/GMT, 17:00 CET 
+### Wednesday 15th January @ 11:00 EDT, 16:00 UTC/GMT, 17:00 CET 
 
 ### Channel and Connection Details
 
-#### [MonoGame Community discord - Open Hours channel](https://discord.gg/monogame?event=1306314938402340884)
+#### [MonoGame Community discord - Open Hours channel](TBA)
 
 ## Agenda
 
-We will learn as we go for these sessions.
+We're still learning as we go for these sessions.
 This time we'll have:
-* An overview of the Native Implementation for Vulkan/DX12 by [Tom](https://github.com/tomspilman)
+* Recap of the last year of MG
+* Our goals for 2025
+* Updates on active bounties
 * Q&A from the Community
 
 If you prefer to just type, the call will also use Discord's text features and the team will be on hand to respond too.
