@@ -1,6 +1,6 @@
 ---
 title: 4th MonoGame "Open Hours" AMA session
-date: "2025-01-15"
+date: "2025-01-14"
 excerpt: Meet the MonoGame team and get your questions answered
 tags: announcements
 author: MonoGame Foundation
@@ -18,15 +18,18 @@ The 4th MonoGame "Open Hours" AMA meeting will be on:
 
 ### Channel and Connection Details
 
-#### [MonoGame Community discord - Open Hours channel](TBA)
+#### [MonoGame Community discord - Open Hours Channel](https://discord.gg/monogame?event=1328711606636646430)
 
 ## Agenda
 
 We're still learning as we go for these sessions.
 This time we'll have:
-* Recap of the last year of MG
-* Our goals for 2025
-* Updates on active bounties
+* Team Updates on:
+    * Native
+    * Active bounties
+    * Start Kits
+    * How close are we to a 3.8.3 Release
+* Community: GUM presentation by Flat Red Ball
 * Q&A from the Community
 
 If you prefer to just type, the call will also use Discord's text features and the team will be on hand to respond too.
