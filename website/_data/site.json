@@ -45,7 +45,8 @@
         },
         {
             "label": "Donate",
-            "url": "/donate/"
+            "url": "/donate/",
+            "type": "button"
         }
     ],
     "social": [
