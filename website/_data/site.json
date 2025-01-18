@@ -36,6 +36,10 @@
             "url": "/bounties/"
         },
         {
+            "label": "Resources",
+            "url": "/resources/"
+        },
+        {
             "label": "Store",
             "url": "https://store.monogame.net"
         },
