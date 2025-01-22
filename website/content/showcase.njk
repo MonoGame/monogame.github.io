@@ -3,8 +3,8 @@ title: Showcase
 pagination:
     data: collections.gameTags
     size: 1
-    alias: category
-permalink: showcase/{{ (category | slugify) if category !== "all" }}/
+    alias: showcaseCategory
+permalink: showcase/{{ (showcaseCategory | slugify) if showcaseCategory !== "all" }}/
 ---
 {% extends "layouts/base.layout.njk" %}
 {% from 'macros/create_category_filter.njk' import create_category_filter %}
@@ -17,9 +17,64 @@ permalink: showcase/{{ (category | slugify) if category !== "all" }}/
             We have gathered a taste of those titles here from the big hits to the small hidden gems.
         </p>
         <p>
-            If you are a developer and would like us to add your game, library, or tool to this list,
-            please submit a GitHub Issue using the <a href="https://github.com/MonoGame/monogame.github.io/issues/new?assignees=&labels=showcase&projects=&template=01_Showcase_Submission.yml">Showcase Submission template</a>
+            If you are a developer and would like us to add your game, library, or tool to this list, please
+            <a href="#" id="toggleFormLink">submit your details here</a>.
         </p>
+
+        <!-- Submission Form -->
+        <div id="submissionFormContainer"
+        style="display: none; margin-top: 20px; width: 40%; margin-left: auto; margin-right: auto;"">
+            <form id="submission-form" class="mt-4">
+                <div class="mb-3">
+                    <label for="gameTitle" class="form-label">Title</label>
+                    <input type="text" class="form-control" id="gameTitle" name="title" required>
+                </div>
+                <div class="mb-3">
+                    <input type="checkbox" id="ownWork" name="ownwork" required> <label for="ownWork" class="form-label">This game/tool/library is my own work</label>
+                </div>
+                <div class="mb-3">
+                    <input type="checkbox" id="hasShipped" name="hasshipped" required> <label for="hasShipped" class="form-label">This game/tool/library has shipped and is available for users.</label>
+                </div>
+                <div class="mb-3">
+                    <label for="type" class="form-label">Type</label>
+                    <select class="form-select" id="type" name="type" required>
+                        <option value="Game" selected>Game</option>
+                        <option value="Library">Library</option>
+                        <option value="Tool">Tool</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="gameURL" class="form-label">URL</label>
+                    <input type="text" class="form-control" id="gameURL" name="url" value="https://" required>
+                </div>
+                <div class="mb-3">
+                    <label for="developerName" class="form-label">Developer Name</label>
+                    <input type="text" class="form-control" id="developerName" name="developer" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Contact Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="developer@gameCo.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="tags" class="form-label">Tags (comma-separated)</label>
+                    <input type="text" class="form-control" id="tags" name="tags">
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">Description</label>
+                    <textarea class="form-control" id="description" name="description" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="fileUpload">Upload Screenshot or Logo</label>
+                    <div id="dropzone" class="dropzone">
+                        <p>Drag and drop your files here, or click to select files</p>
+                        <input type="file" id="fileUpload" name="files" accept="image/*" multiple hidden>
+                    </div>
+                    <ul id="fileList" class="file-list"></ul>
+                    <small class="error-message"></small>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
     </section>
 
     {{ create_category_filter(collections.gameTags, "/showcase/", page.url) }}
@@ -27,7 +82,7 @@ permalink: showcase/{{ (category | slugify) if category !== "all" }}/
     <section class="container-xxl mb-5">
         <div id="showcase-gallery" class="mg-item-grid">
             {% for game in games %}
-                {% if category in game.tags or category === "all" %}
+                {% if showcaseCategory in game.tags or showcaseCategory === "all" %}
                     <a class="mg-no-link hide-external-icon showcase-item" href="{{ game.url }}" title="{{ game.title }}">
                         <div class="mg-card mg-box-shadow d-flex flex-column">
                             <div class="mg-card-thumbnail"
@@ -46,4 +101,39 @@ permalink: showcase/{{ (category | slugify) if category !== "all" }}/
 
 {% block scripts %}
     <script type="text/javascript" src="/js/showcaseRandomizer.js"></script>
+
+    <script>
+        document.getElementById('toggleFormLink').addEventListener('click', function (e) {
+                e.preventDefault(); // Prevent the default link behavior
+                const formContainer = document.getElementById('submissionFormContainer');
+                formContainer.style.display = formContainer.style.display === 'none' ? 'block' : 'none';
+            });
+
+        document.getElementById('submission-form').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const form = e.target;
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+
+            try {
+                const response = await fetch('/api/submit-game', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (response.ok) {
+                    alert('Your game has been submitted successfully!');
+                    form.reset();
+                } else {
+                    alert('There was an error submitting your game. Please try again later.');
+                }
+            } catch (error) {
+                console.error('Submission error:', error);
+                alert('Failed to submit. Please check your internet connection.');
+            }
+        });
+    </script>
 {% endblock %}
