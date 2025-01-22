@@ -14,7 +14,7 @@ It has been a year since we announced that we received a very generous [donation
 
 ### So far in the last year we:
 
-* Increased recurring subscriptions (Patreon, Github & PayPal) to almost $2000 a month
+* Increased recurring subscriptions (Patreon, GitHub & PayPal) to almost $2000 a month
 * Refreshed the MonoGame website with more focus on the creators and their titles \- Thanks Chris (ArisTurtle)  
 * Overhauled the documentation site and increased the content by more than 500%, with even more to come  
 * Released 3.8.2 (.NET 8)
