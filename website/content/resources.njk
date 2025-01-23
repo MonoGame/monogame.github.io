@@ -11,7 +11,7 @@ permalink: resources/{{ (category | slugify) if category !== "all" }}/
 
 {% block content %}
     <section class="container-xxl my-5">
-        <h1 id="monogame-showcase" class="fw-bold"><a href="#monogame-showcase">MonoGame Resources</a></h1>
+        <h1 id="monogame-resource" class="fw-bold"><a href="#monogame-resource">MonoGame Resources</a></h1>
         <p>
             Here's a list of MonoGame resources that can help you on your journey.
         </p>
@@ -20,10 +20,10 @@ permalink: resources/{{ (category | slugify) if category !== "all" }}/
     {{ create_category_filter(collections.resourceTags, "/resources/", page.url) }}
 
     <section class="container-xxl mb-5">
-        <div id="showcase-gallery" class="mg-item-grid">
+        <div id="resource-gallery" class="mg-item-grid">
             {% for resource in resources %}
                 {% if category in resource.tags or category === "all" %}
-                    <a class="mg-no-link hide-external-icon showcase-item" href="{{ resource.url }}" title="{{ resource.title }}">
+                    <a class="mg-no-link hide-external-icon resource-item" href="{{ resource.url }}" title="{{ resource.title }}">
                         <div class="mg-card mg-box-shadow d-flex flex-column">
                             <div class="mg-card-thumbnail"
                                  style="background-image: url('{{ resource.cover }}');
