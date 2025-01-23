@@ -63,15 +63,35 @@ permalink: showcase/{{ (showcaseCategory | slugify) if showcaseCategory !== "all
                     <label for="description" class="form-label">Description</label>
                     <textarea class="form-control" id="description" name="description" rows="4" required></textarea>
                 </div>
-                <div class="form-group">
-                    <label for="fileUpload">Upload Screenshot or Logo</label>
-                    <div id="dropzone" class="dropzone">
-                        <p>Drag and drop your files here, or click to select files</p>
-                        <input type="file" id="fileUpload" name="files" accept="image/*" multiple hidden>
+                <div id="image-grid" class="mg-item-grid">
+                    <div class="mb-3">
+                        <label for="screenshotUpload">Upload Screenshot</label>
+                        <div id="screenshotDropzone" class="dropzone">
+                            <p>Drag and drop your screenshot here, or click to select it.</p>
+                            <input type="file" id="screenshotUpload" name="files" accept="image/*" multiple hidden>
+                        </div>
+                        <ul id="screenshotFileList" class="file-list"></ul>
+                        <small class="screenshot-error-message"></small>
                     </div>
-                    <ul id="fileList" class="file-list"></ul>
-                    <small class="error-message"></small>
+                    <div class="mb-3">
+                        <label for="logoUpload">Upload Logo</label>
+                        <div id="logoDropzone" class="dropzone">
+                            <p>Drag and drop your logo here, or click to select it.</p>
+                            <input type="file" id="logoUpload" name="files" accept="image/*" multiple hidden>
+                        </div>
+                        <ul id="logoFileList" class="file-list"></ul>
+                        <small class="logo-error-message"></small>
+                    </div>
                 </div>
+                <div id="previewContainer" class="preview-container" style="display: block;">
+                    <div id="previewContainerScreenshot" class="mg-card-thumbnail"
+                        style="background-image: ;">
+                    </div>
+                    <div id="previewContainerLogo" class="mg-card-thumbnail-overlay"
+                        style="background-image: ;">
+                    </div>
+                </div>
+                <br />
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
@@ -134,6 +154,100 @@ permalink: showcase/{{ (showcaseCategory | slugify) if showcaseCategory !== "all
                 console.error('Submission error:', error);
                 alert('Failed to submit. Please check your internet connection.');
             }
+        });
+    </script>
+
+    <script>
+        const screenshotUpload = document.getElementById('screenshotUpload');
+        const screenshotDropzone = document.getElementById('screenshotDropzone');
+        const previewContainerScreenshot = document.getElementById('previewContainerScreenshot');
+
+        const logoUpload = document.getElementById('logoUpload');
+        const logoDropzone = document.getElementById('logoDropzone');
+        const previewContainerLogo = document.getElementById('previewContainerLogo');
+
+        // Function to handle screenshot upload and preview
+        function handleScreenshotPreview(file) {
+            if (!file.type.startsWith('image/')) {
+                alert('Only image files are allowed for screenshots.');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                // Set the screenshot background
+                previewContainerScreenshot.style.backgroundImage = `url(${e.target.result})`;
+                previewContainerScreenshot.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+
+            // Update placeholder text with file name
+            screenshotDropzone.querySelector('p').textContent = `Uploaded: ${file.name}`;
+        }
+
+        // Function to handle logo upload and preview
+        function handleLogoPreview(file) {
+            if (!file.type.startsWith('image/')) {
+                alert('Only image files are allowed for logos.');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                // Set the logo background
+                previewContainerLogo.style.backgroundImage = `url(${e.target.result})`;
+                previewContainerLogo.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+
+            // Update placeholder text with file name
+            logoDropzone.querySelector('p').textContent = `Uploaded: ${file.name}`;
+        }
+
+        // Event listeners for screenshot file input and dropzone
+        screenshotUpload.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) handleScreenshotPreview(file);
+        });
+
+        screenshotDropzone.addEventListener('click', () => {
+            screenshotUpload.click(); // Trigger file input dialog
+        });
+
+        screenshotDropzone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            screenshotDropzone.classList.remove('dragover');
+            const file = e.dataTransfer.files[0];
+            if (file) handleScreenshotPreview(file);
+        });
+
+        // Event listeners for logo file input and dropzone
+        logoUpload.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) handleLogoPreview(file);
+        });
+
+        logoDropzone.addEventListener('click', () => {
+            logoUpload.click(); // Trigger file input dialog
+        });
+
+        logoDropzone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            logoDropzone.classList.remove('dragover');
+            const file = e.dataTransfer.files[0];
+            if (file) handleLogoPreview(file);
+        });
+
+        // Optional: Add dragover class for better UX
+        [screenshotDropzone, logoDropzone].forEach((dropzone) => {
+            dropzone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                dropzone.classList.add('dragover');
+            });
+
+            dropzone.addEventListener('dragleave', () => {
+                dropzone.classList.remove('dragover');
+            });
         });
     </script>
 {% endblock %}
