@@ -21,8 +21,8 @@ permalink: resources/{{ (category | slugify) if category !== "all" }}/
 
     <section class="container-xxl mb-5">
         <div id="showcase-gallery" class="mg-item-grid">
-            {% for resource in resources %}
-                {% if category in resource.tags or category === "all" %}
+            {% for resource in collections.resourceTags %}
+                {% if category in resource.data.tags or category === "all" %}
                     <a class="mg-no-link hide-external-icon showcase-item" href="{{ resource.url }}" title="{{ resource.title }}">
                         <div class="mg-card mg-box-shadow d-flex flex-column">
                             <div class="mg-card-thumbnail"
