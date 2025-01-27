@@ -36,6 +36,10 @@
             "url": "/bounties/"
         },
         {
+            "label": "Resources",
+            "url": "/resources/"
+        },
+        {
             "label": "Store",
             "url": "https://store.monogame.net"
         },
@@ -45,7 +49,8 @@
         },
         {
             "label": "Donate",
-            "url": "/donate/"
+            "url": "/donate/",
+            "type": "button"
         }
     ],
     "social": [
