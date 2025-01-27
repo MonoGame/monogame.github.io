@@ -83,12 +83,15 @@ permalink: showcase/{{ (showcaseCategory | slugify) if showcaseCategory !== "all
                         <small class="logo-error-message"></small>
                     </div>
                 </div>
-                <div id="previewContainer" class="preview-container" style="display: block;">
-                    <div id="previewContainerScreenshot" class="mg-card-thumbnail"
-                        style="background-image: ;">
-                    </div>
-                    <div id="previewContainerLogo" class="mg-card-thumbnail-overlay"
-                        style="background-image: ;">
+                <div class="mb-3">
+                    <label for="previewContainer" class="form-label">Screenshot and Logo preview</label>
+                    <div id="previewContainer" class="preview-container" style="display: block;">
+                        <div id="previewContainerScreenshot" class="mg-card-thumbnail"
+                            style="background-image: ;">
+                        </div>
+                        <div id="previewContainerLogo" class="mg-card-thumbnail-overlay"
+                            style="background-image: ;">
+                        </div>
                     </div>
                 </div>
                 <br />
