@@ -77,13 +77,69 @@
         ]
     },
     {
-        "name": "ui",
-        "title": "UI Libraries",
-        "cover": "resource-ui.png",
-        "url": "https://amazon.com",
+        "name": "e1",
+        "title": "FlatRedBall",
+        "author": "Victor Chelaru",
+        "cover": "https://flatredball.com/wp-content/uploads/2016/02/cropped-logo-1024-150x150.png",
+        "url": "https://flatredball.com/",
         "pixelart": false,
         "tags": [
-            "ui"
+            "engines"
+        ]
+    },
+    {
+        "name": "l1",
+        "title": "MonoGame.Extended",
+        "author": "Christopher Whitley (AristurtleDev)",
+        "cover": "https://www.monogameextended.net/img/logo.png",
+        "url": "https://www.monogameextended.net/",
+        "pixelart": false,
+        "tags": [
+            "libraries"
+        ]
+    },
+    {
+        "name": "l2",
+        "title": "Gum",
+        "author": "Christopher Whitley (AristurtleDev)",
+        "cover": "https://docs.flatredball.com/~gitbook/image?url=https%3A%2F%2F3900811371-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F-M_fyYVTQKWSV65sXTSp%252Fsites%252Fsite_3hxze%252Flogo%252Fo54By5G58RWuAHsltTBS%252Fgum-logo-reverse-512.png%3Falt%3Dmedia%26token%3D54198098-3f7d-40ff-a442-1a28a2fbbca9&width=260&dpr=2&quality=100&sign=55148268&sv=2",
+        "url": "https://docs.flatredball.com/gum",
+        "pixelart": false,
+        "tags": [
+            "libraries"
+        ]
+    },
+    {
+        "name": "l3",
+        "title": "Myra",
+        "author": "Roman Shapiro",
+        "cover": "",
+        "url": "https://github.com/rds1983/Myra",
+        "pixelart": false,
+        "tags": [
+            "libraries"
+        ]
+    },
+    {
+        "name": "l4",
+        "title": "ImGui.NET",
+        "author": "ImGuiNET",
+        "cover": "",
+        "url": "https://github.com/ImGuiNET/ImGui.NET",
+        "pixelart": false,
+        "tags": [
+            "libraries"
+        ]
+    },
+    {
+        "name": "a1",
+        "title": "Kenny NL Assets",
+        "author": "Kenny NL",
+        "cover": "https://kenney.nl/data/img/logo@2.png",
+        "url": "https://kenney.nl/assets",
+        "pixelart": false,
+        "tags": [
+            "assets"
         ]
     }
 ]

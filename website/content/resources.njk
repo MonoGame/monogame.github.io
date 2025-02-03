@@ -14,6 +14,9 @@ permalink: resources/{{ (category | slugify) if category !== "all" }}/
         <h1 id="monogame-resource" class="fw-bold"><a href="#monogame-resource">MonoGame Resources</a></h1>
         <p>
             Here's a list of MonoGame resources that can help you on your journey.
+            If you have a resource you'd like to share, please <a href="mailto:biz@monogame.net?subject=New%20Resource&body=Hi,%20Please%20add%20this%20resource%20to%20your%20list:%0A%0ATitle:%20%0AAuthor:%20%0AResource%20URL:%20%0AImage%20URL:%20%0ATags:%20">
+   Email Us
+</a>
         </p>
     </section>
 
@@ -25,6 +28,7 @@ permalink: resources/{{ (category | slugify) if category !== "all" }}/
                 {% if category in resource.tags or category === "all" %}
                     <a class="mg-no-link hide-external-icon resource-item" href="{{ resource.url }}" title="{{ resource.title }}">
                         <div class="mg-card mg-box-shadow d-flex flex-column">
+                            <div class="mg-card-title">{{ resource.title }}</div>
                             <div class="mg-card-thumbnail"
                                  style="background-image: url('{{ resource.cover }}');">
                             </div>
