@@ -132,6 +132,17 @@
         ]
     },
     {
+        "name": "l5",
+        "title": "MonoGame.Aseprite",
+        "author": "Christopher Whitley (AristurtleDev)",
+        "cover": "https://monogameaseprite.net/images/logo.svg",
+        "url": "https://monogameaseprite.net/",
+        "pixelart": false,
+        "tags": [
+            "libraries"
+        ]
+    },
+    {
         "name": "a1",
         "title": "Kenny NL Assets",
         "author": "Kenny NL",
