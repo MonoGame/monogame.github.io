@@ -2,6 +2,10 @@
     .mg-item-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .mg-grid-2 {
+        grid-template-columns: 1fr 1fr;
+    }
     /***************************************************************************
     *** Content Header section of documentation article and api pages
     ***************************************************************************/

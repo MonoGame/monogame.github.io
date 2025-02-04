@@ -15,24 +15,30 @@ permalink: resources/{{ (category | slugify) if category !== "all" }}/
         <p>
             Here's a list of MonoGame resources that can help you on your journey.
             If you have a resource you'd like to share, please <a href="mailto:biz@monogame.net?subject=New%20Resource&body=Hi,%20Please%20add%20this%20resource%20to%20your%20list:%0A%0ATitle:%20%0AAuthor:%20%0AResource%20URL:%20%0AImage%20URL:%20%0ATags:%20">
-   Email Us
-</a>
+                Email Us
+            </a>
         </p>
     </section>
 
     {{ create_category_filter(collections.resourceTags, "/resources/", page.url) }}
 
     <section class="container-xxl mb-5">
-        <div id="resource-gallery" class="mg-item-grid">
+        <div id="resource-gallery" class="mg-item-grid mg-grid-2">
             {% for resource in resources %}
                 {% if category in resource.tags or category === "all" %}
-                    <a class="mg-no-link hide-external-icon resource-item" href="{{ resource.url }}" title="{{ resource.title }}">
-                        <div class="mg-card mg-box-shadow d-flex flex-column">
-                            <div class="mg-card-title">{{ resource.title }}</div>
-                            <div class="mg-card-thumbnail"
-                                 style="background-image: url('{{ resource.cover }}');">
+                    <a class="mg-no-link hide-external-icon" href="{{ resource.url }}" title="{{ resource.title }}">
+                        <div class="mg-resource-container mg-box-shadow"
+                             style="background-image: url('{{ resource.cover }}');">
+                            <div class="transparent-overlay"></div>
+                            <div class="mg-resource-tags">
+                                {% for tag in resource.tags %}
+                                    <div>{{ tag }}</div>
+                                {% endfor %}
                             </div>
-                            by {{ resource.author }}
+                            <div class="mg-resource-footer">
+                                <div class="mg-resource-title">{{ resource.title }}</div>
+                                <div class="mg-resource-author">by {{ resource.author }}</div>
+                            </div>
                         </div>
                     </a>
                 {% endif %}
