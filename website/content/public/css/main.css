@@ -780,3 +780,79 @@ blockquote {
 .alert-danger .admonition-title::before {
   content: '\f7f6'
 }
+
+/*******************************************************************************
+*** Section: Resources
+*** Provides styling for resources page
+*******************************************************************************/
+.mg-resource-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    min-height: 400px;
+    color: #fff;
+    padding: 1rem 1.5rem 1.5rem;
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid var(--bs-body-color);
+    border-radius: 0.75rem;
+    overflow: hidden;
+ }
+
+ .transparent-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #212529;
+    opacity: 0.5;
+ }
+
+ .mg-resource-tags {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    z-index: 1;
+ }
+
+ .mg-resource-tags > div {
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    background-color: var(--mg-orange-primary);
+    border-color: var(--mg-orange-primary);
+    border-radius: 0.375rem;
+ }
+
+ .mg-resource-footer {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .mg-resource-title {
+    font-size: 1.5rem;
+    line-height: 1.2em;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+ }
+
+.mg-resource-author {
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 0.08em;
+}
