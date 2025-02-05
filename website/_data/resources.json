@@ -99,7 +99,7 @@
         ]
     },
     {
-        "name": "l2",
+        "name": "u1",
         "title": "Gum",
         "author": "Victor Chelaru",
         "cover": "https://docs.flatredball.com/~gitbook/image?url=https%3A%2F%2F3900811371-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F-M_fyYVTQKWSV65sXTSp%252Fsites%252Fsite_3hxze%252Flogo%252Fo54By5G58RWuAHsltTBS%252Fgum-logo-reverse-512.png%3Falt%3Dmedia%26token%3D54198098-3f7d-40ff-a442-1a28a2fbbca9&width=260&dpr=2&quality=100&sign=55148268&sv=2",
@@ -143,7 +143,7 @@
         ]
     },
     {
-        "name": "l6",
+        "name": "u2",
         "title": "MonoGame.Forms",
         "author": "BlizzCrafter",
         "cover": "https://raw.githubusercontent.com/BlizzCrafter/MonoGame.Forms/master/Logos/Logo_Banner_Social_800.png",
@@ -151,6 +151,31 @@
         "pixelart": false,
         "tags": [
             "ui"
+        ]
+    }
+    ,
+    {
+        "name": "l7",
+        "title": "MLEM and MLEM.Ui",
+        "author": "Ellpeck",
+        "cover": "https://raw.githubusercontent.com/Ellpeck/MLEM/main/Media/Logo.png",
+        "url": "https://mlem.ellpeck.de/",
+        "pixelart": false,
+        "tags": [
+            "libraries"
+        ]
+    }
+    ,
+    {
+        "name": "l8",
+        "title": "Contentless",
+        "author": "Ellpeck",
+        "cover": "https://raw.githubusercontent.com/Ellpeck/Contentless/main/Logo.png",
+        "url": "https://github.com/Ellpeck/Contentless",
+        "pixelart": false,
+        "tags": [
+            "libraries",
+            "tools"
         ]
     },
     {
