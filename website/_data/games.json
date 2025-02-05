@@ -435,19 +435,6 @@
         ]
     },
     {
-        "name": "mgforms",
-        "title": "MonoGame.Forms",
-        "logo": "mgforms-logo.png",
-        "screenshot": "mgforms-screenshot.png",
-        "url": "https://github.com/sqrMin1/MonoGame.Forms",
-        "pixelart": false,
-        "tags": [
-            "Library",
-            "Linux",
-            "Windows"
-        ]
-    },
-    {
         "name": "tinylife",
         "title": "Tiny Life",
         "logo": "tiny-life-logo.png",
