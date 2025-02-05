@@ -4,7 +4,7 @@
         "title": "Beginning C# Programming with MonoGame",
         "author": "A.T. Chamillard",
         "cover": "https://m.media-amazon.com/images/I/61LDsDJX8hL._SL1250_.jpg",
-        "url": "https://www.amazon.com/Beginning-Programming-MonoGame-T-Chamillard-ebook",
+        "url": "https://www.amazon.com/Beginning-Programming-MonoGame-T-Chamillard-ebook/dp/B018314OVI/",
         "pixelart": false,
         "tags": [
             "books"
@@ -15,18 +15,7 @@
         "title": "Introduction to Programming with C#, XNA and MonoGame",
         "author": "Robert Cook",
         "cover": "https://m.media-amazon.com/images/I/819kOLVdDuL._SL1500_.jpg",
-        "url": "https://www.amazon.com/Introduction-Programming-MonoGame-Cooks-Books-ebook",
-        "pixelart": false,
-        "tags": [
-            "books"
-        ]
-    },
-    {
-        "name": "b3",
-        "title": "Introduction to C# Cross-Development Programming by Creating 2D Games with Visual Studio 2022 and MonoGame (Japanese Edition)",
-        "author": "Yu Sasaki",
-        "cover": "https://m.media-amazon.com/images/I/616Dx92Vq6L._SL1413_.jpg",
-        "url": "https://www.amazon.com/Visual-MonoGame%E3%81%AE-2D%E3%82%B2%E3%83%BC%E3%83%A0%E4%BD%9C%E3%82%8A%E3%81%A7%E5%AD%A6%E3%81%B6-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%85%A5%E9%96%80-Japanese",
+        "url": "https://www.amazon.com/Introduction-Programming-MonoGame-Cooks-Books-ebook/dp/B00PHON6YQ/",
         "pixelart": false,
         "tags": [
             "books"
@@ -67,10 +56,21 @@
     },
     {
         "name": "b7",
-        "title": "Game Development with Monogame: Build a 2D Game Using Your Own Reusable and Performant Game Engine",
+        "title": "Game Development with MonoGame: Build a 2D Game Using Your Own Reusable and Performant Game Engine",
         "author": "Louis Salin & Rami Morrar",
         "cover": "https://images.booksense.com/images/books/706/277/FC9781484277706.JPG",
         "url": "https://freecomputerbooks.com/Monogame-Role-Playing-Game-Development-Succinctly.html",
+        "pixelart": false,
+        "tags": [
+            "books"
+        ]
+    },
+    {
+        "name": "b8",
+        "title": "Development of a 2D computer game for Windows in C# with MonoGame",
+        "author": "Gunther Pasetzky",
+        "cover": "https://m.media-amazon.com/images/I/81r8W4loYmL._SY522_.jpg",
+        "url": "https://www.amazon.com/Development-computer-game-Windows-MonoGame-ebook/dp/B0C8GQD2GJ/",
         "pixelart": false,
         "tags": [
             "books"
@@ -81,7 +81,7 @@
         "title": "FlatRedBall",
         "author": "Victor Chelaru",
         "cover": "https://flatredball.com/wp-content/uploads/2016/02/cropped-logo-1024-150x150.png",
-        "url": "https://flatredball.com/",
+        "url": "https://docs.flatredball.com/flatredball",
         "pixelart": false,
         "tags": [
             "engines"
@@ -162,6 +162,18 @@
         "pixelart": false,
         "tags": [
             "assets"
+        ]
+    }
+    ,
+    {
+        "name": "c1",
+        "title": "Learn Game Development with C# Programming and MonoGame!",
+        "author": "Kyle Schaub",
+        "cover": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+        "url": "https://www.udemy.com/course/monogame/?",
+        "pixelart": false,
+        "tags": [
+            "courses"
         ]
     }
 ]
