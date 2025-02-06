@@ -26,7 +26,7 @@ permalink: resources/{{ (category | slugify) if category !== "all" }}/
         <div id="resource-gallery" class="mg-item-grid mg-grid-2">
             {% for resource in resources %}
                 {% if category in resource.tags or category === "all" %}
-                    <a class="mg-no-link hide-external-icon" href="{{ resource.url }}" title="{{ resource.title }}">
+                    <a class="mg-no-link hide-external-icon" href="{{ resource.url }}">
                         <div class="mg-resource-container mg-box-shadow"
                              style="background-image: url('{{ resource.cover }}');">
                             <div class="transparent-overlay"></div>
