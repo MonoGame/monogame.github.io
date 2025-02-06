@@ -290,5 +290,16 @@
         "tags": [
             "ai"
         ]
+    },
+    {
+        "name": "ai2",
+        "title": "BrainAI",
+        "author": "Artem Votintsev (ApmeM)",
+        "cover": "",
+        "url": "https://github.com/ApmeM/BrainAI",
+        "pixelart": false,
+        "tags": [
+            "ai"
+        ]
     }
 ]
