@@ -143,17 +143,49 @@
         ]
     },
     {
-        "name": "u2",
+        "name": "em1",
         "title": "MonoGame.Forms",
         "author": "BlizzCrafter",
         "cover": "https://raw.githubusercontent.com/BlizzCrafter/MonoGame.Forms/master/Logos/Logo_Banner_Social_800.png",
         "url": "https://github.com/BlizzCrafter/MonoGame.Forms",
         "pixelart": false,
         "tags": [
+            "embedded"
+        ]
+    },
+    {
+        "name": "em2",
+        "title": "MonoGame.WpfCore",
+        "author": "Craftwork Games",
+        "cover": "https://github.com/craftworkgames/MonoGame.WpfCore/raw/master/.template.config/screenshot.png",
+        "url": "https://github.com/craftworkgames/MonoGame.WpfCore",
+        "pixelart": false,
+        "tags": [
+            "embedded"
+        ]
+    },
+    {
+        "name": "u3",
+        "title": "MonoGame.ImGuiNet",
+        "author": "tsMezotic",
+        "cover": "https://github.com/tsMezotic/MonoGame.ImGuiNet/raw/main/Images/ReadMeBanner.png",
+        "url": "https://github.com/tsMezotic/MonoGame.ImGuiNet",
+        "pixelart": false,
+        "tags": [
             "ui"
         ]
-    }
-    ,
+    },
+    {
+        "name": "u4",
+        "title": "Apos.Gui",
+        "author": "Jean-David Moisan (Apostolique)",
+        "cover": "https://github.com/Apostolique/Apos.Gui/raw/main/Images/Showcase.gif",
+        "url": "https://github.com/Apostolique/Apos.Gui",
+        "pixelart": false,
+        "tags": [
+            "ui"
+        ]
+    },
     {
         "name": "l7",
         "title": "MLEM and MLEM.Ui",
@@ -179,7 +211,7 @@
         ]
     },
     {
-        "name": "a1",
+        "name": "as1",
         "title": "Kenny NL Assets",
         "author": "Kenny NL",
         "cover": "https://kenney.nl/data/img/logo@2.png",
@@ -188,8 +220,7 @@
         "tags": [
             "assets"
         ]
-    }
-    ,
+    },
     {
         "name": "c1",
         "title": "Learn Game Development with C# Programming and MonoGame!",
@@ -199,6 +230,65 @@
         "pixelart": false,
         "tags": [
             "courses"
+        ]
+    },
+    {
+        "name": "p1",
+        "title": "VelcroPhysics (Formerly Farseer Physics)",
+        "author": "Ian Qvist (GenBox)",
+        "cover": "",
+        "url": "https://github.com/Genbox/VelcroPhysics",
+        "pixelart": false,
+        "tags": [
+            "physics",
+            "2d"
+        ]
+    },
+    {
+        "name": "p2",
+        "title": "Aether.Physics2D",
+        "author": "Nikos Kastellanos (nkast)",
+        "cover": "https://github.com/nkast/Aether.Physics2D/raw/main/Documentation/Images/3DCameraDemo.png",
+        "url": "https://github.com/nkast/Aether.Physics2D/",
+        "pixelart": false,
+        "tags": [
+            "physics",
+            "2d"
+        ]
+    },
+    {
+        "name": "p3",
+        "title": "bepuphysics1",
+        "author": "Bepu Entertainment (bepu)",
+        "cover": "",
+        "url": "https://github.com/bepu/bepuphysics1",
+        "pixelart": false,
+        "tags": [
+            "physics",
+            "3d"
+        ]
+    },
+    {
+        "name": "p4",
+        "title": "VolatilePhysics",
+        "author": "Alexander Shoulson (ashoulson)",
+        "cover": "https://raw.githubusercontent.com/ashoulson/VolatilePhysics/master/Images/example1.gif",
+        "url": "https://github.com/ashoulson/VolatilePhysics",
+        "pixelart": false,
+        "tags": [
+            "physics",
+            "2d"
+        ]
+    },
+    {
+        "name": "ai1",
+        "title": "AStar",
+        "author": "Roy Triesscheijn (roy-t)",
+        "cover": "https://github.com/roy-t/AStar/raw/master/viewer.png?raw=true",
+        "url": "https://github.com/roy-t/AStar",
+        "pixelart": false,
+        "tags": [
+            "ai"
         ]
     }
 ]
