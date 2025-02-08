@@ -17,7 +17,7 @@ fi
 
 # wine 8 is the minimum requirement for dotnet 8
 # wine --version will output "wine-#.# (Distro #.#.#)" or "wine-#.#"
-WINE_VERSION=$(wine64 --version 2>&1 | grep -o 'wine-.' | sed 's/wine-//')
+WINE_VERSION=$(wine64 --version 2>&1 | grep -o 'wine-.' | sed 's/wine-//' | sed 's/\.//')
 if (( $WINE_VERSION < 8 )); then
     echo "Wine version $WINE_VERSION is below the minimum required version (8.0)."
     exit 1
