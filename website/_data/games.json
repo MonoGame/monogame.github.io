@@ -724,7 +724,6 @@
             "Linux"
         ]
     }
-    ---
     ,
     {
         "name": "margoqslair",
@@ -805,6 +804,19 @@
             "WindowsPhone",
             "Xbox One",
             "Xbox Series X/S"
+        ]
+    },
+    {
+        "name": "dungeonofgrandmasters",
+        "title": "Dungeon of Grandmasters",
+        "logo": "dungeonofgrandmasters-logo.png",
+        "screenshot": "dungeonofgrandmasters-screenshot.jpg",
+        "url": "https://store.steampowered.com/app/2516550?utm_source=monogame",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows"
         ]
     }
 ]
