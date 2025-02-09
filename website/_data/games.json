@@ -724,4 +724,99 @@
             "Linux"
         ]
     }
+    ,
+    {
+        "name": "margoqslair",
+        "title": "Margoq's Lair",
+        "logo": "margoqslair-logo.png",
+        "screenshot": "margoqslair-screenshot.png",
+        "url": "https://store.steampowered.com/app/2516550?utm_source=monogame",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows"
+        ]
+    }
+    ,
+    {
+        "name": "tabletsofpower",
+        "title": "Tablets of Power",
+        "logo": "tabletsofpower-logo.png",
+        "screenshot": "tabletsofpower-screenshot.png",
+        "url": "https://www.tabletsofpower.com/",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "Mobile",
+            "2D",
+            "Windows",
+            "iOS",
+            "Android"
+        ]
+    },
+    {
+        "name": "geometrywarp",
+        "title": "Geometry Warp",
+        "logo": "geometrywarp-logo.png",
+        "screenshot": "geometrywarp-screenshot.png",
+        "url": "https://www.microsoft.com/store/apps/9N3GMX97T6F2",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "Console",
+            "2D",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+        ]
+    },
+    {
+        "name": "asteroidsorigin",
+        "title": "Asteroids Origin",
+        "logo": "asteroidsorigin-logo.png",
+        "screenshot": "asteroidsorigin-screenshot.png",
+        "url": "https://www.microsoft.com/store/apps/9P96RKX6D6ZP",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "Console",
+            "2D",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+        ]
+    },
+    {
+        "name": "spaceinvader7",
+        "title": "Space Invader 7",
+        "logo": "spaceinvader7-logo.png",
+        "screenshot": "spaceinvader7-screenshot.png",
+        "url": "https://anonames-lair.itch.io/mochi-escape",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "Mobile",
+            "Console",
+            "2D",
+            "Windows",
+            "Android",
+            "WindowsPhone",
+            "Xbox One",
+            "Xbox Series X/S"
+        ]
+    },
+    {
+        "name": "dungeonofgrandmasters",
+        "title": "Dungeon of Grandmasters",
+        "logo": "dungeonofgrandmasters-logo.png",
+        "screenshot": "dungeonofgrandmasters-screenshot.jpg",
+        "url": "https://store.steampowered.com/app/2516550?utm_source=monogame",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows"
+        ]
+    }
 ]
