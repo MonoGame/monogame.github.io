@@ -26,14 +26,29 @@ permalink: resources/{{ (category | slugify) if category !== "all" }}/
         <div id="resource-gallery" class="mg-item-grid mg-grid-2">
             {% for resource in resources %}
                 {% if category in resource.tags or category === "all" %}
-                    <a class="mg-no-link hide-external-icon" href="{{ resource.url }}" title="{{ resource.title }}">
+                    <a class="mg-no-link hide-external-icon" href="{{ resource.url }}">
                         <div class="mg-resource-container mg-box-shadow"
                              style="background-image: url('{{ resource.cover }}');">
                             <div class="transparent-overlay"></div>
                             <div class="mg-resource-tags">
                                 {% for tag in resource.tags %}
-                                    <div>{{ tag }}</div>
+                                    {% if loop.index <= 3 %}
+                                        <div>{{ tag }}</div>
+                                    {% endif %}
                                 {% endfor %}
+
+                                {% if resource.tags.length > 3 %}
+                                    {% set additionalTags = '' %}
+                                    {% for tag in resource.tags %}
+                                        {% if loop.index0 >= 3 %}
+                                            {% set additionalTags = additionalTags + tag + '<br/>' %}
+                                        {% endif %}
+                                    {% endfor %}
+                                    <div data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom" data-bs-title="{{ additionalTags }}">
+                                        <div>+{{ resource.tags.length - 3 }}</div>
+                                    </div>
+                                {% endif %}
+
                             </div>
                             <div class="mg-resource-footer">
                                 <div class="mg-resource-title">{{ resource.title }}</div>
@@ -45,4 +60,11 @@ permalink: resources/{{ (category | slugify) if category !== "all" }}/
             {% endfor %}
         </div>
     </section>
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+</script>
 {% endblock %}
