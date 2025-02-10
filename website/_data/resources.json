@@ -77,6 +77,28 @@
         ]
     },
     {
+        "name": "b9",
+        "title": "Learning C# by Programming Games",
+        "author": "Wouter van Toll, Arjan Egges, Jeroen D. Fokker",
+        "cover": "https://m.media-amazon.com/images/I/51m-9KP-ceL._SY522_.jpg",
+        "url": "https://www.amazon.com/Learning-Programming-Games-Wouter-Toll/dp/3662592541",
+        "pixelart": false,
+        "tags": [
+            "books"
+        ]
+    },
+    {
+        "name": "b10",
+        "title": "August Dahlkvist",
+        "author": "Wouter van Toll, Arjan Egges, Jeroen D. Fokker",
+        "cover": "https://i.imgur.com/l70Z3R2.png",
+        "url": "https://github.com/AugsEU/arid-arnold/blob/master/Docs/Bible/Arid%20Arnold%20Bible-1.pdf",
+        "pixelart": false,
+        "tags": [
+            "books"
+        ]
+    },
+    {
         "name": "e1",
         "title": "FlatRedBall",
         "author": "Victor Chelaru",
