@@ -29,7 +29,7 @@ This time we'll have:
 * Team Updates on:
     * Native
     * New bounties
-    * esources Website
+    * Resources page
     * Start Kits
 * Community: Aristurtle (Chris from Shyfox Studio) presentation on MonoGame.Extended, Particle Factory and new Tutorial
 * Q&A from the Community
