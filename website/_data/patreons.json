@@ -101,5 +101,10 @@
         "name": "Cynthia McMahon",
         "tier": "SpriteBatch",
         "url": "https://cynthiamcmahon.ca/blog/"
+    },
+    {
+        "name": "Austin Sojka",
+        "tier": "Model.Draw",
+        "url": "https://romansixvigaming.com/"
     }
 ]
