@@ -132,14 +132,15 @@
         ]
     },
     {
-        "name": "l3",
+        "name": "ul1",
         "title": "Myra",
         "author": "Roman Shapiro",
-        "cover": "",
+        "cover": "https://github.com/rds1983/Myra/raw/master/images/AllWidgetsSample.png",
         "url": "https://github.com/rds1983/Myra",
         "pixelart": false,
         "tags": [
-            "libraries"
+            "libraries",
+            "ui"
         ]
     },
     {
@@ -323,6 +324,51 @@
         "pixelart": false,
         "tags": [
             "ai"
+        ]
+    },
+    {
+        "name": "audio1",
+        "title": "FMod",
+        "author": "FMod",
+        "cover": "",
+        "url": "https://www.fmod.com/",
+        "pixelart": false,
+        "tags": [
+            "audio"
+        ]
+    },
+    {
+        "name": "audio2",
+        "title": "FMod IO",
+        "author": "FMod",
+        "cover": "",
+        "url": "https://www.fmod.com/io",
+        "pixelart": false,
+        "tags": [
+            "audio",
+            "sound effects"
+        ]
+    },
+    {
+        "name": "audio3",
+        "title": "FMod Studio",
+        "author": "FMod",
+        "cover": "https://www.fmod.com/assets/img-studio/feature-fullscreen-event-editor.jpg",
+        "url": "https://www.fmod.com/studio",
+        "pixelart": false,
+        "tags": [
+            "audio"
+        ]
+    },
+    {
+        "name": "audio3",
+        "title": "tiny-fmod",
+        "author": "Christopher Whitley (AristurtleDev)",
+        "cover": "",
+        "url": "https://github.com/AristurtleDev/tiny-fmod",
+        "pixelart": false,
+        "tags": [
+            "audio"
         ]
     }
 ]
