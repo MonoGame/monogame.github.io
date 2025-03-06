@@ -357,5 +357,27 @@
             "audio",
             "assets"
         ]
+    },
+    {
+        "title": "GameBundle",
+        "author": "Ellpeck",
+        "cover": "https://raw.githubusercontent.com/Ellpeck/GameBundle/refs/heads/main/Logo.png",
+        "url": "https://github.com/Ellpeck/GameBundle",
+        "pixelart": false,
+        "tags": [
+            "tools",
+            "packaging"
+        ]
+    },
+    {
+        "title": "MonoPack",
+        "author": "Christopher Whitley (AristurtleDev)",
+        "cover": "https://raw.githubusercontent.com/shyfox-studio/branding/refs/heads/main/icons/monopack/monopack.png",
+        "url": "https://github.com/shyfox-studio/MonoPack",
+        "pixelart": false,
+        "tags": [
+            "tools",
+            "packaging"
+        ]
     }
 ]
