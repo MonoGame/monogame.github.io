@@ -3,9 +3,15 @@
 # so that mgfxc can be run on Linux / macOS systems.
 
 # check dependencies
-if ! type "wine64" > /dev/null 2>&1
+WINEEXECUTABLE="wine64"
+if ! type "$WINEEXECUTABLE" > /dev/null 2>&1
 then
-    echo "wine64 not found"
+    WINEEXECUTABLE="wine"
+fi
+
+if ! type "$WINEEXECUTABLE" > /dev/null 2>&1
+then
+    echo "$WINEEXECUTABLE not found"
     exit 1
 fi
 
@@ -18,7 +24,7 @@ fi
 # init wine stuff
 export WINEARCH=win64
 export WINEPREFIX=$HOME/.winemonogame
-wine64 wineboot
+eval "$WINEEXECUTABLE wineboot"
 
 TEMP_DIR="${TMPDIR:-/tmp}"
 SCRIPT_DIR="$TEMP_DIR/winemg2"
@@ -32,7 +38,7 @@ REGEDIT4
 _EOF_
 
 pushd $SCRIPT_DIR
-wine64 regedit crashdialog.reg
+eval "$WINEEXECUTABLE regedit crashdialog.reg"
 popd
 
 # get dotnet
