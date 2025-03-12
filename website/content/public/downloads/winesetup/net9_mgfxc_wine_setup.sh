@@ -3,9 +3,15 @@
 # so that mgfxc can be run on Linux / macOS systems.
 
 # check dependencies
-if ! type "wine64" > /dev/null 2>&1
+WINEEXECUTABLE="wine64"
+if ! type "$WINEEXECUTABLE" > /dev/null 2>&1
 then
-    echo "wine64 not found"
+    WINEEXECUTABLE="wine"
+fi
+
+if ! type "$WINEEXECUTABLE" > /dev/null 2>&1
+then
+    echo "$WINEEXECUTABLE not found"
     exit 1
 fi
 
@@ -17,7 +23,7 @@ fi
 
 # wine 8 is the minimum requirement for dotnet 8
 # wine --version will output "wine-#.# (Distro #.#.#)" or "wine-#.#"
-WINE_VERSION=$(wine64 --version 2>&1 | grep -o 'wine-..' | sed 's/wine-//' | sed 's/\.//')
+WINE_VERSION=$($WINEEXECUTABLE --version 2>&1 | grep -o 'wine-..' | sed 's/wine-//' | sed 's/\.//')
 if (( $WINE_VERSION < 8 )); then
     echo "Wine version $WINE_VERSION is below the minimum required version (8.0)."
     exit 1
@@ -26,7 +32,7 @@ fi
 # init wine stuff
 export WINEARCH=win64
 export WINEPREFIX=$HOME/.winemonogame
-wine64 wineboot
+eval "$WINEEXECUTABLE wineboot"
 
 TEMP_DIR="${TMPDIR:-/tmp}"
 SCRIPT_DIR="$TEMP_DIR/winemg2"
@@ -40,7 +46,7 @@ REGEDIT4
 _EOF_
 
 pushd $SCRIPT_DIR
-wine64 regedit crashdialog.reg
+eval "$WINEEXECUTABLE regedit crashdialog.reg"
 popd
 
 # get dotnet
