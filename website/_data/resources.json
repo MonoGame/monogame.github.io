@@ -379,5 +379,16 @@
             "tools",
             "packaging"
         ]
+    },
+    {
+        "title": "Real-Time Rigid Body Simulation on GPUs",
+        "author": "Aleksandr Pachaev (Bletraut)",
+        "cover": "https://github.com/Bletraut/RigidBodySimulationOnGpuDX/blob/master/docs/content/Result_1.gif",
+        "url": "https://github.com/Bletraut/RigidBodySimulationOnGpuDX",
+        "pixelart": false,
+        "tags": [
+            "3d",
+            "physics"
+        ]
     }
 ]
