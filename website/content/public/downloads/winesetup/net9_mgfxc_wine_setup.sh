@@ -64,5 +64,14 @@ cp -f "$SCRIPT_DIR/firefox_data/core/d3dcompiler_47.dll" "$WINEPREFIX/drive_c/wi
 echo -e "\nexport MGFXC_WINE_PATH=\"$HOME/.winemonogame\"" >> ~/.profile
 echo -e "\nexport MGFXC_WINE_PATH=\"$HOME/.winemonogame\"" >> ~/.zprofile
 
+if ! type "wine64" > /dev/null 2>&1
+then
+    echo -e "\nexport PATH=\"\$PATH:$HOME/.winemonogame\"" >> ~/.profile
+    echo -e "\nexport PATH=\"\$PATH:$HOME/.winemonogame\"" >> ~/.zprofile
+
+    WINEPATH=$(which $WINEEXECUTABLE)
+    ln -s "$WINEPATH" "$HOME/.winemonogame/wine64"
+fi
+
 # cleanup
 rm -rf "$SCRIPT_DIR"
