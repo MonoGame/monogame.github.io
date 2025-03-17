@@ -1,6 +1,6 @@
 ---
-title: 5th MonoGame "Open Hours" AMA session
-date: "2025-02-18"
+title: 6th MonoGame "Open Hours" AMA session
+date: "2025-03-17"
 excerpt: Meet the MonoGame team and get your questions answered
 tags: announcements
 author: MonoGame Foundation
@@ -8,30 +8,25 @@ image: /images/blog/cover/monogame_foundation.png
 ogImage: /images/blog/cover/monogame_foundation.png
 ---
 
-The MonoGame Foundation is hoping you can join the MonoGame community for our 5th AMA session.
+The MonoGame Foundation is hoping you can join the MonoGame community for our 6th AMA session.
 
-## 5th "Open Hours" AMA Meeting
+## 6th "Open Hours" AMA Meeting
 
-The 5th MonoGame "Open Hours" AMA meeting will be on:
+The 6th MonoGame "Open Hours" AMA meeting will be on:
 
-### Wednesday 19th February @ 12:00 EDT, 17:00 UTC/GMT, 18:00 CET
-
-NOTE: The new time is 1 hour later than previous AMA's
+### Thursday 20th March @ 12:00 EDT, 17:00 UTC/GMT, 18:00 CET
 
 ### Channel and Connection Details
 
-#### [MonoGame Community discord - Open Hours Channel](https://discord.gg/monogame?event=1341366381194776677)
+#### [MonoGame Community discord - Open Hours Channel](https://discord.gg/y6HDHDK2?event=1343763679803473972)
 
 ## Agenda
 
-We're still learning as we go for these sessions.
 This time we'll have:
 * Team Updates on:
     * Native
-    * New bounties
-    * Resources page
-    * Start Kits
-* Community: Aristurtle (Chris from Shyfox Studio) presentation on MonoGame.Extended, Particle Factory and new Tutorial
+    * TBA
+* Harry - New Content Pipeline
 * Q&A from the Community
 
 If you prefer to just type, the call will also use Discord's text features and the team will be on hand to respond too.
