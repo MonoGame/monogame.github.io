@@ -69,8 +69,12 @@ then
     echo -e "\nexport PATH=\"\$PATH:$HOME/.winemonogame\"" >> ~/.profile
     echo -e "\nexport PATH=\"\$PATH:$HOME/.winemonogame\"" >> ~/.zprofile
 
-    WINEPATH=$(which $WINEEXECUTABLE)
-    ln -s "$WINEPATH" "$HOME/.winemonogame/wine64"
+    # create a wine wrapper script to work around oddities with symlinked wine64
+    echo -e "#\!/bin/bash\nwine \"\$@\"" > "$HOME/.winemonogame/wine_wrapper.sh"
+    chmod +x "$HOME/.winemonogame/wine_wrapper.sh"
+
+    # symlink wine64 to our wrapper script
+    ln -s "$HOME/.winemonogame/wine_wrapper.sh" "$HOME/.winemonogame/wine64"
 fi
 
 # cleanup
