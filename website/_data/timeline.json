@@ -225,5 +225,14 @@
                 "description": "MonoGame 3.8.2 is released."
             }
         ]
+    },
+    {
+        "year": "2025",
+        "events": [
+            {
+                "date": "April 5th",
+                "description": "MonoGame 3.8.3 is released."
+            }
+        ]
     }
 ]
