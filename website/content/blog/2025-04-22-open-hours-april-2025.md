@@ -14,7 +14,7 @@ The MonoGame Foundation is hoping you can join the MonoGame community for our 7t
 
 The 7th MonoGame "Open Hours" AMA meeting will be on:
 
-### Wednesday 23rd April @ 12:00 EDT, 17:00 UTC/GMT, 18:00 CET
+### Wednesday 23rd April @ 12:00 EDT, 16:00 UTC 17:00 BST, 18:00 CET
 
 ### Channel and Connection Details
 
