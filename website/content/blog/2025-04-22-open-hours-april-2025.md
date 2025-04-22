@@ -28,6 +28,7 @@ This time we'll have:
     * 3.8.3.1 Hotfix release
     * DirectX 12
     * TBA
+* Vic - Code only GUM
 * Q&A from the Community
 
 If you prefer to just type, the call will also use Discord's text features and the team will be on hand to respond too.
