@@ -44,12 +44,12 @@ popd
 # get dotnet
 DOTNET_URL="https://download.visualstudio.microsoft.com/download/pr/44d08222-aaa9-4d35-b24b-d0db03432ab7/52a4eb5922afd19e8e0d03e0dbbb41a0/dotnet-sdk-6.0.302-win-x64.zip"
 curl $DOTNET_URL --output "$SCRIPT_DIR/dotnet-sdk.zip"
-7z x "$SCRIPT_DIR/dotnet-sdk.zip" -o"$WINEPREFIX/drive_c/windows/system32/"
+7z x "$SCRIPT_DIR/dotnet-sdk.zip" -o"$WINEPREFIX/drive_c/windows/system32/" -y
 
 # get d3dcompiler_47
 FIREFOX_URL="https://download-installer.cdn.mozilla.net/pub/firefox/releases/62.0.3/win64/ach/Firefox%20Setup%2062.0.3.exe"
 curl $FIREFOX_URL --output "$SCRIPT_DIR/firefox.exe"
-7z x "$SCRIPT_DIR/firefox.exe" -o"$SCRIPT_DIR/firefox_data/"
+7z x "$SCRIPT_DIR/firefox.exe" -o"$SCRIPT_DIR/firefox_data/" -y
 cp -f "$SCRIPT_DIR/firefox_data/core/d3dcompiler_47.dll" "$WINEPREFIX/drive_c/windows/system32/d3dcompiler_47.dll"
 
 # append MGFXC_WINE_PATH env variable
@@ -66,7 +66,7 @@ then
     chmod +x "$HOME/.winemonogame/wine_wrapper.sh"
 
     # symlink wine64 to our wrapper script
-    ln -s "$HOME/.winemonogame/wine_wrapper.sh" "$HOME/.winemonogame/wine64"
+    ln -sf "$HOME/.winemonogame/wine_wrapper.sh" "$HOME/.winemonogame/wine64"
 fi
 
 # cleanup
