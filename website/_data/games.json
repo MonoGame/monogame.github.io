@@ -818,5 +818,37 @@
             "2D",
             "Windows"
         ]
+    },
+    {
+        "name": "horserunnerdx",
+        "title": "Horse Runner DX",
+        "logo": "spaceinvader7-logo.png",
+        "screenshot": "spaceinvader7-screenshot.png",
+        "url": "https://store.steampowered.com/app/2955320/Horse_Runner_DX",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Linux"
+        ]
+    },
+    {
+        "name": "keepthemsleeping",
+        "title": "Keep Them Sleeping",
+        "logo": "spaceinvader7-logo.png",
+        "screenshot": "spaceinvader7-screenshot.png",
+        "url": "https://store.steampowered.com/app/3436420/Keep_Them_Sleeping",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "Mobile",
+            "Console",
+            "2D",
+            "Windows",
+            "Android",
+            "WindowsPhone",
+            "Xbox One",
+            "Xbox Series X/S"
+        ]
     }
 ]
