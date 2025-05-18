@@ -392,7 +392,7 @@
         ]
     },
     {
-        "title": "MonoGame Games on itch.io",
+        "title": "MonoGame on itch.io",
         "author": "MonoGame Team and Community",
         "cover": "https://img.itch.zone/aW1nLzE1MTkyMzQ2LnBuZw==/original/6pZFse.png",
         "url": "https://monogame.itch.io/",
@@ -401,6 +401,21 @@
             "2d",
             "3d",
             "games",
+            "showcase",
+            "itch.io"
+        ]
+    },
+    {
+        "title": "Games Made with MonoGame on itch.io",
+        "author": "Various",
+        "cover": "https://github.com/MonoGame/MonoGame.Logo/raw/master/FullColorOnLight/SquareLogo_128px.png",
+        "url": "https://itch.io/games/made-with-monogame",
+        "pixelart": false,
+        "tags": [
+            "2d",
+            "3d",
+            "games",
+            "showcase",
             "itch.io"
         ]
     }
