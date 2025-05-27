@@ -132,12 +132,13 @@
     },
     {
         "title": "ImGui.NET",
-        "author": "ImGuiNET",
+        "author": "Eric Mellino",
         "cover": "",
         "url": "https://github.com/ImGuiNET/ImGui.NET",
         "pixelart": false,
         "tags": [
-            "libraries"
+            "libraries",
+            "ui"
         ]
     },
     {
@@ -177,6 +178,7 @@
         "url": "https://github.com/tsMezotic/MonoGame.ImGuiNet",
         "pixelart": false,
         "tags": [
+            "libraries",
             "ui"
         ]
     },
@@ -417,6 +419,17 @@
             "games",
             "showcase",
             "itch.io"
+        ]
+    },
+    {
+        "title": "Automated ImGui.Net Bindings",
+        "author": "Evergine Team",
+        "cover": "",
+        "url": "https://github.com/EvergineTeam/ImGui.Net",
+        "pixelart": false,
+        "tags": [
+            "libraries",
+            "ui"
         ]
     }
 ]
