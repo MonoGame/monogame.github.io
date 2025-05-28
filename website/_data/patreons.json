@@ -106,5 +106,10 @@
         "name": "Austin Sojka",
         "tier": "Model.Draw",
         "url": "https://romansixvigaming.com/"
+    },
+    {
+        "name": "Dominik Gotojuch",
+        "tier": "DrawUserPrimitives",
+        "url": "https://gotojuch.com/"
     }
 ]
