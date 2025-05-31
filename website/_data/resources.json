@@ -431,5 +431,17 @@
             "libraries",
             "ui"
         ]
+    },
+    {
+        "title": "Ink ",
+        "author": "Inkle Studios",
+        "cover": "https://www.inklestudios.com/ink/img/ink-logo.png",
+        "url": "https://github.com/inkle/ink",
+        "pixelart": false,
+        "tags": [
+            "libraries",
+            "story",
+            "dialog"
+        ]
     }
 ]
