@@ -232,6 +232,10 @@
             {
                 "date": "April 5th",
                 "description": "MonoGame 3.8.3 is released."
+            },
+            {
+                "date": "June 2nd",
+                "description": "MonoGame 3.8.4 is released."
             }
         ]
     }
