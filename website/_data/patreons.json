@@ -31,7 +31,7 @@
     },
     {
         "name": "Ellpeck Games",
-        "tier": "Model.Draw",
+        "tier": "DrawUserPrimitives",
         "url": "https://games.ellpeck.de/"
     },
     {
