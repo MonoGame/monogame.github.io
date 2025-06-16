@@ -14,7 +14,7 @@ The MonoGame Foundation is hoping you can join the MonoGame community for our 9t
 
 The 9th MonoGame "Open Hours" AMA meeting will be on:
 
-### Wednesday 21st of May, @ 12:00 EDT, 16:00 UTC, 17:00 BST, 18:00 CET
+### Wednesday 18th of JUne, @ 12:00 EDT, 16:00 UTC, 17:00 BST, 18:00 CET
 
 ### Channel and Connection Details
 
