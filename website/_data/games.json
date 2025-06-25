@@ -850,5 +850,48 @@
             "Xbox One",
             "Xbox Series X/S"
         ]
-    }
+    },
+    {
+        "name": "vulcard",
+        "title": "Vulcard",
+        "logo": "vulcard-logo.png",
+        "screenshot": "vulcard-screenshot.png",
+        "url": "https://store.steampowered.com/app/3764530/Vulcard/",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows",
+            "Mac",
+            "Linux"
+        ]
+    },
+    {
+        "name": "sweettransit",
+        "title": "Sweet Transit",
+        "logo": "sweettransit-logo.png",
+        "screenshot": "sweettransit-screenshot.png",
+        "url": "https://store.steampowered.com/app/1612770/Sweet_Transit/",
+        "pixelart": false,
+        "tags": [
+            "Desktop",
+            "3D",
+            "Windows"
+        ]
+    },
+    {
+        "name": "deepspacebellhop",
+        "title": "Deep Space Bellhop",
+        "logo": "deepspacebellhop-logo.png",
+        "screenshot": "deepspacebellhop-screenshot.png",
+        "url": "https://store.steampowered.com/app/3429210/Deep_Space_Bellhop",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows",
+            "Mac",
+            "Linux"
+        ]
+    }    
 ]
