@@ -22,12 +22,13 @@ The 7th MonoGame "Open Hours" AMA meeting will be on:
 
 ## Agenda
 
-This time we'll have:
+This time we will have:
+
 * Team Updates on:
-    * 3.8.3 Release
-    * 3.8.3.1 Hotfix release
-    * DirectX 12
-    * TBA
+  * 3.8.3 Release
+  * 3.8.3.1 Hotfix release
+  * DirectX 12
+  * TBA
 * Vic - Code only GUM
 * Q&A from the Community
 

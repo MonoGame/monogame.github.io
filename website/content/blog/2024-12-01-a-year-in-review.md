@@ -8,11 +8,11 @@ image: /images/blog/cover/monogame_foundation.png
 ogImage: /images/blog/cover/monogame_foundation.png
 ---
 
-# What a year it has been!
+## What a year it has been
 
 It has been a year since we announced that we received a very generous [donation from Re-Logic](https://x.com/MonoGameTeam/status/1724164491363967465) and the formation of the MonoGame Foundation. A lot has happened.
 
-### So far in the last year we:
+### So far in the last year we
 
 * Increased recurring subscriptions (Patreon, GitHub & PayPal) to almost $2000 a month
 * Refreshed the MonoGame website with more focus on the creators and their titles \- Thanks Chris (ArisTurtle)  
@@ -32,7 +32,7 @@ It has been a year since we announced that we received a very generous [donation
 
 ::: note Meeting Notes
 Please read our [Board Meeting notes](https://monogame.net/blog/meeting)
-::: 
+:::
 
 * #### Completed Bounties
 
@@ -51,7 +51,7 @@ Please read our [Board Meeting notes](https://monogame.net/blog/meeting)
 * #### Bug Fixes and Enhancements
 
   * Re-enabled the Unit Tests for PR’s.  
-  * [Upgrade Mac Editor to net8.0-macos. Upgrade Eto.Forms](https://github.com/MonoGame/MonoGame/pull/8505)   
+  * [Upgrade Mac Editor to net8.0-macos. Upgrade Eto.Forms](https://github.com/MonoGame/MonoGame/pull/8505)
   * Fix Issues with OpenAL Panning on DesktopGL and Mobile  [#8480](https://github.com/MonoGame/MonoGame/pull/8480) and [#8466](https://github.com/MonoGame/MonoGame/pull/8466)
   * [Detect GamePad/Keyboard events on Android](https://github.com/MonoGame/MonoGame/pull/8465)
   * [Remove string allocations when calling GamePad.GetCapabilities](https://github.com/MonoGame/MonoGame/pull/8453)
@@ -79,8 +79,7 @@ Please read our [Board Meeting notes](https://monogame.net/blog/meeting)
   * [Cranky Chibi Cthulhu](https://little-tlaloc-interactive.itch.io/cranky-chibi-cthulhu) by Little Tlaloc Interactive. Uses [FlatRedBall](https://flatredball.com/) and [Gum](http://docs.flatredball.com/gum/)
   * [BattleCrypt Bombers](https://store.steampowered.com/app/2188930/BattleCrypt_Bombers/) by Narfox LLC. Uses [FlatRedBall](https://flatredball.com/) and [Gum](http://docs.flatredball.com/gum/)
 
-
-### What is coming in the next year:
+### What is coming in the next year
 
 * 3.8.3 Release
 * Smoother macOS installation support and Content Pipeline
@@ -91,7 +90,7 @@ Please read our [Board Meeting notes](https://monogame.net/blog/meeting)
 * New **DirectX 12** Desktop platform which shares code with Xbox (may replace DX11 at some point).
 * New **Vulkan** Desktop platform (it may replace OpenGL at some point).
 
-* #### More bounties:
+* #### More bounties
 
   * Graphics
     * Optimise and fix DesktopVK

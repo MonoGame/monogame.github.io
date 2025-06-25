@@ -22,11 +22,12 @@ The 9th MonoGame "Open Hours" AMA meeting will be on:
 
 ## Agenda
 
-This time we'll have:
+This time we will have:
+
 * Team Updates on:
-    * Bounties
-    * New Content Pipeline
-    * 3.8.5 Preview 1 Scope
+  * Bounties
+  * New Content Pipeline
+  * 3.8.5 Preview 1 Scope
 * **Advanced 3D ​Game Demo​** (Don't miss it!)
 * Q&A from the Community
 

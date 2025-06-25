@@ -8,7 +8,7 @@ image: /images/blog/cover/monogame_foundation.png
 ogImage: /images/blog/cover/monogame_foundation.png
 ---
 
-# MonoGame Foundation Releases Second Title With Full source!
+## MonoGame Foundation Releases Second Title With Full source!
 
 Old School Adventure, an original XNA title released on Xbox and then subsequently ported to Windows Phone, back in the day, has been migrated and updated for the latest MonoGame release.
 

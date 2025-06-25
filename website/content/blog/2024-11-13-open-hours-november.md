@@ -14,7 +14,7 @@ The MonoGame Foundation is hoping you can join the MonoGame community for our 2n
 
 The 2nd MonoGame "Open Hours" AMA meeting will be on:
 
-### Wednesday 20th November @ 11:00 EDT, 16:00 UTC/GMT, 17:00 CET 
+### Wednesday 20th November @ 11:00 EDT, 16:00 UTC/GMT, 17:00 CET
 
 ### Channel and Connection Details
 
@@ -23,7 +23,8 @@ The 2nd MonoGame "Open Hours" AMA meeting will be on:
 ## Agenda
 
 We will learn as we go for these sessions.
-This time we'll have:
+This time we will have:
+
 * An overview of the Native Implementation for Vulkan/DX12 by [Tom](https://github.com/tomspilman)
 * Q&A from the Community
 

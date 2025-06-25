@@ -14,7 +14,6 @@ Thanks to everyone who joined us for our 2nd "Open Hours" AMA session.
 
 For those who missed our 2nd "Open Hours" AMA yesterday, the recording is now available on [YouTube](https://www.youtube.com/watch?v=vMR1kRuX2KU), so you can find out what we've been up to and what we're working on, as well as what questions from the community we replied to.
 
-
 ## The Meeting Schedule
 
 If you didn't make it this month, all is not lost. Each month, one week on from the MonoGame Foundation monthly board meeting, the group has agreed to host a series of sessions to both communicate announcements to the community and also open the floor up to questions the community has about MonoGame operations or ask questions that they have about the framework.

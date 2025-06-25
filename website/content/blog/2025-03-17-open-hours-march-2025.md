@@ -22,10 +22,11 @@ The 6th MonoGame "Open Hours" AMA meeting will be on:
 
 ## Agenda
 
-This time we'll have:
+This time we will have:
+
 * Team Updates on:
-    * Native
-    * TBA
+  * Native
+  * TBA
 * Harry - New Content Pipeline
 * Q&A from the Community
 

@@ -14,7 +14,7 @@ The MonoGame Foundation is hoping you can join the MonoGame community for our 3r
 
 The 3rd MonoGame "Open Hours" AMA meeting will be on:
 
-### Wednesday 18th December @ 11:00 EDT, 16:00 UTC/GMT, 17:00 CET 
+### Wednesday 18th December @ 11:00 EDT, 16:00 UTC/GMT, 17:00 CET
 
 ### Channel and Connection Details
 
@@ -22,8 +22,9 @@ The 3rd MonoGame "Open Hours" AMA meeting will be on:
 
 ## Agenda
 
-We're still learning as we go for these sessions.
-This time we'll have:
+We are still learning as we go for these sessions.
+This time we will have:
+
 * Recap of the last year of MG
 * Our goals for 2025
 * Updates on active bounties

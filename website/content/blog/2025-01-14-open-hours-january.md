@@ -14,7 +14,7 @@ The MonoGame Foundation is hoping you can join the MonoGame community for our 4t
 
 The 4th MonoGame "Open Hours" AMA meeting will be on:
 
-### Wednesday 15th January @ 11:00 EDT, 16:00 UTC/GMT, 17:00 CET 
+### Wednesday 15th January @ 11:00 EDT, 16:00 UTC/GMT, 17:00 CET
 
 ### Channel and Connection Details
 
@@ -22,13 +22,14 @@ The 4th MonoGame "Open Hours" AMA meeting will be on:
 
 ## Agenda
 
-We're still learning as we go for these sessions.
-This time we'll have:
+We are still learning as we go for these sessions.
+This time we 1ill have:
+
 * Team Updates on:
-    * Native
-    * Active bounties
-    * Start Kits
-    * How close are we to a 3.8.3 Release
+  * Native
+  * Active bounties
+  * Start Kits
+  * How close are we to a 3.8.3 Release
 * Community: GUM presentation by Flat Red Ball
 * Q&A from the Community
 

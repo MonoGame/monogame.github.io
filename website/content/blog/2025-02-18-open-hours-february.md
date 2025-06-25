@@ -25,12 +25,13 @@ NOTE: The new time is 1 hour later than previous AMA's
 ## Agenda
 
 We're still learning as we go for these sessions.
-This time we'll have:
+This time we will have:
+
 * Team Updates on:
-    * Native
-    * New bounties
-    * Resources page
-    * Start Kits
+  * Native
+  * New bounties
+  * Resources page
+  * Start Kits
 * Community: Aristurtle (Chris from Shyfox Studio) presentation on MonoGame.Extended, Particle Factory and new Tutorial
 * Q&A from the Community
 
