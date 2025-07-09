@@ -893,5 +893,20 @@
             "Mac",
             "Linux"
         ]
+    },
+    {
+        "name": "pixelblocked",
+        "title": "Pixel Blocked",
+        "logo": "pixelblocked-logo.png",
+        "screenshot": "pixelblocked-screenshot.png",
+        "url": "https://danielmakesgames.itch.io/pixel-blocked",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows",
+            "Mac",
+            "Linux"
+        ]
     }    
 ]
