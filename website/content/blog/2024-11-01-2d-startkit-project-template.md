@@ -2,7 +2,7 @@
 title: Upcoming 2D StartKit Project Template
 date: "2024-11-01"
 excerpt: A short intro video on what to expect in the new 2D startkit project template
-tags: video, foundation
+tags: [starter-kits]
 author:  MonoGame Foundation
 image: /images/blog/cover/monogame_foundation.png
 ogImage: /images/blog/cover/monogame_foundation.png

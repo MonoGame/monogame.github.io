@@ -2,7 +2,7 @@
 title: A Year in Review
 date: "2024-12-01"
 excerpt: The MonoGame Foundation "Year in review", what the foundation has been up to since its incorporation.
-tags: foundation, source, educational
+tags: [foundation]
 author:  MonoGame Foundation
 image: /images/blog/cover/monogame_foundation.png
 ogImage: /images/blog/cover/monogame_foundation.png
