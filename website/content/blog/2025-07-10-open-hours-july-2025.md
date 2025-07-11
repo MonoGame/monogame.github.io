@@ -25,9 +25,9 @@ The 10th MonoGame "Open Hours" AMA meeting will be on:
 This time we'll have -
 * Team Updates on:
     * Bounties
-    * 3.8.5 Preview 2 Scope
+    * 3.8.5 Develop 2 Release Scope
     * Latest new on Ascent's progress
-    * Sneak peak at a totally **new 3D StartKit​** 
+    * Sneak peak at a totally **new 3D StarterKit​** 
     * Q&A from the Community
 
 If you prefer to just type, the call will also use Discord's text features and the team will be on hand to respond too.
