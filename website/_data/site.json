@@ -16,12 +16,12 @@
     },
     "navigation": [
         {
-            "label": "Documentation",
+            "label": "Learn",
             "url": "https://docs.monogame.net"
         },
         {
-            "label": "Roadmap",
-            "url": "https://docs.monogame.net/roadmap/"
+            "label": "Create",
+            "url": "/create/"
         },
         {
             "label": "Community",
@@ -30,22 +30,6 @@
         {
             "label": "Showcase",
             "url": "/showcase/"
-        },
-        {
-            "label": "Blog",
-            "url": "/blog/"
-        },
-		{
-            "label": "Bounties",
-            "url": "/bounties/"
-        },
-        {
-            "label": "Resources",
-            "url": "/resources/"
-        },
-        {
-            "label": "Store",
-            "url": "https://store.monogame.net"
         },
         {
             "label": "About",
