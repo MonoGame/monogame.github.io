@@ -27,7 +27,7 @@ This time we'll have -
 * Team Updates on:
   * Bounties
   * 3.8.5 Develop 2 Release Scope
-* Latest new on Ascent's progress
+* Latest news on Ascent's progress
 * Sneak peak at a totally **new 3D StarterKit​**
 * Q&A from the Community
 
