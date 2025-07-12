@@ -4,8 +4,8 @@ date: "2025-06-10"
 excerpt: Details regarding the Ascent Demo preview and how to get access to it.
 tags: [starter-kits]
 author:  MonoGame Foundation
-image: /images/blog/ascent.png
-ogImage: /images/blog/cover/monogame_foundation.png
+image: /images/blog/Ascent.png
+ogImage: /images/blog/Ascent.png
 ---
 
 ## Ascent Demo
