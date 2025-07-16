@@ -17,9 +17,9 @@ All the assets are the same, we just decided to port this from Godot to MonoGame
 
 ### What to expect
 
-The primary focus with the new Starter-kit / demo, was to 
+The primary focus with the new Starter-kit / demo, was to
 
-|![Screenshot1](images/2025-06-10/mix_02.png)|![Screenshot2](images/2025-06-10/room_green.png)|
+|![Screenshot1](images/2025-07-16/3DPlatformerStarterKit.gif)|![Screenshot2](images/2025-07-16/OnAPlatform.png)|
 |:-:|:-:|
 
 But that is not all, it includes features like;
