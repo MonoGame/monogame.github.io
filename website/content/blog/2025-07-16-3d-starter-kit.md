@@ -17,7 +17,8 @@ All the assets are the same, we just decided to port this from Godot to MonoGame
 
 ### What to expect
 
-The primary focus with the new Starter-kit / demo, was to
+The primary focus with the new Starter-kit / demo, was to create a simple, easy to follow,
+example of making a 3D Game using MonoGame.
 
 |![Screenshot1](images/2025-07-16/3DPlatformerStarterKit.gif)|![Screenshot2](images/2025-07-16/OnAPlatform.png)|
 |:-:|:-:|
