@@ -4,8 +4,8 @@ date: "2025-07-16"
 excerpt: Details regarding the 3D Platformer Starter Kit preview and how to get access to it.
 tags: [starter-kits]
 author:  MonoGame Foundation
-image: /images/blog/3dplatformerstarterkit.png
-ogImage: /images/blog/3dplatformerstarterkit.png
+image: /images/blog/3DPlatformerStarterKit.png
+ogImage: /images/blog/3DPlatformerStarterKit.png
 ---
 
 ## 3D Platformer Starter Kit
