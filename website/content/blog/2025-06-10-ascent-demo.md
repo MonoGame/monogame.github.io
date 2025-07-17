@@ -10,7 +10,9 @@ ogImage: /images/blog/Ascent.png
 
 ## Ascent Demo
 
-![Ascent Demo cover](images/2025-06-10/AscentDemo.png)
+| ![Ascent Demo](images/2025-06-10/AscentDemo.png) |
+| :--: |
+|  **Ascent Demo** |
 
 The Ascent Demo is a fully featured project ported from XNA's original [Ship Game](https://github.com/MonoGame/MonoGame.Samples/tree/3.8.4/ShipGame) sample, fully modernized for todays architecture, best-practices and tools.
 
@@ -20,6 +22,7 @@ The primary focus with the new Starter-kit / demo, was to completely refresh the
 
 |![Screenshot1](images/2025-06-10/mix_02.png)|![Screenshot2](images/2025-06-10/room_green.png)|
 |:-:|:-:|
+|Concept art corridor|Concept art cavern/junction|
 
 But that is not all, most systems are being re-engineered and overhauled, including:
 

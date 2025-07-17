@@ -1,38 +1,40 @@
 ---
 title: 3D Platformer Starter Kit announcement
-date: "2025-06-10"
+date: "2025-07-16"
 excerpt: Details regarding the 3D Platformer Starter Kit preview and how to get access to it.
 tags: [starter-kits]
 author:  MonoGame Foundation
 image: /images/blog/3dplatformerstarterkit.png
-ogImage: /images/blog/cover/monogame_foundation.png
+ogImage: /images/blog/3dplatformerstarterkit.png
 ---
 
 ## 3D Platformer Starter Kit
 
-![3D Platformer Starter Kit cover](images/2025-07-16/3DPlatformerStarterKit.png)
+| ![3D Platformer Starter Kit](images/2025-07-16/3DPlatformerStarterKit.png) |
+| :--: |
+|  **3D Platformer Starter Kit** |
 
 This is a pure MonoGame port of the [original](https://github.com/KenneyNL/Starter-Kit-3D-Platformer) that was written by [Kenney](https://www.kenney.nl/starter-kits) for Godot 4.3 (stable).
 All the assets are the same, we just decided to port this from Godot to MonoGame.
 
 ### What to expect
 
-The primary focus with the new Starter-kit / demo, was to create a simple, easy to follow,
-example of making a 3D Game using MonoGame.
+The primary focus with the new Starter-kit / demo, was to create a simple, easy to follow, example of making a 3D Game using MonoGame.
 
 |![Screenshot1](images/2025-07-16/3DPlatformerStarterKit.gif)|![Screenshot2](images/2025-07-16/OnAPlatform.png)|
 |:-:|:-:|
+|3D Platformer starting level|Character closeup with shadows|
 
 But that is not all, it includes features like;
 
-- Character controller (with double jump)
-- Collectable coins and falling platforms
-- Camera controls (rotate, zoom)
-- Gamepad support
-- Basic Convex Hull Collision System
-- Uses Blender for Level Editing
-- Sprites and 3D Models _(CC0 licensed)_
-- Sound effects _(CC0 licensed)_
+* Character controller (with double jump)
+* Collectable coins and falling platforms
+* Camera controls (rotate, zoom)
+* Gamepad support
+* Basic Convex Hull Collision System
+* **Uses Blender for Level Editing!!**
+* Sprites and 3D Models _(CC0 licensed)_
+* Sound effects _(CC0 licensed)_
 
 And we will continue to update it before it goes public.
 
