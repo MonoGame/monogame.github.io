@@ -10,7 +10,7 @@ ogImage: /images/blog/3DPlatformerStarterKit.png
 
 ## 3D Platformer Starter Kit
 
-| ![3D Platformer Starter Kit](images/2025-07-16/3DPlatformerStarterKit.png) |
+| ![3D Platformer Starter Kit](images/2025-07-16/kenny-3dplatformer-screenshot.png) |
 | :--: |
 |  **3D Platformer Starter Kit** |
 
