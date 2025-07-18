@@ -856,3 +856,16 @@ blockquote {
     line-height: 1em;
     letter-spacing: 0.08em;
 }
+
+.mg-two-column-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+  gap: 1rem; /* Adds spacing between items */
+  list-style-type: disc; /* Keeps the unordered list style */
+  padding: 0;
+  margin: 0;
+}
+
+.mg-two-column-list li {
+  margin-left: 1.5rem; /* Adjusts indentation for list items */
+}
