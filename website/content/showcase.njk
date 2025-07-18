@@ -22,6 +22,14 @@ permalink: showcase/{{ (category | slugify) if category !== "all" }}/
         </p>
     </section>
 
+    <section class="container-xxl my-5">
+        <div class="alert alert-light admonition">
+            <h4 class="alert-heading admonition-title"> Also check out the Community resources available</h4>
+            <p>If you are also looking for a wide selection of community resources available to use to build your games, check here:</p>
+            <h5><a href="/resources">MonoGame Community Resources</a></h5>
+        </div>
+    </section>
+
     {{ create_category_filter(collections.gameTags, "/showcase/", page.url) }}
 
     <section class="container-xxl mb-5">
