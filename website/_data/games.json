@@ -908,5 +908,32 @@
             "Mac",
             "Linux"
         ]
-    }    
+    },
+    {
+        "name": "stuntboost",
+        "title": "STUNTBOOST",
+        "logo": "stuntboost-logo.png",
+        "screenshot": "stuntboost-screenshot.png",
+        "url": "https://store.steampowered.com/app/2999500?utm_source=monogamenet",
+        "pixelart": false,
+        "tags": [
+            "Desktop",
+            "3D",
+            "Windows",
+            "Linux"
+        ]
+    }  ,
+    {
+        "name": "spartansurvivors",
+        "title": "Spartan Survivors",
+        "logo": "spartansurvivors-logo.png",
+        "screenshot": "spartansurvivors-screenshot.png",
+        "url": "https://spartansurvivors.dezeiraudgames.com/",
+        "pixelart": true,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows"
+        ]
+    }  
 ]
