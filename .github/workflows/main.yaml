@@ -29,6 +29,14 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v4
 
+      - name: Setup .NET Core SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Build fxccs
+        run: dotnet build fxccs/fxccs.csproj
+
       - name: Restore NPM Packages
         run: npm install
 
