@@ -59,6 +59,12 @@ FIREFOX_URL="https://download-installer.cdn.mozilla.net/pub/firefox/releases/62.
 curl $FIREFOX_URL --output "$SCRIPT_DIR/firefox.exe"
 7z e "$SCRIPT_DIR/firefox.exe" "core/d3dcompiler_47.dll" -o"$WINEPREFIX/drive_c/windows/system32/" -aoa
 
+# get fxccs
+FXCCS_URL="https://monogame.net/downloads/fxccs.zip"
+FXCCS_ZIP="$WINEPREFIX/drive_c/fxccs.zip"
+curl $FXCCS_URL --output "$FXCCS_ZIP"
+7z x "$FXCCS_ZIP" -o"$WINEPREFIX/drive_c/" -y
+
 # append MGFXC_WINE_PATH env variable
 echo -e "\nexport MGFXC_WINE_PATH=\"$HOME/.winemonogame\"" >> ~/.profile
 echo -e "\nexport MGFXC_WINE_PATH=\"$HOME/.winemonogame\"" >> ~/.zprofile
