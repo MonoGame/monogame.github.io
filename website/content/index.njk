@@ -19,6 +19,45 @@ title: MonoGame
                 </a>
             </div>
         </div>
+
+        <!-- News Carousel Overlay - Desktop Only -->
+        <div class="news-carousel-overlay d-none d-lg-block">
+
+            <div class="news-carousel news-carousel-desktop" id="newsCarouselDesktop">
+                <div class="news-track" id="newsTrackDesktop">
+                    {% for post in collections.blogPosts | reverse %}
+                        {% if loop.index <= 5 %}
+                            <div class="news-slide" data-url="{{ post.url }}">
+                                <div class="news-content">
+                                    <div>
+                                        <h5 class="news-title">{{ post.data.title }}</h5>
+                                        <p class="news-excerpt">{{ post.data.excerpt }}</p>
+                                    </div>
+                                    <div class="news-meta">
+                                        <div class="news-category">{{ post.data.tags[0] | default('News') }}</div>
+                                        <div class="news-date">
+                                            <i class="bi bi-calendar3"></i>
+                                            {{ post.date | readableDate }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+                <button class="news-carousel-nav news-carousel-prev" id="newsPrevBtnDesktop">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+
+                <button class="news-carousel-nav news-carousel-next" id="newsNextBtnDesktop">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+
+                <div class="news-carousel-controls" id="newsCarouselDotsDesktop"></div>
+            </div>
+        </div>
+
         <div id="carousel-item-container" class="carousel-inner h-100">
             {% for game in games %}
                 {% if game.tags.includes("Featured") %}
@@ -52,6 +91,43 @@ title: MonoGame
             <img class="d-none d-md-block carousel-control-icon carousel-control-next-icon pe-auto" src="/images/home-page/chevron-right.svg">
             <span class="visually-hidden">Next</span>
         </button>
+    </section>
+
+    <!-- News Carousel Section - Mobile Only -->
+    <section class="container-xxl mb-5 d-lg-none">
+        <div class="news-carousel news-carousel-mobile" id="newsCarouselMobile">
+            <div class="news-track" id="newsTrackMobile">
+                {% for post in collections.blogPosts | reverse %}
+                    {% if loop.index <= 5 %}
+                        <div class="news-slide" data-url="{{ post.url }}">
+                            <div class="news-content">
+                                <div>
+                                    <h4 class="news-title">{{ post.data.title }}</h4>
+                                    <p class="news-excerpt">{{ post.data.excerpt }}</p>
+                                </div>
+                                <div class="news-meta">
+                                    <div class="news-category">{{ post.data.tags[0] | default('News') }}</div>
+                                    <div class="news-date">
+                                        <i class="bi bi-calendar3"></i>
+                                        {{ post.date | readableDate }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            <button class="news-carousel-nav news-carousel-prev" id="newsPrevBtnMobile">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+
+            <button class="news-carousel-nav news-carousel-next" id="newsNextBtnMobile">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+
+            <div class="news-carousel-controls" id="newsCarouselDotsMobile"></div>
+        </div>
     </section>
 
     <section class="container-xxl mb-5">
@@ -206,4 +282,5 @@ title: MonoGame
 
 {% block scripts %}
     <script type="text/javascript" src="/js/carousel.js"></script>
+    <script type="text/javascript" src="/js/news-carousel.js"></script>
 {% endblock %}
