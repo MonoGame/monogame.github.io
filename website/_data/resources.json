@@ -455,4 +455,16 @@
             "2d"
         ]
     }
+    ,
+    {
+        "title": "CartBlanche's MonoGame-Samples",
+        "author": "Dominique Louis (CartBlanche)",
+        "cover": "https://raw.githubusercontent.com/MonoGame/MonoGame.Logo/refs/heads/master/FullColorOnLight/LogoOnly_128px.png",
+        "url": "https://github.com/CartBlanche/MonoGame-Samples?tab=readme-ov-file#monogame-samples",
+        "pixelart": false,
+        "tags": [
+            "physics",
+            "2d"
+        ]
+    }
 ]
