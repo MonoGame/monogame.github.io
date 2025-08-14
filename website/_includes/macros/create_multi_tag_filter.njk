@@ -4,7 +4,7 @@
 {% macro create_multi_tag_filter(categories) %}
     <section class="container-xxl my-5">
         <h3 class="fw-bold">Categories</h3>
-        <p>Click categories to filter results. Hold <kbd>Shift</kbd> to select multiple categories and show items that have ALL selected tags.</p>
+        <p>Click categories to filter results. Hold <kbd>Shift</kbd> to select multiple categories and show items that have all selected tags.</p>
         <div class="d-flex flex-row flex-wrap gap-3 mb-1" id="tag-filter-container">
             {% for category in categories %}
                 {% if category !== "all" %}

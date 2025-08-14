@@ -149,7 +149,7 @@
                     activeFiltersElement.textContent = `Showing: ${tagList}`;
                 } else {
                     const tagList = Array.from(this.selectedTags).join(' + ');
-                    activeFiltersElement.textContent = `Showing items with ALL: ${tagList}`;
+                    activeFiltersElement.textContent = `Showing items with: ${tagList}`;
                 }
             }
         }
