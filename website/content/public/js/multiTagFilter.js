@@ -17,8 +17,7 @@
             }
 
             this.bindEvents();
-            
-            // Initial update
+                        
             this.updateDisplay();
             this.updateFilterStatus();
         }
@@ -81,6 +80,9 @@
                 button.classList.add('active');
                 button.setAttribute('aria-pressed', 'true');
             }
+            
+            // Remove focus to prevent button from appearing highlighted after click
+            button.blur();
         }
 
         clearAllFilters() {
@@ -113,12 +115,12 @@
         }
 
         shouldShowItem(itemTags) {
-            // If no tags selected, show all items
+            // If no tags selected show all
             if (this.selectedTags.size === 0) {
                 return true;
             }
 
-            // Check if item has ALL of the selected tags (AND logic)
+            // Check if item has ALL of the selected tags
             return Array.from(this.selectedTags).every(selectedTag => 
                 itemTags.some(itemTag => itemTag === selectedTag)
             );
@@ -152,8 +154,7 @@
             }
         }
     }
-
-    // Initialize resource tag filter when DOM is ready
+    
     document.addEventListener('DOMContentLoaded', function() {
         const resourceGallery = document.getElementById('resource-gallery');
         if (resourceGallery) {
