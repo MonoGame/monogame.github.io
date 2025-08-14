@@ -1,0 +1,31 @@
+{# Creates a section containing tags from the given categories that can be #}
+{# used to click to filter the items on a page based on those categories #}
+{# This version supports multi-tag filtering with client-side JavaScript #}
+{% macro create_multi_tag_filter(categories) %}
+    <section class="container-xxl my-5">
+        <h3 class="fw-bold">Categories</h3>
+        <p>Click categories to filter results. Hold <kbd>Shift</kbd> to select multiple categories and show items that have ALL selected tags.</p>
+        <div class="d-flex flex-row flex-wrap gap-3 mb-1" id="tag-filter-container">
+            {% for category in categories %}
+                {% if category !== "all" %}
+                    <button type="button"
+                            class="btn mg-outline-button d-flex justify-content-center text-capitalize fw-bold tag-filter-btn"
+                            data-tag="{{ category }}">
+                        {{ category }}
+                    </button>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div class="mt-3">
+            <button type="button" 
+                    class="btn btn-outline-secondary fw-bold px-4 py-2" 
+                    id="clear-filters">
+                Clear All Filters
+            </button>
+        </div>
+        <div class="mt-3 text-muted" id="filter-status">
+            <span id="results-count">{{ "All results" }}</span> • 
+            <span id="active-filters">No filters active</span>
+        </div>
+    </section>
+{% endmacro %}
