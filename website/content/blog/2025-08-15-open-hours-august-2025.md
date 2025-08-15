@@ -30,7 +30,7 @@ This time we'll have -
     * Vulkan Bounty
   * 3.8.5 Develop 8 Release Scope
 * Latest news on Ascent's progress
-* Latest new on the 3D Platformer Starter Kit
+* Latest news on the 3D Platformer Starter Kit
 * New Content builder updates
 * Special Guest - **Jonathan Peppers** of Draw a Stickman EPIC (over **5 million** downloads!)
 * Q&A from the Community
