@@ -8,6 +8,7 @@ permalink: resources/{{ (category | slugify) if category !== "all" }}/
 ---
 {% extends "layouts/base.layout.njk" %}
 {% from 'macros/create_category_filter.njk' import create_category_filter %}
+{% from 'macros/create_multi_tag_filter.njk' import create_multi_tag_filter %}
 
 {% block content %}
     <section class="container-xxl my-5">
@@ -20,13 +21,21 @@ permalink: resources/{{ (category | slugify) if category !== "all" }}/
         </p>
     </section>
 
-    {{ create_category_filter(collections.resourceTags, "/resources/", page.url) }}
+    {% if category === "all" %}
+        {# Show multi-tag filter only on the main resources page #}
+        {{ create_multi_tag_filter(collections.resourceTags) }}
+    {% else %}
+        {# Show single-tag filter on category pages #}
+        {{ create_category_filter(collections.resourceTags, "/resources/", page.url) }}
+    {% endif %}
 
     <section class="container-xxl mb-5">
         <div id="resource-gallery" class="mg-item-grid mg-grid-2">
             {% for resource in resources %}
                 {% if category in resource.tags or category === "all" %}
-                    <a class="mg-no-link hide-external-icon" href="{{ resource.url }}">
+                    <a class="mg-no-link hide-external-icon" 
+                       href="{{ resource.url }}"
+                       data-tags="{{ resource.tags | join(',') | lower }}">
                         <div class="mg-resource-container mg-box-shadow"
                              style="background-image: url('{{ resource.cover }}');">
                             <div class="transparent-overlay"></div>
@@ -63,6 +72,9 @@ permalink: resources/{{ (category | slugify) if category !== "all" }}/
 {% endblock %}
 
 {% block scripts %}
+{% if category === "all" %}
+<script type="text/javascript" src="/js/multiTagFilter.js"></script>
+{% endif %}
 <script type="text/javascript">
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
