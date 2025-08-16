@@ -396,7 +396,7 @@ blockquote {
 *** Style classes specific to the / home page
 *******************************************************************************/
 .carousel {
-  height: calc(100vh - var(--navbar-height));
+  height: calc(80vh - var(--navbar-height));
 }
 
 .carousel-content {
