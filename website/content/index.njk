@@ -19,6 +19,7 @@ title: MonoGame
                 </a>
             </div>
         </div>
+
         <div id="carousel-item-container" class="carousel-inner h-100">
             {% for game in games %}
                 {% if game.tags.includes("Featured") %}
@@ -52,6 +53,35 @@ title: MonoGame
             <img class="d-none d-md-block carousel-control-icon carousel-control-next-icon pe-auto" src="/images/home-page/chevron-right.svg">
             <span class="visually-hidden">Next</span>
         </button>
+    </section>
+
+    <section class="container-xxl mb-5">
+        <div class="row">
+            <h3 class="fw-semibold mb-4 text-body-emphasis">Latest News</h3>
+        </div>
+        <div class="mg-item-grid">
+            {% for post in collections.blogPosts | reverse %}
+                {% if loop.index <= 3 %}
+                    <a class="mg-no-link" href="{{ post.url }}">
+                        <div class="mg-card mg-box-shadow h-100 d-flex flex-column">
+                            <div class="mg-card-thumbnail"
+                                 style="background-image: url('{{ post.data.image }}');"
+                                 href="{{ post.url }}"></div>
+                            <div class="mg-card-body">
+                                <small>
+                                    {{ post.data.author }} -- {{ post.date | readableDate }}
+                                </small>
+                                <div class="mg-card-title">{{ post.data.title }}</div>
+                                <div class="mg-card-excerpt mb-3" title="{{ post.data.excerpt }}">
+                                    <p>{{ post.data.excerpt }}</p>
+                                </div>
+                                Click to read more...
+                            </div>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
     </section>
 
     <section class="container-xxl mb-5">
