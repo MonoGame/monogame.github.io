@@ -454,8 +454,7 @@
             "physics",
             "2d"
         ]
-    }
-    ,
+    },
     {
         "title": "CartBlanche's MonoGame-Samples",
         "author": "Dominique Louis (CartBlanche)",
@@ -464,6 +463,53 @@
         "pixelart": false,
         "tags": [
             "physics",
+            "2d",
+            "3d",
+            "networking",
+            "games"
+        ]
+    },
+    {
+        "title": "TexturePacker",
+        "author": "CodeAndWeb GmbH",
+        "cover": "https://www.codeandweb.com/img/monogame.net/texturepacker.png",
+        "url": "https://www.codeandweb.com/texturepacker/monogame",
+        "pixelart": false,
+        "tags": [
+            "tools",
+            "2d"
+        ]
+    },
+    {
+        "title": "TexturePacker Loader",
+        "author": "CodeAndWeb GmbH",
+        "cover": "https://www.codeandweb.com/img/monogame.net/texturepacker.png",
+        "url": "https://www.nuget.org/packages/TexturePacker-MonoGameLoader",
+        "pixelart": false,
+        "tags": [
+            "libraries",
+            "2d"
+        ]
+    },
+    {
+        "title": "How to use sprite sheets with MonoGame.Extended",
+        "author": "CodeAndWeb GmbH",
+        "cover": "https://www.codeandweb.com/img/monogame.net/monogame-extended-tutorial.png",
+        "url": "https://www.codeandweb.com/texturepacker/tutorials/how-to-use-sprite-sheets-with-monogame-extended",
+        "pixelart": false,
+        "tags": [
+            "courses",
+            "2d"
+        ]
+    },
+    {
+        "title": "How to create sprite sheets and animations with MonoGame",
+        "author": "CodeAndWeb GmbH",
+        "cover": "https://www.codeandweb.com/img/monogame.net/monogame-tutorial.png",
+        "url": "https://www.codeandweb.com/texturepacker/tutorials/how-to-create-sprite-sheets-and-animations-with-monogame",
+        "pixelart": false,
+        "tags": [
+            "courses",
             "2d"
         ]
     }
