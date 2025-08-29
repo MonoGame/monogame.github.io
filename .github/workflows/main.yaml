@@ -33,22 +33,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.SPONSORS_TOKEN }}
           GH_LOGIN: your-org
-        run: |
-          QUERY='query($login:String!){
-            organization(login:$login){
-              monthlyEstimatedSponsorsIncomeInCents
-              sponsorshipsAsMaintainer(first:1){ totalCount }
-            }
-          }'
-          RESP=$(curl -s https://api.github.com/graphql \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "Content-Type: application/json" \
-            -d "{\"query\":\"$QUERY\",\"variables\":{\"login\":\"$GH_LOGIN\"}}")
-          CENTS=$(echo "$RESP" | jq '.data.organization.monthlyEstimatedSponsorsIncomeInCents // 0')
-          COUNT=$(echo "$RESP" | jq '.data.organization.sponsorshipsAsMaintainer.totalCount // 0')
-          jq -n --argjson sum "$CENTS" --argjson count "$COUNT" \
-            '{ sponsor_sum: ($sum/100|floor), sponsor_count: $count }' \
-            > website/_data/gh_sponsors.json
+        uses: ./FetchGHSponsors
 
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v4
