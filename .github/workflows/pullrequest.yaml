@@ -46,6 +46,11 @@ jobs:
       - name: Build Site
         run: npm run build
 
+      - name: Upload Site Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
   complete:
       runs-on: ubuntu-latest
       needs: test
