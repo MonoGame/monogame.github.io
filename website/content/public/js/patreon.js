@@ -19,31 +19,33 @@
         }
     }
 
-    const response = await fetch('https://api.patreon.com/platform/users?filter[patreon_url]=https://www.patreon.com/MonoGame');
-    const data = await response.json();
+	// We have the GH Sponsors data updated from a workflow.
+	let patron_count = gh_sponsor_count;
+	let pledge_sum = gh_sponsor_sum;
 
-    if(data.included && data.included.length > 0) {
-        const attributes = data.included[0].attributes;
-        const patron_count = attributes.patron_count;
-        let pledge_sum = attributes.pledge_sum;
+	// Fetch Patreon data.
+	{
+		const response = await fetch('https://api.patreon.com/platform/users?filter[patreon_url]=https://www.patreon.com/MonoGame');
+		const data = await response.json();
+		if(data.included && data.included.length > 0) 
+		{
+			const attributes = data.included[0].attributes;
+			patron_count += attributes.patron_count;
+			pledge_sum += attributes.pledge_sum;
+		}
+	}
 
-        // HACK: Add in a few things from other services.
-        {
-            // Re-logic's monthly donation.
-            pledge_sum += 100000;
+	// Re-logic's fixed monthly donation.
+	pledge_sum += 100000;
 
-            // TODO: Get GitHub sponsors and merge them with this.
-            // Requires a personal access token to do so.
-        }
+	// Animate the results.
+	const total_patrons = document.getElementById('total-patrons');
+	countUp(total_patrons, patron_count, (x) => x);
 
-        const total_patrons = document.getElementById('total-patrons');
-        countUp(total_patrons, patron_count, (x) => x);
-
-        const per_month = document.getElementById('per-month');
-        countUp(per_month, pledge_sum, (x) => (x / 100).toLocaleString('en-US', {
-                 style: 'currency',
-                 currency: attributes.pledge_sum_currency
-            }));
-    }
+	const per_month = document.getElementById('per-month');
+	countUp(per_month, pledge_sum, (x) => (x / 100).toLocaleString('en-US', {
+			 style: 'currency',
+			 currency: 'USD'
+		}));
 
 })();
