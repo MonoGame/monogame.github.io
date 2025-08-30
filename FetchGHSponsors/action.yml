@@ -14,7 +14,7 @@ runs:
           }
         }'
 
-	echo "Token length: ${#GH_TOKEN}"
+        echo "Token length: ${#GH_TOKEN}"
 
         RESP=$(curl -s https://api.github.com/graphql \
           -H "Authorization: Bearer $GH_TOKEN" \
