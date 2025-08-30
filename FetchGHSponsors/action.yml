@@ -17,6 +17,11 @@ runs:
           -H "Authorization: Bearer $GH_TOKEN" \
           -H "Content-Type: application/json" \
           -d "{\"query\":\"$QUERY\",\"variables\":{\"login\":\"$GH_LOGIN\"}}")
+
+        echo "=== Raw GraphQL response ==="
+        echo "$RESP"
+        echo "============================"
+
         CENTS=$(echo "$RESP" | jq '.data.organization.monthlyEstimatedSponsorsIncomeInCents // 0')
         COUNT=$(echo "$RESP" | jq '.data.organization.sponsorshipsAsMaintainer.totalCount // 0')
         jq -n --argjson sum "$CENTS" --argjson count "$COUNT" \
