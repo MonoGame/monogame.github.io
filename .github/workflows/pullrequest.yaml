@@ -29,7 +29,6 @@ jobs:
       - name: Fetch GH Sponsors
         env:
           GH_TOKEN: ${{ secrets.SPONSORS_TOKEN }}
-          GH_LOGIN: your-org
         uses: ./FetchGHSponsors
 
       - name: Setup .NET Core SDK

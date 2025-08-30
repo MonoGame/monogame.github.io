@@ -16,7 +16,7 @@ runs:
         RESP=$(curl -s https://api.github.com/graphql \
           -H "Authorization: Bearer $GH_TOKEN" \
           -H "Content-Type: application/json" \
-          -d "{\"query\":\"$QUERY\",\"variables\":{\"login\":\"$GH_LOGIN\"}}")
+          -d "{\"query\":\"$QUERY\",\"variables\":{\"login\":\"MonoGame\"}}")
 
         echo "=== Raw GraphQL response ==="
         echo "$RESP"
