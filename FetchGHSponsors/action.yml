@@ -23,6 +23,6 @@ runs:
         CENTS=$(echo "$RESP" | jq '.data.organization.monthlyEstimatedSponsorsIncomeInCents // 0')
         COUNT=$(echo "$RESP" | jq '.data.organization.sponsorshipsAsMaintainer.totalCount // 0')
         jq -n --argjson sum "$CENTS" --argjson count "$COUNT" \
-          '{ sponsor_sum: ($sum/100|floor), sponsor_count: $count }' \
+          '{ sponsor_sum: $sum, sponsor_count: $count }' \
           > website/_data/gh_sponsors.json
       shell: bash
