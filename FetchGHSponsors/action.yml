@@ -13,6 +13,9 @@ runs:
             sponsorshipsAsMaintainer(first:1){ totalCount }
           }
         }'
+
+	echo "Token length: ${#GH_TOKEN}"
+
         RESP=$(curl -s https://api.github.com/graphql \
           -H "Authorization: Bearer $GH_TOKEN" \
           -H "Content-Type: application/json" \
