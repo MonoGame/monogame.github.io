@@ -1,0 +1,26 @@
+name: Fetch GH Sponsors
+description: 'Updates the GitHub spondors list for the Monogame website'
+author: 'MonoGame Foundation'
+runs:
+  using: "composite"
+  steps:
+    - name: Fetch
+      if: runner.os == 'Linux'
+      run: |
+        QUERY='query($login:String!){
+          organization(login:$login){
+            monthlyEstimatedSponsorsIncomeInCents
+            sponsorshipsAsMaintainer(first:1){ totalCount }
+          }
+        }'
+
+        BODY=$(jq -n --arg q "$QUERY" --arg login "$GH_LOGIN" '{query:$q, variables:{login:$login}}')
+
+        RESP=$(curl -s https://api.github.com/graphql -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" -d "$BODY")
+
+        CENTS=$(echo "$RESP" | jq '.data.organization.monthlyEstimatedSponsorsIncomeInCents // 0')
+        COUNT=$(echo "$RESP" | jq '.data.organization.sponsorshipsAsMaintainer.totalCount // 0')
+        jq -n --argjson sum "$CENTS" --argjson count "$COUNT" \
+          '{ sponsor_sum: ($sum/100|floor), sponsor_count: $count }' \
+          > website/_data/gh_sponsors.json
+      shell: bash

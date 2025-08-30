@@ -29,6 +29,12 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v4
 
+      - name: Fetch GH Sponsors
+        uses: ./FetchGHSponsors
+        env:
+          GH_TOKEN: ${{ secrets.SPONSORS_TOKEN }}
+          GH_LOGIN: your-org
+
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v4
         with:
