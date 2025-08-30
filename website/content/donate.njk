@@ -119,5 +119,9 @@ title: Donate
 {% endblock %}
 
 {% block scripts %}
+    <script type="text/javascript">
+	let gh_sponsor_sum = {{ gh_sponsors.sponsor_sum }};
+	let gh_sponsor_count = {{ gh_sponsors.sponsor_count }};
+    </script>
     <script async type="text/javascript" src="/js/patreon.js"></script>
 {% endblock %}
