@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - 'main'
-
+  schedule:
+    - cron: "0 0 * * *"   # Every day at 00:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -33,7 +34,7 @@ jobs:
         uses: ./FetchGHSponsors
         env:
           GH_TOKEN: ${{ secrets.SPONSORS_TOKEN }}
-          GH_LOGIN: your-org
+          GH_LOGIN: MonoGame
 
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v4
