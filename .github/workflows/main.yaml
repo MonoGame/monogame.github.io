@@ -30,10 +30,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Fetch GH Sponsors
+        uses: ./FetchGHSponsors
         env:
           GH_TOKEN: ${{ secrets.SPONSORS_TOKEN }}
           GH_LOGIN: your-org
-        uses: ./FetchGHSponsors
 
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v4
