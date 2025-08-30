@@ -16,7 +16,13 @@ runs:
 
         echo "Token length: ${#GH_TOKEN}"
 
-        RESP=$(curl -s https://api.github.com/graphql -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" -d "{'query':'$QUERY','variables':{'login':'monogame'}}")
+	BODY=$(jq -n --arg q "$QUERY" --arg login "$GH_LOGIN" '{query:$q, variables:{login:$login}}')
+
+        echo "=== Json Query ==="
+        echo "$BODY"
+        echo "============================"
+
+        RESP=$(curl -s https://api.github.com/graphql -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" -d "$BODY")
 
         echo "=== Raw GraphQL response ==="
         echo "$RESP"
