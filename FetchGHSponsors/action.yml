@@ -18,6 +18,8 @@ runs:
 
         RESP=$(curl -s https://api.github.com/graphql -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" -d "$BODY")
 
+        echo "$RESP"
+
         CENTS=$(echo "$RESP" | jq '.data.organization.monthlyEstimatedSponsorsIncomeInCents // 0')
         COUNT=$(echo "$RESP" | jq '.data.organization.sponsorshipsAsMaintainer.totalCount // 0')
         jq -n --argjson sum "$CENTS" --argjson count "$COUNT" \
