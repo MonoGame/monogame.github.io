@@ -16,7 +16,7 @@ runs:
 
         echo "Token length: ${#GH_TOKEN}"
 
-        BODY=$(jq -n --arg q "$QUERY" --arg login "$GH_LOGIN" '{query:$q, variables:{login:$login}}')
+        BODY=$(jq -n --arg q "$QUERY" --arg login "MonoGame" '{query:$q, variables:{login:$login}}')
 
         echo "=== Json Query ==="
         echo "$BODY"
