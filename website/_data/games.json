@@ -29,8 +29,7 @@
             "Linux",
             "Desktop",
             "Xbox One",
-            "Nintendo Switch",
-            "Featured"
+            "Nintendo Switch"
         ]
     },
     {
@@ -45,8 +44,7 @@
             "Console",
             "Playstation 4",
             "Xbox One",
-            "Nintendo Switch",
-            "Featured"
+            "Nintendo Switch"
         ]
     },
     {
@@ -89,8 +87,7 @@
             "2D",
             "Console",
             "Playstation 4",
-            "Nintendo Switch",
-            "Featured"
+            "Nintendo Switch"
         ]
     },
     {
@@ -183,8 +180,7 @@
         "tags": [
             "Mobile",
             "iOS",
-            "Android",
-            "Featured"
+            "Android"
         ]
     },
     {
@@ -196,8 +192,7 @@
         "pixelart": false,
         "tags": [
             "Console",
-            "Playstation 4",
-            "Featured"
+            "Playstation 4"
         ]
     },
     {
@@ -209,8 +204,7 @@
         "pixelart": false,
         "tags": [
             "Windows",
-            "Desktop",
-            "Featured"
+            "Desktop"
         ]
     },
     {
@@ -251,8 +245,7 @@
             "Console",
             "Playstation 4",
             "Mobile",
-            "Android",
-            "Featured"
+            "Android"
         ]
     },
     {
@@ -265,8 +258,7 @@
         "tags": [
             "Desktop",
             "Windows",
-            "2D",
-            "Featured"
+            "2D"
         ]
     },
     {
@@ -280,8 +272,7 @@
             "Console",
             "Playstation 4",
             "Xbox One",
-            "3D",
-            "Featured"
+            "3D"
         ]
     },
     {
@@ -330,8 +321,7 @@
         "tags": [
             "Playstation 4",
             "2D",
-            "Console",
-            "Featured"
+            "Console"
         ]
     },
     {
@@ -364,8 +354,7 @@
             "Nintendo Switch",
             "Playstation Vita",
             "2D",
-            "Console",
-            "Featured"
+            "Console"
         ]
     },
     {
@@ -430,8 +419,7 @@
             "Windows",
             "2D",
             "Console",
-            "Desktop",
-            "Featured"
+            "Desktop"
         ]
     },
     {
@@ -476,8 +464,7 @@
             "Nintendo Switch",
             "2D",
             "Desktop",
-            "Console",
-            "Featured"
+            "Console"
         ]
     },
     {
@@ -923,7 +910,7 @@
             "Linux",
             "Featured"
         ]
-    }  ,
+    },
     {
         "name": "spartansurvivors",
         "title": "Spartan Survivors",
@@ -936,5 +923,113 @@
             "2D",
             "Windows"
         ]
-    }  
+    },
+    {
+        "name": "sharpshooter",
+        "title": "Sharpshooter",
+        "logo": "sharpshooter-logo.png",
+        "screenshot": "sharpshooter-screenshot.jpg",
+        "url": "https://store.steampowered.com/app/2835310/Sharpshooter/",
+        "pixelart": false,
+        "tags": [
+            "Desktop",
+            "3D",
+            "Windows",
+            "Featured"
+        ]
+    },
+    {
+        "name": "tamashika",
+        "title": "TAMASHIKA",
+        "logo": "tamashika-logo.png",
+        "screenshot": "tamashika-screenshot.jpg",
+        "url": "https://store.steampowered.com/app/2996080/TAMASHIKA/",
+        "pixelart": false,
+        "tags": [
+            "Desktop",
+            "3D",
+            "Windows",
+            "Featured"
+        ]
+    },
+    {
+        "name": "shredders",
+        "title": "Teenage Mutant Ninja Turtles Shredder's Revenge",
+        "logo": "shredders-logo.png",
+        "screenshot": "shredders-screenshot.png",
+        "url": "https://www.shredders-revenge.com/",
+        "pixelart": false,
+        "tags": [
+            "Console",
+            "2D",
+            "Xbox One",
+            "Xbox Series X/S",
+            "Nintendo Switch",
+            "Playstation 4",
+            "Playstation 5",
+            "Featured"
+        ]
+    },
+    {
+        "name": "kynseed",
+        "title": "Kynseed",
+        "logo": "kynseed-logo.png",
+        "screenshot": "kynseed-screenshot.png",
+        "url": "https://kynseed.com/",
+        "pixelart": false,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Featured"
+        ]
+    },
+    {
+        "name": "carrion",
+        "title": "Carrion",
+        "logo": "carrion-logo.png",
+        "screenshot": "carrion-screenshot.jpg",
+        "url": "https://www.carrion.game/",
+        "pixelart": false,
+        "tags": [
+            "Desktop",
+            "Console",
+            "2D",
+            "Xbox One",
+            "Nintendo Switch",
+            "Playstation 4",
+            "Mobile",
+            "iOS",
+            "Android",
+            "Featured"
+        ]
+    },
+    {
+        "name": "blockscape",
+        "title": "Blockscape",
+        "logo": "blockscape-logo.png",
+        "screenshot": "blockscape-screenshot.jpg",
+        "url": "https://store.steampowered.com/app/223490/Blockscape/",
+        "pixelart": false,
+        "tags": [
+            "Desktop",
+            "3D",
+            "Featured"
+        ]
+    },
+    {
+        "name": "axiom2",
+        "title": "Axiom Verge 2",
+        "logo": "axiom2-logo.png",
+        "screenshot": "axiom2-screenshot.png",
+        "url": "https://www.axiomverge2.com/",
+        "pixelart": true,
+        "tags": [
+            "Console",
+            "2D",
+            "Xbox One",
+            "Nintendo Switch",
+            "Playstation 4",
+            "Playstation 5"
+        ]
+    }
 ]
