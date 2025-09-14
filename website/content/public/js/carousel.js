@@ -16,15 +16,24 @@
     }
 
     const initializeCarousel = () => {
-        let container = document.getElementById('carousel-item-container');
-        let items = container.getElementsByClassName('carousel-item');
-        const order = Array.from( {length: items.length}, (value, index) => index);
-        shuffle(order);
-        for(let i = 0; i < order.length; i++) {
-            container.appendChild(items[order[i]]);
-        }
-        container.children[0].className += ' active';
 
+		// Get all the carousel items from the document.
+        let container = document.getElementById('carousel-item-container');
+        let items = Array.from(container.getElementsByClassName('carousel-item'));
+
+		// Remove them before we add them back shuffled.
+		for(let i = 0; i < items.length; i++)
+            container.removeChild(items[i]);
+
+		// Since we made a copy we can shuffle it directly.
+        shuffle(items);
+
+		// Add the items back in the new order.
+        for(let i = 0; i < items.length; i++)
+            container.appendChild(items[i]);
+
+		// Make the first one visible.
+		container.children[0].className += ' active';
     }
 
     initializeCarousel();
