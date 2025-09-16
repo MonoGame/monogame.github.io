@@ -569,19 +569,19 @@
         "url": "https://baroquedecay.com/#games",
         "pixelart": true,
         "tags": [
-           "Desktop",
-           "Mobile",
-           "Console",
-           "2D",
-           "Windows",
-           "Mac",
-           "Linux",
-           "iOS",
-           "Android",
-           "Nintendo Switch",
-           "Playstation 4",
-           "Xbox One"
-       ]
+            "Desktop",
+            "Mobile",
+            "Console",
+            "2D",
+            "Windows",
+            "Mac",
+            "Linux",
+            "iOS",
+            "Android",
+            "Nintendo Switch",
+            "Playstation 4",
+            "Xbox One"
+        ]
     },
     {
         "name": "melkhiors-mansion",
@@ -610,8 +610,7 @@
             "2D",
             "Windows"
         ]
-    }
-    ,
+    },
     {
         "name": "xon",
         "title": "Xon",
@@ -723,8 +722,7 @@
             "Windows",
             "Linux"
         ]
-    }
-    ,
+    },
     {
         "name": "margoqslair",
         "title": "Margoq's Lair",
@@ -737,8 +735,7 @@
             "2D",
             "Windows"
         ]
-    }
-    ,
+    },
     {
         "name": "tabletsofpower",
         "title": "Tablets of Power",
@@ -922,7 +919,7 @@
             "Windows",
             "Linux"
         ]
-    }  ,
+    },
     {
         "name": "spartansurvivors",
         "title": "Spartan Survivors",
@@ -935,5 +932,34 @@
             "2D",
             "Windows"
         ]
-    }  
+    },
+    {
+        "name": "bloominitiative",
+        "title": "The B.L.O.O.M Initiative",
+        "logo": "bloominitiative-logo.png",
+        "screenshot": "bloominitiative-screenshot.png",
+        "url": "https://store.steampowered.com/app/3543740/The_BLOOM_Initiative/",
+        "pixelart": false,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows",
+            "Mac"
+        ]
+    },
+    {
+        "name": "worldwiderush",
+        "title": "Worldwide Rush",
+        "logo": "worldwiderush-logo.png",
+        "screenshot": "worldwiderush-screenshot.jpg",
+        "url": "https://store.steampowered.com/app/3325500/Worldwide_Rush/",
+        "pixelart": false,
+        "tags": [
+            "Desktop",
+            "2D",
+            "3D",
+            "Windows",
+            "Featured"
+        ]
+    }
 ]
