@@ -1,6 +1,6 @@
 ---
 title: 13th MonoGame "Open Hours" AMA session
-date: "2025-09-12"
+date: "2025-10-12"
 excerpt: Meet the MonoGame team and get your questions answered
 tags: announcements
 author: MonoGame Foundation
