@@ -1,5 +1,15 @@
 [
     {
+        "title": "A Gamer's Introduction to Programming with MonoGame",
+        "author": "Aaron Langille",
+        "cover": "https://images.routledge.com/common/jackets/amazon/978103274/9781032743264.jpg",
+        "url": "https://www.routledge.com/A-Gamers-Introduction-to-Programming-with-MonoGame-Welcome-Brave-Adventurer/Langille/p/book/9781032745381",
+        "pixelart": false,
+        "tags": [
+            "books"
+        ]
+    },
+    {
         "title": "Beginning C# Programming with MonoGame",
         "author": "A.T. Chamillard",
         "cover": "https://m.media-amazon.com/images/I/61LDsDJX8hL._SL1250_.jpg",
