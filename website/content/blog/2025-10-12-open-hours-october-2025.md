@@ -10,7 +10,7 @@ ogImage: /images/blog/cover/monogame_foundation.png
 
 The MonoGame Foundation is hoping you can join the MonoGame community for our 13th AMA session.
 
-## 13th "Open Hours" AMA Meeting
+## Our 13th "Open Hours" AMA Meeting
 
 Will be on:
 
@@ -32,7 +32,7 @@ This time we'll have -
   * Starter Kits
   * New Streaming plans
 * MonoGame Book announcement
-* Get in Shape - Shapes library overview and dev talk​ by Jean-David Moisan(apos) ​
+* Get in Shape - Shape library overview and dev talk​ by Jean-David Moisan (Apos) ​
 * Q&A from the Community
 
 If you prefer to just type, the call will also use Discord's text features and the team will be on hand to respond too.
