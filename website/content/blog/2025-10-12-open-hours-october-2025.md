@@ -25,7 +25,7 @@ Will be on:
         </a>
     </div>
     <div class="col-md-auto mb-2 mx-4">
-        <a class="btn mg-patreon-button px-4" type="button" href="https://www.twitch.tv/MonoGame/schedule?seriesID=ba167af1-96f1-4b0d-b07b-bde833d614ed" target="_blank">
+        <a class="btn mg-patreon-button px-4" type="button" href="https://www.twitch.tv/monogame" target="_blank">
                 {% include 'svgs/logos/twitch.svg'%} Twitch
         </a>
     </div>
