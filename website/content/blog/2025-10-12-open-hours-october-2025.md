@@ -30,7 +30,7 @@ Will be on:
         </a>
     </div>
     <div class="col-md-auto mb-2 mx-4">
-        <a class="btn mg-patreon-button px-4" type="button" href="https://www.patreon.com/bePatron?u=3142012" target="_blank">
+        <a class="btn mg-patreon-button px-4" type="button" href="https://fb.me/e/65aGoxeVF" target="_blank">
                 {% include 'svgs/logos/facebook.svg'%} Facebook
         </a>
     </div>
