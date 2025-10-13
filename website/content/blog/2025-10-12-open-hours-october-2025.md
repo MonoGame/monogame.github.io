@@ -18,10 +18,23 @@ Will be on:
 
 ### Watch on:
 
-[YouTube](https://www.youtube.com/watch?v=gImh8S0iRhA)
-[Twitch](https://www.twitch.tv/monogame)
-[Facebook](https://fb.me/e/65aGoxeVF)
-
+<div class="row justify-content-center">
+    <div class="col-md-auto mb-2 mx-4">
+        <a class="btn mg-patreon-button px-4" type="button" href="https://www.youtube.com/watch?v=gImh8S0iRhA" target="_blank">
+                {% include 'svgs/logos/youtube.svg'%} YouTube
+        </a>
+    </div>
+    <div class="col-md-auto mb-2 mx-4">
+        <a class="btn mg-patreon-button px-4" type="button" href="https://www.twitch.tv/MonoGame/schedule?seriesID=ba167af1-96f1-4b0d-b07b-bde833d614ed" target="_blank">
+                {% include 'svgs/logos/twitch.svg'%} Twitch
+        </a>
+    </div>
+    <div class="col-md-auto mb-2 mx-4">
+        <a class="btn mg-patreon-button px-4" type="button" href="https://www.patreon.com/bePatron?u=3142012" target="_blank">
+                {% include 'svgs/logos/facebook.svg'%} Facebook
+        </a>
+    </div>
+</div>
 
 ## Agenda
 
