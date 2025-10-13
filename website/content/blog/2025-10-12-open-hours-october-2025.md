@@ -12,13 +12,15 @@ The MonoGame Foundation is hoping you can join the MonoGame community for our 13
 
 ## 13th "Open Hours" AMA Meeting
 
-The 13th MonoGame "Open Hours" AMA meeting will be on:
+Will be on:
 
 ### Wednesday 15th of October, @ 12:00 EDT, 16:00 UTC, 17:00 BST, 18:00 CET
 
-### Channel and Connection Details
+### Watch on:
 
-Join us on [YouTube](https://www.youtube.com/watch?v=gImh8S0iRhA), [Twitch](https://www.twitch.tv/MonoGame/schedule), or [Facebook](https://www.facebook.com/monogamecommunity).
+[YouTube](https://www.youtube.com/watch?v=gImh8S0iRhA)
+[Twitch](https://www.twitch.tv/monogame)
+[Facebook](https://fb.me/e/65aGoxeVF)
 
 
 ## Agenda
