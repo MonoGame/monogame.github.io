@@ -18,7 +18,7 @@ The 13th MonoGame "Open Hours" AMA meeting will be on:
 
 ### Channel and Connection Details
 
-#### [MonoGame ReStream](https://studio.restream.io/efo-zckr-xoe)
+Join us on [YouTube](https://www.youtube.com/watch?v=gImh8S0iRhA), [Twitch](https://www.twitch.tv/MonoGame/schedule), or [Facebook](https://www.facebook.com/monogamecommunity).
 
 
 ## Agenda
