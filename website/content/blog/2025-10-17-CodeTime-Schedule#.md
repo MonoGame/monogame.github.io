@@ -1,5 +1,5 @@
 ---
-title: MonoGae Code Time
+title: MonoGame Code Time
 date: "2025-10-17"
 excerpt: Catch up on the live coding session with the MonoGame team - Every friday 15:00 UTC
 tags: streaming
