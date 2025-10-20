@@ -14,11 +14,11 @@ In response to changes at Google and iOS alike, the MonoGame Foundation is relea
 
 Namely:
 
-- Google 16kb policy update - requiring all published applications to comply with the new policy by 1st December. THis includes all dependencies a project uses.
+- Google 16kb policy update - requiring all published applications to comply with the new policy by 1st December. This includes all dependencies a project uses.
 - Various iOS updates and minimum app version updates (plus changes to the native API)
 
 ::: note Only affects mobile builds
-If you are solely targetting Desktop or Console builds, this update will not affect you, the 3.8.4.1 patch only contains fixes required for Android and iOS distribution.
+If you are solely targeting Desktop or Console builds, this update will not affect you, the 3.8.4.1 patch only contains fixes required for Android and iOS distribution.
 :::
 
 ## Upgrade guide - required reading
@@ -42,18 +42,18 @@ Additionally in order to comply with the Google policy updates (and iOS fixes), 
 This should be applied to ANY Android or iOS client project and any dependencies such as class libraries to be safe.
 
 ::: warning All dependencies MUST be compliant
-MonoGame has gone through rigorous testing to ensure that both DotNet9 and any MonoGame dependencies (primarily OpenAL) are up to date and compliant with the recent policy changes.  However, this also applies to any other dependencies in your client project, so best to check before submitting updates to the stores.
+MonoGame has gone through rigorous testing to ensure that both DotNet 9 and any MonoGame dependencies (primarily OpenAL) are up to date and compliant with the recent policy changes.  However, this also applies to any other dependencies in your client project, so best to check before submitting updates to the stores.
 :::
 
 The MonoGame templates have also all be updated to use DotNet 9 from 3.8.4.1, this is only a recommendation (unlike Android / iOS which are MANDATORY) and you can downgrade to DotNet 8 if you wish, or even update to DotNet 10 when it is available, it will have no impact on the MonoGame Framework.
 
 ## Checking your Android app compliance
 
-A handy powershell script and instructions has been made available by Simon Jackson, in a GitHub gist, including instructions for how to test your compiled APK/AAB package for compliant libraries, full details below:
+A handy PowerShell script and instructions has been made available by Simon Jackson, in a GitHub gist, including instructions for how to test your compiled APK/AAB package for compliant libraries, full details below:
 
 > ### [GitHub Gist for Android Policy checking](https://gist.github.com/SimonDarksideJ/d42e73c0030114b6370ef1dc0c0d94dd)
 
-Another user has also commented on the Gist with a tool that does all the unpacking and verification for you, but this has not been tested by Simon.  Use at your digression.
+Another user has also commented on the Gist with a tool that does all the unpacking and verification for you, but this has not been tested by Simon.  Use at your discretion.
 
 ## Feedback
 
