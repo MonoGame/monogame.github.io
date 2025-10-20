@@ -14,7 +14,7 @@ In response to changes at Google and iOS alike, the MonoGame Foundation is relea
 
 Namely:
 
-- Google 16kb policy update - requiring all published applications to comply with the new policy by 1st December. This includes all dependencies a project uses.
+- Google 16kb policy update - requiring all published applications to comply with the new policy by 1st November. This includes all dependencies a project uses.
 - Various iOS updates and minimum app version updates (plus changes to the native API)
 
 ::: note Only affects mobile builds
