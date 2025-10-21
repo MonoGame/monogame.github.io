@@ -1,11 +1,11 @@
 ---
-title: MonoGame Creators University
+title: MonoGame University
 date: "2025-10-21"
 excerpt: Catch up on the tutorial sessions with the MonoGame team - Every Thursday 15:00 UTC
 tags: streaming
 author: MonoGame Foundation
-image: /images/blog/cover/CreatorsUniversity.png
-ogImage: /images/blog/cover/CreatorsUniversity.png
+image: /images/blog/cover/MonoGameUniversity.png
+ogImage: /images/blog/cover/MonoGameUniversity.png
 ---
 
 Join the MonoGame Foundation team in a regular teaching session featuring the MonoGame Framework, get the chance to ask questions live as we build out projects from scratch and learn along the way.
