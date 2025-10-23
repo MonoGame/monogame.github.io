@@ -8,7 +8,7 @@ image: /images/blog/cover/MonoGameUniversity.png
 ogImage: /images/blog/cover/MonoGameUniversity.png
 ---
 
-Join the MonoGame Foundation team in a regular teaching session featuring the MonoGame Framework, get the chance to ask questions live as we build out projects from scratch and learn along the way.
+Join the MonoGame Foundation team in a regular teaching session featuring the MonoGame Framework, get the chance to ask questions live, as we build out projects from scratch and learn along the way.
 
 ## Every Thursday @ 11:00 EDT, 15:00 UTC, 16:00 BST, 17:00 CET
 
@@ -37,6 +37,6 @@ Join the MonoGame Foundation team in a regular teaching session featuring the Mo
 Catch up on past events
 
 - On the [YouTube playlist](https://www.youtube.com/playlist?list=PLTWJSIs82sS3w2BFWkQ97GROGVxuG8JHj) for previous sessions
-- The [Discord Chat](https://discord.com/channels/355231098122272778/1428296854059356201) specifically for the Creators University stream
+- The [Discord Chat](https://discord.com/channels/355231098122272778/1428296854059356201) specifically for the MonoGame University stream
 
 {% include 'partials/_blog_footer.njk' %}
