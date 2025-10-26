@@ -33,7 +33,7 @@ if [ -z "$CAMPAIGN_ID" ]; then
 fi
 
 # Fetch members with pagination support
-OUTPUT_FILE="../website/_data/patreons.json"
+OUTPUT_FILE="website/_data/patreons.json"
 TEMP_FILE=$(mktemp)
 ALL_MEMBERS="[]"
 NEXT_CURSOR=""
@@ -62,12 +62,6 @@ while true; do
     # Process the response
     echo "$RESPONSE" > "$TEMP_FILE"
     
-    # Debug: Show structure of response
-    echo "DEBUG: Response data count: $(echo "$RESPONSE" | jq '.data | length')"
-    echo "DEBUG: First member structure:"
-    echo "$RESPONSE" | jq '.data[0]' || echo "No data found"
-    echo "DEBUG: Included items count: $(echo "$RESPONSE" | jq '.included | length')"
-    
     # Extract members from this page
     PAGE_MEMBERS=$(jq '[
         .data[] | 
@@ -80,17 +74,8 @@ while true; do
         }
     ]' "$TEMP_FILE")
     
-    echo "DEBUG: All members (including inactive): $(echo "$PAGE_MEMBERS" | jq 'length')"
-    echo "DEBUG: First filtered member:"
-    echo "$PAGE_MEMBERS" | jq '.[0]' || echo "No filtered members"
-    
     # Extract included data (tiers and users)
     INCLUDED=$(jq '.included // []' "$TEMP_FILE")
-    
-    echo "DEBUG: Included types:"
-    echo "$INCLUDED" | jq '[group_by(.type) | .[] | {type: .[0].type, count: length}]'
-    echo "DEBUG: First tier:"
-    echo "$INCLUDED" | jq '[.[] | select(.type == "tier")][0]'
     
     # Simplified merge - include all patrons with active status, excluding free tier
     PAGE_RESULT=$(jq -n \
@@ -105,10 +90,6 @@ while true; do
                 active: ($m.patron_status == "active_patron")
             }
         ) | map(select(.tier != "Unknown" and .tier != "" and .tier != "Free")) | sort_by(.tier) | reverse')
-    
-    echo "DEBUG: Page result count (after filtering): $(echo "$PAGE_RESULT" | jq 'length')"
-    echo "DEBUG: First few results:"
-    echo "$PAGE_RESULT" | jq '.[0:2]'
     
     # Merge with all members
     ALL_MEMBERS=$(jq -n \
