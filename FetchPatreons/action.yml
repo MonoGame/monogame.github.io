@@ -1,0 +1,11 @@
+name: Fetch Patreons
+description: 'Updates the Patreon list for the Monogame website'
+author: 'MonoGame Foundation'
+runs:
+  using: "composite"
+  steps:
+    - name: Fetch
+      if: runner.os == 'Linux'
+      run: |
+        ./FetchPatreons/fetch_patreon_members.sh
+      shell: bash
