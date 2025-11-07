@@ -1058,5 +1058,35 @@
             "Windows",
             "Featured"
         ]
+    },
+    {
+        "name": "braveescape",
+        "title": "Brave Escape",
+        "logo": "braveescape-logo.png",
+        "screenshot": "braveescape-screenshot.jpg",
+        "url": "https://hitstartstudios.com/games/brave-escape/",
+        "pixelart": false,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows",
+            "Mac",
+            "Linux"
+        ]
+    },
+    {
+        "name": "abugawarpzone",
+        "title": "Abuga Warp Zone",
+        "logo": "abugawarpzone-logo.png",
+        "screenshot": "abugawarpzone-screenshot.png",
+        "url": "https://abugawarpzone.com/",
+        "pixelart": false,
+        "tags": [
+            "Desktop",
+            "2D",
+            "Windows",
+            "Mac",
+            "Linux"            
+        ]
     }
 ]
