@@ -1,7 +1,7 @@
 ---
 title: MonoGame Content Builder
 date: "2025-11-06"
-excerpt: Check out the all the latest and greatest regarding the new MonoGame COntent Builder project coming in preview in `3.8.5`
+excerpt: Check out the all the latest and greatest regarding the new MonoGame Content Builder project coming in preview in `3.8.5`
 tags: releases
 author: MonoGame Foundation
 image: /images/blog/cover/monogame_content_builder.png
