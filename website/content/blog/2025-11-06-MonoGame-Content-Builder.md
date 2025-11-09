@@ -1,7 +1,7 @@
 ---
 title: MonoGame Content Builder
 date: "2025-11-06"
-excerpt: Check out the all the latest and greatest regarding the new MonoGame Content Builder project coming in preview in `3.8.5`
+excerpt: Check out all the latest and greatest regarding the new MonoGame Content Builder project coming in preview in `3.8.5`
 tags: releases
 author: MonoGame Foundation
 image: /images/blog/cover/monogame_content_builder.png
@@ -15,7 +15,7 @@ The new `Content Builder Project` is one the hottest things coming in preview in
 The MonoGame team showcased the new `Content Builder` project, highlighting why it is critical to use some form of curated asset management when building your content for multiple platforms, highlighting the complexities in platform targetting and how the `Content Pipeline` greatly simplifies asset maintenance and delivery.
 
 ::: tip More incoming
-Content is getting a specific focus for `3.8.5`, so expect more advanced guidance for managing content, especially if you want to target consoles.  We plan to expose all the fundamental issus the team encounter when porting other projects to Console and beyond.
+Content is getting a specific focus for `3.8.5`, so expect more advanced guidance for managing content, especially if you want to target consoles.  We plan to expose all the fundamental issues the team encounter when porting other projects to Console and beyond.
 :::
 
 ### Watch on:
