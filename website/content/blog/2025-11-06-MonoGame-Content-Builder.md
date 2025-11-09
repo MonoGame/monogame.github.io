@@ -45,7 +45,7 @@ The latest release of the new `Content Builder` Project is only available in the
 See the [instructions here](https://docs.monogame.net/articles/getting_to_know/howto/HowTo_Install_Preview_Release.html) for how to install the preview project templates and update your project to use `3.8.5-develop` (preview) releases.
 :::
 
-This guide will walk you through all the current workings of the new `COntent Builder` Project solution and how it can greatly improve your asset management with MonoGame projects, including:
+This guide will walk you through all the current workings of the new `Content Builder` Project solution and how it can greatly improve your asset management with MonoGame projects, including:
 
 1. [What is the ContentBuilder?](https://docs.monogame.net/articles/getting_started/content_pipeline/content_builder_project.html#what-is-the-contentbuilder)
 2. [Getting Started](https://docs.monogame.net/articles/getting_started/content_pipeline/content_builder_project.html#getting-started)
