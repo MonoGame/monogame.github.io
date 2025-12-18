@@ -8,7 +8,7 @@ image: /blog/images/2025-12-18/snowfall.png
 ogImage: /blog/images/2025-12-18/snowfall.png
 ---
 
-The MonoGame Foundation pleased to offer a thank-you gift to our supporters.
+The MonoGame Foundation is pleased to offer a thank-you gift to our supporters.
 
 ## A Thank-you Gift to our supporters
 
