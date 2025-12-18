@@ -8,9 +8,9 @@ image: /blog/images/2025-12-18/snowfall.png
 ogImage: /blog/images/2025-12-18/snowfall.png
 ---
 
-The MonoGame Foundation pleased to offer a thank-you gift to our sponsors.
+The MonoGame Foundation pleased to offer a thank-you gift to our supporters.
 
-## Festive Gift for all Sponsors
+## A Thank-you Gift to our supporters
 
 As mentioned on the AMA on the 17th of December, as a big thank you for all your support over the last year (or two), we have put together this little sample for everyone. Its not a full game or anything like that, but it does show off some of the things you can do with MonoGame in 3D. The features of the sample are
 
