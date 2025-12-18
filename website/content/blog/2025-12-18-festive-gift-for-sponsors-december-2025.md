@@ -4,8 +4,8 @@ date: "2025-12-18"
 excerpt: A thank-you for our supporters
 tags: announcements
 author: MonoGame Foundation
-image: /images/2025-12-18/snowfall.png
-ogImage: /images/2025-12-18/snowfall.png
+image: /blog/images/2025-12-18/snowfall.png
+ogImage: /blog/images/2025-12-18/snowfall.png
 ---
 
 The MonoGame Foundation pleased to offer a thank-you gift to our sponsors.
@@ -22,6 +22,8 @@ As mentioned on the AMA on the 17th of December, as a big thank you for all your
 * Screenshot support
 * Uses the new preview Content Builder
 
+Become a sponsor ([Patreon](https://www.patreon.com/MonoGame), [Github](https://github.com/sponsors/MonoGame)) to gain access to this festive code :) 
 
+Already a sponsor? Jump over to our [Patreon](https://www.patreon.com/posts/festive-gift-for-146134630) to download the code.
 
 {% include 'partials/_blog_footer.njk' %}
