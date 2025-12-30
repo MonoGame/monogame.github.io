@@ -2,6 +2,11 @@
     {
         "name": "Re-Logic",
         "url": "https://re-logic.com/",
-        "image": "Re-Logic_Logo_with_BG"
+        "image": "Re-Logic_Logo_with_BG.jpg"
+    },
+    {
+        "name": "ConcernedApe",
+        "url": "https://www.stardewvalley.net/",
+        "image": "ConcernedApe_logo.png"
     }
 ]
