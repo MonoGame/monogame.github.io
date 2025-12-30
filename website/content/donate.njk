@@ -47,17 +47,19 @@ title: Donate
     </section>
 
     <section class="container-xxl mb-5">
-        <h1 id="sponsors" class="fw-bold"><a href="#sponsors">Corporate Sponsors</a></h1>
+        <h1 id="sponsors" class="fw-bold"><a href="#sponsors">Premier Sponsors</a></h1>
 	<p>If you're interested in becoming a headline sponsor of MonoGame please <a href="/about/#contact-us">contact us</a>.</p>
     <br/>
-        <div class="row justify-content-center">
+        <div class="container">
+	<div class="row g-5 justify-content-center align-items-center">
             {% for sponsor in sponsors %}
-                <div class="col-lg-6 mb-5">
+                <div class="col-auto">
                     <a class="hide-external-icon" href="{{sponsor.url}}" title="{{sponsor.name}}">
-                        <img src="/images/donate/Re-Logic_Logo_with_BG.jpg" style="width: 100%; height: auto;" alt="{{sponsor.name}}"/>
+                        <img src="/images/donate/{{sponsor.image}}" class="img-fluid" alt="{{sponsor.name}}"/>
                     </a>
                 </div>
             {% endfor %}
+	</div>
         </div>
     </section>
     <section class="container-xxl mb-5">
