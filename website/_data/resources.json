@@ -203,17 +203,25 @@
         ]
     },
     {
-        "title": "MLEM and MLEM.Ui",
+        "title": "MLEM",
         "author": "Ellpeck",
         "cover": "https://raw.githubusercontent.com/Ellpeck/MLEM/main/Media/Logo.png",
         "url": "https://mlem.ellpeck.de/",
         "pixelart": false,
         "tags": [
-            "libraries",
+            "libraries"
+        ]
+    },
+    {
+        "title": "MLEM.Ui",
+        "author": "Ellpeck",
+        "cover": "https://raw.githubusercontent.com/Ellpeck/MLEM/main/Media/Ui.gif",
+        "url": "https://mlem.ellpeck.de/articles/ui.html",
+        "pixelart": false,
+        "tags": [
             "ui"
         ]
-    }
-    ,
+    },
     {
         "title": "Contentless",
         "author": "Ellpeck",
