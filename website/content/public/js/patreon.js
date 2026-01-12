@@ -38,6 +38,9 @@
 	// Re-logic's fixed monthly donation.
 	pledge_sum += 100000;
 
+    // ConcernedApe's fixed monthly donation.
+	pledge_sum += 125000;
+    
 	// Animate the results.
 	const total_patrons = document.getElementById('total-patrons');
 	countUp(total_patrons, patron_count, (x) => x);
