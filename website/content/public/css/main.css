@@ -869,3 +869,34 @@ blockquote {
 .mg-two-column-list li {
   margin-left: 1.5rem; /* Adjusts indentation for list items */
 }
+
+
+/*******************************************************************************
+*** Section: Donations
+*** Styles for donations page
+*******************************************************************************/
+
+.donationList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  column-gap: 0px;
+}
+
+.donationList li {
+  width: fit-content;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.donationList li:not(:last-child)::after {
+  content: '\00B7';
+  margin: 0 0.5em;
+  opacity: 0.6;
+}
+
+.credits {
+  width: clamp(320px, 80%, 1200px);
+  margin-inline: auto;
+}

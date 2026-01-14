@@ -62,12 +62,14 @@ title: Donate
 	</div>
         </div>
     </section>
+
     <section class="container-xxl mb-5">
         <h1 id="patreons" class="fw-bold"><a href="#patreons">Monthly Sponsors</a></h1>
         <p>
             The following is a list of individuals and studios that support us through <a href="https://www.patreon.com/bePatron?u=3142012">Patreon</a>.
         </p>
         <br/>
+	<div class="credits">
             {% set tiers = [
                 { name: "EnvironmentMapEffect", url: "https://www.patreon.com/checkout/MonoGame?rid=9142452", size: "fs-3" },
                 { name: "Model.Draw", url: "https://www.patreon.com/checkout/MonoGame?rid=9142450", size: "fs-4" },
@@ -81,22 +83,18 @@ title: Donate
 		       <h3 class="fw-bold text-center"><a href="#{{tier.name}}">{{tier.name}}</a></h3>
 			<br />
 			<br />
+			<ul class="donationList list-unstyled">
 		            {% for patreon in patreons %}
 			        {% if patreon.tier == tier.name and patreon.active %}
-		                <div class="col-6 col-md-4 mb-1 text-center {{tier.size}}" >
-				    {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}{{patreon.name}}{% if patreon.url %}</a>{% endif %}
-		                    <br />
-				</div>
+					<li class="{{tier.size}}">{% if patreon.url %}<a href="{{patreon.url}}">{% endif %}{{patreon.name}}{% if patreon.url %}</a>{% endif %}</li>
 			        {% endif %}
 	                    {% endfor %}
 		            {% for patreon in patreons %}
 			        {% if patreon.tier == tier.name and not patreon.active %}
-		                <div class="col-6 col-md-4 mb-1 text-center text-secondary {{tier.size}}">
-	                            {{patreon.name}}
-		                    <br />
-				</div>
+			                <li class="{{tier.size}} text-secondary">{{patreon.name}}</li>
 			        {% endif %}
 	                    {% endfor %}
+			</ul>
 			<br />
 			<br />
 			<br />
@@ -104,7 +102,7 @@ title: Donate
 		</div>
 
             {% endfor%}
-
+	</div>
     </section>
 
     <section class="container-xxl mb-5">
