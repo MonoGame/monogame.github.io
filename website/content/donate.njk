@@ -67,79 +67,46 @@ title: Donate
         <p>
             The following is a list of individuals and studios that support us through <a href="https://www.patreon.com/bePatron?u=3142012">Patreon</a>.
         </p>
-        <br/>        
-        <div class="container">
+        <br/>
             {% set tiers = [
-                { name: "EnvironmentMapEffect", url: "https://www.patreon.com/checkout/MonoGame?rid=9142452" },
-                { name: "Model.Draw", url: "https://www.patreon.com/checkout/MonoGame?rid=9142450" },
-                { name: "DrawUserPrimitives", url: "https://www.patreon.com/checkout/MonoGame?rid=1916865" },
-                { name: "SpriteBatch", url: "https://www.patreon.com/checkout/MonoGame?rid=1867475" },
-                { name: "Cornflower Blue", url: "https://www.patreon.com/checkout/MonoGame?rid=1867471" }
+                { name: "EnvironmentMapEffect", url: "https://www.patreon.com/checkout/MonoGame?rid=9142452", size: "fs-3" },
+                { name: "Model.Draw", url: "https://www.patreon.com/checkout/MonoGame?rid=9142450", size: "fs-4" },
+                { name: "DrawUserPrimitives", url: "https://www.patreon.com/checkout/MonoGame?rid=1916865", size: "fs-5" },
+                { name: "SpriteBatch", url: "https://www.patreon.com/checkout/MonoGame?rid=1867475", size: "fs-6" },
+                { name: "Cornflower Blue", url: "https://www.patreon.com/checkout/MonoGame?rid=1867471", size: "fs-6" }
             ] %}
-            <div class="row">
-                {% for tier in tiers %}
-                <div class="col-sm">
-                <b>{{tier.name}}</b>
-                <br />
-                <br />
-                </div>
-                {% endfor %}
-            </div>
-            <div class="row">
             {% for tier in tiers %}
-                <div class="col-sm">
-                    {% for patreon in patreons %}
-                        {% if patreon.tier == tier.name and patreon.active %}
-                            {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
-                            {{patreon.name}}
-                            {% if patreon.url %}</a>{% endif %}
-                            <br />
-                        {% endif %}
-                    {% endfor %}
-                </div>
+               <div class="row justify-content-center">
+                       <hr class="mx-auto" style="width:300px; height:2px; background:#FFF; border:0; opacity: 0.25; margin: 2rem auto;"/>
+		       <h3 class="fw-bold text-center"><a href="#{{tier.name}}">{{tier.name}}</a></h3>
+			<br />
+			<br />
+		            {% for patreon in patreons %}
+			        {% if patreon.tier == tier.name and patreon.active %}
+		                <div class="col-6 col-md-4 mb-1 text-center {{tier.size}}" >
+				    {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}{{patreon.name}}{% if patreon.url %}</a>{% endif %}
+		                    <br />
+				</div>
+			        {% endif %}
+	                    {% endfor %}
+		            {% for patreon in patreons %}
+			        {% if patreon.tier == tier.name and not patreon.active %}
+		                <div class="col-6 col-md-4 mb-1 text-center text-secondary {{tier.size}}">
+	                            {{patreon.name}}
+		                    <br />
+				</div>
+			        {% endif %}
+	                    {% endfor %}
+			<br />
+			<br />
+			<br />
+			<br />
+		</div>
+
             {% endfor%}
-            </div>
-        </div>
+
     </section>
-    <section class="container-xxl mb-5">
-        <h1 id="patreons" class="fw-bold"><a href="#patreons">Past Monthly Sponsors</a></h1>
-        <p>
-            The following is a list of individuals and studios that have supported us through <a href="https://www.patreon.com/bePatron?u=3142012">Patreon</a> in the past.
-        </p>
-        <br/>        
-        <div class="container">
-            {% set tiers = [
-                { name: "EnvironmentMapEffect", url: "https://www.patreon.com/checkout/MonoGame?rid=9142452" },
-                { name: "Model.Draw", url: "https://www.patreon.com/checkout/MonoGame?rid=9142450" },
-                { name: "DrawUserPrimitives", url: "https://www.patreon.com/checkout/MonoGame?rid=1916865" },
-                { name: "SpriteBatch", url: "https://www.patreon.com/checkout/MonoGame?rid=1867475" },
-                { name: "Cornflower Blue", url: "https://www.patreon.com/checkout/MonoGame?rid=1867471" }
-            ] %}
-            <div class="row">
-                {% for tier in tiers %}
-                <div class="col-sm">
-                <b>{{tier.name}}</b>
-                <br />
-                <br />
-                </div>
-                {% endfor %}
-            </div>
-            <div class="row">
-            {% for tier in tiers %}
-                <div class="col-sm">
-                    {% for patreon in patreons %}
-                        {% if patreon.tier == tier.name and not patreon.active %}
-                            {% if patreon.url %}<a href="{{patreon.url}}">{% endif %}
-                            {{patreon.name}}
-                            {% if patreon.url %}</a>{% endif %}
-                            <br />
-                        {% endif %}
-                    {% endfor %}
-                </div>
-            {% endfor%}
-            </div>
-        </div>
-    </section>
+
     <section class="container-xxl mb-5">
         <h1 id="donations" class="fw-bold"><a href="#donations">Donations</a></h1>
         <p>
@@ -147,7 +114,7 @@ title: Donate
         </p>
         <div class="row">
             {% for donor in donations | sort(true, false, 'amount') %}
-                <div class="col-lg-3 mb-3 text-center">
+                <div class="col-6 col-md-3 mb-3 text-center">
                     {% if donor.url %}<a href="{{donor.url}}">{% endif %}
                         {{donor.name}}
                     {% if donor.url %}</a>{% endif %}
