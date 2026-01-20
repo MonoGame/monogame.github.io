@@ -59,28 +59,37 @@ title: MonoGame
         <div class="row">
             <h3 class="fw-semibold mb-4 text-body-emphasis">Latest News</h3>
         </div>
-        <div class="mg-item-grid">
-            {% for post in collections.blogPosts | reverse %}
-                {% if loop.index <= 3 %}
-                    <a class="mg-no-link" href="{{ post.url }}">
-                        <div class="mg-card mg-box-shadow h-100 d-flex flex-column">
-                            <div class="mg-card-thumbnail"
-                                 style="background-image: url('{{ post.data.image }}');"
-                                 href="{{ post.url }}"></div>
-                            <div class="mg-card-body">
-                                <small>
-                                    {{ post.data.author }} -- {{ post.date | readableDate }}
-                                </small>
-                                <div class="mg-card-title">{{ post.data.title }}</div>
-                                <div class="mg-card-excerpt mb-3" title="{{ post.data.excerpt }}">
-                                    <p>{{ post.data.excerpt }}</p>
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-11">
+                <div class="mg-item-grid">
+                    {% for post in collections.blogPosts | reverse %}
+                        {% if loop.index <= 3 %}
+                            <a class="mg-no-link" href="{{ post.url }}">
+                                <div class="mg-card mg-box-shadow h-100 d-flex flex-column">
+                                    <div class="mg-card-thumbnail"
+                                         style="background-image: url('{{ post.data.image }}');"
+                                         href="{{ post.url }}"></div>
+                                    <div class="mg-card-body">
+                                        <small>
+                                            {{ post.data.author }} -- {{ post.date | readableDate }}
+                                        </small>
+                                        <div class="mg-card-title">{{ post.data.title }}</div>
+                                        <div class="mg-card-excerpt mb-3" title="{{ post.data.excerpt }}">
+                                            <p>{{ post.data.excerpt }}</p>
+                                        </div>
+                                        Click to read more...
+                                    </div>
                                 </div>
-                                Click to read more...
-                            </div>
-                        </div>
-                    </a>
-                {% endif %}
-            {% endfor %}
+                            </a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-12 col-lg-1 d-flex align-items-center justify-content-center">
+                <a href="/blog/" class="mg-no-link" title="View all news">
+                    <div class="fs-1 mg-color-orange">&gt;&gt;</div>
+                </a>
+            </div>
         </div>
     </section>
 
