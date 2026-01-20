@@ -8,9 +8,9 @@ image: /images/blog/cover/monogame_foundation.png
 ogImage: /images/blog/cover/monogame_foundation.png
 ---
 
-The MonoGame Foundation is hoping you can join the MonoGame community for our 15th AMA session.
+The MonoGame Foundation is hoping you can join the MonoGame community for our 16th AMA session.
 
-## Our 15th "Open Hours" AMA Meeting
+## Our 16th "Open Hours" AMA Meeting
 
 Will be on:
 
