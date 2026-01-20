@@ -1,6 +1,6 @@
 ---
-title: 14th MonoGame "Open Hours" AMA session
-date: "2025-11-15"
+title: 16th MonoGame "Open Hours" AMA session
+date: "2026-01-20"
 excerpt: Meet the MonoGame team and get your questions answered
 tags: announcements
 author: MonoGame Foundation
@@ -8,13 +8,13 @@ image: /images/blog/cover/monogame_foundation.png
 ogImage: /images/blog/cover/monogame_foundation.png
 ---
 
-The MonoGame Foundation is hoping you can join the MonoGame community for our 14th AMA session.
+The MonoGame Foundation is hoping you can join the MonoGame community for our 15th AMA session.
 
-## Our 14th "Open Hours" AMA Meeting
+## Our 15th "Open Hours" AMA Meeting
 
 Will be on:
 
-### Wednesday 19th of November, @ 11:00 EST, 16:00 UTC/GMT, 17:00 CET
+### Wednesday 21st of January, @ 11:00 EST, 16:00 UTC/GMT, 17:00 CET
 
 ### Watch on:
 
@@ -38,13 +38,14 @@ Will be on:
 
 ## Agenda
 
-This time we'll have -
+This time we'll talking about -
 
-* Team Updates on:
-  * Bounties
-  * Starter Kits
-  * New Streaming plans
-* Chris (Aristurtle) demoing Ember
+* 3.8.5 Planning & Release Content​
+* New Streams
+* Finances​
+* Community Site revival​
+* Future Bounties​
+* Roadmap
 * Q&A from the Community
 
 If you prefer to just type, the call will also use Discord's text features and the team will be on hand to respond too.

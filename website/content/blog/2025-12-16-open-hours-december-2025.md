@@ -20,7 +20,7 @@ Will be on:
 
 <div class="row justify-content-center">
     <div class="col-md-auto mb-2 mx-4">
-        <a class="btn mg-patreon-button px-4" type="button" href="https://www.youtube.com/watch?v=gImh8S0iRhA" target="_blank">
+        <a class="btn mg-patreon-button px-4" type="button" href="https://www.youtube.com/@MonoGame/streams" target="_blank">
                 {% include 'svgs/logos/youtube.svg'%} YouTube
         </a>
     </div>
@@ -30,7 +30,7 @@ Will be on:
         </a>
     </div>
     <div class="col-md-auto mb-2 mx-4">
-        <a class="btn mg-patreon-button px-4" type="button" href="https://fb.me/e/65aGoxeVF" target="_blank">
+        <a class="btn mg-patreon-button px-4" type="button" href="https://www.facebook.com/monogamecommunity/live_videos" target="_blank">
                 {% include 'svgs/logos/facebook.svg'%} Facebook
         </a>
     </div>
