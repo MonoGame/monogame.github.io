@@ -45,6 +45,8 @@ So what are you waiting for? Get searching, get posting and if you have them, as
 
 ::: note Feedback
 We have opened a post on GitHub discussions for feedback about the site (which might sound odd since we launched the site), it is just an easy place to collate feedback in a single location that everyone should already be familiar with.
+
+- [Community Site Feedback](https://github.com/MonoGame/MonoGame/discussions/9199)
 :::
 
 {% include 'partials/_blog_footer.njk' %}
