@@ -14,7 +14,7 @@ The MonoGame Foundation is pleased to announce the 1st spisode of MonoGame Spotl
 
 Every episode we plan to shine the light on games, libraries and tools that were #BuiltWithMonoGame or work with MonoGame.
 
-Watch yesterday's premiere here: https://www.youtube.com/watch?v=Ot3KUYJIt6E 
+Watch yesterday's premiere here: [hhttps://www.youtube.com/watch?v=Ot3KUYJIt6E](https://www.youtube.com/watch?v=Ot3KUYJIt6E)
 
 Featured in this episode are:
 
