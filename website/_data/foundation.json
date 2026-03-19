@@ -2,31 +2,37 @@
     {
         "name": "Dean Ellis",
         "title": "President",
-        "github": "dellis1972"
-    },
-    {
-        "name": "Marko Jeremic",
-        "title": "Board Chairman",
-        "github": "harry-cpp"
+        "github": "dellis1972",
+         "current": true
     },
     {
         "name": "Dominique Louis",
-        "title": "Treasurer",
-        "github": "CartBlanche"
+        "title": "Board Chairman",
+        "github": "CartBlanche",
+        "current": true
     },
     {
         "name": "Simon Jackson",
         "title": "Corporate Secretary",
-        "github": "SimonDarksideJ"
+        "github": "SimonDarksideJ",
+         "current": true
     },
     {
         "name": "Tom Spilman",
-        "title": "Banking Matters",
-        "github": "TomSpilman"
+        "title": "Treasurer",
+        "github": "TomSpilman",
+        "current": true
     },
     {
         "name": "Thomas Altenburger",
         "title": "Board Member",
-        "github": "ThomasFOG"
+        "github": "ThomasFOG",
+        "current": false
+    },
+    {
+        "name": "Marko Jeremic",
+        "title": "Board Chairman",
+        "github": "harry-cpp",
+        "current": false
     }
 ]

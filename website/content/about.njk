@@ -14,25 +14,51 @@ title: About
 	    Our funding comes from individual and corporate <a href="/donate">donations</a> and is used to drive improvements to the framework code, creation of educational resources, supporting community events, and general project infrastructure.
         </p>
         <p>
-	     The current members of the board are:
+	     Current members of the board are:
         </p>
         <div class="row">
             {% for member in foundation %}
-                <div class="col-lg-4">
-                    <div class="card mb-3">
-                        <div class="card-body mg-box-shadow">
-                            <span class="float-start m-2 me-4">
-                                <img src="https://avatars.githubusercontent.com/{{ member.github }}"
-                                    class="rounded-circle img-thumbnail" style="height: 100px;">
-                            </span>
-                            <div>
-                                <h4 class="mt-1 mb-1">{{ member.name }}</h4>
-                                <p class="font-13">{{ member.title }}</p>
-                                <a target="_blank" href="https://github.com/{{ member.github }}">GitHub Profile</a>
+                {% if member.current %}
+                    <div class="col-lg-4">
+                        <div class="card mb-3">
+                            <div class="card-body mg-box-shadow">
+                                <span class="float-start m-2 me-4">
+                                    <img src="https://avatars.githubusercontent.com/{{ member.github }}"
+                                        class="rounded-circle img-thumbnail" style="height: 100px;">
+                                </span>
+                                <div>
+                                    <h4 class="mt-1 mb-1">{{ member.name }}</h4>
+                                    <p class="font-13">{{ member.title }}</p>
+                                    <a target="_blank" href="https://github.com/{{ member.github }}">GitHub Profile</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <p class="mt-5">
+	     Former members of the board were:
+        </p>
+        <div class="row">
+            {% for member in foundation %}
+                {% if not member.current %}
+                    <div class="col-lg-4">
+                        <div class="card mb-3">
+                            <div class="card-body mg-box-shadow">
+                                <span class="float-start m-2 me-4">
+                                    <img src="https://avatars.githubusercontent.com/{{ member.github }}"
+                                        class="rounded-circle img-thumbnail" style="height: 100px;">
+                                </span>
+                                <div>
+                                    <h4 class="mt-1 mb-1">{{ member.name }}</h4>
+                                    <p class="font-13">{{ member.title }}</p>
+                                    <a target="_blank" href="https://github.com/{{ member.github }}">GitHub Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
             {% endfor %}
         </div>
         <p>
