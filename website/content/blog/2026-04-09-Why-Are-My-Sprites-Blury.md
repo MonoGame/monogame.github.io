@@ -18,8 +18,20 @@ The [SamplerState](https://docs.monogame.net/api/Microsoft.Xna.Framework.Graphic
 
 There is an exelent seciton in our [2D Tutorial](https://docs.monogame.net/articles/tutorials/building_2d_games/18_texture_sampling/) which talks about the details of Texture Sampling.
 
-By default the [SpriteBatch](https://docs.monogame.net/api/Microsoft.Xna.Framework.Graphics.SpriteBatch) class will use `SamplerState.LinearClamp` to sample the texture you are rendering, this can result in a slightly blury output because the filtering samplers the pixels around the pixel you want to draw and averages out the colors. This results in that slightly blury look. This is very useful for getting rid of jagged lines at the hard boundaries in textures, but it is not always what you want, especially in a Pixel based game. 
+By default the [SpriteBatch](https://docs.monogame.net/api/Microsoft.Xna.Framework.Graphics.SpriteBatch) class will use [SamplerState.LinearClamp](https://docs.monogame.net/api/Microsoft.Xna.Framework.Graphics.SamplerState.html#Microsoft_Xna_Framework_Graphics_SamplerState_LinearClamp) to sample the texture you are rendering, this can result in a slightly blury output because the filtering samplers the pixels around the pixel you want to draw and averages out the colors. This results in that slightly blury look. This is very useful for getting rid of jagged lines at the hard boundaries in textures, but it is not always what you want, especially in a Pixel based game. 
+
+| ![Example of using Linear filtering mode. Left: MonoGame logo at 32x32 pixels.  Right: MonoGame logo at 128x128 pixels](https://docs.monogame.net/articles/tutorials/building_2d_games/18_texture_sampling/images/filter-mode-linear.png) |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                 **Example of using Linear filtering mode. Left: MonoGame logo at 32x32 pixels.  Right: MonoGame logo at 128x128 pixels**                 |
+
 
 ## So how to I fix it?
 
-The [SpriteBatch](https://docs.monogame.net/api/Microsoft.Xna.Framework.Graphics.SpriteBatch) class Begin method has additional arguments which let you control how things are rendered. One of them is the `samplerState`. If we want pixel perfect rendering we should use [SamplerState.PointClap](). This sampler does not do any filtering, it samples the texture from the center of the desired pixel and used that color only. This results in a a nice sharp image.
+The [SpriteBatch](https://docs.monogame.net/api/Microsoft.Xna.Framework.Graphics.SpriteBatch) class Begin method has additional arguments which let you control how things are rendered. One of them is the `samplerState`. If we want pixel perfect rendering we should use [SamplerState.PointClamp](https://docs.monogame.net/api/Microsoft.Xna.Framework.Graphics.SamplerState.html#Microsoft_Xna_Framework_Graphics_SamplerState_PointClamp). This sampler does not do any filtering, it samples the texture from the center of the desired pixel and used that color only. This results in a a nice sharp image.
+
+| ![Example of using Point filtering mode. Left: MonoGame logo at 32x32 pixels.  Right: MonoGame logo at 128x128 pixels](https://docs.monogame.net/articles/tutorials/building_2d_games/18_texture_sampling/images/filter-mode-point.png) |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                **Example of using Point filtering mode. Left: MonoGame logo at 32x32 pixels.  Right: MonoGame logo at 128x128 pixels**                 |
+
+
+
