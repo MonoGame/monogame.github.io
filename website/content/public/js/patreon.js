@@ -30,7 +30,7 @@
 		if(data.included && data.included.length > 0) 
 		{
 			const attributes = data.included[0].attributes;
-			patron_count += attributes.patron_count;
+			patron_count += attributes.paid_member_count;
 			pledge_sum += attributes.pledge_sum;
 		}
 	}
