@@ -240,7 +240,10 @@
         "url": "https://kenney.nl/assets",
         "pixelart": false,
         "tags": [
-            "assets"
+            "assets",
+            "2d",
+            "3d",
+            "audio"
         ]
     },
     {
@@ -529,6 +532,28 @@
         "tags": [
             "courses",
             "2d"
+        ]
+    },
+    {
+        "title": "Colyseus Multiplayer Framework",
+        "author": "Endel Dreyer",
+        "cover": "https://colyseus.io/images/fb-share.png",
+        "url": "https://docs.colyseus.io/getting-started/monogame",
+        "pixelart": false,
+        "tags": [
+            "networking"
+        ]
+    },
+    {
+        "title": "2D and 3D Game Assets",
+        "author": "Quaternius",
+        "cover": "https://quaternius.com/assets/images/site/logo.png",
+        "url": "https://quaternius.com/",
+        "pixelart": false,
+        "tags": [
+            "assets",
+            "2d",
+            "3d"
         ]
     }
 ]
