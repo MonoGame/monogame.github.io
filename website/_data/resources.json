@@ -337,6 +337,7 @@
         "url": "https://www.fmod.com/io",
         "pixelart": false,
         "tags": [
+            "assets",
             "audio",
             "sound effects"
         ]
@@ -554,6 +555,18 @@
             "assets",
             "2d",
             "3d"
+        ]
+    },
+    {
+        "title": "Audio Assets",
+        "author": "Silas Bieri",
+        "cover": "https://in-discourse.com/wp-content/uploads/2017/09/AA0000-e1513890399373.png",
+        "url": "https://www.dropbox.com/scl/fo/z72is5vt369qe6hhkl2xw/ALDU7_5jsY-OdPrdVagJQcw?rlkey=2b6kylan7udwgfg8lb55swxmw&st=cr5dpf56&dl=0",
+        "pixelart": false,
+        "tags": [
+            "assets",
+            "sound",
+            "audio"
         ]
     }
 ]

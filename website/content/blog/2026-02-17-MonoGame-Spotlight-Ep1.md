@@ -1,16 +1,16 @@
 ---
 title: MonoGame Spotlight
 date: "2026-02-17"
-excerpt: MonoGame Spotlight Announcement
+excerpt: MonoGame Spotlight Ep. 1 Announcement
 tags: announcements
 author: MonoGame Foundation
 image: /images/blog/ScottPilgrimEx-March.png
 ogImage: /images/blog/cover/monogame_foundation.png
 ---
 
-## MonoGame Spotlight Announcement
+## MonoGame Spotlight Ep. 1 Announcement
 
-The MonoGame Foundation is pleased to announce the 1st spisode of MonoGame Spotlight!
+The MonoGame Foundation is pleased to announce the 1st episode of MonoGame Spotlight!
 
 Every episode we plan to shine the light on games, libraries and tools that were #BuiltWithMonoGame or work with MonoGame.
 
