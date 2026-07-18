@@ -238,5 +238,14 @@
                 "description": "MonoGame 3.8.4 is released."
             }
         ]
+    },
+    {
+        "year": "2026",
+        "events": [
+            {
+                "date": "July 15th",
+                "description": "MonoGame 3.8.5 is released."
+            }            
+        ]
     }
 ]
