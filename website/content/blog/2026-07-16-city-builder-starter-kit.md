@@ -21,7 +21,7 @@ All the assets are the same, we just decided to port this from Godot to MonoGame
 
 The primary focus with the new Starter-kit / demo, was to create a simple, easy to follow, example of making a 3D Game using MonoGame.
 
-|![Screenshot1](images/2026-07-16/CityBuilderStarterKit.webm)|![Screenshot2](images/2026-07-16/city-builder-menu.png)|
+|<video autoplay loop muted style="max-width: 100%; height: auto;" aria-label="Screenshot1"><source src="images/2026-07-16/CityBuilderStarterKit.webm" type="video/webm"></video>|![Screenshot2](images/2026-07-16/city-builder-menu.png)|
 |:-:|:-:|
 |City builder editing|Main menu|
 
