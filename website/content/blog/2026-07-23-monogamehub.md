@@ -27,7 +27,7 @@ The Hub will offer the following capabilities:
 
 The dream of the Hub started early in the formation of the MonoGame Foundation to address the numerous issues developers faced when getting started with MonoGame, where despite our best efforts, developers continually hit issues with:
 
-- How to I install MonoGame? (fun fact: there has not been anything to "install" to use MonoGame since `3.8.2`)
+- How do I install MonoGame? (fun fact: there has not been anything to "install" to use MonoGame since `3.8.2`)
 - What do I need to install to begin development?
 - Where are the sample projects?
 - How do I create a new project?
@@ -43,13 +43,13 @@ The current development edition has been kept very streamlined and simple, to fo
 - Showing what projects you have installed.
 - Publishing a list of official templates.
 - Simplified project generation, including platform selection
-- Resources and blog listings.#
+- Resources and blog listings.
 
 Here is what it currently looks like:
 
-### The Startup wizard
+### The Startup Wizard
 
- A Startup Wizard, that checks your development environment and points you to the required resources to get your machine ready, no matter which operating system you are running on:
+ At startup the Hub checks your development environment and points you to the required resources to get your machine ready, no matter which operating system you are running on:
 
 ![Hub Startup Wizard](./images/2026-07-23/02-HubStartupWizard.png)
 
@@ -74,7 +74,7 @@ From here you can see what templates MonoGame has to offer new projects, from cl
 
 ![Hub Project List](./images/2026-07-23/05-ProjectList.png)
 
-Not much to show off here, it is a very basic Project list view at the moment allowing you to Open registered projects with a quick click (rather than hunting for the project on your machine.
+Not much to show off here, it is a very basic Project list view at the moment allowing you to Open registered projects with a quick click (rather than hunting for the project on your machine).
 
 We have plans to do more to manage your project later, but for now, it is just the quickest way to get your game project open to get to work.
 
@@ -98,16 +98,16 @@ These are early days for the hub and more is planned, including:
 
 ### How to get access
 
-Access for the time being is being provided to contributors at the "SpriteBatch" level or above via :
+Access for the time being is being provided to contributors at the "SpriteBatch" level or above via:
 
-|[![GitHub](https://cdn.worldvectorlogo.com/logos/github-icon-2.svg) GitHub](https://github.com/sponsors/MonoGame)|[![Patreon](https://cdn.worldvectorlogo.com/logos/patreon-1.svg) Patreon](https://www.patreon.com/bePatron?u=3142012)|[![PayPal](https://cdn.worldvectorlogo.com/logos/paypal-4.svg) PayPal](https://www.patreon.com/bePatron?u=3142012)|
+|[![GitHub](https://cdn.worldvectorlogo.com/logos/github-icon-2.svg) GitHub](https://github.com/sponsors/MonoGame)|[![Patreon](https://cdn.worldvectorlogo.com/logos/patreon-1.svg) Patreon](https://www.patreon.com/bePatron?u=3142012)|[![PayPal](https://cdn.worldvectorlogo.com/logos/paypal-4.svg) PayPal](https://www.paypal.com/donate/?hosted_button_id=K3K9QACYMZMUE)|
 |:-:|:-:|:-:|
 
 ::: tip More info
 For more details about donating to MonoGame, check out the [Donations Page](https://monogame.net/donate/).  We welcome any and all support to continue to support MonoGame.
 :::
 
-Early access grants you access to the current Hub releases, as well as the source and the ability to submit issues or even PR's to assist in its development.
+Early access grants you access to the current Hub releases, as well as the source and the ability to submit issues or even PRs to assist in its development.
 
 ## Feedback
 

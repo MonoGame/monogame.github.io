@@ -40,7 +40,7 @@ And who knows what else the team has in store.
 
 Access for the time being is being provided to contributors at the "DrawUserPrimitives" level or above via :
 
-|[![GitHub](https://cdn.worldvectorlogo.com/logos/github-icon-2.svg) GitHub](https://github.com/sponsors/MonoGame)|[![Patreon](https://cdn.worldvectorlogo.com/logos/patreon-1.svg) Patreon](https://www.patreon.com/bePatron?u=3142012)|[![PayPal](https://cdn.worldvectorlogo.com/logos/paypal-4.svg) PayPal](https://www.patreon.com/bePatron?u=3142012)|
+|[![GitHub](https://cdn.worldvectorlogo.com/logos/github-icon-2.svg) GitHub](https://github.com/sponsors/MonoGame)|[![Patreon](https://cdn.worldvectorlogo.com/logos/patreon-1.svg) Patreon](https://www.patreon.com/bePatron?u=3142012)|[![PayPal](https://cdn.worldvectorlogo.com/logos/paypal-4.svg) PayPal](https://www.paypal.com/donate/?hosted_button_id=K3K9QACYMZMUE)|
 |:-:|:-:|:-:|
 
 ::: tip More info
