@@ -2,22 +2,19 @@
 title: MonoGame Hub
 date: "2026-07-23"
 excerpt: Introducing the MonoGame hub, an onboarding tool for building projects with MonoGame.
-tags: [starter-kits]
+tags: [announcements]
 author: MonoGame Foundation
 image: /images/blog/monogamehub.png
 ogImage: /images/blog/monogamehub.png
 ---
 
+The MonoGame Foundation is proud to announce the development of a new tool aimed at simplifying access to MonoGame project creation and management.
+
+## Enter the MonoGame Hub
+
 The MonoGame Hub is a new tool whose sole purpose in life is to accelerate the creation of MonoGame projects using well-defined templates and simplify the management of your MonoGame project, with some additional flavour built in to see blog posts and available resources in one handy place.
 
-![Hub Splashscreen](./images/2026-07-23/01-HubSplashscreen.png)
-
-> [!NOTE]
-> Sponsors only
->
-> While the tool is still being developed, we are only allowing supporters of MonoGame to get early access and drive the roadmap for the tool.
-
-The Hub offers the following capabilities:
+The Hub will offer the following capabilities:
 
 - Surfaces official MonoGame project templates, with capabilities far beyond the simple templates available through DotNet commands today.
 - Details more information and highlights of the capabilities of the template prior to generation.  Images/videos/descriptions and so on.
@@ -26,76 +23,62 @@ The Hub offers the following capabilities:
 - Lists out the blog posts from the main website, with announcements for new news items when the hub is launched.
 - Provides direct access to published resources from the MonoGame website, searchable and filterable via tags.
 
-## Startup wizard
+## The path to development
+
+The dream of the Hub started early in the formation of the MonoGame Foundation to address the numerous issues developers faced when getting started with MonoGame, where despite our best efforts, developers continually hit issues with:
+
+- How to I install MonoGame? (fun fact: there has not been anything to "install" to use MonoGame since `3.8.2`)
+- What do I need to install to begin development?
+- Where are the sample projects?
+- How do I create a new project?
+
+We have built extensive tutorials and getting started guides, all of which improved accessibility but still fell short and left some users guessing as to where to look for more information.
+
+The Hub hopes to address the core reasons these questions exist with a central location/app, **that has no dependencies** to get developers started quicker and surface project templates directly.
+
+## What does this look like?
+
+The current development edition has been kept very streamlined and simple, to focus on the requirements that deliver the most impact:
+
+- Showing what projects you have installed.
+- Publishing a list of official templates.
+- Simplified project generation, including platform selection
+- Resources and blog listings.#
+
+Here is what it currently looks like:
+
+### The Startup wizard
+
+ A Startup Wizard, that checks your development environment and points you to the required resources to get your machine ready, no matter which operating system you are running on:
 
 ![Hub Startup Wizard](./images/2026-07-23/02-HubStartupWizard.png)
 
-When you first start the Hub, a wizard will walk you through getting your development environment ready for building MonoGame projects, including:
-
-- Checking you have .NET installed (mandatory, as MonoGame runs on .NET)
-- Confirming the IDE you wish to use, and pointing you to the download page if it is not yet installed.
-- Optionally connecting the Hub to your GitHub account, required if you want to access Private/Sponsored content (for sponsors), or your own templates on your own private repositories.
+- Checks you have .NET installed (mandatory, as MonoGame runs on .NET)
+- Asks which IDE you wish to use, and pointing you to the download page if it is not yet installed.
+- Optionally connects the Hub to your GitHub account, required if you want to access Private/Sponsored content (for sponsors), or your own templates on your own private repositories.
 
 > [!NOTE]
 > GitHub connectivity is completely OPTIONAL.
 >
 > Without a GitHub connection, you will only be able to see public repositories and samples, which is fine.
 
-From there, everything is ready to create your next great MonoGame creation, or just switch to the Project list and import your current wonder.
+### Templates/Create view
 
-> [!NOTE]
-> This solves 90% of the "How do I get my machine setup correctly" questions we always face with MonoGame!
+| ![Hub Create Screen](./images/2026-07-23/03-HubCreateScreen.png) | ![New Project view](./images/2026-07-23/04-CreateProject-1.png) | ![Platform selection view](./images/2026-07-23/04-CreateProject-2.png) |
+| :-: | :-: | :-: |
+| Create Project view | Create Page 1 | Create Page 2 |
 
-## Templates/Create view
+From here you can see what templates MonoGame has to offer new projects, from clean slates, to full project samples.  A list we hope to keep growing.
 
-![Hub Create Screen](./images/2026-07-23/03-HubCreateScreen.png)
-
-MonoGame is trying to open up access to "Good Templates" for starting your next great project, there are only a few at the moment, but expect this to grow quickly over the next few months, with templates ranging from:
-
-- A blank project
-- The 3D Platformer sample project
-- A quick start project with some default components (the current Blank Starter Kit)
-- A 2D platformer sample
-- (Sponsors only) The new City Builder Starter kit
-
-Each template contains all the details required to choose which template you want to start from, such as screenshots, videos and a full featured description of what is included.
-
-In the near future, we will open this up to user templates and even community catalogs to make even more types of projects available to create directly from the hub.
-
-> [!NOTE]
-> This solves the second most asked question for MonoGame newcomers, HOW do I create my project, what commands to use and where are the samples anyway!
-
-## Project Generation
-
-| ![New Project view](./images/2026-07-23/04-CreateProject-1.png) | ![Platform selection view](./images/2026-07-23/04-CreateProject-2.png) |
-| :-: | :-: |
-| Create Page 1 | Create Page 2 |
-
-Once you have selected your template, the Hub vastly simplifies the MonoGame project creation by offering you the following options:
-
-- Name of your game
-- Assembly Name (also folder name as it cannot have spaces)
-- Selected platforms, default is auto-selected and you can add more or change the choice
-- Select the folder the game will be created in.  *Note*, this will create a new folder with the assembly name in this folder, you do not need to create a game specific folder unless you want to.
-
-> [!NOTE]
-> Due to dotnet limitations, you **CANNOT** start your Game assembly name with a number, else it puts a "_" character at the beginning and messes up the template. It is a DotNet thing not the Hub.
-
-Once you are ready (and the button is enabled, which will only happen when everything is correct), click the "Create Project" button, your game will be generated and automatically open with your chosen IDE.  The project will also automatically be added to the Hub Project view below too.
-
-## Project Management
+### Project List view
 
 ![Hub Project List](./images/2026-07-23/05-ProjectList.png)
 
-Not much to show off here, it is a very basic Project list view at the moment allowing you to:
-
-- Open projects registered with the hub
-- Remove a project from the list
-- Import existing projects to the Hub
+Not much to show off here, it is a very basic Project list view at the moment allowing you to Open registered projects with a quick click (rather than hunting for the project on your machine.
 
 We have plans to do more to manage your project later, but for now, it is just the quickest way to get your game project open to get to work.
 
-## Blogs and Resources
+### Blogs and Resources
 
 | ![Blogs](./images/2026-07-23/06-BlogsView.png) | ![Resources](./images/2026-07-23/06-ResourcesView.png) |
 | :-: | :-: |
@@ -103,18 +86,31 @@ We have plans to do more to manage your project later, but for now, it is just t
 
 The blogs and resources are simple lists, detailing information predominantly available on the main `MonoGame.Net` website in a more readily accessible way, including the ability to filter/sort or search for what you need.
 
-## Sponsors only
-
-While we are in this early alpha/preview phase, access to the hub is for Sponsors only, providing essential feedback and testing while it is still in heavy development, also as a reward to those helping to fund the evolution of the framework!
-
-With a GitHub connection, private, sponsor only templates (like the City Builder) will also show up.
-
 ## The future
 
-As stated, these are early days for the hub and more is planned, including:
+These are early days for the hub and more is planned, including:
 
-- .NET version selection for templates
-- Platform management for existing projects
 - More templates!
+- .NET version selection for templates
+- More project management features including adding new platforms to an existing project
+- Console project accelerators
+- Did we say More templates already?
 
-Welcome to the future.
+### How to get access
+
+Access for the time being is being provided to contributors at the "SpriteBatch" level or above via :
+
+|[![GitHub](https://cdn.worldvectorlogo.com/logos/github-icon-2.svg) GitHub](https://github.com/sponsors/MonoGame)|[![Patreon](https://cdn.worldvectorlogo.com/logos/patreon-1.svg) Patreon](https://www.patreon.com/bePatron?u=3142012)|[![PayPal](https://cdn.worldvectorlogo.com/logos/paypal-4.svg) PayPal](https://www.patreon.com/bePatron?u=3142012)|
+|:-:|:-:|:-:|
+
+::: tip More info
+For more details about donating to MonoGame, check out the [Donations Page](https://monogame.net/donate/).  We welcome any and all support to continue to support MonoGame.
+:::
+
+Early access grants you access to the current Hub releases, as well as the source and the ability to submit issues or even PR's to assist in its development.
+
+## Feedback
+
+Any feedback or questions should be directed to the [MonoGame Hub feedback channel here](https://discord.com/channels/355231098122272778/1530219400047755475)
+
+{% include 'partials/_blog_footer.njk' %}
