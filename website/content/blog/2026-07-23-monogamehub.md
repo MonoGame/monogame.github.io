@@ -93,7 +93,7 @@ These are early days for the hub and more is planned, including:
 - More templates!
 - .NET version selection for templates
 - More project management features including adding new platforms to an existing project
-- Console project accelerators
+- Console platform support
 - Did we say More templates already?
 
 ### How to get access
