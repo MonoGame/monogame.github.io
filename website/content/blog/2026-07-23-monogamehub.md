@@ -68,15 +68,15 @@ Here is what it currently looks like:
 | :-: | :-: | :-: |
 | Create Project view | Create Page 1 | Create Page 2 |
 
-From here you can see what templates MonoGame has to offer new projects, from clean slates, to full project samples.  A list we hope to keep growing.
+From here you can see what templates MonoGame has to offer new projects, from clean slates, to full project samples.  We have plans for more genre starter kits that we will release in the coming months.
 
 ### Project List view
 
 ![Hub Project List](./images/2026-07-23/05-ProjectList.png)
 
-Not much to show off here, it is a very basic Project list view at the moment allowing you to Open registered projects with a quick click (rather than hunting for the project on your machine).
+The project list shows your game projects created from the Hub as well as ones you imported.   From the list you have quick access to project information as well as quick access to open it in your IDE.  
 
-We have plans to do more to manage your project later, but for now, it is just the quickest way to get your game project open to get to work.
+We have plans to support more project management features in the near future, including the installation of 3rd party resources, switching between MonoGame package NuGet and source code, project archival, and more.
 
 ### Blogs and Resources
 
