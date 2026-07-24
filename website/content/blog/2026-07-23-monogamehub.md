@@ -57,10 +57,11 @@ Here is what it currently looks like:
 - Asks which IDE you wish to use, and pointing you to the download page if it is not yet installed.
 - Optionally connects the Hub to your GitHub account, required if you want to access Private/Sponsored content (for sponsors), or your own templates on your own private repositories.
 
-> [!NOTE]
-> GitHub connectivity is completely OPTIONAL.
->
-> Without a GitHub connection, you will only be able to see public repositories and samples, which is fine.
+::: tip Optional
+GitHub connectivity is completely **OPTIONAL**.
+
+Without a GitHub connection, you will only be able to see public repositories and samples, which is fine.
+:::
 
 ### Templates/Create view
 
