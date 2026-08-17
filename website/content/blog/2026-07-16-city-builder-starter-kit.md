@@ -49,10 +49,10 @@ Access for the time being is being provided to contributors at the "SpriteBatch"
 For more details about donating to MonoGame, check out the [Donations Page](https://monogame.net/donate/).  We welcome any and all support to continue to support MonoGame.
 :::
 
-Early access to the sample grants you more that just the sample itself, you will also get:
+Early access to the sample grants you more than just the sample itself, you will also get:
 
 * Source access, viewing all the changes as they happen.
-* Access to the Sample discord channel to discuss the sample with the team.
+* Access to the Sample Discord channel to discuss the sample with the team.
 * Help shape the 3D sample to be the best it can be.
 * Early access to all the source material, assets and textures.
 
