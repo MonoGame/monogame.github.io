@@ -16,7 +16,9 @@ As discussed in the [September Open Hours](https://www.youtube.com/watch?v=NdjYj
 - Folder structure inconsistent
 - Adding platforms is hard
 
-To this end we have developed a few options for a single template to rule them all (or at least the default layout for a new project) and we are asking the community to help choose the future path.
+To this end we have developed a few options for a single unified template (or at least the default layout for a new project).
+
+In the template repository you will find two paths we have devised with different folder structures and we are asking the community to help choose the future path.
 
 ## The template on GitHub
 
