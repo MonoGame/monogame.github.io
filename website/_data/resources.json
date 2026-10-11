@@ -558,10 +558,22 @@
         ]
     },
     {
-        "title": "Audio Assets",
+        "title": "Silas' Audio Assets",
         "author": "Silas Bieri",
         "cover": "https://in-discourse.com/wp-content/uploads/2017/09/AA0000-e1513890399373.png",
         "url": "https://www.dropbox.com/scl/fo/z72is5vt369qe6hhkl2xw/ALDU7_5jsY-OdPrdVagJQcw?rlkey=2b6kylan7udwgfg8lb55swxmw&st=cr5dpf56&dl=0",
+        "pixelart": false,
+        "tags": [
+            "assets",
+            "sound",
+            "audio"
+        ]
+    },
+    {
+        "title": "Sonnis Audio Bundle (7GB)",
+        "author": "Sonnis",
+        "cover": "https://cdn.sonniss.com/storage/2026/08/Sonniss-mark-white-transparent-512-96x96.png",
+        "url": "https://drive.google.com/drive/folders/1vcyy6xDMtmNUaUxRDTgCL3fdY286Jvez?usp=sharing",
         "pixelart": false,
         "tags": [
             "assets",
