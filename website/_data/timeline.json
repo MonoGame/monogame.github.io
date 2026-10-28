@@ -245,7 +245,11 @@
             {
                 "date": "July 15th",
                 "description": "MonoGame 3.8.5 is released."
-            }            
+            },
+            {
+                "date": "October 7th",
+                "description": "MonoGame 3.8.6 is released."
+            }             
         ]
     }
 ]
