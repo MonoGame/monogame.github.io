@@ -580,5 +580,18 @@
             "sound",
             "audio"
         ]
+    },
+    {
+        "title": "SFXMint CC0 Sound Effects",
+        "author": "SFXMint",
+        "cover": "https://sfxmint.com/og.png",
+        "url": "https://sfxmint.com/",
+        "pixelart": false,
+        "tags": [
+            "assets",
+            "sound",
+            "audio",
+            "sound effects"
+        ]
     }
 ]
