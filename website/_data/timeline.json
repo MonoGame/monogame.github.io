@@ -247,9 +247,17 @@
                 "description": "MonoGame 3.8.5 is released."
             },
             {
+                "date": "August 14th",
+                "description": "MonoGame 3.8.5.1 is released."
+            },
+            {
                 "date": "October 7th",
                 "description": "MonoGame 3.8.6 is released."
-            }             
+            },
+            {
+                "date": "November 4th",
+                "description": "MonoGame 3.8.6.1 is released."
+            }      
         ]
     }
 ]
