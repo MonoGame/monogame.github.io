@@ -1,7 +1,7 @@
 ---
 title: New "Empty Game" MonoGame template
 date: "2026-11-20"
-excerpt: The new "EMpty Game" single project template has launched with 3.8.6.1
+excerpt: The new "Empty Game" single project template has launched with 3.8.6.1
 tags: [source]
 author: MonoGame Foundation
 image: /images/blog/NewMonoGameTemplate-1600x900.png
