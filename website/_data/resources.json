@@ -593,5 +593,18 @@
             "audio",
             "sound effects"
         ]
+    },
+    {
+        "title": "DailySounds Sound Effects",
+        "author": "DailySounds",
+        "cover": "https://dailysounds.org/opengraph-image",
+        "url": "https://dailysounds.org/?ref=monogame",
+        "pixelart": false,
+        "tags": [
+            "assets",
+            "sound",
+            "audio",
+            "sound effects"
+        ]
     }
 ]
